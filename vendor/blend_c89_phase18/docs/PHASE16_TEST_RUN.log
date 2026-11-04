@@ -1,0 +1,16 @@
+PASS phase16: 12 valid IK/playback and audit checks; 40 fail-closed cases
+PASS: 40 bounded constraints cases, four serialized pointer/endian combinations
+PASS: two independent rigs, cross-bound meshes, identical bone names, mixed NLA/direct, four binary layouts, fail-closed graphs
+PASS phase15: 1 composed IK+skinning, 75 3D randomized analytic cases, 5 unreachable/degenerate, 1 malformed, real .blend IK audits
+PASS phase15: 8 serialized IK target/pole layouts and 4 unresolved-pointer rejections
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture

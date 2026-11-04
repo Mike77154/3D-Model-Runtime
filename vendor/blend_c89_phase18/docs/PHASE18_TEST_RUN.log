@@ -1,0 +1,25 @@
+test_phase09_euler.py: PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+test_phase12_timing.py: PASS: NLA timeline retiming/repeat/flags, four serializations, conservative refusals
+test_phase13_multirig.py: PASS: two independent rigs, cross-bound meshes, identical bone names, mixed NLA/direct, four binary layouts, fail-closed graphs
+test_phase14_constraints.py: PASS: 40 bounded constraints cases, four serialized pointer/endian combinations
+test_phase15_ik2.py: PASS phase15: 1 composed IK+skinning, 75 3D randomized analytic cases, 5 unreachable/degenerate, 1 malformed, real .blend IK audits
+test_phase15_ik_audit.py: PASS phase15: 8 serialized IK target/pole layouts and 4 unresolved-pointer rejections
+test_phase16_ik_playback.py: PASS phase16: 12 valid IK/playback and audit checks; 40 fail-closed cases
+test_phase17_rest_orientation.py: PASS phase17: 48 rest-orientation playback samples and 12 malformed-rest rejections
+test_phase18_chain.py: PASS phase18: 37 successful solved chains, 10 safe rejections
+test_phase18_oblique.py: PASS phase18 oblique: 80 random rigid rest frames
+test_phase18_mutations.py: PASS phase18 mutations: 160 crash-smoke runs (not a security proof)
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484
+PASS phase18: 37 successful solved chains, 10 safe rejections
+PASS phase18 oblique: 80 random rigid rest frames
+PASS phase18 mutations: 160 crash-smoke runs (not a security proof)
+PASS phase18: IK palette -> existing --skin-tsv -> articulated vertices

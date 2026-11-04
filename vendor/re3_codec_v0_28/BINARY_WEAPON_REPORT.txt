@@ -1,0 +1,9 @@
+RE3_codec v0.13 section-8 report
+================================
+The original 100-EMD corpus sweep found:
+- 74 section-8 blocks of 4 bytes containing 00000000
+- 26 section-8 blocks of 20 bytes
+- the 20-byte blocks collapsed to two repeated binary signatures (15 + 11)
+
+v0.13 does NOT assign an unproven semantic struct. Use re3c_read_section() to
+preserve or inspect the bytes losslessly.

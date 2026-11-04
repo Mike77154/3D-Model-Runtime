@@ -1,0 +1,20 @@
+GCC FULL BUILD
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -c src/re3_codec.c -o re3_codec.o
+ar rcs libre3_codec.a re3_codec.o
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tools/re3emd_info.c libre3_codec.a -o re3emd_info
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tools/re3emd_viewer.c libre3_codec.a -o re3emd_viewer
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tools/re3emd_parts.c libre3_codec.a -o re3emd_parts
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tools/re3emd_morph.c libre3_codec.a -o re3emd_morph
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tests/test_synthetic.c libre3_codec.a -o test_synthetic
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tests/test_tim.c libre3_codec.a -o test_tim
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tests/test_key_resolution.c libre3_codec.a -o test_key_resolution
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude tests/test_texture_binding.c libre3_codec.a -o test_texture_binding
+
+MAKE TEST
+./test_synthetic
+PASS synthetic RE3 core primitives
+./test_tim
+PASS synthetic PSX TIM
+
+BASIC EXAMPLE BUILD
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude examples/basic.c libre3_codec.a -o basic_example

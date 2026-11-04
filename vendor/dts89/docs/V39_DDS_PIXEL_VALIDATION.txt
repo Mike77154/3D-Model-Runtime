@@ -1,0 +1,1 @@
+Pillow DDS crosscheck: 65/65 decoded; 1885 sampled pixels; >3 max channel difference: 0; max delta: 2

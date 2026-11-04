@@ -1,0 +1,2 @@
+PASS synthetic RE3 core primitives
+PASS synthetic PSX TIM

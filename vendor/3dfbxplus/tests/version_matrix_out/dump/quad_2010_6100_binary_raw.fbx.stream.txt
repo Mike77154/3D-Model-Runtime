@@ -1,0 +1,1 @@
+stream OK: binary=1 version=6100 models=1 scan=yes nodes=32 props=44 arrays=5 compressed=0 max_depth=3

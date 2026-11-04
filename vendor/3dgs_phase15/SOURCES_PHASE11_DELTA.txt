@@ -1,0 +1,13 @@
+src/additive/gs3d_additive_math.c
+src/additive/gs3d_additive_validate.c
+src/additive/gs3d_additive_skeletal.c
+src/additive/gs3d_additive_apply.c
+src/sync/gs3d_sync_phase.c
+src/sync/gs3d_sync_sample.c
+src/vendors/gs3d_vendor_additive_router.c
+src/vendors/a4/gs3d_a4_additive.c
+src/vendors/a5/gs3d_a5_additive.c
+src/vendors/a6/gs3d_a6_additive.c
+src/vendors/a7/gs3d_a7_additive.c
+src/vendors/a8/gs3d_a8_additive.c
+src/additive/gs3d_additive_legacy.c

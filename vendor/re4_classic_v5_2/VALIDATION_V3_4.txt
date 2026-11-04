@@ -1,0 +1,8 @@
+RE4 Classic Codec v3.4 validation
+Compiler: GCC with -std=c89 -Wall -Wextra -pedantic
+Suites: 17 / 17 successful (standard and ASan/UBSan).
+Build warnings: 0.
+Real multipart audits: 484 pairs (269 structural candidates, 206 no direct link, 9 hierarchy review).
+Real examples: em11 strict pose export OK; em38 strict pose export rejected before output as expected.
+All inputs were provided by user; originals omitted from source release.
+Scope: Linux; Win32, exact game IK and canonical attachments not proven.

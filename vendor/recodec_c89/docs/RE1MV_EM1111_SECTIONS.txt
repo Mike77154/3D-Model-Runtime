@@ -1,0 +1,9 @@
+format_hint: EMD
+file_size: 189132
+sections: 6
+  00 offset=0 size=22540 kind=bin
+  01 offset=22540 size=1040 kind=bin
+  02 offset=23580 size=67260 kind=bin
+  03 offset=90840 size=3088 kind=bin
+  04 offset=93928 size=28592 kind=bin
+  05 offset=122520 size=66592 kind=tim

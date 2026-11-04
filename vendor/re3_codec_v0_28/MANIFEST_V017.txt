@@ -1,0 +1,8 @@
+RE3_codec 0.17.0 — full source distribution
+- Previous 0.16 source and tests
+- tools/re3emd_fidelity_audit.c (new)
+- Makefile target for C89 fidelity audit
+- build_mingw.bat fix and audit target
+- AUDITORIA_RE3_V017_NEMESIS_ZOMBIES.md
+- No proprietary ROMs / EXE / original EMD/TIM included.
+- Existing animation API and renderer behavior unchanged.

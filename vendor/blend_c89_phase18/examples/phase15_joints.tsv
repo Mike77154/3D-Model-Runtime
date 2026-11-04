@@ -1,0 +1,4 @@
+# IK two-bone analytic joint coordinates Q16.16
+root	0.0000	0.0000	0.0000
+elbow	-0.0000	1.0000	0.0000
+tip	1.0000	1.0000	0.0000

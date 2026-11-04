@@ -1,0 +1,12 @@
+BUILD VERIFICATION — Runtime75 RTCW19 + 3DGS Fase15
+- Runtime complete: make -j4 libmodel_runtime89.a -> PASS (GCC -std=c89 -pedantic-errors)
+- Phase15 vendor: sh scripts/check_phase15.sh -> PASS (matrix-space pivot check; Phase14 regression)
+- Runtime native MDL3, MDL4, MDL5, MDL7 + skins and DDS, both pose modes -> PASS (synthetic fixtures)
+- RTCW MDS and MDC, RTCW/Quake MD3, RE4 5.2 SEQ -> PASS (synthetic fixtures)
+- IQM interpolation and normals -> PASS (synthetic fixtures)
+- SHA256: RTCW upload matches existing v19 vendor, 119/119 files, no changes applied
+- Fase14 vendor removed, replaced by single Fase15 vendor; provider ID 106 retained
+- New opt-in runtime API: modelrt_3dgs_set_pose_mode and modelrt_3dgs_get_pose_mode
+- Real commercial game-model validation: NOT RUN
+- Visual Acknex parity, Windows/MinGW32: NOT VERIFIED
+- Package: source-only, excludes generated fixtures, compiled binaries and object files

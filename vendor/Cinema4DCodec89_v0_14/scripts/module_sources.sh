@@ -1,0 +1,10 @@
+# Authoritative module source manifest. Source this script in POSIX shell.
+# Compile only the needed modules, or all together via libc4d89.a.
+C4D89_CORE_SOURCES="src/c4d89_magic.c src/c4d89_binary.c src/c4d89_names.c src/c4d89_jpeg.c src/c4d89_extract.c src/c4d89_floatq.c"
+C4D89_MESHER_SOURCES="modules/mesher/c4d89_mesh_scan.c modules/mesher/c4d89_mesh_stream.c modules/mesher/c4d89_mesh_obj.c modules/mesher/c4d89_mesher_module.c"
+C4D89_UV_TEXTURER_SOURCES="modules/uv_texturer/c4d89_poly_regions.c modules/uv_texturer/c4d89_texturetag_links.c modules/uv_texturer/c4d89_uv_texturer_module.c"
+C4D89_SHADERER_SOURCES="modules/shaderer/c4d89_smooth.c modules/shaderer/c4d89_smooth_obj.c modules/shaderer/c4d89_shaderer_module.c"
+C4D89_ANIMER_SOURCES="modules/animer/c4d89_anim.c modules/animer/c4d89_anim_sample.c modules/animer/c4d89_anim_angle.c modules/animer/c4d89_anim_frame.c modules/animer/c4d89_joint_records.c modules/animer/c4d89_weight_inventory.c modules/animer/c4d89_rig_evidence.c modules/animer/c4d89_skin_core.c modules/animer/c4d89_animer_module.c"
+C4D89_TEXTURER_OPENER_SOURCES="modules/texturer_opener/c4d89_texture_hints.c modules/texturer_opener/c4d89_bitmap_catalog.c modules/texturer_opener/c4d89_asset_resolve.c modules/texturer_opener/c4d89_img_internal.c modules/texturer_opener/c4d89_img_dispatch.c modules/texturer_opener/c4d89_img_probe.c modules/texturer_opener/c4d89_img_png.c modules/texturer_opener/c4d89_img_tga.c modules/texturer_opener/c4d89_img_bmp.c modules/texturer_opener/c4d89_img_jpeg.c modules/texturer_opener/c4d89_img_resource.c modules/texturer_opener/c4d89_texturer_opener_module.c"
+C4D89_IMAGE_SOURCES="modules/texturer_opener/c4d89_img_internal.c modules/texturer_opener/c4d89_img_dispatch.c modules/texturer_opener/c4d89_img_probe.c modules/texturer_opener/c4d89_img_png.c modules/texturer_opener/c4d89_img_tga.c modules/texturer_opener/c4d89_img_bmp.c modules/texturer_opener/c4d89_img_jpeg.c modules/texturer_opener/c4d89_img_resource.c"
+C4D89_ALL_SOURCES="$C4D89_CORE_SOURCES $C4D89_MESHER_SOURCES $C4D89_UV_TEXTURER_SOURCES $C4D89_SHADERER_SOURCES $C4D89_ANIMER_SOURCES $C4D89_TEXTURER_OPENER_SOURCES"

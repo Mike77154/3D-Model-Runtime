@@ -1,0 +1,18 @@
+Patch verification (2026-10-12)
+
+C89 library compilation: PASS
+Generated single-bone 90-degree quaternion rotation: PASS
+  IQM ROTATION PASS triangle=1 rotated=(4,65534,0) quat=(46340,46341)
+External Assimp mrfixit.iqm: PASS
+  IQM FULL POSE frames=101 bones=75 triangles=2988 moved=1 rotate_changed=93 hierarchical=72
+  IQM sample tri[100] bind(-3140,4537,189765)
+  frame0(-3144,18239,173499) frame100(-3108,18154,173486)
+Malformed pose mask: REJECT PASS
+Existing frames regression: PASS
+  IQM FRAMES PASS provider=101 clip=idle frames=101 bones=75 triangles=2988 fps=24 root_y_q16=1922,1811 delta=-111
+InvalidMeshOffset.iqm: REJECT PASS
+Other native formats: PASS
+  box.fbx=12 triangles, duck.dae=4212, box.3mf=12,
+  faerie.md2=654, Wuson.off=3732
+
+Tests measure data flow and math, not external rendering parity.

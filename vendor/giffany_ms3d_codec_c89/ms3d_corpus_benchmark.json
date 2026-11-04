@@ -1,0 +1,636 @@
+{
+  "total": 157,
+  "passed": 157,
+  "failed": 0,
+  "passed_models": [
+    {
+      "model": "data/2x.ms3d",
+      "result": "PASS vertices=184 triangles=176 groups=3 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/auto.ms3d",
+      "result": "PASS vertices=425 triangles=672 groups=9 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/auto_fix.ms3d",
+      "result": "PASS vertices=426 triangles=684 groups=9 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/auto_svetla.ms3d",
+      "result": "PASS vertices=16 triangles=8 groups=4 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/auto_update.ms3d",
+      "result": "PASS vertices=442 triangles=692 groups=13 materials=6 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barel.ms3d",
+      "result": "PASS vertices=248 triangles=432 groups=5 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barel_.ms3d",
+      "result": "PASS vertices=100 triangles=120 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/0.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/1.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/2.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/3.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/4.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/__0.ms3d",
+      "result": "PASS vertices=40 triangles=60 groups=5 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/barricade/kmplet.ms3d",
+      "result": "PASS vertices=53 triangles=78 groups=6 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/bomb.ms3d",
+      "result": "PASS vertices=323 triangles=616 groups=5 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/bomb3.ms3d",
+      "result": "PASS vertices=323 triangles=616 groups=5 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/box.ms3d",
+      "result": "PASS vertices=389 triangles=444 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/box_top.ms3d",
+      "result": "PASS vertices=122 triangles=106 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/box_upgrade.ms3d",
+      "result": "PASS vertices=389 triangles=444 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/box_water.ms3d",
+      "result": "PASS vertices=25 triangles=32 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/branaf.ms3d",
+      "result": "PASS vertices=614 triangles=404 groups=2 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/cedule.ms3d",
+      "result": "PASS vertices=20 triangles=24 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/door.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/drevoo.ms3d",
+      "result": "PASS vertices=382 triangles=464 groups=12 materials=5 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farm.ms3d",
+      "result": "PASS vertices=2418 triangles=2712 groups=41 materials=11 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farm_copy_recovered.ms3d",
+      "result": "PASS vertices=2418 triangles=2712 groups=41 materials=11 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola 15.ms3d",
+      "result": "PASS vertices=131 triangles=119 groups=17 materials=22 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola.ms3d",
+      "result": "PASS vertices=155 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola10.ms3d",
+      "result": "PASS vertices=125 triangles=127 groups=12 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola11.ms3d",
+      "result": "PASS vertices=117 triangles=123 groups=12 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola12.ms3d",
+      "result": "PASS vertices=117 triangles=123 groups=12 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola13.ms3d",
+      "result": "PASS vertices=117 triangles=123 groups=12 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola14.ms3d",
+      "result": "PASS vertices=114 triangles=119 groups=12 materials=20 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola16.ms3d",
+      "result": "PASS vertices=129 triangles=119 groups=17 materials=22 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola17.ms3d",
+      "result": "PASS vertices=143 triangles=155 groups=17 materials=22 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola18.ms3d",
+      "result": "PASS vertices=124 triangles=155 groups=17 materials=22 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola2.ms3d",
+      "result": "PASS vertices=155 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola3.ms3d",
+      "result": "PASS vertices=151 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola4.ms3d",
+      "result": "PASS vertices=141 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola5.ms3d",
+      "result": "PASS vertices=139 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola6.ms3d",
+      "result": "PASS vertices=129 triangles=150 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola7.ms3d",
+      "result": "PASS vertices=111 triangles=127 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola8.ms3d",
+      "result": "PASS vertices=111 triangles=127 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma hola9.ms3d",
+      "result": "PASS vertices=111 triangles=127 groups=14 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma v2.ms3d",
+      "result": "PASS vertices=2418 triangles=2712 groups=41 materials=12 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/farma2.ms3d",
+      "result": "PASS vertices=1381 triangles=1524 groups=32 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/glow.ms3d",
+      "result": "PASS vertices=25 triangles=32 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/glow2.ms3d",
+      "result": "PASS vertices=25 triangles=32 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/gold.ms3d",
+      "result": "PASS vertices=48 triangles=72 groups=6 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/gren_purch.ms3d",
+      "result": "PASS vertices=4 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/grenade.ms3d",
+      "result": "PASS vertices=738 triangles=954 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/grenade_hud.ms3d",
+      "result": "PASS vertices=4074 triangles=6582 groups=2 materials=2 joints=46 rot_keys=1702 pos_keys=1702 skinned=4074 animated_joints=46 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/grenade_pin_pulled.ms3d",
+      "result": "PASS vertices=558 triangles=645 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head.ms3d",
+      "result": "PASS vertices=378 triangles=640 groups=7 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head1.ms3d",
+      "result": "PASS vertices=62 triangles=120 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head2.ms3d",
+      "result": "PASS vertices=62 triangles=120 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head3.ms3d",
+      "result": "PASS vertices=48 triangles=70 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head4.ms3d",
+      "result": "PASS vertices=48 triangles=70 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head5.ms3d",
+      "result": "PASS vertices=48 triangles=70 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head6.ms3d",
+      "result": "PASS vertices=48 triangles=70 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/head7.ms3d",
+      "result": "PASS vertices=62 triangles=120 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/ik.ms3d",
+      "result": "PASS vertices=1004 triangles=1497 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kadibutka.ms3d",
+      "result": "PASS vertices=20 triangles=22 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/arm_left.ms3d",
+      "result": "PASS vertices=116 triangles=215 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/arm_right.ms3d",
+      "result": "PASS vertices=128 triangles=241 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/body.ms3d",
+      "result": "PASS vertices=127 triangles=210 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/head.ms3d",
+      "result": "PASS vertices=182 triangles=349 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/leg_left.ms3d",
+      "result": "PASS vertices=89 triangles=165 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze/leg_right.ms3d",
+      "result": "PASS vertices=92 triangles=168 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kamikaze.ms3d",
+      "result": "PASS vertices=765 triangles=1505 groups=1 materials=1 joints=32 rot_keys=3872 pos_keys=3872 skinned=765 animated_joints=32 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/korytko_water.ms3d",
+      "result": "PASS vertices=36 triangles=50 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kukurice.ms3d",
+      "result": "PASS vertices=40 triangles=20 groups=6 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kukurice_line.ms3d",
+      "result": "PASS vertices=8 triangles=6 groups=3 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/kukurice_mega.ms3d",
+      "result": "PASS vertices=496 triangles=248 groups=21 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/ma.ms3d",
+      "result": "PASS vertices=581 triangles=716 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/mlyn.ms3d",
+      "result": "PASS vertices=604 triangles=847 groups=10 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/mlyn_anim2.ms3d",
+      "result": "PASS vertices=604 triangles=847 groups=10 materials=1 joints=3 rot_keys=18 pos_keys=18 skinned=604 animated_joints=3 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/my litlle farmhouse finished.ms3d",
+      "result": "PASS vertices=2418 triangles=2712 groups=41 materials=11 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/na postu.ms3d",
+      "result": "PASS vertices=49 triangles=70 groups=5 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/palm.ms3d",
+      "result": "PASS vertices=228 triangles=336 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/pinet.ms3d",
+      "result": "PASS vertices=190 triangles=394 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/pinet_mesh.ms3d",
+      "result": "PASS vertices=41 triangles=45 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/pinet_p.ms3d",
+      "result": "PASS vertices=40 triangles=40 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/plan.ms3d",
+      "result": "PASS vertices=6 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/plotek maly.ms3d",
+      "result": "PASS vertices=48 triangles=72 groups=6 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/plotek nerozbit.ms3d",
+      "result": "PASS vertices=56 triangles=84 groups=7 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/plotek rozbit vers1.ms3d",
+      "result": "PASS vertices=48 triangles=72 groups=6 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/plotek rozbit vers2.ms3d",
+      "result": "PASS vertices=56 triangles=84 groups=7 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/bordel.ms3d",
+      "result": "PASS vertices=2619 triangles=873 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/door_a.ms3d",
+      "result": "PASS vertices=1176 triangles=392 groups=9 materials=9 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/door_b.ms3d",
+      "result": "PASS vertices=2610 triangles=870 groups=9 materials=9 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/drevena_barikada.ms3d",
+      "result": "PASS vertices=756 triangles=252 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/drevena_barikada_rozbita.ms3d",
+      "result": "PASS vertices=342 triangles=114 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/drevena_krabice.ms3d",
+      "result": "PASS vertices=36 triangles=12 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/drevena_velka_krabice.ms3d",
+      "result": "PASS vertices=816 triangles=272 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/drevene_dvere.ms3d",
+      "result": "PASS vertices=1650 triangles=550 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/dreveny_barel.ms3d",
+      "result": "PASS vertices=780 triangles=260 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/dreveny_sud.ms3d",
+      "result": "PASS vertices=204 triangles=68 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/komoda.ms3d",
+      "result": "PASS vertices=1356 triangles=452 groups=4 materials=5 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/lampa.ms3d",
+      "result": "PASS vertices=1242 triangles=414 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/policka.ms3d",
+      "result": "PASS vertices=24 triangles=26 groups=3 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/skrin.ms3d",
+      "result": "PASS vertices=1692 triangles=564 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/vozik se sudy.ms3d",
+      "result": "PASS vertices=6984 triangles=2328 groups=7 materials=7 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/zebrik.ms3d",
+      "result": "PASS vertices=432 triangles=144 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/zelezne_dvere.ms3d",
+      "result": "PASS vertices=1404 triangles=468 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/resi/zelezny_sud.ms3d",
+      "result": "PASS vertices=180 triangles=60 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/shell.ms3d",
+      "result": "PASS vertices=72 triangles=92 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/staj.ms3d",
+      "result": "PASS vertices=389 triangles=461 groups=11 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/staj2.ms3d",
+      "result": "PASS vertices=457 triangles=461 groups=7 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/stodola v3.ms3d",
+      "result": "PASS vertices=202 triangles=204 groups=6 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/strecha.ms3d",
+      "result": "PASS vertices=19 triangles=16 groups=1 materials=10 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/studna.ms3d",
+      "result": "PASS vertices=328 triangles=447 groups=9 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/tractor.ms3d",
+      "result": "PASS vertices=532 triangles=840 groups=10 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree2.ms3d",
+      "result": "PASS vertices=199 triangles=200 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree2_mesh.ms3d",
+      "result": "PASS vertices=156 triangles=161 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree3.ms3d",
+      "result": "PASS vertices=220 triangles=225 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree3_mesh.ms3d",
+      "result": "PASS vertices=157 triangles=166 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree4.ms3d",
+      "result": "PASS vertices=252 triangles=257 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree4_mesh.ms3d",
+      "result": "PASS vertices=156 triangles=161 groups=1 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree5.ms3d",
+      "result": "PASS vertices=199 triangles=200 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tree_fallen.ms3d",
+      "result": "PASS vertices=308 triangles=384 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline1_0x.ms3d",
+      "result": "PASS vertices=6 triangles=4 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline1_1x.ms3d",
+      "result": "PASS vertices=8 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline1_2x.ms3d",
+      "result": "PASS vertices=10 triangles=8 groups=4 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline1_2x_b.ms3d",
+      "result": "PASS vertices=10 triangles=8 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline2_0x.ms3d",
+      "result": "PASS vertices=6 triangles=4 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline2_1x.ms3d",
+      "result": "PASS vertices=8 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline2_2x.ms3d",
+      "result": "PASS vertices=10 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline4_single.ms3d",
+      "result": "PASS vertices=4 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline4_single_b.ms3d",
+      "result": "PASS vertices=25 triangles=32 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline6_0x.ms3d",
+      "result": "PASS vertices=6 triangles=4 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline6_1x.ms3d",
+      "result": "PASS vertices=8 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline6_2x.ms3d",
+      "result": "PASS vertices=10 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline7_0x.ms3d",
+      "result": "PASS vertices=6 triangles=4 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline7_1x.ms3d",
+      "result": "PASS vertices=8 triangles=6 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/treelines/treeline7_2x.ms3d",
+      "result": "PASS vertices=10 triangles=8 groups=4 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=0 vertex_ext=0 bytes_remaining=0"
+    },
+    {
+      "model": "data/tvarnice.ms3d",
+      "result": "PASS vertices=143 triangles=139 groups=2 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/upgrade.ms3d",
+      "result": "PASS vertices=4 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/vratka.ms3d",
+      "result": "PASS vertices=307 triangles=202 groups=2 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/vratka0.ms3d",
+      "result": "PASS vertices=8 triangles=12 groups=1 materials=0 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/0/model.ms3d",
+      "result": "PASS vertices=738 triangles=954 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/1/model.ms3d",
+      "result": "PASS vertices=681 triangles=1270 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/10/model.ms3d",
+      "result": "PASS vertices=10784 triangles=8977 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/11/model.ms3d",
+      "result": "PASS vertices=2282 triangles=6430 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/2/buy.ms3d",
+      "result": "PASS vertices=4 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/2/model.ms3d",
+      "result": "PASS vertices=1424 triangles=2647 groups=2 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/3/model.ms3d",
+      "result": "PASS vertices=1304 triangles=2125 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/4/model.ms3d",
+      "result": "PASS vertices=5983 triangles=7125 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/5/buy.ms3d",
+      "result": "PASS vertices=4 triangles=2 groups=1 materials=1 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/5/model.ms3d",
+      "result": "PASS vertices=2090 triangles=3816 groups=3 materials=3 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/6/model.ms3d",
+      "result": "PASS vertices=9496 triangles=11418 groups=4 materials=4 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/7/model.ms3d",
+      "result": "PASS vertices=3114 triangles=5730 groups=6 materials=6 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/8/model.ms3d",
+      "result": "PASS vertices=2690 triangles=3144 groups=4 materials=5 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/weapons/9/model.ms3d",
+      "result": "PASS vertices=1816 triangles=1463 groups=3 materials=2 joints=0 rot_keys=0 pos_keys=0 skinned=0 animated_joints=0 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/zmb.ms3d",
+      "result": "PASS vertices=657 triangles=735 groups=1 materials=1 joints=19 rot_keys=4769 pos_keys=4769 skinned=657 animated_joints=19 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/zmb_hs.ms3d",
+      "result": "PASS vertices=630 triangles=685 groups=2 materials=2 joints=19 rot_keys=4769 pos_keys=4769 skinned=630 animated_joints=19 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    },
+    {
+      "model": "data/zomb.ms3d",
+      "result": "PASS vertices=765 triangles=1505 groups=1 materials=1 joints=32 rot_keys=4992 pos_keys=4992 skinned=765 animated_joints=32 comment_ext=1 vertex_ext=2 bytes_remaining=0"
+    }
+  ],
+  "failed_models": []
+}

@@ -1,0 +1,18 @@
+RE4 Classic Codec v4.6 — Tested deformed PMD mesh sequences
+Build: make -j4 all check (C89 strict, GCC 14); existing 28 suites pass.
+New tool: re4_mesh_sequence_audit (C89, Q16.16; no malloc).
+Full FCV sample checks (PC 2007, single base PMD):
+ em12 185 frames / 1,974 vertices per pose; all skinned
+ em23 52 frames / 1,620 vertices per pose; all skinned
+ em25 25 frames / 3,285 vertices per pose; all skinned
+ em29 4 frames / 1,932 vertices per pose; all skinned
+ em3c 91 frames / 6,009 vertices per pose; all skinned
+ Total 357 frames, 1,086,102 skinned vertices.
+Additional 13-frame samples: em38 118,956 vertices per frame;
+ Ashley pl01 with body/hair/hands = 4 PMD, 14,832 vertices per frame.
+Negative test em3c with unrelated em12 part correctly rejected (exit 4).
+ASan/UBSan: re4_mesh_sequence_audit run with real em25 full clip and
+ multipart Ashley 13-frame run; no sanitizer findings.
+This is a mesh SKINNING and FK regression, NOT certification of native
+IK, morphs, exact body-part canon, collision, UV rendering, or Win32.
+Game data deliberately excluded from code release.

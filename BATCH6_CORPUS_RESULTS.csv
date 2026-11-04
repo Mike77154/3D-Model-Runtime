@@ -1,0 +1,26 @@
+file,result,provider_id,provider,triangles,bones,visit_code,open_error,detail
+01_01.bvh,REJECT,,,,,,-3,Biovision BVH native: bad format (-3)
+01_03.bvh,REJECT,,,,,,-3,Biovision BVH native: bad format (-3)
+AC14-FZK-Haus.ifc,REJECT,,,,,,-3,IFC native: bad format (-3)
+Boxing_Toes.bvh,REJECT,,,,,,-3,Biovision BVH native: bad format (-3)
+ChevyTahoe.x3d,VISIT,73,X3D native,1106,0,0,,
+ComputerKeyboard.x3d,REJECT,,,,,,-4,X3D native: unsupported (-4)
+CrazyEngine.lxo,REJECT,,,,,,-3,Modo LXO native: bad format (-3)
+HelloWorld.x3d,REJECT,,,,,,-4,X3D native: unsupported (-4)
+InvalidFrameBaseOffset.mdc,REJECT,,,,,,-3,Wolfenstein MDC native: bad format (-3)
+PinkEggFromLW.dxf,VISIT,76,DXF native,576,0,0,,
+Spider_ascii.zgl,VISIT,75,XGL ZGL native,1312,0,0,,
+Wuson.zgl,VISIT,75,XGL ZGL native,3732,0,0,,
+broadleavedtreeD.mdl,REJECT,,,,,,-3,Source/HL2 (hl2modelib 1.0.24): bad format (-3)
+gijoe.mdl,VISIT,71,Quake MDL native,408,0,0,,
+lineTest.dxf,VISIT,76,DXF native,4,0,0,,
+sample_official.xgl,VISIT,75,XGL ZGL native,24,0,0,,
+sphereWithVertMap.lxo,REJECT,,,,,,-3,Modo LXO native: bad format (-3)
+spider.mdc,VISIT,72,Wolfenstein MDC native,1368,0,0,,
+steg.mdl,VISIT,71,Quake MDL native,305,0,0,,
+tekmechbot.MDL,VISIT,71,Quake MDL native,1748,0,0,,
+wuson.dxf,VISIT,76,DXF native,3732,0,0,,
+01_01.bvh,VISIT,79,Biovision BVH native,0,38,0,,"Recompiled with 5000-frame capacity, no truncation"
+01_03.bvh,VISIT,79,Biovision BVH native,0,38,0,,"Recompiled with 5000-frame capacity, no truncation"
+Boxing_Toes.bvh,VISIT,79,Biovision BVH native,0,26,0,,"Recompiled with 5000-frame capacity, no truncation"
+01_01.bvh,DIRECT_PROVIDER_VISIT,80,Bravure BVH native,0,31,0,,Directly tested separately; alternate reader for .bvh

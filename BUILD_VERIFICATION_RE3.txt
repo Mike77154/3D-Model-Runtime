@@ -1,0 +1,6 @@
+model_runtime89 RE3 v0.28.0 integration
+
+Changes: only RE3 v0.28.0 vendor is included; per-vertex DAT owner/seam path for body, reference pose, guarded animation, no automatic damage retarget.
+
+Verification: see BUILD_VERIFICATION_RE3_V028.txt (generated after local build).
+The v0.3.0-datfix fixture logic was replaced with v0.28-compatible C89 synthetic fixture generation.

@@ -1,0 +1,186 @@
+#include "ndo3d_internal.h"
+
+static int ndo3d_edge_next_for_face(const NDO3D_Edge *e, unsigned int fid, ndo3d_u16 *next, ndo3d_u16 *vertex)
+{
+    if (e->lf == (ndo3d_u16)fid) {
+        *vertex = e->vs;
+        *next = e->ltsu;
+        return 1;
+    }
+    if (e->rf == (ndo3d_u16)fid) {
+        *vertex = e->ve;
+        *next = e->rtsu;
+        return 1;
+    }
+    return 0;
+}
+
+int ndo3d_face_vertices(const NDO3D_Object *obj, unsigned int face_index,
+                        ndo3d_u16 *out_indices, unsigned int out_cap,
+                        unsigned int *out_count, NDO3D_Diag *diag)
+{
+    ndo3d_u16 start;
+    ndo3d_u16 cur;
+    ndo3d_u16 next;
+    ndo3d_u16 v;
+    unsigned int n;
+    unsigned int guard;
+    const NDO3D_Edge *e;
+    if (diag != 0) ndo3d_clear_diag(diag);
+    if (obj == 0 || out_indices == 0 || out_count == 0) return NDO3D_ERR_NULL;
+    *out_count = 0U;
+    if (face_index >= obj->face_count) {
+        ndo3d__set_diag(diag, NDO3D_ERR_BOUNDS, 0UL, "face index out of range");
+        return NDO3D_ERR_BOUNDS;
+    }
+    start = obj->faces[face_index].edge;
+    if ((unsigned int)start >= obj->edge_count) {
+        ndo3d__set_diag(diag, NDO3D_ERR_BAD_DATA, 0UL, "face seed edge is out of range");
+        return NDO3D_ERR_BAD_DATA;
+    }
+    cur = start;
+    n = 0U;
+    guard = 0U;
+    while (guard < (unsigned int)NDO3D_MAX_FACE_LOOP) {
+        if ((unsigned int)cur >= obj->edge_count) {
+            ndo3d__set_diag(diag, NDO3D_ERR_BAD_DATA, 0UL, "face loop edge is out of range");
+            return NDO3D_ERR_BAD_DATA;
+        }
+        e = &obj->edges[cur];
+        if (!ndo3d_edge_next_for_face(e, face_index, &next, &v)) {
+            ndo3d__set_diag(diag, NDO3D_ERR_BAD_DATA, 0UL, "edge does not reference requested face");
+            return NDO3D_ERR_BAD_DATA;
+        }
+        if ((unsigned int)v >= obj->vertex_count) {
+            ndo3d__set_diag(diag, NDO3D_ERR_BAD_DATA, 0UL, "face loop vertex is out of range");
+            return NDO3D_ERR_BAD_DATA;
+        }
+        if (n >= out_cap) {
+            ndo3d__set_diag(diag, NDO3D_ERR_CAPACITY, 0UL, "face loop output capacity exceeded");
+            return NDO3D_ERR_CAPACITY;
+        }
+        out_indices[n++] = v;
+        if (next == start) {
+            *out_count = n;
+            return NDO3D_OK;
+        }
+        cur = next;
+        guard++;
+    }
+    ndo3d__set_diag(diag, NDO3D_ERR_BAD_DATA, 0UL, "face loop did not close within NDO3D_MAX_FACE_LOOP");
+    return NDO3D_ERR_BAD_DATA;
+}
+
+static int ndo3d_append_char(char *out, unsigned long cap, unsigned long *pos, char c, NDO3D_Diag *diag)
+{
+    if (*pos + 1UL >= cap || *pos + 1UL < *pos) {
+        ndo3d__set_diag(diag, NDO3D_ERR_BOUNDS, *pos, "OBJ text buffer full");
+        return NDO3D_ERR_BOUNDS;
+    }
+    out[*pos] = c;
+    *pos += 1UL;
+    out[*pos] = '\0';
+    return NDO3D_OK;
+}
+
+static int ndo3d_append_cstr(char *out, unsigned long cap, unsigned long *pos, const char *s, NDO3D_Diag *diag)
+{
+    unsigned int i;
+    int rc;
+    i = 0U;
+    while (s[i] != '\0') {
+        rc = ndo3d_append_char(out, cap, pos, s[i], diag);
+        if (rc != NDO3D_OK) return rc;
+        i++;
+    }
+    return NDO3D_OK;
+}
+
+static int ndo3d_append_ulong(char *out, unsigned long cap, unsigned long *pos, unsigned long v, NDO3D_Diag *diag)
+{
+    char tmp[32];
+    unsigned int n;
+    int rc;
+    n = 0U;
+    if (v == 0UL) {
+        return ndo3d_append_char(out, cap, pos, '0', diag);
+    }
+    while (v != 0UL && n < (unsigned int)sizeof(tmp)) {
+        tmp[n++] = (char)('0' + (char)(v % 10UL));
+        v /= 10UL;
+    }
+    while (n > 0U) {
+        rc = ndo3d_append_char(out, cap, pos, tmp[--n], diag);
+        if (rc != NDO3D_OK) return rc;
+    }
+    return NDO3D_OK;
+}
+
+static int ndo3d_append_fixed(char *out, unsigned long cap, unsigned long *pos, ndo3d_fixed q, NDO3D_Diag *diag)
+{
+    char buf[48];
+    int rc;
+    rc = ndo3d_fixed_to_ascii(q, buf, (unsigned int)sizeof(buf), 6U);
+    if (rc != NDO3D_OK) {
+        ndo3d__set_diag(diag, rc, *pos, "fixed point conversion failed");
+        return rc;
+    }
+    return ndo3d_append_cstr(out, cap, pos, buf, diag);
+}
+
+int ndo3d_write_obj_text(const NDO3D_Model *model, char *out_text,
+                         unsigned long out_cap, unsigned long *out_size,
+                         NDO3D_Diag *diag)
+{
+    unsigned long pos;
+    unsigned int oi;
+    unsigned int vi;
+    unsigned int fi;
+    unsigned int li;
+    unsigned long base;
+    ndo3d_u16 loop[NDO3D_MAX_FACE_LOOP];
+    unsigned int loop_count;
+    int rc;
+    const NDO3D_Object *obj;
+    const NDO3D_Vertex *v;
+    if (diag != 0) ndo3d_clear_diag(diag);
+    if (model == 0 || out_text == 0 || out_size == 0) return NDO3D_ERR_NULL;
+    if (out_cap == 0UL) return NDO3D_ERR_BOUNDS;
+    pos = 0UL;
+    out_text[0] = '\0';
+    rc = ndo3d_append_cstr(out_text, out_cap, &pos, "# OBJ generated by ndo3d_c89\n", diag); if (rc != NDO3D_OK) return rc;
+    base = 1UL;
+    for (oi = 0U; oi < model->object_count; oi++) {
+        obj = &model->objects[oi];
+        rc = ndo3d_append_cstr(out_text, out_cap, &pos, "o ", diag); if (rc != NDO3D_OK) return rc;
+        rc = ndo3d_append_cstr(out_text, out_cap, &pos, obj->name, diag); if (rc != NDO3D_OK) return rc;
+        rc = ndo3d_append_char(out_text, out_cap, &pos, '\n', diag); if (rc != NDO3D_OK) return rc;
+        for (vi = 0U; vi < obj->vertex_count; vi++) {
+            v = &obj->vertices[vi];
+            rc = ndo3d_append_cstr(out_text, out_cap, &pos, "v ", diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_fixed(out_text, out_cap, &pos, v->x, diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_char(out_text, out_cap, &pos, ' ', diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_fixed(out_text, out_cap, &pos, v->y, diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_char(out_text, out_cap, &pos, ' ', diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_fixed(out_text, out_cap, &pos, v->z, diag); if (rc != NDO3D_OK) return rc;
+            rc = ndo3d_append_char(out_text, out_cap, &pos, '\n', diag); if (rc != NDO3D_OK) return rc;
+        }
+        for (fi = 0U; fi < obj->face_count; fi++) {
+            rc = ndo3d_face_vertices(obj, fi, loop, (unsigned int)NDO3D_MAX_FACE_LOOP, &loop_count, diag);
+            if (rc != NDO3D_OK) {
+                rc = ndo3d_append_cstr(out_text, out_cap, &pos, "# skipped invalid NDO face\n", diag);
+                if (rc != NDO3D_OK) return rc;
+            } else if (loop_count >= 3U) {
+                rc = ndo3d_append_char(out_text, out_cap, &pos, 'f', diag); if (rc != NDO3D_OK) return rc;
+                for (li = 0U; li < loop_count; li++) {
+                    rc = ndo3d_append_char(out_text, out_cap, &pos, ' ', diag); if (rc != NDO3D_OK) return rc;
+                    rc = ndo3d_append_ulong(out_text, out_cap, &pos, base + (unsigned long)loop[li], diag); if (rc != NDO3D_OK) return rc;
+                }
+                rc = ndo3d_append_char(out_text, out_cap, &pos, '\n', diag); if (rc != NDO3D_OK) return rc;
+            }
+        }
+        base += (unsigned long)obj->vertex_count;
+    }
+    *out_size = pos;
+    return NDO3D_OK;
+}

@@ -1,0 +1,5 @@
+XIR record[0] type=1 aux=0 offset=0 bytes=16
+XIR record[1] type=3 aux=0 offset=16 bytes=132
+XIR record[2] type=4 aux=0 offset=148 bytes=28
+XIR INTERNAL 3 recs, 3 attribs, stride=32, vertices=4, triangles=2
+XIR OK; records=3, vertices=4, triangles=2, stride=32, errors=0 (INTERNAL TEST FORMAT, not Blade3D XMDL)

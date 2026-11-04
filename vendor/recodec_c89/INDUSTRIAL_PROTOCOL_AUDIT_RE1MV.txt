@@ -1,0 +1,28 @@
+RECODEC INDUSTRIAL PROTOCOL AUDIT
+Date: 2026-06-24
+
+Build:
+  make all: PASS (C89 flags, zero errors)
+
+New RE1MV Build_Model path:
+  malloc/calloc/realloc/free added in descriptor tables: NO
+  stdin added: NO
+  long long added: NO
+  static tables + local stack arrays: YES
+
+Whole repository strict protocol status:
+  NOT STRICT yet. The inherited public API/CLI/viewer still contain float and heap usage.
+  This patch does not claim full repo conversion to fixed-point arenas.
+
+Counts from scan over src/include/tools/viewer:
+  malloc/calloc/realloc/free/float/double/stdin/long long matches: 215
+
+Verification:
+verts=352 normals=900 uvs=1944 faces=648 pieces=15
+tris=648 quads=0 textured=648 invalid=0 degenerate=0 unused_vertices=0
+status=ok
+
+v10 RE1MV-buildmodel tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2 emd_type=0x3C0006 build_model=1
+anim applied: bank=A clip=0 frame=10/19 pose=10 step=1
+v10 RE1MV-buildmodel tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2 emd_type=0x410000 build_model=1
+anim applied: bank=B clip=3 frame=10/42 pose=82 step=1

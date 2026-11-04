@@ -1,0 +1,6 @@
+# Example v0.12 rig. These names and paths are PLACEHOLDERS,
+# replace them with a verified parent tag and files from your assets.
+# ROOT_SKIN C:/RTCW/assets/models/players/example/default.skin
+ATTACH tag_head C:/RTCW/assets/models/players/example/head.md3 FIXED:0 -
+# Use child_tag_eyes only if the preceding child model defines tag_eyes.
+# ATTACH child_tag_eyes C:/RTCW/assets/models/players/example/eyes.md3 FIXED:0 -

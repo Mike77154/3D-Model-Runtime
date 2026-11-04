@@ -1,0 +1,8 @@
+Build C89 strict: PASS
+Synthetic fractional-time 24 FPS + quaternion pose: PASS
+Synthetic nonuniform normal inverse-transpose: PASS
+Synthetic clamp past last frame: PASS
+IQM rotation old regression: PASS
+IQM mrfixit.iqm animation+geometry regression: PASS (2988 triangles, 75 bones, 101 frames)
+IQM malformed offsets and pose mask rejected: PASS
+Other formats: FBX 12, DAE 4212, 3MF 12, MD2 654, OFF 3732: PASS

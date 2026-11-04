@@ -1,0 +1,36 @@
+SHADERER AUDIT: ../corpus/MegaZombie.dts
+DTS materials=17 script objects=17
+[0] ShapeBounds script=0 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000020
+[1] zombie_tshirt_torn script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_tshirt_torn_d.dds normal=./Textures/zombie_tshirt_torn_n.dds specular=./Textures/zombie_tshirt_torn_s.dds
+[2] zombie_tshirt script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_tshirt_d.dds normal=./Textures/zombie_tshirt_n.dds specular=./Textures/zombie_tshirt_s.dds
+[3] zombie_shirt_long_sleeve script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_shirt_long_d.dds normal=./Textures/zombie_shirt_long_n.dds specular=./Textures/zombie_shirt_long_s.dds
+[4] zombie_pants_torn script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_pants_torn_d.dds normal=./Textures/zombie_pants_torn_n.dds specular=./Textures/zombie_pants_torn_s.dds
+[5] zombie_pants script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_pants_d.dds normal=./Textures/zombie_pants_n.dds specular=./Textures/zombie_pants_s.dds
+[6] zombie_jacket script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_jacket_d.dds normal=./Textures/zombie_jacket_n.dds specular=./Textures/zombie_jacket_s.dds
+[7] zombie_head_04 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_head_04_d.dds normal=./Textures/zombie_head_04_n.dds specular=./Textures/zombie_head_04_s.dds
+[8] zombie_head_03 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_head_03_d.dds normal=./Textures/zombie_head_03_n.dds specular=./Textures/zombie_head_03_s.dds
+[9] zombie_head_02 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_head_02_d.dds normal=./Textures/zombie_head_02_n.dds specular=./Textures/zombie_head_02_s.dds
+[10] zombie_head_01 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_head_01_d.dds normal=./Textures/zombie_head_01_n.dds specular=./Textures/zombie_head_01_s.dds
+[11] zombie__arms script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_arms_d.dds normal=./Textures/zombie_arms_n.dds specular=./Textures/zombie_arms_s.dds
+[12] zombie_hair_05 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_hair_05_d.dds normal=./Textures/zombie_hair_05_n.dds specular=./Textures/zombie_hair_05_s.dds
+[13] zombie_hair_04 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_hair_04_d.dds normal=./Textures/zombie_hair_04_n.dds specular=./Textures/zombie_hair_04_s.dds
+[14] zombie_hair_03 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_hair_03_d.dds normal=./Textures/zombie_hair_03_n.dds specular=./Textures/zombie_hair_03_s.dds
+[15] zombie_hair_02 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_hair_02_d.dds normal=./Textures/zombie_hair_02_n.dds specular=./Textures/zombie_hair_02_s.dds
+[16] zombie_hair_01 script=1 wrapS=1 wrapT=1 mip=0 blend=0 alphaTest=0 twoSided=0 unsupported=0x00000023
+  stage 0 flags=0x00000007 diffuse=./Textures/zombie_hair_01_d.dds normal=./Textures/zombie_hair_01_n.dds specular=./Textures/zombie_hair_01_s.dds
+SUMMARY linked=16/17 mappedStages=16 flaggedAdvanced=17

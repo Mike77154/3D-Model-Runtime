@@ -1,0 +1,3 @@
+root;root
+pelvis;hips
+thigh_L;left_thigh

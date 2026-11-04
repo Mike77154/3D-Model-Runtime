@@ -1,0 +1,30 @@
+model_runtime89 / RE1codec v0.3-mvref verification
+
+- previous vendor/re1codec_v0_1 removed
+- user-supplied RE1codec_v0.3_mvref vendored as vendor/re1codec_v0_3_mvref
+- provider uses re1c_open_model for EMD/EMW/TMD
+- no generic skeleton/skinning capability for RE1
+- EMR PartList exposed as rigid hierarchy
+- TMD object_count and EMR object_count kept separate
+- banks optional; preferred bank chosen by codec (B, A fallback)
+- timing uses 25 FPS / 40 ms per frame ref
+- FT4 packets emitted as two transient triangles
+- absent TIM becomes unresolved external texture slots
+
+Verified locally:
+  strict runtime C89 build                  PASS
+  RE1 EMD runtime regression                PASS
+  RE1 standalone TMD regression             PASS
+  RE1 EMW bank-B/external-slot regression   PASS
+  RE1codec constraint audit                 PASS
+  RE1codec FT4 packet test                  PASS
+  FBX regressions                            PASS
+  animation attachment regressions           PASS
+  GoldSrc regressions                        PASS
+  XPS regressions                            PASS
+
+Bank A unbound policy regression:
+- Bank B listed first/playable
+- Bank A flagged MODELRT_ANIM_UNBOUND
+- Bank A +100-centi test pivot does not move TMD mesh
+- no Bank A hierarchy fallback when Bank B is absent

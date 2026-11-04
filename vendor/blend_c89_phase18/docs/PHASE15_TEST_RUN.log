@@ -1,0 +1,15 @@
+BLEND C89 PHASE15 - local executed tests
+- `make clean all`: PASS, -std=c89 -pedantic -Wall -Wextra -Werror -O2
+- `python tests/test_phase15_ik2.py`: PASS; 75 random 3D cases + composed IK skinning, 6 rejects
+- `python tests/test_phase15_ik_audit.py`: PASS; 8 serialized valid tests + 4 invalid-pointer rejects
+- `python tests/test_phase14_constraints.py`: PASS (40)
+- `python tests/test_phase13_multirig.py`: PASS
+- `python tests/test_phase12_timing.py`: PASS
+- `python tests/test_phase11_auto_play.py`: PASS
+- `python tests/test_phase10_objects.py`: PASS
+- `python tests/test_phase09_euler.py`: PASS (282)
+- `python tests/test_phase07_real_corpus.py /mnt/data/_blend_real_corpus`: PASS 7 real scenes
+- `python tests/test_phase08.py`: PASS 4 tests
+- Additional undefined-behavior sanitizer build attempted, timed out, not verified.
+- Cross-compiler MinGW32 NOT available or run for this phase; Windows .bat updated.
+- No Blender-authored IK playback parity verified; standalone IK solver ONLY.

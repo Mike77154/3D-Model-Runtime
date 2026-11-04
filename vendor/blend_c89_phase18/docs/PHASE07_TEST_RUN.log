@@ -1,0 +1,15 @@
+PHASE 07 TEST SUMMARY - 2026-11-02
+- C89 build: cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 [PASS]
+- Source-informed synthetic: 2.28a MFace ushort [PASS]
+- Source-informed synthetic: 3.6 poly_offset_indices [PASS]
+- Source-informed synthetic: 2.28a TFace.uv [PASS]
+- Genuine source archive assets --info + --obj: 7 / 7 [PASS]
+- Previous tests: test_synthetic, test_rig_synthetic, test_rig_mutations,
+  test_phase04_animation, test_phase04_mutations, test_phase05_eval,
+  test_phase05_mutations, test_phase06_cli, test_phase06_mutations,
+  test_phase06_pipeline, test_phase06_rest [PASS]
+- C89 standalone Phase06 rig arithmetic test [PASS]
+- Authentic early 2.01/2.02 embedded files: [NOT SUPPORTED]
+- Compressed Gzip/Zstd assets: [NOT SUPPORTED without preprocessing]
+- Full scene equivalence and 4.5/5.0 real-native files: [NOT VALIDATED]
+- Native Win32 i686 compile: [NOT EXECUTED here]

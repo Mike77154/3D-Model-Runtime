@@ -1,0 +1,14 @@
+re4_classic_codec / libre4c3d v1.9-alpha build proof
+
+Commands run:
+  make clean
+  make all
+  ./re4_selftest
+  grep -RInE '\b(malloc|realloc|free|float|double)\b' --include='*.c' --include='*.h' .
+
+Observed:
+  selftest ok
+  source-token audit: 0 matches
+
+Notes:
+  The audit is intentionally limited to .c/.h source files. Documentation and README files can mention the project constraints in prose.

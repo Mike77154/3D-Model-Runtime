@@ -1,0 +1,4 @@
+# vertex_index x y z num_influences bone_index weight...
+0 1 0 0 1 0 1.0000
+1 0 0 0 2 0 0.5000 1 0.5000
+2 -1 0 0 1 1 1.0000

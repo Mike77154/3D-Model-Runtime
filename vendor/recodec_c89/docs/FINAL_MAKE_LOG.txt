@@ -1,0 +1,7 @@
+mkdir -p build
+cc -std=c89 -Wall -Wextra -pedantic -O2 -Iinclude -c src/giffy_recodec.c -o build/giffy_recodec.o
+ar rcs build/libgiffy_recodec.a build/giffy_recodec.o
+cc -std=c89 -Wall -Wextra -pedantic -O2 -Iinclude tools/grc.c build/libgiffy_recodec.a -lm -o build/grc
+cc -std=c89 -Wall -Wextra -pedantic -O2 -Iinclude viewer/giffy_re_view.c build/libgiffy_recodec.a -lm -o build/giffy_re_view
+cc -std=c89 -Wall -Wextra -pedantic -O2 -Iinclude tools/emd_textured_viewer.c build/libgiffy_recodec.a -lm -o build/emd_textured_viewer
+cc -std=c89 -Wall -Wextra -pedantic -O2 -Iinclude tools/emd_anim_table.c -o build/emd_anim_table

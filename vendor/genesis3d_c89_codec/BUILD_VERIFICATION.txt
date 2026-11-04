@@ -1,0 +1,129 @@
+# BUILD_VERIFICATION — Giffany v13 KIB Decomp
+
+Build limpio ejecutado contra el árbol v13.
+
+Resumen de cambios cubiertos por esta verificación:
+
+- `g3d_kib.c/.h` compilan y linkean dentro de `libg3d_codec.a`.
+- `g3d_bitmap_probe()` reporta `stored_size` y `codec_method` por mip.
+- `g3d_bitmap_unpack_mip()` desempaqueta mips raw/comprimidos y aplica Paeth.
+- `g3d_bitmap_decode_mip_rgba32()` usa mips desempaquetados y paletas comprimidas.
+- `g3dtool bmpraw` exporta mips raw después de la capa KIB/Paeth.
+- `selftest` cubre KIB PackBits, Paeth, compressed palette y wavelet8 experimental.
+- `smoke.sh` mantiene ACT/BDY/MOT, CF00, ASCII MOT, Geometry, bitmap/TGA y añade bitmap RAW.
+
+```text
+$ make clean
+rm -f g3d_codec.o g3d_kib.o libg3d_codec.a selftest g3dtool mk_sample
+rm -rf _smoke
+
+$ make all
+cc -std=c89 -Wall -Wextra -pedantic -O2 -c g3d_codec.c -o g3d_codec.o
+cc -std=c89 -Wall -Wextra -pedantic -O2 -c g3d_kib.c -o g3d_kib.o
+ar -rv libg3d_codec.a g3d_codec.o g3d_kib.o
+ar: creating libg3d_codec.a
+a - g3d_codec.o
+a - g3d_kib.o
+cc -std=c89 -Wall -Wextra -pedantic -O2 selftest.c libg3d_codec.a -o selftest
+cc -std=c89 -Wall -Wextra -pedantic -O2 g3d_tool.c libg3d_codec.a -o g3dtool
+cc -std=c89 -Wall -Wextra -pedantic -O2 mk_sample.c libg3d_codec.a -o mk_sample
+
+$ make test
+./selftest
+OK actor_bytes=1129 body_bytes=534 motion_bytes=150/152 motions=2 vertices=3
+
+$ make smoke
+./smoke.sh
+wrote _smoke/sample.act
+wrote _smoke/sample_body.bdy
+wrote _smoke/sample_walk.mot
+wrote _smoke/sample_strafe.mot
+OK type=ACT file=_smoke/sample.act bytes=1129
+OK type=BDY file=_smoke/sample_body.bdy bytes=534
+OK type=MOT file=_smoke/sample_walk.mot bytes=150
+OK type=MOT file=_smoke/sample_strafe.mot bytes=152
+  file name=Header size=16 offset=24 attr=0x00000000 hint=0
+  file name=Geometry size=319 offset=24 attr=0x00000000 hint=0
+extracted Header -> _smoke/header.bin (16 bytes)
+extracted Geometry -> _smoke/geometry_from_vfs.body (319 bytes)
+  bone[0] name=Root parent=-1 parent_name=<none> verts=3 bbox=[(0.0000,0.0000,0.0000),(0.0000,0.0000,0.0000)] computed_bbox=[(0.0000,0.0000,0.0000),(1.0000,1.0000,0.0000)] attach_t=(0.0000,0.0000,0.0000)
+  material[0] name=Default rgb=(0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000) bitmap=GeBm bytes=15 2x2 format=8bit gray bpp=1 version=4.0 mips=1 max_mip=0 seek=1
+  material[0] name=Default rgb=(0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000) bitmap=GeBm bytes=15 2x2 format=8bit gray bpp=1 version=4.0 mips=1 max_mip=0 seek=1
+motion[1] name=strafe node=2 maintain_names=1 paths=1 checksum_stored=1260 checksum_calc=1260 events=0
+  motion[0] name=walk stored_path_checksum=1260 calc_path_checksum=1260
+  motion[1] name=strafe stored_path_checksum=1260 calc_path_checksum=1260
+wrote _smoke/sample_body_cf.bdy (534 bytes) type=BDY-CF00 cf_mask=0x67
+OK type=BDY file=_smoke/sample_body_cf.bdy bytes=534 cf_mask=0x67
+wrote _smoke/sample_body_cf_canon.bdy (534 bytes) type=BDY cf_mask=0x67 -> VF00 canonical
+OK type=BDY file=_smoke/sample_body_cf_canon.bdy bytes=534
+wrote _smoke/sample_cf.act (1129 bytes) type=ACT-CF00 cf_mask=0x67
+OK type=ACT file=_smoke/sample_cf.act bytes=1129 cf_mask=0x67
+  dir  name=Motions size=0 offset=0 attr=0x00000002 hint=0
+extracted Header -> _smoke/header_cf.bin (16 bytes)
+wrote _smoke/sample_cf_canon.act (1129 bytes) type=ACT cf_mask=0x67 -> VF00 canonical
+OK type=ACT file=_smoke/sample_cf_canon.act bytes=1129
+pose motion=walk time=0.5000 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(5.0000,0.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+wrote _smoke/sample_walk_ascii.mot (354 bytes) type=MOT-ASCII
+OK type=MOT file=_smoke/sample_walk_ascii.mot bytes=354
+pose motion=walk time=0.5000 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(5.0000,0.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+OK type=MOT file=_smoke/original_ascii.mot bytes=407
+  event[0] time=0.5000 text=step
+pose motion=asciiwalk time=0.5000 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(5.0000,0.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+wrote _smoke/original_ascii_canon.mot (188 bytes) type=MOT
+OK type=MOT file=_smoke/original_ascii_canon.mot bytes=188
+  event[0] time=0.5000 text=step
+wrote _smoke/original_ascii_roundtrip_ascii.mot (407 bytes) type=MOT-ASCII
+OK type=MOT file=_smoke/original_ascii_roundtrip_ascii.mot bytes=407
+OK type=MOT file=_smoke/old_path_f0.mot bytes=373
+pose motion=oldpath time=0.5000 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(4.0000,0.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+wrote _smoke/old_path_f0_canon.mot (153 bytes) type=MOT
+OK type=MOT file=_smoke/old_path_f0_canon.mot bytes=153
+wrote _smoke/extracted/body.bdy (534 bytes)
+wrote _smoke/extracted/geometry.body (319 bytes) raw-geometry
+wrote _smoke/extracted/bitmap_000.bin (15 bytes) bitmap[0]
+wrote _smoke/extracted/bitmap_000.tga (2x2 rgba_bytes=16) bitmap_tga[0]
+wrote _smoke/extracted/000_walk.mot (150 bytes)
+wrote _smoke/extracted/001_strafe.mot (152 bytes)
+wrote _smoke/extracted/manifest.txt
+OK type=BDY-GEOMETRY file=_smoke/extracted/geometry.body bytes=319
+  bone[0] name=Root parent=-1 parent_name=<none> verts=3 bbox=[(0.0000,0.0000,0.0000),(0.0000,0.0000,0.0000)] computed_bbox=[(0.0000,0.0000,0.0000),(1.0000,1.0000,0.0000)] attach_t=(0.0000,0.0000,0.0000)
+  material[0] name=Default rgb=(0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000) bitmap=missing-payload
+bitmap=GeBm bytes=15 2x2 format=8bit gray bpp=1 version=4.0 mips=1 max_mip=0 seek=1
+  mip[0] index=0 flags=0x00 2x2 offset=10 bytes=4 stored=4 codec=store
+wrote _smoke/extracted/bitmap_000.raw 2x2 raw_bytes=4 mip=0 codec=store
+wrote _smoke/extracted/bitmap_000.tga 2x2 rgba_bytes=16 mip=0
+  material[0] name=Default rgb=(0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000,0x3F800000 ~ 1.0000) bitmap=GeBm bytes=15 2x2 format=8bit gray bpp=1 version=4.0 mips=1 max_mip=0 seek=1
+wrote _smoke/material_tga/000_Default.tga material[0] 2x2 rgba_bytes=16 mip=0
+wrote _smoke/actor_material_tga/000_Default.tga material[0] 2x2 rgba_bytes=16 mip=0
+type=BDY-GEOMETRY bytes=319 file=_smoke/extracted/geometry.body
+body: raw Geometry/BODY subfile (no VFS wrapper)
+body:
+  bones=1 materials=1 xskin_vertices=3 normals=3 lods=1
+wrote _smoke/extracted/geometry_canon.bdy (519 bytes) type=BDY-GEOMETRY
+OK type=BDY file=_smoke/extracted/geometry_canon.bdy bytes=519
+wrote _smoke/extracted/geometry_cf.bdy (519 bytes) type=BDY-GEOMETRY-CF00 cf_mask=0x67
+OK type=BDY file=_smoke/extracted/geometry_cf.bdy bytes=519 cf_mask=0x67
+wrote _smoke/rebuilt.act (1129 bytes) motions=2
+OK type=ACT file=_smoke/rebuilt.act bytes=1129
+wrote _smoke/rebuilt_from_geometry.act (1114 bytes) motions=2
+OK type=ACT file=_smoke/rebuilt_from_geometry.act bytes=1114
+wrote _smoke/sample_canon.act (1129 bytes) type=ACT
+OK type=ACT file=_smoke/sample_canon.act bytes=1129
+pose motion=walk time=0.5000 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(5.0000,0.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+pose motion=strafe time=1.2500 extents=[0.0000,1.0000] paths=1
+  path[0] name=Root t=(0.0000,2.0000,0.0000) q=(0.0000,0.0000,0.0000,1.0000)
+blendpose body=_smoke/sample_body.bdy bones=1 blend_q15=16384 type=linear
+  bone[0] name=Root parent=-1 local_t=(2.5000,2.0000,0.0000) local_q=(0.0000,0.0000,0.0000,1.0000) global_t=(2.5000,2.0000,0.0000)
+wrote _smoke/walk.obj vertices=3 faces=1
+wrote _smoke/actor_walk.obj vertices=3 faces=1 motion=0
+wrote _smoke/blend.obj vertices=3 faces=1 blend_q15=16384 type=linear
+wrote _smoke/actor_blend.obj vertices=3 faces=1 motions=(0,1) blend_q15=16384 type=hermite
+smoke OK
+```
+
+Resultado: `make clean`, `make all`, `make test` y `make smoke` pasaron correctamente.

@@ -1,0 +1,49 @@
+RE1MV coordinate + animation table fix report
+============================================
+
+Input tested:
+  /mnt/data/EM1111(6).EMD
+
+External reference used:
+  RE1MV Delphi source from the uploaded RE1MV(2).zip.
+
+Core fixes:
+  1. RE1 TMD vertices now follow RE1MV Calculate_Pos() scaling/sign.
+  2. RE1 TMD display axis is now file X,Y,Z -> display Z,Y,X.
+  3. EDD/EMR animation lookup now uses the correct EMR header bytes:
+       +0 PartListOffset
+       +2 AnimationOffset
+       +4 ObjectCount
+       +6 FrameSize
+  4. EDD clip table is separated into banks/clips/frames.
+  5. Diagnostic viewer uses RE1MV Build_Model matrix-stack operation tables.
+  6. Diagnostic BMP output flips only presentation Y so strips are not vertically mirrored.
+  7. Diagnostic angle conversion matches RE1MV: (angle & 0x0FFF) / 0x0FFF * 360.
+
+Validation:
+  make clean && make: OK, no compiler warnings in final checked build log.
+  bash tests/smoke.sh: OK.
+  ./build/grc validate EM1111.EMD --game re1:
+    verts=352 normals=900 uvs=1944 faces=648 pieces=15
+    tris=648 quads=0 textured=648 invalid=0 degenerate=0 unused_vertices=0
+    status=ok
+
+Animation table summary:
+  Bank A: EMR_A + EDD_A, EMD_Type=0x3C0006, poses=215, clips=12
+  Bank B: EMR_B + EDD_B, EMD_Type=0x410000, poses=645, clips=31
+  Example: Bank B clip 03 has 42 frames, pose range 72..113.
+
+Strictness status:
+  tools/emd_anim_table.c is static-buffer/no heap/no float/no double.
+  The full public grc_model API and textured diagnostic renderer still use legacy
+  float and heap allocation. This patch fixes the RE1 coordinate/animation bug and
+  adds the strict animation table verifier, but it is not a complete fixed-point
+  arena rewrite of the whole repository.
+
+Generated docs/artifacts inside docs/:
+  RE1MV_COORD_ANIM_FIX_NOTES.md
+  RE1MV_ANIM_TABLE_EM1111.txt
+  RE1MV_ANIM_TABLE_EM1111_FRAMES.txt
+  EM1111_BANKB_CLIP03_FRAME_STRIP_FIXED.png
+  EM1111_BANKB_CLIP03_FRAME10_FIXED.png
+  EM1111_ANIM_CLIP_ATLAS_FIXED.png

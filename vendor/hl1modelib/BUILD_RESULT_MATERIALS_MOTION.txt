@@ -1,0 +1,9 @@
+GCC Linux, strict ISO C89: success (-std=c89 -Wall -Wextra -Werror -pedantic -O2)
+All historical tests: passed
+Material89 synthetic regression: passed
+Corpus main GoldSrc parsed: 822 / 822
+12 companion texture MDLs and 1 IDSQ not independent main models
+Tiny subframe renderer smoke tests: 822 / 822
+Four full-resolution sample renders: 4 / 4
+MinGW32 native: not run
+GoldSrc renderer parity: not established

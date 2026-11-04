@@ -1,0 +1,26 @@
+GoldSrc hotfix verification
+===========================
+
+Runtime build:
+  cc -std=c89 -pedantic-errors -Wall -Wextra -O2
+  result: PASS
+
+Existing regressions:
+  FBX rig/textures: PASS
+  FBX bones-only: PASS
+  FBX external animation attachment: PASS
+  Genesis3D external MOT attachment: PASS
+
+New GoldSrc regression:
+  fixture: tests/goldsrc_motion_regression.mdl
+  sequence: root X translates +100 but motiontype includes STUDIO_X
+  expected runtime root X at animated frame: 0
+  result: GoldSrc regression OK: duration=65536 root_x=0 triangles=1
+
+hl1modelib vendor suite:
+  quaternion/controller tests: PASS
+  root_motion checks: PASS
+  GoldSrc mesh/texture/bind pose tests: PASS
+
+Policy scan:
+  runtime glue is clean

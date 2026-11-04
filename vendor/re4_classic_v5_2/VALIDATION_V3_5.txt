@@ -1,0 +1,10 @@
+RE4 Classic Codec v3.5 — test results
+GCC -std=c89 -Wall -Wextra -pedantic: SUCCESS
+No compiler warnings: TRUE
+Automated suites: 18/18 PASS
+Real Ashley pl01: 4 PMD, 2 sampled FCV poses, 14832 vertices per frame, PASS
+Negative required-right-hand preflight: correctly blocked before output
+ASan/UBSan: new required-parts suite and Ashley real clip PASS
+67 candidate parts checked across selected profile families
+Unidentified Luis/Krauser and unresolved other variants flagged, not assumed
+Limitations: 3D visual correctness, original IK, Win32 still pending

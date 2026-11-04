@@ -1,0 +1,8 @@
+RE4 Classic Codec v2.0-WR-GCPS2 proof (Linux host only)
+- Original v1.9-alpha code retained and extended.
+- clang -std=c89 -Wall -Wextra -Werror -pedantic: compile succeeds.
+- make check: re4_selftest = PASS, re4_gcps2_test = PASS.
+- clang AddressSanitizer + UndefinedBehaviorSanitizer: both suites PASS with UBSAN_OPTIONS=halt_on_error=1.
+- Corrected pre-existing FCV negative signed left-shift undefined behavior.
+- GC/PS2 tests use handmade synthetic bytes, no copyrighted RE4 assets.
+- GameCube+PS2 real-world model compatibility and Win32 target have NOT been verified.

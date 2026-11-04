@@ -1,0 +1,58 @@
+RE1codec v0.1 validation report
+===============================
+
+Reference input
+---------------
+EM1111.EMD
+size: 189132 bytes
+SHA-256: f66aa9dfb690add0c808f648f7655bfd198f8feff7eae47ca5a8b865308382b8
+
+Existing recodec_c89 proof
+--------------------------
+grс validate result:
+  verts=352 normals=900 uvs=1944 faces=648 pieces=15
+  tris=648 quads=0 textured=648 invalid=0 degenerate=0 unused_vertices=0
+  status=ok
+
+Existing animated textured viewer proof:
+  faces=648
+  texrefs=648
+  TIM=256x256 type=1 CLUT=256x2
+  emd_type=0x410000
+  hierarchy=emr_partlist
+  Bank B clip 3 frame 10 -> pose 82 step 1
+
+RE1codec strict-C89 proof
+-------------------------
+Compiler flags:
+  -std=c89 -pedantic-errors -Wall -Wextra -Werror -O2
+
+Constraint audit:
+  no malloc
+  no realloc
+  no heap release API
+  no floating-point types
+
+Fixture checks:
+  objects=15
+  vertices=352
+  normals=900
+  primitives=648
+  unsupported primitive packets=0
+  Bank A clips=12 poses=215
+  Bank B clips=31 poses=645
+  frame_size=104
+  texture=embedded TIM 8bpp 256x256, CLUT 256x2
+
+Two importer/provider routes:
+  A) full EMD trailing-directory importer
+  B) independently supplied six-section provider using verified offsets
+
+Both routes serialize to:
+  canonical bytes = 283734
+  FNV-1a32 = C2104AE0
+  memcmp = identical for all 283734 bytes
+
+The canonical comparison intentionally ignores absolute file offsets and compares
+semantic/raw model content instead. A provider can relocate sections without
+changing the expected canonical result.

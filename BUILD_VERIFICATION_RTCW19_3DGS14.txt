@@ -1,0 +1,9 @@
+BUILD: make -j6 libmodel_runtime89.a -> PASS (Linux GCC, C89 pedantic)
+RTCW v19: make all + RUN_ALL_TESTS.sh -> PASS; v19 final 65 checks
+3DGS Fase14: scripts/check_phase14.sh -> PASS
+3DGS runtime: 20 valid synthetic MDL tests -> PASS
+RTCW v19 MDS/MDC/MD3 + RE4 V5.2 SEQ runtime regression -> PASS
+IQM interpolation regression -> PASS
+Windows MinGW32 -> NOT RUN
+Authentic game model visual fidelity -> NOT CERTIFIED
+Output ZIP excludes any synthetic fixtures and binaries.

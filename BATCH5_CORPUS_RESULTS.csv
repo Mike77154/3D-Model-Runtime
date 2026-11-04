@@ -1,0 +1,16 @@
+format,file,status,triangles,notes
+MD5,SimpleCube.md5mesh,OPEN_VISIT_OK,12,Bind pose; no animation
+MD5,OverflowingTriangleIndex.md5mesh,REJECT_EXPECTED,0,Malformed triangle id
+TER,RealisticTerrain.ter,OPEN_VISIT_OK,131072,Terragen
+SIB,heffalump.sib,OPEN_VISIT_OK,676,Triangle visitor
+COB,molecule_ascii.cob,OPEN_VISIT_OK,896,Native triangle cache
+COB,molecule.cob,OPEN_VISIT_OK,896,Binary
+AMF,test1.amf,OPEN_VISIT_OK,4,XML
+AMF,test2.amf,OPEN_VISIT_OK,4,XML
+AMF,test3.amf,OPEN_VISIT_OK,4,XML
+NDO,malformed_edge_index.ndo,REJECT_EXPECTED,0,Malformed file
+ACC,Wuson.acc,REJECT_COMPATIBILITY_GAP,0,Extended-vertex variant
+COB,dwarf_ascii.cob,REJECT_COMPATIBILITY_GAP,0,Parser fails on variant
+ASK,N/A,NO_COMPATIBLE_SAMPLE,0,Needs external corpus
+DBO,N/A,NO_COMPATIBLE_SAMPLE,0,Needs external corpus
+AMJ,N/A,NO_COMPATIBLE_SAMPLE,0,Needs external corpus

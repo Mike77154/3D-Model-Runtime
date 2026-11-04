@@ -1,0 +1,21 @@
+Giffy RE Codec C89 v0.3 - BioModels RE2 support build report
+
+What changed:
+- Added BioModels-aligned RE2 MD1 parser: 56-byte limb descriptors, meshCount / 2 real limbs.
+- RE2 EMD loads MD1 from section 7 and optional EMR skeleton sections 2/4/6.
+- RE2 PLD/PLW loads BioModels-style 4-section layout: EDD, EMR, MD1, TIM.
+- Optional TIM attach:
+  - internal TIM from PLD/PLW section 3 when present,
+  - sidecar TIM next to EMD using .TIM/.tim/.Tim.
+- CLUT IDs are preserved as placeholder materials named re2_clut_N.
+- piece.parent_index and piece.pivot are populated from EMR when a valid skeleton section is present.
+
+Local verification:
+- make: OK using cc -std=c89 -Wall -Wextra -pedantic -O2
+- sh tests/smoke.sh: OK
+- extra RE2 PLD roundtrip: OK
+
+Known warnings:
+- tools/emd_textured_viewer.c still has pre-existing style/uninitialized-analysis warnings from compact one-line ifs and conservative compiler analysis. Core library builds clean.
+
+No Capcom assets are included.

@@ -1,0 +1,2 @@
+This generated code is provided as CC0-style public-domain dedication where legally possible.
+No warranty is provided. Verify against your own MMD test corpus before production use.

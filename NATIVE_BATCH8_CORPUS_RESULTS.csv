@@ -1,0 +1,16 @@
+file,codec,result,triangles,remarks
+duck.dae,81,PASS,4212,capacity expanded to 16384 vertices
+box_nested_animation.dae,81,PASS,12,regression
+box.3mf,91,PASS,12,material-free valid 3MF
+malformed_property_index_oob.3mf,91,REJECT,0,property index 1000000 correctly rejected
+cube_with_vertexcolors.m3d,92,PASS,12,zlib packed
+WusonBlitz0.m3d,92,PASS,3732,zlib packed
+ThomasFechten.csm,93,PASS,0,optical motion timeline no mesh
+DropoutBufferOverflow.csm,93,REJECT,0,bad motion file
+move_x.lws,94,PASS,0,scene animation only
+move_xz_linear.lws,94,PASS,0,scene animation only
+native_poser_triangle.pp2,95,PASS_SYNTHETIC,1,test fixture not bundled
+invalid.dff,96,REJECT,0,no external positive DFF sample
+faerie.md2,45,PASS,654,existing provider
+Wuson.off,40,PASS,3732,existing provider
+box.fbx,1,PASS,12,existing provider

@@ -1,0 +1,21 @@
+model_runtime89 animation-source revision verification
+
+Compiler flags:
+  -std=c89 -pedantic-errors -Wall -Wextra -O2
+
+Passed in preparation environment:
+  make
+  make fbx-regression
+    rigged_test.fbx: bones=2 hierarchy=1 textured_material=1
+    bones_only_test.fbx: bones=2 hierarchy=1 textured_material=1
+  embedded Genesis3D ACT inspection:
+    sample.act: animation_count=2
+    clip 0: walk, 0..65536 Q16.16
+    clip 1: strafe, 0..65536 Q16.16
+  external attachment regression:
+    FBX target + FBX animation source: matched tracks 1/1
+    Genesis3D BDY + MOT: matched paths 1/1, clip walk 0..65536 Q16.16
+
+Note: the hand-written FBX animation-only fixture is used to verify provider binding/name mapping.
+Its test fixture time range currently parses as 0..0; real FBX AnimationStacks use the native
+codec timing data. Genesis3D fixture verifies non-zero playback duration through the bound-motion path.

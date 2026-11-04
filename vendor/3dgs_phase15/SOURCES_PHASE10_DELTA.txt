@@ -1,0 +1,11 @@
+src/layers/gs3d_bone_mask.c
+src/layers/gs3d_layer_validate.c
+src/layers/gs3d_layer_skeletal.c
+src/layers/gs3d_root_motion.c
+src/layers/gs3d_layer_apply.c
+src/vendors/gs3d_vendor_layer_router.c
+src/vendors/a4/gs3d_a4_layer.c
+src/vendors/a5/gs3d_a5_layer.c
+src/vendors/a6/gs3d_a6_layer.c
+src/vendors/a7/gs3d_a7_layer.c
+src/vendors/a8/gs3d_a8_layer.c

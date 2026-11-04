@@ -1,0 +1,18 @@
+PASS: 0 4 little 249
+PASS: 0 4 big 279
+PASS: 0 8 little 280
+PASS: 0 8 big 305
+PASS: 0 8 little 404
+PASS: 1 8 little 405
+PASS: 1 8 little 500
+PASS: 1 8 little 502
+Eight artificial fixtures passed; NOT real-version interoperability tests.
+PASS: synthetic Blender 5.x AttributeStorage positions and corner topology
+PASS: schema/blocks CLI and four malformed or wrapped inputs rejected
+PASS: two independent meshes and OBJ global vertex index offsets
+PASS: interior serialized reference, with 4-byte pointer displacement
+PASS: invalid face indices rejected and partial OBJ cleaned up
+PASS: MPoly/MLoop topology plus MLoopUV UVMap in OBJ
+PASS: modern CD_PROP_FLOAT2 UV layer serialized in CustomData
+PASS: realistic synthetic 5.1 layout: Attribute/Array and 64-bit size
+PASS: 5.1 single-value/oversized attributes rejected safely

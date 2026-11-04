@@ -1,0 +1,1 @@
+stream scan OK: version=7200 nodes=32 props=44 arrays=5 compressed=5 bytes=1627

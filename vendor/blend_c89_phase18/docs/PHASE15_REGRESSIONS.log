@@ -1,0 +1,39 @@
+test_phase14_constraints.py: rc=0
+PASS: 40 bounded constraints cases, four serialized pointer/endian combinations
+
+
+test_phase13_multirig.py: rc=0
+PASS: two independent rigs, cross-bound meshes, identical bone names, mixed NLA/direct, four binary layouts, fail-closed graphs
+
+
+test_phase12_timing.py: rc=0
+PASS: NLA timeline retiming/repeat/flags, four serializations, conservative refusals
+
+
+test_phase11_auto_play.py: rc=0
+PASS: auto-selected second Action, 4 pointer/endian variants, NLA/missing Action refusal
+
+
+test_phase10_objects.py: rc=0
+PASS: armature target linkage, local affine correction, cyclic/broken pointer rejection
+PASS: source-archive authentic startup files, saved Object/ID graph & local TRS
+
+
+test_phase09_euler.py: rc=0
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+
+
+test_phase07_real_corpus.py: rc=1
+
+Usage: python3 tests/test_phase07_real_corpus.py CORPUS_DIRECTORY
+
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484

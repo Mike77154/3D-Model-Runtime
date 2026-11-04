@@ -1,0 +1,7 @@
+# SOLO EJEMPLO. Sustituye los directorios, modelos, skins y tags.
+# ROOT_PART 0
+# ROOT_SKIN C:/RTCW/assets/models/players/example/body.skin
+# TEXTURE_ROOT C:/RTCW/assets
+# SHADER_FILE C:/RTCW/assets/scripts/models.shader
+ATTACH tag_head C:/RTCW/assets/models/players/example/head.md3 TORSO - PART:1
+# ATTACH child_tag_eye C:/RTCW/assets/models/players/example/eye.md3 FIXED:0 - PART:2

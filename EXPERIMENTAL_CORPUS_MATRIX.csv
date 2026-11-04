@@ -1,0 +1,71 @@
+family,filename,outcome,provider,visit_rc,visited_meshes,visited_triangles,source_path_test_session
+OFF,invalid.off,REJECT,GACKT OFF (native),-3,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/OFF/invalid.off
+OFF,Cube.off,VISIT,GACKT OFF (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OFF/Cube.off
+OFF,Wuson.off,VISIT,GACKT OFF (native),0,1,3732,/mnt/data/runtime_corpus_stress/assimp_bsd/OFF/Wuson.off
+OBJ,only_a_part_of_vertexcolors.obj,VISIT,GACKT OBJ (native),0,1,3,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/only_a_part_of_vertexcolors.obj
+OBJ,multiple_spaces.obj,VISIT,GACKT OBJ (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/multiple_spaces.obj
+OBJ,regr_3429812.obj,VISIT,GACKT OBJ (native),0,1,4,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/regr_3429812.obj
+OBJ,testline.obj,VISIT,GACKT OBJ (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/testline.obj
+OBJ,testpoints.obj,VISIT,GACKT OBJ (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/testpoints.obj
+OBJ,point_cloud.obj,VISIT,GACKT OBJ (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/point_cloud.obj
+OBJ,number_formats.obj,VISIT,GACKT OBJ (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/number_formats.obj
+OBJ,testmixed.obj,VISIT,GACKT OBJ (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/testmixed.obj
+OBJ,box_without_lineending.obj,VISIT,GACKT OBJ (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/box_without_lineending.obj
+OBJ,box.obj,VISIT,GACKT OBJ (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/box.obj
+OBJ,mtl_different_folder.obj,VISIT,GACKT OBJ (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/mtl_different_folder.obj
+OBJ,box_mat_with_spaces.obj,VISIT,GACKT OBJ (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/OBJ/box_mat_with_spaces.obj
+PLY,cube.ply,VISIT,GACKT PLY (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/cube.ply
+PLY,float-color.ply,VISIT,GACKT PLY (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/float-color.ply
+PLY,points.ply,VISIT,GACKT PLY (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/points.ply
+PLY,cube_binary.ply,VISIT,GACKT PLY (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/cube_binary.ply
+PLY,cube_binary_header_with_RN_newline.ply,VISIT,GACKT PLY (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/cube_binary_header_with_RN_newline.ply
+PLY,cube_binary_starts_with_nl.ply,VISIT,GACKT PLY (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/cube_binary_starts_with_nl.ply
+PLY,issue623.ply,REJECT,GACKT PLY (native),-3,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/issue623.ply
+PLY,cube_uv.ply,VISIT,GACKT PLY (native),0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/cube_uv.ply
+PLY,Wuson.ply,REJECT,GACKT PLY (native),-3,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/Wuson.ply
+PLY,pond.0.ply,VISIT,GACKT PLY (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/PLY/pond.0.ply
+STL,triangle.stl,VISIT,GACKT STL (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/triangle.stl
+STL,triangle_with_empty_solid.stl,VISIT,GACKT STL (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/triangle_with_empty_solid.stl
+STL,triangle_with_two_solids.stl,VISIT,GACKT STL (native),0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/triangle_with_two_solids.stl
+STL,sphereWithHole.stl,VISIT,GACKT STL (native),0,1,285,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/sphereWithHole.stl
+STL,Spider_binary.stl,VISIT,GACKT STL (native),0,1,1368,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/Spider_binary.stl
+STL,3DSMaxExport.STL,VISIT,GACKT STL (native),0,1,2000,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/3DSMaxExport.STL
+STL,Wuson.stl,VISIT,GACKT STL (native),0,1,3732,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/Wuson.stl
+STL,Spider_ascii.stl,VISIT,GACKT STL (native),0,1,1368,/mnt/data/runtime_corpus_stress/assimp_bsd/STL/Spider_ascii.stl
+Irrlicht mesh,cellar.irrmesh,VISIT,GACKT Irrlicht (native),0,2,272,/mnt/data/runtime_corpus_stress/assimp_bsd/IRRMesh/cellar.irrmesh
+Irrlicht mesh,spider.irrmesh,VISIT,GACKT Irrlicht (native),0,4,1368,/mnt/data/runtime_corpus_stress/assimp_bsd/IRRMesh/spider.irrmesh
+Irrlicht mesh,cellar_UTF16LE.irrmesh,VISIT,GACKT Irrlicht (native),0,2,272,/mnt/data/runtime_corpus_stress/assimp_bsd/IRRMesh/cellar_UTF16LE.irrmesh
+Irrlicht mesh,spider_UTF16LE.irrmesh,VISIT,GACKT Irrlicht (native),0,4,1368,/mnt/data/runtime_corpus_stress/assimp_bsd/IRRMesh/spider_UTF16LE.irrmesh
+Irrlicht scene,box.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/box.irr
+Irrlicht scene,sphere.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/sphere.irr
+Irrlicht scene,multipleAnimators.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/multipleAnimators.irr
+Irrlicht scene,box_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/box_UTF16LE.irr
+Irrlicht scene,sphere_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/sphere_UTF16LE.irr
+Irrlicht scene,animMesh.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/animMesh.irr
+Irrlicht scene,multipleAnimators_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/multipleAnimators_UTF16LE.irr
+Irrlicht scene,dawfInCellar_SameHierarchy.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/dawfInCellar_SameHierarchy.irr
+Irrlicht scene,dawfInCellar_ChildOfCellar.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/dawfInCellar_ChildOfCellar.irr
+Irrlicht scene,animMesh_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/animMesh_UTF16LE.irr
+Irrlicht scene,dawfInCellar_SameHierarchy_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/dawfInCellar_SameHierarchy_UTF16LE.irr
+Irrlicht scene,dawfInCellar_ChildOfCellar_UTF16LE.irr,VISIT,GACKT Irrlicht (native),0,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/IRR/dawfInCellar_ChildOfCellar_UTF16LE.irr
+MD2,malformed_unterminated_skin_name.md2,REJECT,GACKT Quake2 MD2 (native),-3,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/MD2/malformed_unterminated_skin_name.md2
+MD2,malformed_zero_numvertices.md2,REJECT,GACKT Quake2 MD2 (native),-3,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/MD2/malformed_zero_numvertices.md2
+MD2,sydney.md2,VISIT,GACKT Quake2 MD2 (native),0,1,679,/mnt/data/runtime_corpus_stress/assimp_bsd/MD2/sydney.md2
+MD2,faerie.md2,VISIT,GACKT Quake2 MD2 (native),0,1,654,/mnt/data/runtime_corpus_stress/assimp_bsd/MD2/faerie.md2
+MD2 nonBSD,flag.md2,VISIT,GACKT Quake2 MD2 (native),0,1,204,/mnt/data/runtime_corpus_stress/assimp_nonbsd/MD2/flag.md2
+MD2 nonBSD,horse.md2,VISIT,GACKT Quake2 MD2 (native),0,1,690,/mnt/data/runtime_corpus_stress/assimp_nonbsd/MD2/horse.md2
+MD2 nonBSD,dolphin.md2,VISIT,GACKT Quake2 MD2 (native),0,1,500,/mnt/data/runtime_corpus_stress/assimp_nonbsd/MD2/dolphin.md2
+FBX original,embedded_float_uv.fbx,VISIT,3dfbx,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/FBX/embedded_float_uv.fbx
+FBX original,embedded_integer_uv.fbx,VISIT,3dfbx,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/FBX/embedded_integer_uv.fbx
+FBX original,embedded_invalid_uv.fbx,VISIT,3dfbx,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/FBX/embedded_invalid_uv.fbx
+FBX original,embedded_double_uv.fbx,VISIT,3dfbx,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/FBX/embedded_double_uv.fbx
+FBX original,embedded_override_uv.fbx,VISIT,3dfbx,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/FBX/embedded_override_uv.fbx
+DirectX original,malformed_fvf_texcoord_oob.x,VISIT,DirectX .x / xparsermodget98 v0.5,0,1,1,/mnt/data/runtime_corpus_stress/assimp_bsd/X/malformed_fvf_texcoord_oob.x
+DirectX original,test_cube_compressed.x,VISIT,DirectX .x / xparsermodget98 v0.5,0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/X/test_cube_compressed.x
+DirectX original,test_cube_binary.x,VISIT,DirectX .x / xparsermodget98 v0.5,0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/X/test_cube_binary.x
+DirectX original,test_cube_text.x,VISIT,DirectX .x / xparsermodget98 v0.5,0,1,12,/mnt/data/runtime_corpus_stress/assimp_bsd/X/test_cube_text.x
+DirectX original,malformed_skinweights_oob.x,REJECT,DirectX .x,-7,0,0,/mnt/data/runtime_corpus_stress/assimp_bsd/X/malformed_skinweights_oob.x
+MilkShape original,twospheres.ms3d,VISIT,MilkShape3D v1.7 SLERP,0,2,240,/mnt/data/runtime_corpus_stress/assimp_bsd/MS3D/twospheres.ms3d
+MilkShape original,twospheres_withmats.ms3d,VISIT,MilkShape3D v1.7 SLERP,0,2,240,/mnt/data/runtime_corpus_stress/assimp_bsd/MS3D/twospheres_withmats.ms3d
+MilkShape original,jeep1.ms3d,VISIT,MilkShape3D v1.7 SLERP,0,7,2032,/mnt/data/runtime_corpus_stress/assimp_bsd/MS3D/jeep1.ms3d
+MilkShape original,Wuson.ms3d,VISIT,MilkShape3D v1.7 SLERP,0,1,3732,/mnt/data/runtime_corpus_stress/assimp_bsd/MS3D/Wuson.ms3d

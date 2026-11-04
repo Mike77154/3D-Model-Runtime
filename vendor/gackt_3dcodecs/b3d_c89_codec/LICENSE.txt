@@ -1,0 +1,2 @@
+CC0-1.0 style dedication for this generated codec package.
+You may copy, modify, distribute and use this code without restriction.

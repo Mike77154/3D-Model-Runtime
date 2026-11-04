@@ -1,0 +1,4 @@
+This generated package is intended to be used as CC0/public-domain-style sample code.
+
+You may copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this generated code without restriction.
+No warranty is provided.

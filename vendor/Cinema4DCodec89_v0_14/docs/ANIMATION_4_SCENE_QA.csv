@@ -1,0 +1,5 @@
+group,file,tracks,decoded_keys,omitted_tracks,tested_tracks,checks
+EGF2,L_walk.c4d,221,11492,0,8,"endpoints + midpoint, fixed Q16.16"
+EGF1,L_walk_b.c4d,163,10269,0,8,"endpoints + midpoint, fixed Q16.16"
+EGF4,appearance.c4d,317,124898,0,8,"endpoints + midpoint, fixed Q16.16"
+EGF2,at_jump_knock_a.c4d,218,25724,0,8,"endpoints + midpoint, fixed Q16.16"

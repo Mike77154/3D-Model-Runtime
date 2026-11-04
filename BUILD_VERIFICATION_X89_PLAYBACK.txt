@@ -1,0 +1,16 @@
+DirectX .x v0.5 frame playback verification
+
+- Full runtime: C89 -pedantic-errors -Wall -Wextra -Werror PASS
+- Existing v0.5 multiclip/timing regression PASS
+- New unknown-rate dense-frame visit regression PASS
+- Legacy DirectX .x regression PASS
+- XPS UV regression PASS
+- GoldSrc transparency regression PASS
+- RE1 regression PASS
+- RE3 regression PASS
+- policy_scan PASS
+
+Confirmed bug fixed:
+Recovered frames were metadata-only for clips without AnimTicksPerSecond because
+seconds could not be converted to ticks. Exact frame-addressed visits now bypass
+that ambiguity without inventing source timing.

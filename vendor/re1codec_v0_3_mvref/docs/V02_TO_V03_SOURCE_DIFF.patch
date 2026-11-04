@@ -1,0 +1,289 @@
+--- /mnt/data/re1codec_work/RE1codec/include/re1codec.h	1980-01-01 00:00:00.000000000 +0000
++++ include/re1codec.h	2026-08-17 03:17:31.650089740 +0000
+@@ -28,6 +28,8 @@
+ #define RE1C_BANK_A 0u
+ #define RE1C_BANK_B 1u
+ #define RE1C_Q16_ONE 65536
++#define RE1C_MV_FRAME_MS 40u
++#define RE1C_MV_FPS 25u
+ 
+ #define RE1C_MODEL_EMD 1u
+ #define RE1C_MODEL_EMW 2u
+@@ -84,7 +86,8 @@
+ 
+ typedef struct re1c_frame_ref_s {
+     re1c_u16 pose_index;
+-    re1c_u16 step_units;
++    re1c_u16 unknown_word;
++    re1c_u16 step_units; /* deprecated v0.2 alias; mirrors unknown_word */
+ } re1c_frame_ref;
+ 
+ typedef struct re1c_pose_root_s {
+@@ -205,10 +208,13 @@
+ 
+ int re1c_get_bank_info(const re1c_view *view, re1c_u32 bank, re1c_bank_info *out_info);
+ int re1c_get_pivot(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_pivot *out_pivot);
++int re1c_get_bind_global_centi(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_vec3_centi *out_position);
+ int re1c_get_child_count(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_u16 *out_count);
+ int re1c_get_child(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_u32 child_index, re1c_u8 *out_child);
+ int re1c_get_clip(const re1c_view *view, re1c_u32 bank, re1c_u32 clip_index, re1c_clip *out_clip);
+ int re1c_get_frame_ref(const re1c_view *view, re1c_u32 bank, re1c_u32 clip_index, re1c_u32 frame_index, re1c_frame_ref *out_ref);
++int re1c_get_mv_frame_duration_ms(re1c_u32 *out_ms);
++int re1c_get_clip_duration_ms(const re1c_view *view, re1c_u32 bank, re1c_u32 clip_index, re1c_u32 *out_ms);
+ int re1c_get_pose_root(const re1c_view *view, re1c_u32 bank, re1c_u32 pose_index, re1c_pose_root *out_root);
+ int re1c_get_pose_angle(const re1c_view *view, re1c_u32 bank, re1c_u32 pose_index, re1c_u32 object_index, re1c_pose_angle *out_angle);
+ 
+--- /mnt/data/re1codec_work/RE1codec/src/re1codec.c	1980-01-01 00:00:00.000000000 +0000
++++ src/re1codec.c	2026-08-17 03:18:55.212503620 +0000
+@@ -118,6 +118,31 @@
+     }
+ }
+ 
++static void re1c_trim_tim_to_declared_size(re1c_view *view)
++{
++    re1c_section *tim;
++    re1c_u32 flags;
++    re1c_u32 pos;
++    re1c_u32 sec_size;
++    if (view == NULL) return;
++    tim = &view->section[RE1C_SEC_TIM];
++    if (tim->data == NULL || tim->size < 20u) return;
++    if (re1c_rd32(tim->data) != 0x10u) return;
++    flags = re1c_rd32(tim->data + 4u);
++    pos = 8u;
++    if ((flags & 8u) != 0u) {
++        if (!re1c_range_ok(pos, 12u, tim->size)) return;
++        sec_size = re1c_rd32(tim->data + pos);
++        if (sec_size < 12u || !re1c_range_ok(pos, sec_size, tim->size)) return;
++        pos += sec_size;
++    }
++    if (!re1c_range_ok(pos, 12u, tim->size)) return;
++    sec_size = re1c_rd32(tim->data + pos);
++    if (sec_size < 12u || !re1c_range_ok(pos, sec_size, tim->size)) return;
++    pos += sec_size;
++    tim->size = pos;
++}
++
+ int re1c_open_emd(const re1c_u8 *data, re1c_u32 size, re1c_view *out_view)
+ {
+     re1c_u32 dir_start;
+@@ -133,6 +158,7 @@
+         for (i = 0u; i < 5u; ++i) off[i] = re1c_rd32(data + dir_start + i * 4u);
+         if (re1c_directory_valid(off, dir_start)) {
+             re1c_build_sections(data, size, dir_start, off, out_view);
++            re1c_trim_tim_to_declared_size(out_view);
+             return RE1C_OK;
+         }
+     }
+@@ -146,6 +172,7 @@
+     off[4] = compact[3];
+     if (!re1c_directory_valid(off, dir_start)) return RE1C_ERR_FORMAT;
+     re1c_build_sections(data, size, dir_start, off, out_view);
++    re1c_trim_tim_to_declared_size(out_view);
+     return RE1C_OK;
+ }
+ 
+@@ -311,7 +338,7 @@
+ 
+ re1c_i32 re1c_angle12_to_turn_q16(re1c_i16 angle12)
+ {
+-    return (re1c_i32)(((re1c_i32)angle12 * (re1c_i32)RE1C_Q16_ONE) / 4096);
++    return (re1c_i32)(((re1c_i32)angle12 * (re1c_i32)RE1C_Q16_ONE) / 4095);
+ }
+ 
+ int re1c_get_bank_info(const re1c_view *view, re1c_u32 bank, re1c_bank_info *out_info)
+@@ -404,6 +431,34 @@
+     return rc;
+ }
+ 
++int re1c_get_bind_global_centi(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_vec3_centi *out_position)
++{
++    re1c_bank_info bi;
++    re1c_pivot p;
++    re1c_i16 current;
++    re1c_u32 guard;
++    int rc;
++    if (out_position == NULL) return RE1C_ERR_ARGUMENT;
++    rc = re1c_get_bank_info(view, bank, &bi);
++    if (rc != RE1C_OK) return rc;
++    if (object_index >= (re1c_u32)bi.object_count) return RE1C_ERR_RANGE;
++    out_position->x = 0;
++    out_position->y = 0;
++    out_position->z = 0;
++    current = (re1c_i16)object_index;
++    guard = 0u;
++    while (current >= 0) {
++        if (guard++ > (re1c_u32)bi.object_count) return RE1C_ERR_FORMAT;
++        rc = re1c_get_pivot(view, bank, (re1c_u32)current, &p);
++        if (rc != RE1C_OK) return rc;
++        out_position->x += p.x_centi;
++        out_position->y += p.y_centi;
++        out_position->z += p.z_centi;
++        current = p.parent;
++    }
++    return RE1C_OK;
++}
++
+ int re1c_get_child_count(const re1c_view *view, re1c_u32 bank, re1c_u32 object_index, re1c_u16 *out_count)
+ {
+     re1c_bank_info bi;
+@@ -480,7 +535,26 @@
+     (void)emr;
+     pos = (re1c_u32)clip.stream_offset + frame_index * 4u;
+     out_ref->pose_index = re1c_rd16(edd->data + pos + 0u);
+-    out_ref->step_units = re1c_rd16(edd->data + pos + 2u);
++    out_ref->unknown_word = re1c_rd16(edd->data + pos + 2u);
++    out_ref->step_units = out_ref->unknown_word;
++    return RE1C_OK;
++}
++
++int re1c_get_mv_frame_duration_ms(re1c_u32 *out_ms)
++{
++    if (out_ms == NULL) return RE1C_ERR_ARGUMENT;
++    *out_ms = RE1C_MV_FRAME_MS;
++    return RE1C_OK;
++}
++
++int re1c_get_clip_duration_ms(const re1c_view *view, re1c_u32 bank, re1c_u32 clip_index, re1c_u32 *out_ms)
++{
++    re1c_clip clip;
++    int rc;
++    if (out_ms == NULL) return RE1C_ERR_ARGUMENT;
++    rc = re1c_get_clip(view, bank, clip_index, &clip);
++    if (rc != RE1C_OK) return rc;
++    *out_ms = (re1c_u32)clip.frame_count * RE1C_MV_FRAME_MS;
+     return RE1C_OK;
+ }
+ 
+@@ -574,7 +648,7 @@
+     out_object->scale_word = re1c_rd32(d + 24u);
+     if (!re1c_range_ok(12u + out_object->vertex_offset, out_object->vertex_count * 8u, tmd->size)) return RE1C_ERR_FORMAT;
+     if (!re1c_range_ok(12u + out_object->normal_offset, out_object->normal_count * 8u, tmd->size)) return RE1C_ERR_FORMAT;
+-    if (!re1c_range_ok(12u + out_object->primitive_offset, out_object->primitive_count * 28u, tmd->size)) return RE1C_ERR_FORMAT;
++    if (!re1c_range_ok(12u + out_object->primitive_offset, 0u, tmd->size)) return RE1C_ERR_FORMAT;
+     return RE1C_OK;
+ }
+ 
+@@ -629,29 +703,57 @@
+     return RE1C_OK;
+ }
+ 
+-int re1c_get_primitive(const re1c_view *view, re1c_u32 object_index, re1c_u32 primitive_index, re1c_primitive *out_primitive)
++static int re1c_locate_primitive(const re1c_view *view, re1c_u32 object_index,
++                                 re1c_u32 primitive_index, const re1c_u8 **out_packet,
++                                 re1c_u32 *out_packet_size)
+ {
+     re1c_tmd_object obj;
+     const re1c_section *tmd;
+-    const re1c_u8 *p;
++    re1c_u32 i;
++    re1c_u32 pos;
++    re1c_u32 packet_size;
+     int rc;
+-    if (out_primitive == NULL) return RE1C_ERR_ARGUMENT;
++    if (out_packet == NULL || out_packet_size == NULL) return RE1C_ERR_ARGUMENT;
+     rc = re1c_get_tmd_object(view, object_index, &obj);
+     if (rc != RE1C_OK) return rc;
+     if (primitive_index >= obj.primitive_count) return RE1C_ERR_RANGE;
+     tmd = &view->section[RE1C_SEC_TMD];
+-    p = tmd->data + 12u + obj.primitive_offset + primitive_index * 28u;
++    pos = 12u + obj.primitive_offset;
++    for (i = 0u; i <= primitive_index; ++i) {
++        if (!re1c_range_ok(pos, 4u, tmd->size)) return RE1C_ERR_FORMAT;
++        packet_size = 4u + (re1c_u32)tmd->data[pos + 1u] * 4u;
++        if (packet_size < 4u || !re1c_range_ok(pos, packet_size, tmd->size)) return RE1C_ERR_FORMAT;
++        if (i == primitive_index) {
++            *out_packet = tmd->data + pos;
++            *out_packet_size = packet_size;
++            return RE1C_OK;
++        }
++        pos += packet_size;
++    }
++    return RE1C_ERR_RANGE;
++}
++
++int re1c_get_primitive(const re1c_view *view, re1c_u32 object_index, re1c_u32 primitive_index, re1c_primitive *out_primitive)
++{
++    const re1c_u8 *p;
++    re1c_u32 packet_size;
++    int rc;
++    if (out_primitive == NULL) return RE1C_ERR_ARGUMENT;
++    rc = re1c_locate_primitive(view, object_index, primitive_index, &p, &packet_size);
++    if (rc != RE1C_OK) return rc;
+     memset(out_primitive, 0, sizeof(*out_primitive));
+     out_primitive->raw_packet = p;
+-    out_primitive->raw_packet_size = 28u;
++    out_primitive->raw_packet_size = packet_size;
+     out_primitive->code = re1c_rd32(p + 0u);
+-    out_primitive->u[0] = p[4]; out_primitive->v[0] = p[5];
+-    out_primitive->cba = re1c_rd16(p + 6u);
+-    out_primitive->u[1] = p[8]; out_primitive->v[1] = p[9];
+-    out_primitive->tsb = re1c_rd16(p + 10u);
+-    out_primitive->u[2] = p[12]; out_primitive->v[2] = p[13];
++
+     if (out_primitive->code == RE1C_PRIM_FT3_A || out_primitive->code == RE1C_PRIM_FT3_B || out_primitive->code == RE1C_PRIM_FT3_C) {
++        if (packet_size < 28u) return RE1C_ERR_FORMAT;
+         out_primitive->sides = 3u;
++        out_primitive->u[0] = p[4]; out_primitive->v[0] = p[5];
++        out_primitive->cba = re1c_rd16(p + 6u);
++        out_primitive->u[1] = p[8]; out_primitive->v[1] = p[9];
++        out_primitive->tsb = re1c_rd16(p + 10u);
++        out_primitive->u[2] = p[12]; out_primitive->v[2] = p[13];
+         out_primitive->normal_index[0] = re1c_rd16(p + 16u);
+         out_primitive->vertex_index[0] = re1c_rd16(p + 18u);
+         out_primitive->normal_index[1] = re1c_rd16(p + 20u);
+@@ -661,9 +763,23 @@
+         return RE1C_OK;
+     }
+     if (out_primitive->code == RE1C_PRIM_FT4_A || out_primitive->code == RE1C_PRIM_FT4_B || out_primitive->code == RE1C_PRIM_FT4_C) {
++        if (packet_size < 36u) return RE1C_ERR_FORMAT;
+         out_primitive->sides = 4u;
++        out_primitive->u[0] = p[4]; out_primitive->v[0] = p[5];
++        out_primitive->cba = re1c_rd16(p + 6u);
++        out_primitive->u[1] = p[8]; out_primitive->v[1] = p[9];
++        out_primitive->tsb = re1c_rd16(p + 10u);
++        out_primitive->u[2] = p[12]; out_primitive->v[2] = p[13];
+         out_primitive->u[3] = p[16]; out_primitive->v[3] = p[17];
+-        return RE1C_ERR_UNSUPPORTED;
++        out_primitive->normal_index[0] = re1c_rd16(p + 20u);
++        out_primitive->vertex_index[0] = re1c_rd16(p + 22u);
++        out_primitive->normal_index[1] = re1c_rd16(p + 24u);
++        out_primitive->vertex_index[1] = re1c_rd16(p + 26u);
++        out_primitive->normal_index[2] = re1c_rd16(p + 28u);
++        out_primitive->vertex_index[2] = re1c_rd16(p + 30u);
++        out_primitive->normal_index[3] = re1c_rd16(p + 32u);
++        out_primitive->vertex_index[3] = re1c_rd16(p + 34u);
++        return RE1C_OK;
+     }
+     out_primitive->sides = 0u;
+     return RE1C_ERR_UNSUPPORTED;
+--- /mnt/data/re1codec_work/RE1codec/tools/re1codec_inspect.c	1980-01-01 00:00:00.000000000 +0000
++++ tools/re1codec_inspect.c	2026-08-17 03:21:42.861738973 +0000
+@@ -56,19 +56,22 @@
+         }
+         printf("\n");
+     }
+-    printf("  clips frame_count / step_total:\n");
++    printf("  clips frame_count / MV duration / raw EDD word sum:\n");
+     for (i = 0u; i < bi.clip_count; ++i) {
+         re1c_clip clip;
+         re1c_u32 j;
+-        re1c_u32 total;
+-        total = 0u;
++        re1c_u32 raw_total;
++        re1c_u32 duration_ms;
++        raw_total = 0u;
+         re1c_get_clip(v, bank, i, &clip);
++        re1c_get_clip_duration_ms(v, bank, i, &duration_ms);
+         for (j = 0u; j < (re1c_u32)clip.frame_count; ++j) {
+             re1c_frame_ref fr;
+             re1c_get_frame_ref(v, bank, i, j, &fr);
+-            total += fr.step_units;
++            raw_total += fr.unknown_word;
+         }
+-        printf("    %02u frames=%u step_total=%u\n", (unsigned int)i, (unsigned int)clip.frame_count, (unsigned int)total);
++        printf("    %02u frames=%u mv_ms=%u unknown_word_sum=%u\n", (unsigned int)i,
++               (unsigned int)clip.frame_count, (unsigned int)duration_ms, (unsigned int)raw_total);
+     }
+ }
+ 

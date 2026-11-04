@@ -1,0 +1,9 @@
+RE4 v5.1 source validation 2026-11-02
+C89 GCC -std=c89 -Wall -Wextra -pedantic: make clean && make -j8 all check: SUCCESS
+32 make check suites: PASS
+Separate GCC -O1 -g -fsanitize=address,undefined build: 32 suites PASS
+Real xfile/em source required: not included in any release ZIP.
+C89/real resource crosscheck: 148 unique-timing FCV/SEQ candidate pairs from 148 families returned EXACT_END_TIMING_ONLY.
+Corpus: 176 nested DAT, 12,289 SEQ candidate reports; evidence categories 3403 unique exact, 5503 ambiguous exact, 3383 within-only.
+0 canonical clip associations claimed; native event code semantics unknown.
+Original EXE, Win32 native replay and game-native IK not verified.

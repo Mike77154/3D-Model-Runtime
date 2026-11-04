@@ -1,0 +1,16 @@
+codec_id,file,result,triangles,animation_count,notes
+81,Collada/box_nested_animation.dae,PASS_VISIT,12,0,DAE sample
+81,Collada/duck.dae,REJECT,0,0,DAE complex sample
+85,synthetic/triangle.egg,PASS_VISIT,1,0,Synthetic positive geometry
+86,synthetic/empty.tmd,REJECT,0,0,Zero-primitive TMD rejected
+87,3D/box.uc,PASS_VISIT,0,1,"UC contains metadata, not triangles; one declared sequence"
+88,3D/box_d.3d + 3D/box_a.3d,PASS_VISIT,12,30,Native UE1 pair
+89,synthetic/simple.vta,PASS_VISIT,0,2,One bone; two morph frames
+91,3MF/box.3mf,PASS_VISIT,12,0,3MF ZIP+Deflate
+91,3MF/production_components.3mf,REJECT,0,0,Advanced components not supported
+91,3MF/malformed_property_index_oob.3mf,UNEXPECTED_ACCEPT,1,0,Known invalid-property-index validation gap
+1,FBX/box.fbx,PASS_VISIT,12,0,Old provider regression
+45,MD2/faerie.md2,PASS_VISIT,654,0,Old provider regression
+40,OFF/Wuson.off,PASS_VISIT,3732,0,Old provider regression
+45,MD2/malformed_zero_numvertices.md2,REJECT,0,0,Invalid-file regression
+40,OFF/invalid.off,REJECT,0,0,Invalid-file regression

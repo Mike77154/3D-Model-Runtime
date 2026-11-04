@@ -1,0 +1,19 @@
+DTS89 v3.8 GarageGames T3D1.1 ZombiePack UV regression
+Strict C89 build: -std=c89 -pedantic-errors -Wall -Wextra -Werror
+selftest: OK
+pose37_selftest: OK
+uv38_selftest: OK
+Native-UV to OBJ-UV: U unchanged, V -> 1-V
+
+DTS               vertices triangles skin_draws UV_warns
+MegaZombie        3901     4872      19         1
+Zombie            1157     1461       5         0
+Zombie_02          843     1014       4         0
+Zombie_03          841     1001       5         0
+Zombie_04          995     1250       5         1
+Zombie_05         1091     1384       5         0
+
+Known unsupported UVs in Q16.16:
+MegaZombie mesh23 vertex232
+Zombie_04 mesh7 vertex232
+The raw bits are preserved in DTS; the OBJ preview uses a logged fallback.

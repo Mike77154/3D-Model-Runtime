@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+SOURCES="$(tr '\n' ' ' < SOURCES_C89.txt)"
+FLAGS="-std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude"
+python3 tests/make_fixtures.py
+${CC:-cc} $FLAGS $SOURCES tests/test_phase08.c -o gs3d_phase08_tests
+./gs3d_phase08_tests
+${CC:-cc} $FLAGS $SOURCES tests/test_phase08_robust.c -o gs3d_phase08_robust
+./gs3d_phase08_robust
+${CC:-cc} $FLAGS $SOURCES src/tools/gs3d_clip_main.c -o gs3d_clip

@@ -1,0 +1,22 @@
+Verified on host GCC with strict C89 runtime build.
+
+PASS provider-fallback-regression
+  false-positive provider returning FORMAT -> next candidate succeeds
+PASS RE1 EMD regression
+PASS RE1 EMW regression
+PASS RE1 standalone TMD regression
+PASS RE3 v0.3 DAT regression
+PASS XPS geometry (.xps/.mesh/.mesh.ascii)
+PASS XPS UV regression: uvLayerId=1, V flip, unclamped tiling
+PASS baseline image codecs
+PASS advanced image codecs (Adam7/progressive JPEG/DDS cubemap+mips/TIM palettes/TIFF tiled-planar-multipage)
+PASS DirectX .x v0.5 animation/frame playback
+PASS FBX regressions
+PASS FBX/Genesis animation attachment
+PASS GoldSrc pose/axis/transparency
+
+Viewer portable helper test:
+PASS RGBA row flip regression: top-left decoder -> OpenGL bottom-row upload
+
+The Win32 viewer executable itself was not cross-compiled in this Linux environment because a MinGW
+cross-toolchain is not installed. Source and vendored runtime are synchronized.

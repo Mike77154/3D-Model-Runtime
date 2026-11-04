@@ -1,0 +1,9 @@
+semantic_regen_ok=1 orig_size=6080 regen_size=6080
+seqs=2 meshes=1 textures=1
+vertex0=(65536,0,0) bone=0
+pose_z=196602
+quat_blend_xrot_m11=4638 m21=65370 m12=-65370 m22=4638
+controller_xrot_m11=46342 m21=46340 m12=-46340 m22=46342
+done
+goldsrc_steroids_ok=1 mdl_size=5888 body=0 model=0 mesh_v=3 mesh_t=1 tex=0 rgba=64x64/16384 obj=281 qc=380 report=432
+goldsrc_export_checks=companion_names bodygroups skins rgba bindpose bakedmesh obj qc report

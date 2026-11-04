@@ -1,0 +1,91 @@
+RE1codec fixed-point inspection
+file_size=189132
+section[0] off=0x00000000 size=22540
+section[1] off=0x0000580C size=1040
+section[2] off=0x00005C1C size=67260
+section[3] off=0x000162D8 size=3088
+section[4] off=0x00016EE8 size=28592
+section[5] off=0x0001DE98 size=66592
+mesh: objects=15 vertices=352 normals=900 primitives=648 supported=648 unsupported=0
+bank A: objects=15 frame_size=104 poses=215 clips=12 emd_type=0x003C0006
+  hierarchy/pivots centi-units:
+    00 parent=-1 pivot=0,1613,0 children=1,2,9,12
+    01 parent=0 pivot=0,617,19 children=
+    02 parent=0 pivot=0,0,0 children=3,6
+    03 parent=2 pivot=-166,-199,22 children=4
+    04 parent=3 pivot=10,-602,10 children=5
+    05 parent=4 pivot=2,-808,20 children=
+    06 parent=2 pivot=135,-199,22 children=7
+    07 parent=6 pivot=1,-603,20 children=8
+    08 parent=7 pivot=2,-808,10 children=
+    09 parent=0 pivot=-276,575,35 children=10
+    10 parent=9 pivot=-64,-422,7 children=11
+    11 parent=10 pivot=-54,-388,-14 children=
+    12 parent=0 pivot=265,564,36 children=13
+    13 parent=12 pivot=66,-399,0 children=14
+    14 parent=13 pivot=44,-358,-13 children=
+  clips frame_count / step_total:
+    00 frames=19 step_total=19
+    01 frames=21 step_total=21
+    02 frames=20 step_total=25
+    03 frames=19 step_total=19
+    04 frames=21 step_total=21
+    05 frames=15 step_total=20
+    06 frames=27 step_total=27
+    07 frames=14 step_total=28
+    08 frames=25 step_total=40
+    09 frames=27 step_total=27
+    10 frames=14 step_total=28
+    11 frames=25 step_total=40
+bank B: objects=15 frame_size=104 poses=645 clips=31 emd_type=0x00410000
+  hierarchy/pivots centi-units:
+    00 parent=-1 pivot=0,1855,-212 children=1,9,12
+    01 parent=0 pivot=0,6,3 children=2,3,6
+    02 parent=1 pivot=0,692,16 children=
+    03 parent=1 pivot=417,577,76 children=4
+    04 parent=3 pivot=453,0,0 children=5
+    05 parent=4 pivot=435,0,0 children=
+    06 parent=1 pivot=-421,575,77 children=7
+    07 parent=6 pivot=-452,0,-1 children=8
+    08 parent=7 pivot=-434,0,0 children=
+    09 parent=0 pivot=190,-229,0 children=10
+    10 parent=9 pivot=-1,-663,-1 children=11
+    11 parent=10 pivot=-8,-833,-4 children=
+    12 parent=0 pivot=-192,-228,0 children=13
+    13 parent=12 pivot=0,-663,0 children=14
+    14 parent=13 pivot=7,-835,-3 children=
+  clips frame_count / step_total:
+    00 frames=31 step_total=62
+    01 frames=31 step_total=62
+    02 frames=10 step_total=20
+    03 frames=42 step_total=42
+    04 frames=20 step_total=20
+    05 frames=20 step_total=20
+    06 frames=36 step_total=72
+    07 frames=36 step_total=73
+    08 frames=30 step_total=60
+    09 frames=1 step_total=2
+    10 frames=26 step_total=52
+    11 frames=20 step_total=40
+    12 frames=16 step_total=32
+    13 frames=30 step_total=60
+    14 frames=33 step_total=76
+    15 frames=10 step_total=10
+    16 frames=17 step_total=34
+    17 frames=19 step_total=19
+    18 frames=21 step_total=21
+    19 frames=20 step_total=20
+    20 frames=19 step_total=19
+    21 frames=21 step_total=21
+    22 frames=15 step_total=15
+    23 frames=27 step_total=27
+    24 frames=14 step_total=28
+    25 frames=25 step_total=40
+    26 frames=27 step_total=27
+    27 frames=14 step_total=28
+    28 frames=25 step_total=40
+    29 frames=35 step_total=70
+    30 frames=49 step_total=98
+texture: locator=embedded:TIM mode=1 size=256x256 clut=256x2@0,480 pixel_words=128x256
+texture_refs: CBA[7800]=348 CBA[7840]=300 TSB[0080]=348 TSB[0081]=300
+canonical: bytes=283734 fnv1a32=C2104AE0

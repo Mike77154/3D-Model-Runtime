@@ -1,0 +1,5 @@
+heap_direct_calls=0
+float_double_code_tokens=0
+direct_math_calls=0
+stdio_includes_guarded_or_runtime=5
+stdio_unguarded_in_runtime=4

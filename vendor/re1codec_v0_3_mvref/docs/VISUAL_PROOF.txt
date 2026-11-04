@@ -1,0 +1,22 @@
+The image EM1111_RECODEC_VISUAL_PROOF.png was rendered from the supplied EM1111.EMD
+with the existing recodec_c89 animated textured viewer before RE1codec was built.
+
+Command semantics:
+  view: iso
+  animation: enabled
+  bank: B
+  clip: 3
+  frame: 10
+
+Viewer report:
+  faces=648
+  texrefs=648
+  TIM=256x256 type=1 CLUT=256x2
+  emd_type=0x410000
+  hierarchy=emr_partlist
+  pose=82
+  step=1
+
+This proof is only to demonstrate that the reference codec path can assemble and
+texture the model. RE1codec itself is a decoder/validation library and does not
+hardwire a renderer.

@@ -1,0 +1,5 @@
+CC0 1.0 Universal
+
+This package is intentionally released as CC0/public-domain-style sample code.
+You can copy, modify, embed, sell, or throw it into your own engine without attribution.
+No warranty.

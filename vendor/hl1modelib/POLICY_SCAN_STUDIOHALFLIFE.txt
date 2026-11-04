@@ -1,0 +1,4 @@
+malloc/free/realloc/calloc hits:
+hlfp.h:13: * C89, no malloc, fixed-point 16.16 math for runtime data.
+float/double tokens:
+hlfp.h:14: * Serializer boundaries still emit GoldSrc's float-on-disk fields.

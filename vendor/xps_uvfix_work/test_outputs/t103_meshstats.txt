@@ -1,0 +1,20 @@
+MESH 0 8_TY1ACC.tga_0.1_16_16
+ verts=696 faces=942 tex=3 uv_layers=1
+ uv0_minmax=282,1172 -> 65310,65360 out_of_01=0
+ weight_nonzero_hist 0=0 1=450 2=231 3=14 4=1 5=0 6=0 7=0 8=0 blended=246
+ weight_sum_minmax=65536,65537
+MESH 1 25_TY1HAND.tga.002_0.1_16_16
+ verts=876 faces=1184 tex=4 uv_layers=1
+ uv0_minmax=-108,1284 -> 63744,65042 out_of_01=2
+ weight_nonzero_hist 0=0 1=832 2=44 3=0 4=0 5=0 6=0 7=0 8=0 blended=44
+ weight_sum_minmax=65536,65536
+MESH 2 25_TY1HEAD.tga.004_0.1_16_16
+ verts=1521 faces=2828 tex=4 uv_layers=1
+ uv0_minmax=500,1752 -> 65222,64982 out_of_01=0
+ weight_nonzero_hist 0=0 1=846 2=505 3=106 4=64 5=0 6=0 7=0 8=0 blended=675
+ weight_sum_minmax=65535,65537
+MESH 3 8_TY1WEAR.tga.002_0.1_16_16
+ verts=1581 faces=2603 tex=3 uv_layers=1
+ uv0_minmax=192,132 -> 65470,64846 out_of_01=0
+ weight_nonzero_hist 0=0 1=500 2=883 3=187 4=11 5=0 6=0 7=0 8=0 blended=1081
+ weight_sum_minmax=65535,65537

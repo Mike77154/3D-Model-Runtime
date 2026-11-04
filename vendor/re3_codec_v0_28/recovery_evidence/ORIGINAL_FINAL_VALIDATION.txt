@@ -1,0 +1,12 @@
+Historical final validation recorded for the lost v0.13 worktree:
+- GCC -std=c89 -pedantic -Wall -Wextra -Werror: PASS
+- Clang -std=c89 -pedantic -Wall -Wextra -Werror: PASS
+- PASS synthetic RE3 EMD
+- RE3 EMD: OK
+- PASS synthetic PSX TIM
+- corpus pass=100 fail=0
+- tim corpus pass=100 fail=0
+- texture pairs pass=100 fail=0 skip=0
+- forbidden source scan: no malloc/calloc/realloc/free, float/double,
+  long long, unsigned long, uint64_t or int64_t
+- remaining long usage only at C89 fseek/ftell boundary

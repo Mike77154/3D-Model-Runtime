@@ -1,0 +1,43 @@
+model_runtime89 built-in texture decoder verification - advanced pass
+=====================================================================
+
+Build/policy:
+- Full runtime: -std=c89 -pedantic-errors -Wall -Wextra -Werror -O2 : PASS
+- No malloc/calloc/realloc/free/float/double/long long/int64_t/uint64_t tokens in image/zlib C/H trees : PASS
+- Optional build with JPG/DDS/TGA compiled out : PASS
+- Default build keeps every image decoder enabled : PASS
+
+Legacy image regression:
+- PNG/BMP/DDS/TGA/JPEG/TIM : PASS
+- TIFF raw/PackBits/LZW/Deflate : PASS
+- runtime decoder mask : PASS
+- external JPG through model texture fallback : PASS
+
+Advanced image regression:
+- PNG Adam7 17x13 : PASS
+- JPEG progressive SOF2, 10 scans : PASS
+- additional progressive JPEG matrix: grayscale + RGB 4:4:4/4:2:2/4:2:0 : PASS
+- DDS legacy cubemap: 6 faces x 4 mips = 24 subresources : PASS
+- DDS arbitrary subresource decode (face 3, mip 2, 2x2) : PASS
+- TIM 4bpp with two independently selectable CLUT palettes : PASS
+- TIFF tiled + Deflate + predictor : PASS
+- TIFF planar-separate + Deflate + predictor : PASS
+- TIFF tiled + planar-separate + Deflate (vendor stress check) : PASS
+- TIFF multipage (2 IFDs, different page dimensions) : PASS
+
+Cross-runtime regressions after image changes:
+- DirectX .x v0.5 frame-addressed playback : PASS
+- DirectX .x v0.5 multiclip/timing/pose : PASS
+- DirectX .x base regression : PASS
+- RE3 v0.3 DAT : PASS
+- RE1 EMD/TMD/EMW : PASS
+- XPS geometry + UV/tiling : PASS
+- GoldSrc pose/axis/transparency : PASS
+- FBX rig + external animation attachment : PASS
+- Genesis3D animation attachment : PASS
+
+Native subresource API added:
+- modelrt_image_subresource_info_memory
+- modelrt_image_decode_subresource_memory
+- modelrt_image_decode_subresource_file
+- modelrt_image_info now exposes subresource/mip/face/page/palette counts

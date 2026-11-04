@@ -1,0 +1,13 @@
+DTS89 v4.1 / ZombiePack_T3D1.1_GameAssets / verified 2026-10-10
+Strict compiler: -std=c89 -O2 -Wall -Wextra -Werror -pedantic-errors -Iinclude
+Model          Projected pixels  Selected LOD  Triangle screen-area count
+Zombie                379              0             8596
+Zombie_02             379              0             6535
+Zombie_03             379              0             6254
+Zombie_04             379              0             7116
+Zombie_05             379              0             7825
+MegaZombie            379              0            28633
+Zombie Attack1 reference (0/25/50/75%)                 8677/8762/8953/8696
+7 selftests passed (core, pose37, uv38, shaderer39, texture39, lighting40, lod41).
+Note: triangles displayed are those with non-zero projected screen area,
+not a promise of distinct visible triangles after depth/alpha testing.

@@ -1,0 +1,35 @@
+RE1codec v0.3-mvref manifest
+
+include/re1codec.h                 public C89 API
+src/re1codec.c                     codec implementation
+Makefile                           strict C89 build
+build_mingw.bat                    MinGW build helper
+README.md                          usage + format notes
+LICENSE                            license
+CHANGELOG_v0.2.md                  historical v0.2 changes
+CHANGELOG_v0.3.md                  RE1MV-reference changes
+
+tools/re1codec_inspect.c           model inspection CLI
+tools/re1codec_mv_audit.c          independent RE1MV reference comparator
+
+tests/test_em1111.c                EM1111 Golden Master
+tests/test_ft4_packet.c             variable-packet FT4+FT3 regression
+tests/audit_constraints.sh          no-heap/no-float source audit
+tests/audit_model_corpus.sh         original supplied-corpus audit
+tests/audit_mv_reference_corpus.sh  67-EMD RE1MV source audit runner
+tests/audit_mv_reference_all.sh     complete EMD+EMW+TMD audit runner
+
+docs/MV_REFERENCE_AUDIT.md          deep source comparison and findings
+docs/MV_REFERENCE_CORPUS_RUN.txt     full 67-EMD audit log
+docs/MV_REFERENCE_ALL_106_RUN.txt    full 106-model audit log
+docs/EM1106_INSPECT_v03.txt          codec inspection of EM1106
+docs/EM1106_MV_AUDIT_v03.txt         independent MV-reference audit of EM1106
+docs/EM1111_INSPECT_OUTPUT_v03.txt   current v0.3 inspection output
+docs/EMD_VARIANTS.md                 EMD/EMW/TMD container notes
+docs/CORPUS_VALIDATION.txt           historical v0.2 corpus report
+docs/VALIDATION_REPORT.txt           historical validation notes
+docs/CANONICAL_FORMAT.md             canonical byte stream format
+docs/EM1111_VERIFIED.md              historical Golden Master notes
+docs/VISUAL_PROOF.txt                 visual proof notes
+docs/EM1111_RECODEC_VISUAL_PROOF.png visual proof image
+docs/EM1111_INSPECT_OUTPUT.txt        historical v0.2 inspector output

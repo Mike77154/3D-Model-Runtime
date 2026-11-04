@@ -1,0 +1,10 @@
+Native75 + RE3_CODEC_V028 (2026-11-01)
+GCC full runtime make -j12: PASS (ISO C89 -pedantic-errors, gcc host x86_64)
+RE3 adapter synthetic: PASS (15 sections, 2 meshes, 1 animation, 6 triangles, 4 materials)
+RE3 vendor make test: PASS (13 tests: damage prefix, contract, families, zombie damage, VRAM, packed, PC rebase, synth, TIM, animation, morph retarget, visual state, parts)
+IQM native interpolation smoke: PASS (rotation interpolation, inverse transpose normals)
+IQM native skinning/rotation smoke: PASS
+No Ghidra runtime executable in this package; only the supplied V028 source/scripts.
+Not certified against the user's original RE3 EMD/TIM 100-model corpus in this session: only the vendor-supplied reports are included.
+Damage-family retarget remains OPT-IN/EXPERIMENTAL, morph weights/part states remain explicit; the generic runtime does not infer game script states.
+No MinGW cross-compiler available in test environment; Windows target requires separate Win32 build.

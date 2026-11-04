@@ -1,0 +1,6 @@
+./test_synthetic
+PASS synthetic RE3 core primitives
+./test_tim
+PASS synthetic PSX TIM
+./test_animation
+PASS synthetic animation root/body validation

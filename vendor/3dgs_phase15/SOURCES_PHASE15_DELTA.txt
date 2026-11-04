@@ -1,0 +1,2 @@
+src/anim/gs3d_pose_mode.c
+src/anim/gs3d_pose_file_space.c

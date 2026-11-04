@@ -1,0 +1,18 @@
+HOD2 PHASE11 -> MODEL RUNTIME 75, SOURCE ONLY
+============================================
+Checked 2026-11-01 in Linux container, GCC C89.
+- Native Phase11 sources inspected from both supplied ZIPs: match.
+- Registered provider ID 103, no renumbering.
+- Strict C89 -pedantic -Wall -Wextra -Werror provider: PASS.
+- Complete runtime make -j16: PASS.
+- Synth raw POL: PASS (1 triangle, 1 mesh, 1 material).
+- Synth PRS-compressed POL in pol/: PASS (same counts).
+- Synth H2MC: PASS (1 UNBOUND clip, 4 frames, 60 source ticks/sec).
+- Full vendored Phase11 native make check: PASS (test_native + test_character).
+- RE3 V028 vendor tests and runtime fixture: PASS.
+- Gun Survivor v19 synthetic NAB + NAC regressions: PASS.
+- IQM interpolation smoke (rotation/skinning/normals): PASS.
+- Source-only: no game binaries or models in output ZIP.
+- Full in-runtime EXE+MOT skinning: NOT IMPLEMENTED; Phase11 CLI available.
+- HOD2 original corpus, textures and visual audits: NOT TESTED.
+- Win32 / MinGW32 build: NOT VERIFIED.

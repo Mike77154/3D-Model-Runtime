@@ -1,0 +1,28 @@
+rm -f hlfp_common.o hlfp_smd.o hlfp_mdl.o hlfp_math.o hlfp_blend.o hlfp_compile.o hlfp_detach.o hlfp_ctrlquat.o hlfp_reemit.o hlfp_goldsrc.o hlfp_studiohalflife.o hlfp_softmdl.o hlfp_studiohalflife_plus.o hlfp_softmdl_plus.o libhlfp.a test_hlfp test_hlfp_goldsrc test_studiohalflife test_studiohalflife_plus demo_render_studiohalflife demo_render_studiohalflife_plus test_output.txt studiohalflife_preview.ppm studiohalflife_plus_preview.tga
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_common.o hlfp_common.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_smd.o hlfp_smd.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_mdl.o hlfp_mdl.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_math.o hlfp_math.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_blend.o hlfp_blend.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_compile.o hlfp_compile.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_detach.o hlfp_detach.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_ctrlquat.o hlfp_ctrlquat.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_reemit.o hlfp_reemit.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_goldsrc.o hlfp_goldsrc.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_studiohalflife.o hlfp_studiohalflife.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_softmdl.o hlfp_softmdl.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_studiohalflife_plus.o hlfp_studiohalflife_plus.c
+gcc -std=c89 -Wall -Wextra -pedantic -O2   -c -o hlfp_softmdl_plus.o hlfp_softmdl_plus.c
+ar rcs libhlfp.a hlfp_common.o hlfp_smd.o hlfp_mdl.o hlfp_math.o hlfp_blend.o hlfp_compile.o hlfp_detach.o hlfp_ctrlquat.o hlfp_reemit.o hlfp_goldsrc.o hlfp_studiohalflife.o hlfp_softmdl.o hlfp_studiohalflife_plus.o hlfp_softmdl_plus.o
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o test_hlfp test_hlfp.c libhlfp.a
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o test_hlfp_goldsrc test_hlfp_goldsrc.c libhlfp.a
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o test_studiohalflife test_studiohalflife.c libhlfp.a
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o test_studiohalflife_plus test_studiohalflife_plus.c libhlfp.a
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o demo_render_studiohalflife demo_render_studiohalflife.c libhlfp.a
+gcc -std=c89 -Wall -Wextra -pedantic -O2 -o demo_render_studiohalflife_plus demo_render_studiohalflife_plus.c libhlfp.a
+./test_hlfp > test_output.txt
+./test_hlfp_goldsrc >> test_output.txt
+./test_studiohalflife >> test_output.txt
+./test_studiohalflife_plus >> test_output.txt
+./demo_render_studiohalflife_plus
+wrote studiohalflife_plus_preview.tga

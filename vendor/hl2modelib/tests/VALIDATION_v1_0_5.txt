@@ -1,0 +1,12 @@
+hl2modelib v1.0.5 regression record
+
+Build: make clean && make -j2 CFLAGS='-std=c89 -Wall -Wextra -Werror -pedantic -Iinclude'
+Result: PASS
+
+make check: PASS
+./test_vendors105: PASS (master decode SMD/VTA/QC/ANI; PHY; physics; IK; shaderer)
+T103 real corpus seven model sets: PASS
+  tyrantphase1, tyrantphase2, tyrantphase3, tyrantcloth_down,
+  tyrant01, tyrant01_arms3, tyrant01_arms_fix
+
+This is decode/OBJ regression, not a validation of Source GPU or IK parity.

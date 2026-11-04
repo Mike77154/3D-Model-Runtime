@@ -1,0 +1,26 @@
+3dfbxplus codec pass5 validation
+strict_build=OK
+no_stdio_build=OK
+no_mini_zlib_build=OK
+no_stdio_no_mini_zlib_build=OK
+miniz_smoke=OK
+anim_eval_smoke=OK weighted=327679 layer=819200
+semantic_smoke=OK
+semantic_writer_smoke=OK
+semantic_extended_smoke=OK cameras=1 lights=1 bones=2 anims=1
+nurbs_smoke=OK curve_vertices=9 surface_vertices=9 indices=24
+morph_smoke=OK baked_vertices=6
+stream_smoke=OK
+stream_scan_smoke=OK
+regression=OK
+version_matrix=OK fixtures=36
+render_harness=OK images=5
+fuzz_smoke=OK cases=256
+ufbx_expected_valid_total=693
+dfbx_ok=693
+ufbx_ok=693
+mismatching_files=12
+remaining_mismatches_manifest=tests/ufbx_matrix_pass5_final/manifest.tsv
+heap_lines=0
+float_double_lines=0
+math_call_lines=0

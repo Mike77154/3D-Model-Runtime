@@ -1,0 +1,11 @@
+Native29 integration build + corpus checks
+GNU GCC: make -j4 libmodel_runtime89.a
+CFLAGS: -std=c89 -pedantic-errors -Wall -Wextra -O2
+CLEAN BUILD: PASS
+API harness: tests/experimental_corpus_check.c, linked against libmodel_runtime89.a
+PROVIDERS REGISTERED: 29
+ASSIMP CORPUS SAMPLED: 113 tests, 80 visit RC=0, 33 rejects, 66 non-empty triangle views
+Original provider source files byte-for-byte match original Experimental ZIP: PASS (14)
+Additional libraries: native AC3D, 3DS, LWO, OGEX, RAW, NFF, B3D, Q3O/Q3S, HMB/HMP.
+Native type access header C89 syntax: PASS.
+Important: no full rig, material, rendering, UV accuracy or animation certification performed.

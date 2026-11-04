@@ -1,0 +1,35 @@
+MODEL RUNTIME 75 - RE4 Classic V4.1 animated PMD/FCV and multipart bridge
+2026-11-01
+
+SOURCE ONLY. NO CAPCOM MODELS OR GAME EXECUTABLES.
+
+Changes:
+ - Explicit modelrt_animation_bind(PMD,FCV) support in provider 104.
+ - Native FCV rotation-channel mapping by strict, unique bone identity.
+ - CPU native RE4 skinning with inverse-bind matrices, normals and rigid nodes.
+ - modelrt_re4_visit_fcv_frame() takes authored native FCV tick, NOT seconds.
+ - modelrt_re4_visit_character_frame() supports explicit extra-part PMDs,
+   strict audited name/hierarchy retarget and distinct material/mesh/bone IDs.
+ - modelrt_re4_character_texture_source() maps a composite texture ID
+   to the correct original PMD handle (texture paths remain external).
+ - C89 CLI inspector: examples/re4_character_inspect89.c
+ - Synthetic C89 joint PMD and rotation FCV generator and integration test.
+
+Tests in this environment (GCC Linux):
+ provider_re4classic89.c -std=c89 -pedantic-errors -Wall -Wextra -Werror PASS
+ make -j12 libmodel_runtime89.a PASS
+ make re4classic-animated-synthetic PASS
+ sample frame=5 Q16 first vertex (57513,31419,0) [original (65536,0,0)]
+ composite synthetic PMDs: 2 meshes, 2 materials, 2 bones, 2 triangles
+ make re4classic-synthetic PASS
+ make re3-regression PASS
+ make gunsurvivor-synthetic PASS
+ make hod2-synthetic PASS
+ make hod2-phase12-tables PASS (86 skeletons per each of 2 banks)
+ make native-iqm-interpolation-smoke PASS
+ make -C vendor/re4_classic_v4_1 check PASS
+ examples/re4_character_inspect89 tests/re4_demo.pmd tests/re4_demo.fcv 5 tests/re4_demo.pmd PASS
+
+Not claimed: whole game genuine PMD character visual validation, correct variant
+selection, FCV special channels/root displacement/IK, canonical multipart
+candidate correctness, Win32/MinGW32 compilation or GUI viewer screenshot.

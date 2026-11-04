@@ -1,0 +1,20 @@
+OBJ exporter UV compatibility verification
+========================================
+
+Build:
+- make: OK under -std=c89 -Wall -Wextra -pedantic -O2
+
+Patched behavior:
+- g3dtool skin /mnt/data/zombie(4).act 0.25 /mnt/data/zombie_patched_export.obj 0: OK
+- first exported texture coordinate now uses negative V:
+  vt 0.9901 -0.5045
+
+Reason:
+- External fragMOTION OBJ reference for the same zombie family uses negative V coordinates.
+- Exporter now writes vt.v = -xskin.v to match that observed Genesis3D/fragMOTION OBJ convention.
+
+Protocol audit:
+- No malloc/realloc/free calls added.
+- No heap allocator added.
+- No float/double scalar fields added.
+- Patch only changes OBJ text emission in g3d_tool.c.

@@ -1,0 +1,53 @@
+# PHASE17 VALIDATION
+2026-11-03T01:28:01Z
+
+$ make clean all (C89)
+rm -f blendc89
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -Ivendor/headers src/main.c src/bc_binary.c src/bc_wrapper.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_uv_tface.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c src/bc_rig_q16.c src/bc_euler_q16.c src/bc_object_links.c src/bc_anim_bindings.c src/bc_skin_tsv.c src/bc_playback_tsv.c src/bc_rest_matrices.c src/bc_constraints.c src/bc_ik2.c src/bc_ik_audit.c -o blendc89 vendor/linux-x86_64/libz.a vendor/linux-x86_64/libzstd.a -lm -pthread
+
+$ test_phase17_rest_orientation.py
+PASS phase17: 48 rest-orientation playback samples and 12 malformed-rest rejections
+
+$ direct C89 roll test
+PASS: C89 local rest roll preserved in pose, rest-independent swing deformation
+
+$ test_phase16_ik_playback.py
+PASS phase16: 12 valid IK/playback and audit checks; 40 fail-closed cases
+
+$ test_phase13_multirig.py
+PASS: two independent rigs, cross-bound meshes, identical bone names, mixed NLA/direct, four binary layouts, fail-closed graphs
+
+$ test_phase14_constraints.py
+PASS: 40 bounded constraints cases, four serialized pointer/endian combinations
+
+$ test_phase15_ik2.py
+PASS phase15: 1 composed IK+skinning, 75 3D randomized analytic cases, 5 unreachable/degenerate, 1 malformed, real .blend IK audits
+
+$ test_phase09_euler.py
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+
+$ test_phase12_timing.py
+PASS: NLA timeline retiming/repeat/flags, four serializations, conservative refusals
+
+$ authentic .blend geometry
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484
+$ C89 source-only without compression third party
+PASS source-only build
+$ Phase17 with source-only binary
+PASS phase17: 48 rest-orientation playback samples and 12 malformed-rest rejections
+$ clang C89 strict build with original compression vendor
+rm -f blendc89
+clang -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -Ivendor/headers src/main.c src/bc_binary.c src/bc_wrapper.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_uv_tface.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c src/bc_rig_q16.c src/bc_euler_q16.c src/bc_object_links.c src/bc_anim_bindings.c src/bc_skin_tsv.c src/bc_playback_tsv.c src/bc_rest_matrices.c src/bc_constraints.c src/bc_ik2.c src/bc_ik_audit.c -o blendc89 vendor/linux-x86_64/libz.a vendor/linux-x86_64/libzstd.a -lm -pthread
+PASS clang
+$ clang UBSan source-only test
+PASS phase17: 48 rest-orientation playback samples and 12 malformed-rest rejections
+PASS UBSan 48 positive, 12 negative

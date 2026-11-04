@@ -1,0 +1,835 @@
+0,0,0,1,0,3,0,1,1,1,1,1,40,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/shotgun/w_shotgunammo.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,20,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m4_clip_empty.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,208,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/w_tonysarms.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,40,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/generic_ammo.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,158,152,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/handgun_clip.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,146,115,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/STI_clip_empty.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,190,179,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/w_type68clip.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,208,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/glock23_ammo.mdl
+0,0,0,2,0,3,0,1,1,2,2,2,2140,2084,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/logo_sign.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,153,126,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/deserteagle_clip.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,160,152,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/handgun_clip_empty.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,21,18,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m4_clip.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,372,356,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m24_clip.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,219,201,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/STI_clip.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,40,36,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/mp5_clip.mdl
+0,0,0,3,0,6,0,2,2,1,3,3,391,532,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/deagle_parts.mdl
+0,0,0,7,0,6,0,19,2,1,7,7,770,850,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/spiderman.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,53,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ink_ribbon.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,120,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,108,167,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut_eaten.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,480,864,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut_Box.mdl
+0,0,0,7,0,39,0,24,13,1,7,7,765,1085,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/npc_wounded.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,148,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Crank/crank.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,169,233,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Random/severed_hand.mdl
+0,0,0,14,0,3,0,2,1,9,14,2,111,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/support.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,180,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/BoltCutters.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,162,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Dustbin/rubbishbin.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,197,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/key_rusty.mdl
+0,0,0,2,0,3,0,16,1,1,2,2,1570,732,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Telepole.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,197,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/key_generic.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,213,184,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/church_key.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,197,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/Cafe_Key.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,154,165,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/RPD/statue_RPD_brown.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,154,165,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/RPD/statue_RPD_grey.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,112,116,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_clean.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,972,484,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Warehouse/flashlight_on.mdl
+0,0,0,5,0,3,0,5,1,4,5,3,76,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/headexplode_gib.mdl
+0,0,0,2,0,9,0,11,3,1,2,7,253,308,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_legs.mdl
+0,0,0,17,0,129,0,22,43,18,17,11,332,421,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_soldier.mdl
+0,0,0,1,0,9,0,2,3,1,1,1,347,292,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/chest.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,767,964,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_radio.mdl
+0,0,0,1,0,6,0,19,2,1,1,1,150,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/babyspider.mdl
+0,0,0,10,0,57,0,19,19,2,10,6,1260,850,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/giantspider.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,24,12,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/side_pack.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,254,180,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/m202a1_rocket.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,209,266,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/FirstAidSpray/firstaid_spray.mdl
+0,1,0,3,0,54,0,15,16,1,3,3,1259,2342,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Neptune.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,182,174,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/RedHerb/red_herb.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/Bandage/w_bandage.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,182,174,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/GreenHerb/green_herb.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,153,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/MixedHerb/mixedherb.mdl
+0,0,0,34,0,708,0,26,132,4,34,14,790,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player.mdl
+0,0,0,2,0,18,0,28,6,2,2,2,310,540,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ant_boss.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,347,334,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/baricade.mdl
+0,0,0,7,0,6,0,24,2,1,7,7,765,1085,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/woundedlol.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,182,174,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/BlueHerb/blue_herb.mdl
+0,0,0,3,0,18,0,22,6,2,3,2,2153,3240,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/proto_tyrant.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,73,118,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/m79_grenade.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,124,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/NoParking_Sign.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,124,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/DoNotEnter_Sign.mdl
+0,0,0,3,0,24,0,33,8,2,3,7,826,1272,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_torso.mdl
+0,0,0,3,0,33,0,22,8,2,3,2,2154,3294,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/flyclaw.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,343,158,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/couch_leather-black.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,418,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/desk_office-mahg.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,336,156,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/couch_fabric-wreck.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,208,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/chair_office.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,124,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Speed_Sign.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,418,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/cbofficedesk15.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,622,286,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/fan_ceiling-hang.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,124,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/OneWay_Sign.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,346,300,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/coffee_maker.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,185,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/coat_rack.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,681,733,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/bboardrct.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,160,142,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Stop_Sign_4way.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,437,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/fan_ceiling-attach.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,264,132,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Floppy_Disk_Pile.mdl
+0,0,0,1,0,6,0,1,2,1,1,1,80,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Stop_Sign.mdl
+0,0,0,2,0,6,0,1,2,1,2,2,124,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/ReservedParking_Sign.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,82,56,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/arc_xer_tree2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,517,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tree01.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,61,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/birch.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,188,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/lightbulb.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/van.mdl
+0,0,0,4,0,3,0,2,1,1,4,4,688,264,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash4.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/palmpot.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,144,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/ceillamp.mdl
+0,0,0,2,0,3,0,1,1,2,2,1,1151,648,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/oldstreetlamp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,213,170,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/wheelie_bin.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/car1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/washbowl.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,291,352,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/plate.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,288,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash1.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/palmpot_small.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,223,221,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/kanister.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tree_defoliated01.mdl
+0,0,0,5,0,3,0,2,1,1,5,5,1032,360,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,136,76,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/dishwasher.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,1197,1179,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/forklift.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,140,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/toilet.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,602,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash2.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/gib_mir_benzin.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,96,48,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/grass01.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,132,66,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/fridge.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,162,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/spruces.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,162,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/rubbishbin.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,84,42,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/grass02.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,378,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/jeep.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,100,96,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/typewriter.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,714,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tanker.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,190,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder_2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/washbowl.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant3.mdl
+0,0,0,26,0,3,0,1,1,5,26,10,151,200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/computer.mdl
+0,0,0,2,0,12,0,1,4,1,2,11,16,8,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/hospital_poster.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,681,733,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bboard.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,188,178,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder_open.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,537,604,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/sofa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,96,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,1022,672,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/refreshment_trolley.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,336,268,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bucket.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,681,733,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bboard_smaller.mdl
+0,0,0,5,0,3,0,1,1,3,5,3,101,96,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/paper_cup.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,567,744,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/office_chair.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,842,580,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/wooden_chair.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,216,282,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/Bodybag.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,130,128,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/wall_clock.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,1106,892,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/outdoor_sign.mdl
+0,0,0,8,0,3,0,5,1,3,8,5,615,400,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/alcohol.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,336,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/palette.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,321,876,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/lab_coat.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,70,56,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Xen_trunk.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,42,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushb.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,214,392,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/light_spherical.mdl
+0,0,0,7,0,3,0,35,1,1,7,7,462,481,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/uh60.mdl
+0,0,0,1,0,9,0,1,3,1,1,1,24,12,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/fence_ladder.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,292,312,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_mosk412.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,582,584,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/carwreck.mdl
+0,0,0,6,0,6,0,2,2,1,6,6,1197,1179,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/fork.mdl
+0,0,0,8,0,3,0,5,1,3,8,5,615,400,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/alcoholic_drinks.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1808,1508,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/visitor_center_sign.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,713,734,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/couch3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,270,220,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/urinal.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/washbowl.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,329,390,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_moskvich2141.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1716,1984,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/equipment_rail.mdl
+0,0,0,22,0,3,0,1,1,4,22,15,178,252,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/pinball.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,64,60,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Xen_treebark.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,235,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/office_chair2.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,324,376,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_ladasp.mdl
+0,0,0,12,0,3,0,1,1,2,12,6,432,276,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/watertower.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bush.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,73,63,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/boat.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,124,62,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,176,90,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/switch_vent.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,144,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/ceillamp.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,378,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_merc.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,202,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/piano.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushc.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,213,170,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/wheelie_bin.mdl
+0,0,0,9,0,15,0,22,5,3,9,7,625,902,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/injured_man.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/lodor1.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,124,62,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla4.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/vendetta_streetlamp_shade.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,341,458,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_toyo.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,260,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bench3.mdl
+0,0,0,1,0,27,0,22,6,1,1,1,2466,3700,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/pursuer.mdl
+0,0,0,5,0,3,0,4,1,1,5,5,268,162,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Clock.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,537,604,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/couch1.mdl
+0,0,0,6,0,15,0,1,5,2,6,6,412,369,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bus.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,516,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bench_green.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,376,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/vendetta_streetlamp.mdl
+0,0,0,3,0,3,0,1,1,3,3,1,59,32,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/rocks2.mdl
+0,0,0,2,0,3,0,7,1,2,2,2,146,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/light_bulbs_short.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,223,221,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/kanister.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/lodor2.mdl
+0,0,0,2,0,3,0,2,1,2,2,2,42,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/trashbag.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,220,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_gaz.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,42,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushd.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,124,62,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,140,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/toilet.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,602,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/trash2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,567,744,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/office_chair.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1092,1344,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/equipment_rail2.mdl
+0,0,0,1,0,3,0,34,1,1,1,1,1079,1278,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/park_statue.mdl
+0,0,0,3,0,3,0,1,1,3,3,1,59,32,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/rocks.mdl
+0,0,0,3,0,3,0,1,1,3,3,1,716,828,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/prosecco.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,96,48,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bush1.mdl
+0,0,0,5,0,6,0,3,2,1,5,5,203,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/cscene_helicopter.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,524,754,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_lada5.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/gib_mir_benzin.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,714,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/tanker.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,517,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/tree4.mdl
+0,0,0,1,0,3,0,19,1,1,1,1,294,230,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/wires.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,124,62,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla3.mdl
+0,0,0,12,0,3,0,1,1,2,12,11,726,658,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/swatvan.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,20,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/m4_clip_empty.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,188,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/lightbulb.mdl
+0,0,0,26,0,3,0,1,1,5,26,10,151,200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer3.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,70,63,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/disection_tools.mdl
+0,0,0,4,0,63,0,26,21,1,4,4,897,1102,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/hunter_mutant.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/washbowl.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,146,115,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/STI_clip_empty.mdl
+0,0,0,2,0,3,0,2,1,2,2,2,42,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/rubbish_bag.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,57,108,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/valve.mdl
+0,0,0,26,0,3,0,1,1,5,26,10,151,200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer.mdl
+0,0,0,1,0,6,0,1,2,1,1,1,221,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computerchair.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,135,186,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/lab_cutoff_legs.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,906,302,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/generator.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,169,233,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/researcher_arm.mdl
+0,0,0,1,0,3,0,1,1,1,1,2,64,106,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/light_industrial_red.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,211,189,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/cctv_broken.mdl
+0,0,0,1,0,3,0,1,1,1,1,6,4,2,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/paper.mdl
+0,0,0,9,0,6,0,34,2,2,9,9,882,490,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/leon_cameo.mdl
+0,0,0,18,0,132,0,33,44,17,18,7,655,786,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/zombie_researcher.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,211,189,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/CCTV.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,160,152,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/handgun_clip_empty.mdl
+0,0,0,1,0,3,0,1,1,1,1,6,4,2,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/paper_bloody.mdl
+0,0,0,2,0,9,0,28,3,1,2,2,346,403,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/researcher_corpse.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,308,374,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/w_mp5_empty.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,22,20,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/oil_barrel.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/oilcan.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,48,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/parcel.mdl
+0,0,0,14,0,48,0,33,16,16,14,9,655,786,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/zombie_crimsonhead_researcher.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/farmor.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/mormor.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/avlong.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/trokig.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,397,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/planta_lol.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/long.mdl
+0,0,0,2,0,3,0,8,1,1,2,2,220,320,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_long_2.mdl
+0,0,0,2,0,3,0,5,1,1,2,2,184,288,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_long_1.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,167,114,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/tablelamp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,271,394,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/fortaklampa.mdl
+0,0,0,2,0,3,0,7,1,1,2,2,146,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_kort_2.mdl
+0,0,0,26,0,3,0,1,1,5,26,10,151,200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,76,70,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/vagg_lampa.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,180,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/kontorlampa.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,167,114,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/myslampa_on.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/vitbil_trasig.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,460,469,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/mazda_last.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/gronvan_trasig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/gulbil_trasig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/blavan_trasig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,697,507,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/fork.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/blabil_trasig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,585,362,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/skraepbil_rost.mdl
+0,0,0,8,0,3,0,1,1,1,8,8,763,771,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/lastbil.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,582,584,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/skraepbil_rost_2.mdl
+0,0,0,9,0,3,0,1,1,1,9,9,320,382,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/polisbil.mdl
+0,0,0,2,0,3,0,2,1,2,2,2,42,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soppase.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,279,162,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/kontejner.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,684,953,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie2.mdl
+0,0,0,4,0,3,0,2,1,1,4,4,688,264,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash4.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,378,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/hydrant.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,516,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/baenk2greon.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/phonebooth1.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,288,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,630,486,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soptunnor.mdl
+0,0,0,5,0,3,0,2,1,1,5,5,1032,360,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash3.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,95,90,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/staket.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,184,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/fulstadsdodlampa.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,602,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,292,228,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soptunna.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,260,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/baenk.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,18,6,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/tak_antenn.mdl
+0,0,0,2,0,3,0,2,1,2,2,1,178,131,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/trastol2.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,235,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,188,170,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/stol-mma.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,212,194,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/stol-mamma.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,324,162,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/ljustrastol.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,178,98,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/officestol.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,237,296,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/dinner_stol.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,567,744,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,842,580,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/trastol3.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,100,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toalettmedpapper.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,208,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,60,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toapapper.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,1022,672,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/stadar_vagn.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,122,156,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/skraepgrus.mdl
+0,0,0,2,0,3,0,2,1,1,2,4,333,430,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_3.mdl
+0,0,0,2,0,3,0,2,1,1,2,4,327,390,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/tjej_lik_1.mdl
+0,0,0,2,0,3,0,1,1,1,2,4,368,431,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_4.mdl
+0,0,0,2,0,3,0,2,1,1,2,4,335,430,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_2.mdl
+0,0,0,2,0,3,0,28,1,1,2,2,346,403,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_1.mdl
+0,0,0,2,0,3,0,2,1,1,2,3,367,387,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/tjej_lik_2.mdl
+0,0,0,2,0,3,0,28,1,1,2,2,346,403,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/corpse2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,151,86,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/kassa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,73,63,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/boat.mdl
+0,0,0,6,0,21,0,23,7,1,6,6,705,1015,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/survivor1.mdl
+0,0,0,1,0,9,0,1,3,1,1,1,592,431,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toalett_stol.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,220,220,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/blomma.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,40,37,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/dator.mdl
+0,0,0,2,0,3,0,28,1,1,2,2,346,403,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/corpse1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,142,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/ikeabyro.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,64,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/tvattmaskin.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,794,1252,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,152,122,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/byra.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,104,52,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/modenbyro.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,136,76,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/frys_liten.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,202,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/piano.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,132,66,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/frys_long.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,341,328,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/fotalj.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,84,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/oldbryno.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,132,66,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/ren_fridge.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,537,604,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/grasoffa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,336,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/palette.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,713,734,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/brunsoffa.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,303,552,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/spade.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,185,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/klds_plagg.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,495,468,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_kurva.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,240,140,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf4.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,24,28,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mugn.mdl
+0,0,0,3,0,3,0,1,1,1,3,7,162,255,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,251,288,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_rakt2.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,48,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/diskopryl.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,18,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/faerg2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,240,140,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,138,102,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/dataskaerm.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,190,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mappar.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,81,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,180,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,78,112,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/vas.mdl
+0,0,0,33,0,3,0,4,1,15,33,21,103,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/datr_d.mdl
+0,0,0,4,0,3,0,1,1,2,4,2,420,260,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/ljusstake.mdl
+0,0,0,8,0,3,0,5,1,3,8,5,615,400,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/oel_3.mdl
+0,0,0,2,0,3,0,1,1,2,2,2,16,28,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/mat_2.mdl
+0,0,0,14,0,3,0,2,1,9,14,2,111,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/crete.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,188,178,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mapp_oppen.mdl
+0,0,0,10,0,3,0,3,1,6,10,6,64,60,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/box_2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,161,186,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/hallhangare.mdl
+0,0,0,3,0,3,0,1,1,1,3,6,18,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/burk.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,180,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/BoltCutters.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/lodor1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,122,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/ventil.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,223,221,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/dunkenogot.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,32,28,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mikrovogsugn.mdl
+0,0,0,3,0,6,0,1,2,1,3,3,150,180,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tekanna.mdl
+0,0,0,3,0,3,0,1,1,3,3,1,716,828,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska4.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,291,352,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tallrik.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/diskhorn_stall.mdl
+0,0,0,3,0,3,0,1,1,1,3,7,162,255,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,111,136,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,96,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mapp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,110,128,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/matpase.mdl
+0,0,0,3,0,3,0,1,1,1,3,7,162,255,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,97,152,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,474,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/element.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/lodor2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,88,80,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tunnor.mdl
+0,0,0,5,0,3,0,1,1,3,5,3,101,96,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mugg.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,76,88,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/handdukar.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,336,268,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/hinkmeskrap.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,116,58,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mtl_hyll.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,286,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/takflakt.mdl
+0,0,0,3,0,3,0,1,1,1,3,7,162,255,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable4.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,352,372,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_rakt3.mdl
+0,0,0,1,0,3,0,17,1,1,1,1,174,222,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/gardiner.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,210,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf2.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/bensindunk.mdl
+0,0,0,5,0,3,0,9,1,1,5,5,214,132,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/pi_tree1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,60,80,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/backalley_mycke_gras.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,117,96,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/for_rich_buske.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naket_xen_trad.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,16,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/aengbush.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,261,240,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/traedfluffljus.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,224,112,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/traedfluffkompakt.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,44,56,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/backalley_lite_gras.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,114,84,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/BUSKEmGroen.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,70,56,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/liggande_stamm.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,182,130,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/ormbunke.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,64,60,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/stamm.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,192,252,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naketmorkttrad.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,399,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/appel1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,192,252,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naketljussttrad.mdl
+0,0,0,15,0,3,0,2,1,3,15,5,204,104,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/advanedDark.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/kladd.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,82,70,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mtl_hyl2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ang.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/uggla.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/vas_gul.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/overgiven_hus.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ryttare.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/matbord.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ang_gran.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/natt.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/arm_holler_trad.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/vas_blo.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/gladiatorer.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/typ_palmer.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/spchongle.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/natt_italy.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/anglar.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,376,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/gamlastandlampa_utan_ljus.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,203,278,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/vattenkran.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,20,10,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/pirat_fest.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,100,110,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/diskhorn.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,348,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickbedsne.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,74,64,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickmadrass.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,372,258,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/tomtrasigruttensang.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,794,1252,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,348,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickbedrak.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,324,356,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,304,260,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang3.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,236,308,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang2.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,185,175,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/signtree.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,264,336,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treestack1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,88,112,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/trcastack.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,572,672,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treevlig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,1056,1344,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treewall.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,310,308,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend5.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,107,128,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/manhole_opener.mdl
+0,0,0,13,0,3,0,1,1,1,13,13,246,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend2.mdl
+0,0,0,12,0,3,0,1,1,1,12,12,190,176,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend_coffee.mdl
+0,0,0,2,0,6,0,14,2,1,2,2,672,972,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/dead_kid.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,320,308,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,270,220,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/urinal.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,516,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/platform_bench.mdl
+0,0,0,2,0,3,0,1,1,2,2,2,346,260,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/gas_pipe.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,64,106,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/light_industrial.mdl
+0,0,0,13,0,3,0,1,1,3,13,13,1394,1617,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend_water.mdl
+0,0,0,1,0,3,0,1,1,1,1,3,228,232,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/stair_handrail.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,188,178,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/folder_open.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,906,302,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/go_gen.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,268,223,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/electric_thing.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,124,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/ventil.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,130,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/fuse_prop.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,135,186,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/sub_cutoff_legs.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,180,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/bolt_cutters.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,176,90,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/switch_vent.mdl
+0,0,0,2,0,3,0,2,1,1,2,2,295,284,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/sink.mdl
+0,0,0,13,0,3,0,1,1,1,13,13,246,216,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend1.mdl
+0,0,0,12,0,3,0,1,1,1,12,12,238,142,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend4.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/sewers2/oil_container.mdl
+-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/scumlines/scientist01.mdl
+0,0,0,12,0,3,0,1,1,3,12,12,818,640,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend6.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,82,56,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/arc_xer_tree2.mdl
+0,0,1,1,0,18,0,38,6,1,1,1,1064,1473,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/scumlines/scientist.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,408,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/streetlight.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,73,63,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/boat.mdl
+0,0,0,10,0,33,0,19,11,2,10,6,1260,850,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/sewers2/giantspider_smaller.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/car1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/van.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,84,44,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/phone_pole1.mdl
+0,0,0,2,0,3,0,1,1,2,2,1,1828,2285,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/Horse_statue.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,115,149,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/ouitz_hill1.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,378,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/jeep.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,78,112,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/vase.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,347,292,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/downtown/Chest.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,154,165,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/statue_RPD_brown.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,154,165,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/statue_RPD_grey.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,213,170,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/hessi_tonne.mdl
+0,0,0,1,0,3,0,8,1,1,1,1,1800,1124,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/RPD_statue.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,74,64,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/mattress_wreck.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,42,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushb.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,138,102,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/monitor1.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,292,312,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_mosk412.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,568,280,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/by_furniture_group-wreck.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van5_2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van1_1.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,1197,1179,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/fork.mdl
+0,0,0,4,0,3,0,2,1,1,4,4,688,264,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash4.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car2_2.mdl
+0,0,0,2,0,3,0,1,1,2,2,1,1151,648,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldstreetlamp.mdl
+0,0,0,9,0,3,0,1,1,1,9,9,320,382,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Smashed_PoliceCar.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,318,162,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/keymouse.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,848,624,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/wreckcar5.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,583,273,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/tree3.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,167,114,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/tablelamp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,24,12,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grass.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,496,680,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustcar.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,306,232,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_trailer.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,329,390,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_moskvich2141.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,372,258,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bed_empty-wood.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,324,376,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_ladasp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bush.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,54,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grass1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,378,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/hydrant.mdl
+0,0,0,1,0,3,0,1,1,1,1,5,930,843,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Delorean_Ikraan.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,378,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_merc.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,144,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/ceillamp.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,972,986,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldpickup.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,402,376,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/car1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushc.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,24,12,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grassb.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,60,80,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_grass2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,260,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bench3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,24,12,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/sgrass.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,341,458,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_toyo.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,320,382,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Flipped_Smashed_Police_Car.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,288,144,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash1.mdl
+0,0,0,5,0,3,0,2,1,1,5,5,203,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/CrashedChopper.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,122,156,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/dirt.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,150,138,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/corner1_destroyed.mdl
+0,0,0,2,0,3,0,2,1,1,2,2,295,284,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/sink.mdl
+0,0,0,5,0,3,0,2,1,1,5,5,1032,360,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash3.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car3_2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,418,521,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustycar2.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,346,402,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_corolla.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,347,292,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Chest.mdl
+0,0,0,4,0,3,0,1,1,2,4,3,748,879,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldorangeford.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,44,31,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/pc1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,42,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushd.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,220,204,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_gaz.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,582,584,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustcar3.mdl
+0,0,0,7,0,3,0,2,1,1,7,7,602,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,422,372,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/wreckcar6.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car2_1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,62,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/soda_fountain.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1449,992,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/swat.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,264,132,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Floppy_Disk_Pile.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,524,754,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_lada5.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,402,376,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/car2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/gskvan.mdl
+0,0,0,2,0,3,0,2,1,2,2,1,178,131,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/furniture.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,263,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van1_2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grassc.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,579,732,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/cheavy.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,333,270,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car4_2.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,225,198,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/truck_old.mdl
+0,0,0,12,0,3,0,1,1,2,12,11,726,658,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/swatvan.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/pot_plant1.mdl
+0,0,0,15,0,3,0,2,1,3,15,5,204,104,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/tree_1.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,512,658,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/smashed_swatvan.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,32,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/vendetta_streetlamp_shade.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,252,240,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/flashlight.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,112,116,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/cone_clean.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,376,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/vendetta_streetlamp.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,288,300,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/buzzer_podstavka2.mdl
+0,0,0,1,0,3,0,1,1,1,1,3,539,408,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_forklift.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,188,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/lightbulb.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,288,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/buzzer_podstavka1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,151,145,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/vts_pipes1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,891,899,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_barocamera.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,374,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_bak.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,587,658,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_telezka2.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,406,220,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_skafrust.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,668,462,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_motor.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,545,582,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_boiler1.mdl
+0,0,0,2,0,3,0,1,1,1,2,5,156,168,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_barrel.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,246,320,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_tire.mdl
+0,0,0,9,0,3,0,1,1,1,9,9,320,382,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/Police_Car_e4g1e.mdl
+0,0,0,8,0,3,0,1,1,1,8,8,763,771,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/bigbluetruck.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,347,334,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/baricade.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,303,552,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/doener_spade.mdl
+0,0,0,2,0,3,0,2,1,1,2,2,275,344,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/r_rope.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,110,128,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/city_fertiliser.mdl
+0,0,0,1,0,6,0,2,2,1,1,1,112,80,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/shed_padlock.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,112,116,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/cone_bloody.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,347,334,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/baricade_clean.mdl
+0,0,0,4,0,6,0,2,2,1,4,4,214,108,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/grandfather_clock.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,140,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/dg_chandelier_lamps.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,144,76,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/table.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,66,66,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/flo_churchlight.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,186,304,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/dg_chandelier_body.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,110,128,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/pillow.mdl
+0,0,0,3,0,99,0,29,33,1,3,3,860,1383,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/zombie_priest.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,188,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/light-short.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,9,3,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/spider_spit.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,336,428,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/SecurityKey.mdl
+0,0,0,15,0,24,0,22,8,5,15,10,539,691,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/national_guard.mdl
+0,0,0,10,0,57,0,19,19,2,10,6,1260,850,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/black_tiger.mdl
+0,0,0,1,0,3,0,1,1,3,1,3,4,2,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/blood.mdl
+0,0,0,6,0,708,0,22,132,4,6,5,855,1198,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/James/James.mdl
+0,0,0,1,0,708,0,22,132,1,1,1,826,1272,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Crimsonhead/crimsonhead.mdl
+0,0,0,4,0,708,0,22,132,4,4,4,1164,1605,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Jake/Jake.mdl
+0,0,0,6,0,708,0,22,132,4,6,5,1523,1998,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Douglas/Douglas.mdl
+0,0,0,34,0,708,0,26,132,4,34,14,790,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Hunk/hunk.mdl
+0,0,0,4,0,63,0,26,21,2,4,3,636,796,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cerberus.mdl
+0,0,0,24,0,708,0,34,132,4,24,11,338,628,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Christopher/Christopher.mdl
+0,0,0,8,0,708,0,22,132,4,8,6,816,1186,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Chef/Chef.mdl
+0,0,0,2,0,3,0,1,1,1,2,7,177,263,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/zombie/zombie_head.mdl
+0,0,0,17,0,708,0,28,132,5,17,10,974,1768,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Simon/simon.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,189,304,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/james/james_head.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,339,498,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/douglas/douglas_head.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,194,312,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/otto/otto_head.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,226,281,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/tim/tim_head.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,247,399,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/simon/simon_head.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,231,362,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/hunk/hunk_head.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,149,223,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/chris/chris_head.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,42,24,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/arrow.mdl
+0,0,0,1,0,18,0,20,6,1,1,1,1229,750,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/snake.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,112,116,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_bloody.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,292,222,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_m79_ammo.mdl
+0,0,0,8,0,36,0,25,12,2,8,4,313,343,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/licker.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,347,334,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/baricade_clean.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,76,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/roomlight.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NeptuneT.mdl
+0,0,0,6,0,708,0,22,132,4,6,4,2368,3694,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Softwareguy/softwareguy.mdl
+0,0,0,2,0,6,0,22,2,2,2,1,2368,3694,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player_ss/softwareguy/nerd_ss.mdl
+0,0,0,19,0,51,0,33,17,19,19,11,655,786,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_crimsonhead.mdl
+0,0,0,3,0,6,0,22,2,2,3,2,1593,2158,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player_ss/chef/chef_ss.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,180,210,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/kontorlampa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,408,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/gamlastanlampa.mdl
+0,1,0,1,0,6,0,43,2,3,1,1,458,472,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_arms.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,214,392,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/re2bulb.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,212,194,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/stol-mamma.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,235,192,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/datastol.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,167,114,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/tablelamp.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,178,98,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/officestol.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,341,328,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/fotalj.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,713,734,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/brunsoffa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,378,256,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/hydrant.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,279,162,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/xen_trashcan.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/phonebooth1.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,516,444,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/baenk2greon.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,537,604,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/grasoffa.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,630,486,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/soptunnor.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,260,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/baenk.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,292,228,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/soptunna.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,240,140,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf4.mdl
+0,0,0,1,0,9,0,1,3,1,1,1,592,431,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/toilette.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,348,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickbedsne.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,240,140,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf1.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,348,340,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickbedrak.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,180,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,161,186,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/hallhangare.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,74,64,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickmadrass.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,80,40,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/kartonger.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,122,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/ventilation.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,76,88,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/handdukar.mdl
+0,0,0,3,0,9,0,2,3,1,3,3,87,108,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/takflaekt.mdl
+0,0,0,2,0,3,0,2,1,2,2,2,42,54,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/soppase.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,210,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf2.mdl
+0,0,0,3,0,3,0,1,1,1,3,6,18,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/burk.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,64,74,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/tvattmaskin.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,291,352,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/tallrik.mdl
+0,0,0,1,0,3,0,2,1,1,1,1,286,238,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/flaekt.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,136,76,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/frys_liten.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,132,66,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/frys_long.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,252,384,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/matsalsstol.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,474,492,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/element.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,397,160,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/planta_lol.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,379,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/bensindunk.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,285,205,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/handfat_lol.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/mormor.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,49,72,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/avlong.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/trokig.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,18,16,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/faerg2.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/long.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,81,120,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska2.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,80,100,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/farmor.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,78,112,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/vas.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,111,136,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska3.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,97,152,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska1.mdl
+0,0,0,3,0,3,0,1,1,3,3,1,716,828,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska4.mdl
+0,0,0,3,0,33,0,47,11,1,3,3,922,1526,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_cleaver.mdl
+0,0,0,3,0,51,0,47,17,1,3,3,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_baseballbat.mdl
+0,0,0,2,0,12,0,47,4,1,2,2,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_crimsonhead.mdl
+0,0,0,4,0,6,0,1,2,1,4,4,590,770,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m202a1.mdl
+0,0,0,6,0,12,0,47,4,1,6,6,878,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m202a1.mdl
+0,0,0,9,0,54,0,46,18,1,9,9,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_Desert_Eagle_mod.mdl
+0,0,0,6,0,42,0,44,14,2,6,6,1702,1310,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_browning.mdl
+0,0,0,9,0,45,0,45,15,4,9,8,3673,2982,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m4a1_ironsights.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,446,295,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m4a1.mdl
+0,0,0,5,0,12,0,48,4,2,5,5,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_sparkshot.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,1936,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_mk22.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,1284,1759,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_maglite.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,1987,1896,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_remington870.mdl
+0,0,0,8,0,54,0,46,18,1,8,8,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_Desert_Eagle.mdl
+0,0,0,9,0,24,0,43,8,2,9,9,1119,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m24.mdl
+0,0,0,5,0,21,0,43,7,1,5,5,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_glock18.mdl
+0,0,0,4,0,3,0,1,1,1,4,4,1961,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_glock23.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,370,374,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_MP5-N.mdl
+0,0,0,8,0,54,0,46,18,1,8,8,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_desert_eagle_ironsights.mdl
+0,0,0,9,0,54,0,46,18,1,9,9,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_desert_eagle_mod_ironsights.mdl
+0,0,0,6,0,30,0,53,10,2,6,6,1164,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_raging_bull.mdl
+0,0,0,4,0,24,0,3,8,1,4,4,1036,688,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_STI_Eagle_scope.mdl
+0,0,0,3,0,3,0,11,1,1,3,3,976,943,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_browning.mdl
+0,0,0,5,0,33,0,47,11,2,5,5,837,1530,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_combatknife.mdl
+0,0,0,6,0,24,0,44,8,2,6,6,1936,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_mk22.mdl
+0,0,0,7,0,27,0,44,9,2,7,7,1036,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_STI_Eagle.mdl
+0,0,0,4,0,21,0,27,7,2,4,4,1731,2067,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_maglite_beam.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,2667,2542,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_beretta.mdl
+0,0,0,2,0,3,0,11,1,1,2,2,2667,2542,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_beretta.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,446,295,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m4a1.mdl
+0,0,0,5,0,3,0,12,1,1,5,5,637,546,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m79.mdl
+0,0,0,5,0,3,0,12,1,1,5,5,1036,918,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_STI_Eagle.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,181,286,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_baseballbat.mdl
+0,0,0,7,0,3,0,1,1,1,7,7,1119,1006,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m24.mdl
+0,0,0,4,0,3,0,11,1,1,4,4,1936,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_mk22.mdl
+0,0,0,6,0,39,0,43,13,1,6,6,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_MP5-N.mdl
+0,0,0,3,0,3,0,12,1,1,3,3,837,1530,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_combatknife.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,356,317,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_Desert_Eagle_mod.mdl
+0,0,0,2,0,3,0,11,1,1,2,2,756,596,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_type68.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,637,546,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m79.mdl
+0,0,0,4,0,42,0,44,14,2,4,4,2667,2542,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_beretta.mdl
+0,0,0,7,0,24,0,46,8,3,7,7,1936,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_glock23.mdl
+0,0,0,5,0,3,0,11,1,1,5,5,428,378,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_MP5-N.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,800,1526,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_cleaver.mdl
+0,0,0,6,0,39,0,43,13,1,6,6,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_MP5-N_ironsights.mdl
+0,0,0,2,0,3,0,11,1,1,2,2,1987,1896,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_remington870.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,756,596,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_type68.mdl
+0,0,0,4,0,30,0,46,10,2,4,4,1987,1896,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_remington870.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,266,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_pipe.mdl
+0,0,0,6,0,3,0,11,1,1,6,6,708,742,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_Desert_Eagle.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,1164,1012,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_raging_bull.mdl
+0,0,0,4,0,24,0,3,8,1,4,4,252,266,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m24_scope.mdl
+0,0,0,4,0,3,0,11,1,1,4,4,1936,1534,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_glock23.mdl
+0,0,0,4,0,3,0,12,1,1,4,4,590,770,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m202a1.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,1770,2754,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_spade.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,245,174,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m24.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,266,436,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_pipe.mdl
+0,0,0,8,0,30,0,46,10,3,8,8,2122,2242,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_spas12.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,208,326,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_hammer.mdl
+0,0,0,3,0,33,0,47,11,1,3,3,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_hammer.mdl
+0,0,0,1,0,3,0,12,1,1,1,1,799,1526,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_cleaver.mdl
+0,0,0,5,0,3,0,12,1,2,5,5,2122,2242,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_spas12.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,181,286,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_baseballbat.mdl
+0,0,0,4,0,42,0,44,14,2,4,4,2667,2542,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_beretta_ironsights.mdl
+0,0,0,6,0,3,0,1,1,1,6,6,282,308,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_Desert_Eagle.mdl
+0,0,0,4,0,33,0,44,11,1,4,4,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_type68_ironsights.mdl
+0,0,0,4,0,33,0,44,11,1,4,4,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_type68.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1284,1759,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_maglite.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,548,720,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_sparkshot.mdl
+0,0,0,7,0,12,0,43,4,1,7,7,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m79.mdl
+0,0,0,6,0,42,0,44,14,2,6,6,1702,1310,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_browning_ironsights.mdl
+0,0,0,3,0,33,0,47,11,1,3,3,774,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_pipe.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,1771,2754,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_spade.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,837,1530,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_combatknife.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,230,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_glock18.mdl
+0,0,0,3,0,3,0,11,1,1,3,3,230,208,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_glock18.mdl
+0,0,0,7,0,3,0,11,1,1,7,7,713,733,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_Desert_Eagle_mod.mdl
+0,0,0,2,0,3,0,11,1,1,2,2,1020,1012,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_raging_bull.mdl
+0,0,0,5,0,3,0,1,1,1,5,5,1036,918,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_STI_Eagle.mdl
+0,0,0,3,0,21,0,47,7,1,3,3,1769,2754,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_spade.mdl
+0,0,0,3,0,21,0,27,7,1,3,3,1731,2067,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_maglite.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,976,943,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_browning.mdl
+0,0,0,2,0,3,0,12,1,1,2,2,1223,1759,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_maglite_beam.mdl
+0,0,0,3,0,3,0,11,1,1,3,3,548,720,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_sparkshot.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,112,116,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_dirty.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,215,326,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_hammer.mdl
+0,0,0,6,0,30,0,53,10,2,6,6,1164,1200,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_raging_bull_ironsights.mdl
+0,0,0,1,0,21,0,11,7,1,1,1,237,370,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/crow.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,197,196,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/key_generic.mdl
+0,0,0,1,0,51,0,24,17,1,1,1,1150,1633,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/tyrant_103.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,510,552,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_speed_loader.mdl
+0,0,0,9,0,45,0,45,15,4,9,8,3673,2982,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m4a1.mdl
+0,0,0,5,0,3,0,1,1,3,5,5,5680,2242,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_spas12.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,216,188,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/lightlong.mdl
+0,0,0,1,0,3,0,1,1,1,1,1,9,3,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/null.mdl
+0,0,0,16,0,129,0,30,43,11,16,7,487,706,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_female.mdl
+0,0,0,1,0,15,0,15,5,1,1,1,1285,2574,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/crawler.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,37,36,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/shell.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,360,416,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_sparkshot_batteries.mdl
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_armsT.mdl
+0,0,0,3,0,3,0,1,1,1,3,3,72,64,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_slug.mdl
+0,0,0,20,0,78,0,26,26,4,20,9,822,1034,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/hunter.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,37,36,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_9mm.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,37,36,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_45acp.mdl
+0,0,0,2,0,3,0,1,1,1,2,2,37,36,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_50ae.mdl
+0,0,0,2,0,24,0,41,8,1,2,2,926,1469,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2heavyzombie/cso2heavyzombie/v_knife_cso2heavyzombie.mdl
+0,0,0,19,0,129,0,33,43,19,19,11,655,786,0,/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie.mdl
+0,0,0,2,0,333,0,62,111,1,2,2,1949,2846,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2heavyzombie/cso2heavyzombie/cso2heavyzombie.mdl
+0,0,0,21,0,15,0,41,5,14,21,4,1907,3175,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_scout.mdl
+0,0,0,8,0,18,0,38,6,8,8,2,2400,3139,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_mac10.mdl
+0,0,0,12,0,24,0,42,8,10,12,3,2691,3449,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_knife.mdl
+0,0,0,11,0,12,0,78,4,11,11,4,2216,3434,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_smokegrenade.mdl
+0,0,0,8,0,39,0,41,13,8,8,3,1946,3365,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_glock18.mdl
+0,0,0,17,0,18,0,76,6,17,17,2,3270,3712,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_p90.mdl
+0,0,0,15,0,12,0,39,4,11,15,4,2575,3533,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_c4.mdl
+0,0,0,15,0,18,0,41,6,10,15,3,2539,3463,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_famas.mdl
+0,0,0,2,0,24,0,6,8,1,2,2,574,794,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_knife_r.mdl
+0,0,0,8,0,21,0,82,7,7,8,3,2184,3135,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_xm1014.mdl
+0,0,0,5,0,531,0,49,111,1,5,5,460,560,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/vip/vip.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/militia/militiaT.mdl
+0,0,0,12,0,18,0,42,6,12,12,4,3039,3365,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_deagle.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/terror/terrorT.mdl
+0,0,0,8,0,18,0,41,6,8,8,3,1814,3376,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_mp5.mdl
+0,0,0,17,0,18,0,46,6,11,17,4,3106,3422,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_sg552.mdl
+0,0,0,17,0,18,0,42,6,10,17,4,2781,3416,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_ak47.mdl
+0,0,0,14,0,48,0,78,16,14,14,2,2134,3059,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_elite.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/guerilla/guerillaT.mdl
+0,1,0,6,0,531,0,36,111,5,6,3,1981,3263,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/militia/militia.mdl
+0,1,0,3,0,531,0,33,111,3,3,3,937,1180,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/terror/terror.mdl
+0,0,0,12,0,531,0,42,111,3,12,11,606,677,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/urban/urban.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gign/gignT.mdl
+0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/arctic/arcticT.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/leet/leetT.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gsg9/gsg9T.mdl
+0,1,0,6,0,531,0,36,111,5,6,3,1913,3077,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/guerilla/guerilla.mdl
+0,0,0,12,0,531,0,42,111,3,12,11,606,677,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/spetsnaz/spetsnaz.mdl
+0,1,0,7,0,531,0,36,111,5,7,3,2497,3368,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gign/gign.mdl
+0,1,0,9,0,531,0,36,111,5,9,4,1834,2976,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/arctic/arctic.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/sas/sasT.mdl
+0,1,0,6,0,531,0,36,111,5,6,3,1939,3197,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/leet/leet.mdl
+0,1,0,7,0,531,0,36,111,5,7,3,2497,3368,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/sas/sas.mdl
+0,1,0,7,0,531,0,36,111,5,7,3,2497,3368,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gsg9/gsg9.mdl
+0,0,0,10,0,12,0,78,4,10,10,3,2763,3342,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_flashbang.mdl
+0,0,0,15,0,15,0,52,5,13,15,3,2398,3146,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_sg550.mdl
+0,0,0,10,0,21,0,42,7,10,10,3,2657,3365,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_p228.mdl
+0,0,0,9,0,15,0,93,5,9,9,2,1784,3098,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m249.mdl
+0,0,0,20,0,18,0,47,6,15,20,4,2467,3440,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_awp.mdl
+0,0,0,13,0,18,0,44,6,13,13,3,1973,3516,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_galil.mdl
+0,0,0,9,0,18,0,63,6,7,9,3,1922,2699,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_ump45.mdl
+0,0,0,10,0,12,0,78,4,9,10,3,1728,3107,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_hegrenade.mdl
+0,0,0,16,0,18,0,42,6,16,16,2,1961,2800,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_tmp.mdl
+0,0,0,17,0,15,0,41,5,15,17,4,2359,3172,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_g3sg1.mdl
+0,0,0,20,0,18,0,41,6,13,20,5,2387,3316,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_aug.mdl
+0,0,0,11,0,21,0,83,7,8,11,4,1714,3389,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m3.mdl
+0,0,0,2,0,24,0,14,8,1,2,2,476,719,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-001.mdl
+0,0,0,1,0,33,0,15,11,1,1,1,1406,2316,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-103.mdl
+0,0,0,4,0,33,0,19,11,1,4,4,156,202,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-extra.mdl
+0,0,0,2,0,24,0,14,8,1,2,2,476,719,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-002.mdl
+0,0,0,2,0,33,0,15,11,1,2,2,400,424,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_mr.x.mdl
+0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Nemesis_Tyrant/Nemesis_TyrantT.mdl
+0,0,0,4,0,33,0,15,11,1,4,4,416,672,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_n-tyrant.mdl
+0,1,0,6,0,531,0,22,111,2,6,6,1129,1296,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Nemesis_Tyrant/Nemesis_Tyrant.mdl
+0,0,0,4,0,333,0,32,111,2,4,4,1394,1725,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-Extra/T-Extra.mdl
+0,0,0,10,0,18,0,41,6,10,10,3,2471,3468,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_fiveseven.mdl
+0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Mr.X/Mr.XT.mdl
+0,0,0,10,0,339,0,21,111,10,10,6,830,1394,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-002/T-002.mdl
+0,0,0,7,0,531,0,27,111,6,7,2,883,1442,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-001/T-001.mdl
+0,0,0,11,0,48,0,43,16,11,11,3,2274,3493,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_usp.mdl
+0,1,0,3,0,531,0,27,111,4,3,3,1228,1590,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Mr.X/Mr.X.mdl
+0,0,0,3,0,372,0,49,124,2,3,3,2533,3398,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normal_f/cso2_normal_f/z_cso2_normal_f.mdl
+0,0,0,1,0,24,0,42,8,1,1,1,1552,2584,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normal_f/cso2_normal_f/v_knife_zombie1.mdl
+0,0,0,6,0,339,0,19,111,6,6,3,6316,2316,0,/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-103/T-103.mdl
+0,0,0,2,0,342,0,23,111,1,2,2,1009,1446,0,/mnt/data/work_hl1/corpus/HL1/HL1/1788_licker2/licker2.mdl
+0,0,0,2,0,24,0,46,8,1,2,2,2246,3724,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2_lighthost/cso2_lighthost/v_knife_zombie_cso2_lighthost.mdl
+0,0,0,4,0,333,0,32,111,2,4,4,1394,1725,0,/mnt/data/work_hl1/corpus/HL1/HL1/2783-tirant/Tirant.mdl
+0,0,0,10,0,339,0,21,111,10,10,6,830,1394,0,/mnt/data/work_hl1/corpus/HL1/HL1/761_165_Tyrant_REMA/Tyrant_REMAKE_Frk_14.mdl
+0,0,0,1,0,462,0,57,151,1,1,1,2290,3148,0,/mnt/data/work_hl1/corpus/HL1/HL1/Lusty_Rose/fast.mdl
+0,0,0,10,0,339,0,21,111,10,10,6,830,1394,0,/mnt/data/work_hl1/corpus/HL1/HL1/tyrant cs/remake tyrant cs.mdl
+0,0,0,3,0,372,0,73,124,3,3,3,2246,3724,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2_lighthost/cso2_lighthost/z_cso2_lighthost.mdl
+0,0,0,2,0,333,0,21,111,1,2,2,799,1152,0,/mnt/data/work_hl1/corpus/HL1/HL1/HunterB_frk_14/HunterB_frk_14.mdl
+0,0,0,19,0,42,0,46,14,19,19,4,3939,3778,0,/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m4a1.mdl
+0,0,0,2,0,342,0,36,111,1,2,2,2013,2928,0,/mnt/data/work_hl1/corpus/HL1/HL1/1840_Yri_zombie/Yri zombie.mdl
+0,0,0,6,0,333,0,21,111,2,6,6,822,1034,0,/mnt/data/work_hl1/corpus/HL1/HL1/Hunter_frk_14/Hunter_frk_14.mdl
+0,0,0,4,0,372,0,76,124,3,4,4,2043,2929,0,/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normalhost_f/cso2_normalhost_f/z_cso2_normalhost_f.mdl
+0,0,0,27,0,531,0,30,111,5,27,9,1089,1501,0,/mnt/data/work_hl1/corpus/HL1/HL1/UCRE 3 - Nemesishl1/terror.mdl
+0,0,0,10,0,339,0,21,111,10,10,6,830,1394,0,/mnt/data/work_hl1/corpus/HL1/HL1/tyrant_remake_frk_14/Tyrant_REMAKE_Frk_14/Tyrant_REMAKE_Frk_14.mdl
+0,0,0,1,0,543,0,79,171,1,1,1,2476,3710,0,/mnt/data/work_hl1/corpus/HL1/HL1/Sting Finger (Nurse)/Sting Finger (Nurse)/nurseskinresi_origin/nurseskinresi_origin.mdl
+0,0,0,2,0,543,0,79,171,2,2,1,2463,3694,0,/mnt/data/work_hl1/corpus/HL1/HL1/Sting Finger (Nurse)/Sting Finger (Nurse)/nurseskinresi_host/nurseskinresi_host.mdl

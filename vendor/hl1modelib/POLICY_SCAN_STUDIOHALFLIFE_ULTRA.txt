@@ -1,0 +1,12 @@
+Policy scan for new Ultra files only:
+  hlfp_studiohalflife_ultra.c/.h
+  hlfp_softmdl_ultra.c/.h
+  test_studiohalflife_ultra.c
+  demo_render_studiohalflife_ultra.c
+
+Checks:
+  malloc/calloc/realloc/free calls: none
+  runtime float/double keywords: none
+  heap ownership: none
+  public API allocation: caller-owned buffers only
+  math: fixed-point 16.16 through hlfp_fixed and existing hlfp math helpers

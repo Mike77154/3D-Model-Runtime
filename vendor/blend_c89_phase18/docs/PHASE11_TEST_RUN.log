@@ -1,0 +1,20 @@
+Phase11 build:
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -Ivendor/headers src/main.c src/bc_binary.c src/bc_wrapper.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_uv_tface.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c src/bc_rig_q16.c src/bc_euler_q16.c src/bc_object_links.c src/bc_anim_bindings.c src/bc_skin_tsv.c src/bc_playback_tsv.c src/bc_rest_matrices.c -o blendc89 vendor/linux-x86_64/libz.a vendor/linux-x86_64/libzstd.a -lm -pthread
+Phase11 tests:
+PASS: 4 serialized pointer/endianness combinations, NLA link, cycles, unresolved Action, 3 authentic scenes
+PASS: auto-selected second Action, 4 pointer/endian variants, NLA/missing Action refusal
+PASS: 192 mutated binary invocations completed without signal termination
+Previous regression:
+PASS: armature target linkage, local affine correction, cyclic/broken pointer rejection
+PASS: source-archive authentic startup files, saved Object/ID graph & local TRS
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484

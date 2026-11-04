@@ -1,0 +1,4 @@
+This code package was written from scratch for the user request.
+It was informed by publicly available documentation and source releases for
+Quake III Arena / id Tech 3 format research, but it does not copy engine code
+verbatim into the library implementation.

@@ -1,0 +1,14 @@
+RE4 CLASSIC V4.1 / RUNTIME 75 ADDITIVE INTEGRATION
+SOURCE ONLY. No Capcom assets included.
+
+GCC -std=c89 full static library build: PASS
+New provider compile -pedantic-errors -Wall -Wextra -Werror: PASS
+New synthetic PMD/TPL/FCV runtime: PASS
+RE4 upstream v4.1 make check: PASS (24 suites)
+RE3 v0.28 native + runtime regression: PASS
+GunSurvivor v19 NAB/NAC synthetic: PASS
+HOD2 Phase12 POL/PRS/H2MC and H2TB 1999/2000: PASS
+IQM interpolation/normal synthetic regression: PASS
+
+No Win32 build; no RE4 real corpus tests; PMD->FCV mapping and multi-part
+skinning/IK incomplete. Source codec status details in README and docs.

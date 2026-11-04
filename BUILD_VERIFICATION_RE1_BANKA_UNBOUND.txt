@@ -1,0 +1,24 @@
+RE1 Bank A unbound fix verification
+
+Policy:
+- Bank B is the only automatic RE1 rigid hierarchy used for visible TMD pieces.
+- Bank B clips are enumerated first.
+- Bank A clips remain exposed but carry MODELRT_ANIM_UNBOUND.
+- Selecting Bank A leaves the visible model in Bank B bind pose.
+- No Bank A fallback hierarchy is synthesized when Bank B is unavailable.
+
+Regression fixture:
+- Bank A pivot X = +100 centi
+- Bank B pivot X = 0
+- Bank A clip selection must produce the exact same first triangle position as bind pose.
+
+Passed:
+- strict C89 runtime build
+- re1codec EMD regression including Bank A unbound displacement test
+- re1codec EMW regression
+- re1codec standalone TMD regression
+- FBX regression
+- FBX/Genesis3D animation attachment regression
+- GoldSrc pose/root-motion/axis/transparency regressions
+- XPS geometry and UV regressions
+- runtime policy_scan

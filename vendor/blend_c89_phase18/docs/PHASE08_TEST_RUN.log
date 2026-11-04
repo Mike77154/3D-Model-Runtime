@@ -1,0 +1,13 @@
+Phase08 regression summary (2026-11-02)
+BUILD: cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 (all project .c files): PASS
+LINK: Linux x86-64 precompiled zlib and zstd static archives: PASS
+REAL BLEND: seven unmodified archives 2.58..4.5 source-preview files exported OBJ as in Phase07: PASS
+REAL WRAPPERS: 2.58, 2.79a, 3.6.3 and 4.5-source-preview .blend payloads Gzip/Zstd: PASS
+COMPRESSED MULTIFRAME: concatenated gzip member streams and Zstd frame streams: PASS
+WRAPPER BAD INPUT: truncated gzip and zstd streams detected: PASS
+GZIP/ZSTD MUTATIONS: 160 mutated input streams, no OS termination signal
+SYNTHETIC: full Bone+Action+FCurve -> --play-blend, gzip/zstd/raw -> correct skinned position: PASS
+SYNTHETIC: Mesh+deform groups+Armature+Action -> --play-obj, gzip/zstd/raw -> correct v/f: PASS
+SYNTHETIC: --play-sequence 3 consecutive .obj files: PASS
+PHASE05/06/07 REGRESSIONS: PASS
+NOT TESTED: real rig animation parity with Blender, 32-bit Windows build, internal third-party libraries as C89 source.

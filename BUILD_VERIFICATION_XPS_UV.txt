@@ -1,0 +1,32 @@
+model_runtime89 XPS UV verification
+===================================
+
+Build:
+  CC=cc
+  -std=c89 -pedantic-errors -Wall -Wextra -O2
+  PASS
+
+Regression:
+  xps_regression_v3.xps               PASS mesh=1 verts=3 tris=1
+  xps_regression_legacy.mesh           PASS mesh=1 verts=3 tris=1
+  xps_regression_ascii.mesh.ascii      PASS mesh=1 verts=3 tris=1
+  xps_regression_boned.mesh.ascii      PASS mesh=1 verts=3 tris=1 bones=1
+
+UV regression:
+  texture declares UV layer 1          PASS
+  provider selects UV layer 1          PASS
+  V = 1 - raw XPS V                    PASS
+  UV > 1 / UV < 0 retained for repeat  PASS
+
+Legacy regressions rerun:
+  FBX rig/textures                      PASS
+  FBX bones-only                        PASS
+  FBX external animation attachment     PASS
+  Genesis3D MOT attachment              PASS
+  GoldSrc quaternion/root motion        PASS
+  GoldSrc Z-up -> Y-up                  PASS
+  GoldSrc masked transparency           PASS
+
+Policy scan of runtime integration src + new regression:
+  malloc/calloc/realloc/free            none
+  float/double                          none

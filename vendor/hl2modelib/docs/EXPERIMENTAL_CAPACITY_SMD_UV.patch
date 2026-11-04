@@ -1,0 +1,65 @@
+--- stable_v1.0.12/include/hl2modelib.h
++++ testbuild/include/hl2modelib.h
+@@ -31,7 +31,7 @@
+ #define HL2M_MAX_MESHES 1024
+ #define HL2M_MAX_HITBOXSETS 32
+ #define HL2M_MAX_HITBOXES 512
+-#define HL2M_MAX_VVD_VERTS 32768
++#define HL2M_MAX_VVD_VERTS 65536
+ #define HL2M_MAX_VVD_FIXUPS 2048
+ #define HL2M_MAX_VTX_BODYPARTS 64
+ #define HL2M_MAX_VTX_MODELS 256
+@@ -162,8 +162,8 @@
+ #define HL2M_MAX_QC_HITBOXES 512
+ #define HL2M_MAX_QC_DEFINEBONES 256
+ #define HL2M_MAX_QC_POSEPARAMS 128
+-#define HL2M_MAX_ENGINE_VERTICES 98304
+-#define HL2M_MAX_ENGINE_INDICES 98304
++#define HL2M_MAX_ENGINE_VERTICES 262144
++#define HL2M_MAX_ENGINE_INDICES 262144
+ #define HL2M_MAX_ENGINE_DRAWS 4096
+ 
+ #define HL2M_QC_UNKNOWN 0
+--- stable_v1.0.12/src/hl2modelib.c
++++ testbuild/src/hl2modelib.c
+@@ -344,6 +344,9 @@
+     int frac;
+     int scale;
+     int digits;
++    int bit;
++    int remainder;
++    int frac_fixed;
+     hl2m_fixed v;
+     p = hl2m_skip_spaces(*pp);
+     sign = 1;
+@@ -382,7 +385,19 @@
+     } else {
+         v = (hl2m_fixed)(whole * HL2M_FIXED_ONE);
+         if (scale > 1) {
+-            v += (hl2m_fixed)((frac * HL2M_FIXED_ONE) / scale);
++            /* Q16 fractional division without 32-bit intermediate overflow.
++               0 <= remainder < scale <= 1000000. */
++            remainder = frac;
++            frac_fixed = 0;
++            for (bit = 0; bit < 16; ++bit) {
++                remainder *= 2;
++                frac_fixed *= 2;
++                if (remainder >= scale) {
++                    remainder -= scale;
++                    ++frac_fixed;
++                }
++            }
++            v += (hl2m_fixed)frac_fixed;
+         }
+     }
+     if (sign < 0) {
+@@ -799,6 +814,9 @@
+             ++t;
+         }
+         out_model->draws[draw_index].material = material;
++        if (material >= 0 && material < smd->material_count)
++            hl2m_copy_token(out_model->draws[draw_index].material_name,
++                            HL2M_PATH_MAX, smd->materials[material]);
+         out_model->draws[draw_index].primitive = HL2M_PRIM_TRIANGLES;
+         out_model->draws[draw_index].first_index = first_index;
+         out_model->draws[draw_index].num_indices = out_model->index_count - first_index;

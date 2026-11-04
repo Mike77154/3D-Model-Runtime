@@ -1,0 +1,7 @@
+RE3_codec v0.13 recovery note — EDD_INTERPOLATION_REPORT.txt
+============================================
+The original report filename existed in the lost v0.13 tree. Its byte-identical
+body was not recoverable from the dead attachment backing. The operational
+findings that survived are consolidated in docs/FORMAT_NOTES.md,
+GEOMETRY_BINDING_REPORT.txt, BINARY01_PARTS_REPORT.txt, TIM_REPORT.txt,
+PART_CLASSIFICATION_REPORT.txt and recovery_evidence/.

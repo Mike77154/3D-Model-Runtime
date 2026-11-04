@@ -1,0 +1,66 @@
+rm -f blendc89
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude src/main.c src/bc_binary.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c -o blendc89
+PASS: 0 4 little 249
+PASS: 0 4 big 279
+PASS: 0 8 little 280
+PASS: 0 8 big 305
+PASS: 0 8 little 404
+PASS: 1 8 little 405
+PASS: 1 8 little 500
+PASS: 1 8 little 502
+Eight artificial fixtures passed; NOT real-version interoperability tests.
+PASS: synthetic Blender 5.x AttributeStorage positions and corner topology
+PASS: schema/blocks CLI and four malformed or wrapped inputs rejected
+PASS: two independent meshes and OBJ global vertex index offsets
+PASS: interior serialized reference, with 4-byte pointer displacement
+PASS: invalid face indices rejected and partial OBJ cleaned up
+PASS: MPoly/MLoop topology plus MLoopUV UVMap in OBJ
+PASS: modern CD_PROP_FLOAT2 UV layer serialized in CustomData
+PASS: realistic synthetic 5.1 layout: Attribute/Array and 64-bit size
+PASS: 5.1 single-value/oversized attributes rejected safely
+PASS: 6 rig fixtures: mesh names, object fallback, invalid weight, group cycle, bone hierarchy, bone cycle
+PASS: LargeBHead8 + 64-bit serialized bone addresses with nonzero high word
+PASS: 6 rig fixtures: mesh names, object fallback, invalid weight, group cycle, bone hierarchy, bone cycle
+PASS: LargeBHead8 + 64-bit serialized bone addresses with nonzero high word
+PASS: --weights 80 synthetic single/multiple byte mutations, no signal exit
+PASS: --bones 80 synthetic single/multiple byte mutations, no signal exit
+PASS: legacy Bezier and handle metadata
+PASS: legacy FPoint sample
+PASS: legacy cyclic next rejected
+PASS: layered Action Channelbag slot
+PASS: out of bounds strip index rejected
+PASS: layered extended 17-byte 64-bit file
+PASS: legacy 64-bit small block headers
+PASS: legacy big endian 64-bit pointers
+PASS: modern serialized pointers with nonzero upper 32 bits
+PASS: legacy big endian 32-bit
+PASS: bPoseChannel serialized local LRS
+PASS: 11 Phase04 synthetic animation cases
+PASS: historical IPO BezTriple values
+PASS: historical IPO BPoint samples
+PASS: historical IPO cycle rejected
+PASS: historical IPO 64-bit pointers
+PASS: 4 historical IPO synthetic cases
+PASS: --keys 40 mutated fixtures
+PASS: --ipo 40 mutated fixtures
+PASS: --pose 40 mutated fixtures
+PASS: 120 Phase04 mutated fixtures, no signal exit
+PASS: step at 5
+PASS: step endpoint at 10
+PASS: linear midpoint
+PASS: linear fractional quarter
+PASS: Bezier midpoint
+PASS: Bezier non-midpoint
+PASS: FPoint linear
+PASS: outside endpoint holds
+PASS: negative frame
+PASS: unsupported interpolation rejected
+PASS: invalid frame rejected
+PASS: high unsigned frame rejected
+PASS: layered 4.4+ curve at stored keyframe
+PASS: layered extended 64bit pointer
+PASS: BE 64-bit legacy
+PASS: FCurve.extend=linear outside bounds rejected
+PASS: FCurve.extend=linear inside still supported
+PASS: 17 Phase05 synthetic interpolation cases
+PASS: 80 deterministic mutations on synthetic --sample fixture (no signal termination)

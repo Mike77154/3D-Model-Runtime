@@ -1,0 +1,16 @@
+strict_build=OK
+miniz smoke OK: 127 bytes
+anim_eval OK: mid=327680 pre=-655360 repeat=327680 mirror=327680 weighted=327679 layer=819200
+semantic OK: ascii_bytes=2112
+semantic writer OK: bytes=2935
+semantic extended OK: bytes=5420 cameras=1 lights=1 bones=2 anims=1
+nurbs smoke OK: curve_vertices=9 surface_vertices=9 indices=24
+morph_targets=1 first_index_count=2 baked_vertices=6
+stream OK: binary=1 version=7400 models=1 scan=yes nodes=21 props=24 arrays=5 compressed=5 max_depth=3
+stream scan OK: version=7400 nodes=21 props=24 arrays=5 compressed=5 bytes=1072
+regression OK
+version matrix OK: 36 source fixtures, decode-stream + scan-stream + ascii roundtrip + binary roundtrip
+fuzz smoke OK (256 cases)
+wrote fixtures to /mnt/data/work_pass6/3dfbxplus_codec_pass3/tests/generated
+wrote 36 fixtures to /mnt/data/work_pass6/3dfbxplus_codec_pass3/tests/version_matrix
+render harness OK: 5 images

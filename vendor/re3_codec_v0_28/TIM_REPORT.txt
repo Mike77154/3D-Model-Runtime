@@ -1,0 +1,10 @@
+RE3_codec v0.13 TIM report
+==========================
+TIM parsing was moved into the public codec in v0.13 rather than remaining a
+viewer-local decoder. Original retail validation:
+- TIM corpus pass=100 fail=0
+- paired EMD+TIM texture binding pass=100 fail=0 skip=0
+
+The original corpus TIM set was 8-bpp + CLUT (flags=9). TPAGE/CLUT are resolved
+from each MD2 primitive. PSX color 0x0000 is transparent; 0x8000 must not be
+silently turned into a transparent hole.

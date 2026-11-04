@@ -1,0 +1,13 @@
+# Constraint is a cone cosine; 0 means 90 degree turn limit.
+chain	3
+target	0.5	2.5	0
+iterations	96
+node	0	0.0	0.0	0.0
+node	1	0.0	1.0	0.0
+node	2	0.0	2.0	0.0
+node	3	0.0	3.0	0.0
+limit	1	0.0
+limit	2	-1
+matrix	0	1	0	0	0.0	0	1	0	0.0	0	0	1	0.0
+matrix	1	1	0	0	0.0	0	1	0	1.0	0	0	1	0.0
+matrix	2	1	0	0	0.0	0	1	0	2.0	0	0	1	0.0

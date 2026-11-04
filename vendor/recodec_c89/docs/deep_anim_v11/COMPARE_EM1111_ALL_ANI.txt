@@ -1,0 +1,8 @@
+emd=/mnt/data/EM1111(7).EMD
+ani=/mnt/data/EM1111.ANI
+bank=B clip=ALL_EMR_FRAMES
+objects: emd=15 ani=15
+tree_match=True
+frame_count: emd_selection=645 ani=645
+max_abs_delta=0.000495 at frame[43] angle_line[8] pose=43
+status=OK

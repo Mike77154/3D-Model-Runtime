@@ -1,0 +1,29 @@
+DTS89 v3.7 / 2026-10-10
+SOURCE AUDIT: 32 source/header files inspected. No word-boundary hits in C sources
+for malloc calloc realloc free float double stdin long long; no stdint.h.
+No C++ // line comments.
+STRICT RELEASE BUILD:
+  make CFLAGS='-std=c89 -O2 -Wall -Wextra -Werror -pedantic-errors -Iinclude'
+  all targets built
+  dts89_selftest: selftest ok
+  dts89_pose37_selftest: pose37 selftest ok
+UBSAN INSTRUMENTED RUN:
+  pose37_selftest ok
+  Zombie DTS sequence Attack1 half-time export passes
+CORPUS:
+  GarageGames ContentPacks ZombiePack_T3D1.1_GameAssets.zip
+  All six DTS, each at all eleven sequence indices and 0.5 normalized time
+  66/66 successful pose+skinned OBJ evaluations
+SEE: docs/POSE37_SKINNING_IMPLEMENTATION.md for accuracy caveats.
+MegaZombie: 11/11 sequences, Q16 time 32768, pass
+Zombie: 11/11 sequences, Q16 time 32768, pass
+Zombie_02: 11/11 sequences, Q16 time 32768, pass
+Zombie_03: 11/11 sequences, Q16 time 32768, pass
+Zombie_04: 11/11 sequences, Q16 time 32768, pass
+Zombie_05: 11/11 sequences, Q16 time 32768, pass
+MegaZombie: 3901 sampled vertices; avg displacement 0.2437; max 0.8461; vertices moved >0.01: 3901
+Zombie: 1157 sampled vertices; avg displacement 0.2068; max 0.6970; vertices moved >0.01: 1157
+Zombie_02: 843 sampled vertices; avg displacement 0.2407; max 0.6407; vertices moved >0.01: 843
+Zombie_03: 841 sampled vertices; avg displacement 0.1847; max 0.5555; vertices moved >0.01: 841
+Zombie_04: 995 sampled vertices; avg displacement 0.2263; max 0.6981; vertices moved >0.01: 995
+Zombie_05: 1091 sampled vertices; avg displacement 0.2061; max 0.6981; vertices moved >0.01: 1091

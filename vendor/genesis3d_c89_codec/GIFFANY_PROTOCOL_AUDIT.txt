@@ -1,0 +1,22 @@
+Genesis3D C89 arena/fixed protocol patch
+
+Build/test status
+- make all with -std=c89 -Wall -Wextra -pedantic -O2: OK
+- ./selftest: OK actor_bytes=1129 body_bytes=534 motion_bytes=150/152 motions=2 vertices=3
+- bash smoke.sh: OK
+- generated _smoke artifact checksum set: byte-for-byte equal to the uploaded baseline run
+
+Protocol audit
+- Source token audit over *.c/*.h: OK for dynamic-allocation call names, FP scalar type names, and standard input object name.
+- Additional source audit: no scanf-family decimal input, no C99 integer/bool headers, no 64-bit long integer extension.
+
+Architecture changes
+- KIB wavelet scratch now comes from g3d_arena.
+- GeBm mip decode/unpack has arena-aware entry points.
+- Body material RGBA decode has an arena-aware entry point.
+- ASCII MOT decimal parse/write now uses integer/fixed-point helpers.
+- Indexed delta accumulation now uses integer saturation.
+- CLI and regression tests call the arena-aware texture/KIB paths.
+
+Compatibility check
+- The smoke outputs produced by this patch match the uploaded baseline's smoke outputs exactly by SHA-256 file list comparison.

@@ -1,0 +1,18 @@
+RE3_codec v0.13 recovered part classification totals
+=====================================================
+All 100 EMD in the original corpus:
+  DAT skinned      290
+  rigid joint      741
+  joint helper     332
+  dynamic morph     28
+  extra unbound     35
+
+Unique 69 primary EMD:
+  DAT skinned      242 (17 also carried morph data)
+  rigid joint      458
+  joint helper     260
+  dynamic morph     15
+  extra unbound     26
+
+Binary01 morph membership is orthogonal to the skeletal class and is retained
+as a part flag/track association.

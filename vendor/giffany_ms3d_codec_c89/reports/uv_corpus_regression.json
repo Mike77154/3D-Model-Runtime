@@ -1,0 +1,4223 @@
+{
+  "models": 157,
+  "runs": 314,
+  "passed": 314,
+  "cases": [
+    {
+      "file": "data/2x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 176,
+      "uv_corners": 528,
+      "normals": 528,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=184 tris=176 mats=0 textures=0 missing=0 bindings=176 conflicts=0"
+    },
+    {
+      "file": "data/2x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 176,
+      "uv_corners": 528,
+      "normals": 528,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=184 tris=176 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/auto.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 672,
+      "uv_corners": 2016,
+      "normals": 2016,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=425 tris=672 mats=4 textures=0 missing=4 bindings=672 conflicts=0"
+    },
+    {
+      "file": "data/auto.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 672,
+      "uv_corners": 2016,
+      "normals": 2016,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=425 tris=672 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/auto_fix.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 684,
+      "uv_corners": 2052,
+      "normals": 2052,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=426 tris=684 mats=4 textures=0 missing=4 bindings=684 conflicts=0"
+    },
+    {
+      "file": "data/auto_fix.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 684,
+      "uv_corners": 2052,
+      "normals": 2052,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=426 tris=684 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/auto_svetla.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=16 tris=8 mats=2 textures=0 missing=2 bindings=8 conflicts=0"
+    },
+    {
+      "file": "data/auto_svetla.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=16 tris=8 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/auto_update.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 692,
+      "uv_corners": 2076,
+      "normals": 2076,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5"
+      ],
+      "message": "PASS verts=442 tris=692 mats=6 textures=0 missing=6 bindings=692 conflicts=0"
+    },
+    {
+      "file": "data/auto_update.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 692,
+      "uv_corners": 2076,
+      "normals": 2076,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5"
+      ],
+      "message": "PASS verts=442 tris=692 mats=6 tex_copied=0 missing=6 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barel.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 432,
+      "uv_corners": 1296,
+      "normals": 1296,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=248 tris=432 mats=2 textures=0 missing=2 bindings=432 conflicts=0"
+    },
+    {
+      "file": "data/barel.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 432,
+      "uv_corners": 1296,
+      "normals": 1296,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=248 tris=432 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barel_.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=100 tris=120 mats=2 textures=0 missing=2 bindings=120 conflicts=0"
+    },
+    {
+      "file": "data/barel_.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=100 tris=120 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/0.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/barricade/0.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/1.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/barricade/1.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/barricade/2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/barricade/3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/4.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/barricade/4.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/__0.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 60,
+      "uv_corners": 180,
+      "normals": 180,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=40 tris=60 mats=0 textures=0 missing=0 bindings=60 conflicts=0"
+    },
+    {
+      "file": "data/barricade/__0.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 60,
+      "uv_corners": 180,
+      "normals": 180,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=40 tris=60 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/barricade/kmplet.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 78,
+      "uv_corners": 234,
+      "normals": 234,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=53 tris=78 mats=0 textures=0 missing=0 bindings=78 conflicts=0"
+    },
+    {
+      "file": "data/barricade/kmplet.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 78,
+      "uv_corners": 234,
+      "normals": 234,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=53 tris=78 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/bomb.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 616,
+      "uv_corners": 1848,
+      "normals": 1848,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=323 tris=616 mats=0 textures=0 missing=0 bindings=616 conflicts=0"
+    },
+    {
+      "file": "data/bomb.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 616,
+      "uv_corners": 1848,
+      "normals": 1848,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=323 tris=616 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/bomb3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 616,
+      "uv_corners": 1848,
+      "normals": 1848,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=323 tris=616 mats=0 textures=0 missing=0 bindings=616 conflicts=0"
+    },
+    {
+      "file": "data/bomb3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 616,
+      "uv_corners": 1848,
+      "normals": 1848,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=323 tris=616 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/box.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 444,
+      "uv_corners": 1332,
+      "normals": 1332,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=389 tris=444 mats=2 textures=0 missing=2 bindings=444 conflicts=0"
+    },
+    {
+      "file": "data/box.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 444,
+      "uv_corners": 1332,
+      "normals": 1332,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=389 tris=444 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/box_top.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 106,
+      "uv_corners": 318,
+      "normals": 318,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=122 tris=106 mats=2 textures=0 missing=1 bindings=106 conflicts=0"
+    },
+    {
+      "file": "data/box_top.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 106,
+      "uv_corners": 318,
+      "normals": 318,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=122 tris=106 mats=2 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/box_upgrade.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 444,
+      "uv_corners": 1332,
+      "normals": 1332,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=389 tris=444 mats=2 textures=0 missing=2 bindings=444 conflicts=0"
+    },
+    {
+      "file": "data/box_upgrade.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 444,
+      "uv_corners": 1332,
+      "normals": 1332,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=389 tris=444 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/box_water.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=25 tris=32 mats=0 textures=0 missing=0 bindings=32 conflicts=0"
+    },
+    {
+      "file": "data/box_water.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=25 tris=32 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/branaf.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 404,
+      "uv_corners": 1212,
+      "normals": 1212,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=614 tris=404 mats=1 textures=0 missing=1 bindings=404 conflicts=0"
+    },
+    {
+      "file": "data/branaf.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 404,
+      "uv_corners": 1212,
+      "normals": 1212,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=614 tris=404 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/cedule.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 24,
+      "uv_corners": 72,
+      "normals": 72,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=20 tris=24 mats=2 textures=0 missing=2 bindings=24 conflicts=0"
+    },
+    {
+      "file": "data/cedule.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 24,
+      "uv_corners": 72,
+      "normals": 72,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=20 tris=24 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/door.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=8 tris=12 mats=1 textures=0 missing=1 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/door.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=8 tris=12 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/drevoo.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 464,
+      "uv_corners": 1392,
+      "normals": 1392,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=382 tris=464 mats=5 textures=0 missing=5 bindings=464 conflicts=0"
+    },
+    {
+      "file": "data/drevoo.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 464,
+      "uv_corners": 1392,
+      "normals": 1392,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=382 tris=464 mats=5 tex_copied=0 missing=5 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farm.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 textures=0 missing=11 bindings=2712 conflicts=0"
+    },
+    {
+      "file": "data/farm.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 tex_copied=0 missing=11 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farm_copy_recovered.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 textures=0 missing=11 bindings=2712 conflicts=0"
+    },
+    {
+      "file": "data/farm_copy_recovered.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 tex_copied=0 missing=11 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola 15.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=131 tris=119 mats=22 textures=0 missing=22 bindings=119 conflicts=0"
+    },
+    {
+      "file": "data/farma hola 15.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=131 tris=119 mats=22 tex_copied=0 missing=22 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=155 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=155 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola10.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=125 tris=127 mats=10 textures=0 missing=10 bindings=127 conflicts=0"
+    },
+    {
+      "file": "data/farma hola10.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=125 tris=127 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola11.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 textures=0 missing=10 bindings=123 conflicts=0"
+    },
+    {
+      "file": "data/farma hola11.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola12.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 textures=0 missing=10 bindings=123 conflicts=0"
+    },
+    {
+      "file": "data/farma hola12.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola13.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 textures=0 missing=10 bindings=123 conflicts=0"
+    },
+    {
+      "file": "data/farma hola13.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 123,
+      "uv_corners": 369,
+      "normals": 369,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=117 tris=123 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola14.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=114 tris=119 mats=20 textures=0 missing=20 bindings=119 conflicts=0"
+    },
+    {
+      "file": "data/farma hola14.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=114 tris=119 mats=20 tex_copied=0 missing=20 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola16.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=129 tris=119 mats=22 textures=0 missing=22 bindings=119 conflicts=0"
+    },
+    {
+      "file": "data/farma hola16.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 119,
+      "uv_corners": 357,
+      "normals": 357,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=129 tris=119 mats=22 tex_copied=0 missing=22 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola17.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 155,
+      "uv_corners": 465,
+      "normals": 465,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=143 tris=155 mats=22 textures=0 missing=22 bindings=155 conflicts=0"
+    },
+    {
+      "file": "data/farma hola17.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 155,
+      "uv_corners": 465,
+      "normals": 465,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=143 tris=155 mats=22 tex_copied=0 missing=22 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola18.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 155,
+      "uv_corners": 465,
+      "normals": 465,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=124 tris=155 mats=22 textures=0 missing=22 bindings=155 conflicts=0"
+    },
+    {
+      "file": "data/farma hola18.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 155,
+      "uv_corners": 465,
+      "normals": 465,
+      "materials": [
+        "ms3d_mat_19",
+        "ms3d_mat_20",
+        "ms3d_mat_21",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=124 tris=155 mats=22 tex_copied=0 missing=22 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=155 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=155 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=151 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=151 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola4.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=141 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola4.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=141 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola5.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=139 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola5.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=139 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola6.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=129 tris=150 mats=10 textures=0 missing=10 bindings=150 conflicts=0"
+    },
+    {
+      "file": "data/farma hola6.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 150,
+      "uv_corners": 450,
+      "normals": 450,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=129 tris=150 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola7.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 textures=0 missing=10 bindings=127 conflicts=0"
+    },
+    {
+      "file": "data/farma hola7.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola8.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 textures=0 missing=10 bindings=127 conflicts=0"
+    },
+    {
+      "file": "data/farma hola8.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma hola9.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 textures=0 missing=10 bindings=127 conflicts=0"
+    },
+    {
+      "file": "data/farma hola9.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 127,
+      "uv_corners": 381,
+      "normals": 381,
+      "materials": [
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=111 tris=127 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma v2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_11",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=12 textures=0 missing=12 bindings=2712 conflicts=0"
+    },
+    {
+      "file": "data/farma v2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_11",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=12 tex_copied=0 missing=12 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/farma2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1524,
+      "uv_corners": 4572,
+      "normals": 4572,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=1381 tris=1524 mats=10 textures=0 missing=10 bindings=1524 conflicts=0"
+    },
+    {
+      "file": "data/farma2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1524,
+      "uv_corners": 4572,
+      "normals": 4572,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=1381 tris=1524 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/glow.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 textures=0 missing=1 bindings=32 conflicts=0"
+    },
+    {
+      "file": "data/glow.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/glow2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 textures=0 missing=1 bindings=32 conflicts=0"
+    },
+    {
+      "file": "data/glow2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/gold.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=48 tris=72 mats=0 textures=0 missing=0 bindings=72 conflicts=0"
+    },
+    {
+      "file": "data/gold.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=48 tris=72 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/gren_purch.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/gren_purch.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/grenade.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 954,
+      "uv_corners": 2862,
+      "normals": 2862,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=738 tris=954 mats=1 textures=0 missing=1 bindings=954 conflicts=0"
+    },
+    {
+      "file": "data/grenade.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 954,
+      "uv_corners": 2862,
+      "normals": 2862,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=738 tris=954 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/grenade_hud.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6582,
+      "uv_corners": 19746,
+      "normals": 19746,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=4074 tris=6582 mats=2 textures=0 missing=2 bindings=6582 conflicts=0"
+    },
+    {
+      "file": "data/grenade_hud.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6582,
+      "uv_corners": 19746,
+      "normals": 19746,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=4074 tris=6582 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/grenade_pin_pulled.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 645,
+      "uv_corners": 1935,
+      "normals": 1935,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=558 tris=645 mats=1 textures=0 missing=1 bindings=645 conflicts=0"
+    },
+    {
+      "file": "data/grenade_pin_pulled.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 645,
+      "uv_corners": 1935,
+      "normals": 1935,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=558 tris=645 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 640,
+      "uv_corners": 1920,
+      "normals": 1920,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=378 tris=640 mats=0 textures=0 missing=0 bindings=640 conflicts=0"
+    },
+    {
+      "file": "data/head.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 640,
+      "uv_corners": 1920,
+      "normals": 1920,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=378 tris=640 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head1.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 textures=0 missing=1 bindings=120 conflicts=0"
+    },
+    {
+      "file": "data/head1.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 textures=0 missing=1 bindings=120 conflicts=0"
+    },
+    {
+      "file": "data/head2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 textures=0 missing=1 bindings=70 conflicts=0"
+    },
+    {
+      "file": "data/head3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head4.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 textures=0 missing=1 bindings=70 conflicts=0"
+    },
+    {
+      "file": "data/head4.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head5.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 textures=0 missing=1 bindings=70 conflicts=0"
+    },
+    {
+      "file": "data/head5.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head6.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 textures=0 missing=1 bindings=70 conflicts=0"
+    },
+    {
+      "file": "data/head6.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=48 tris=70 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/head7.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 textures=0 missing=1 bindings=120 conflicts=0"
+    },
+    {
+      "file": "data/head7.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 120,
+      "uv_corners": 360,
+      "normals": 360,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=62 tris=120 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/ik.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1497,
+      "uv_corners": 4491,
+      "normals": 4491,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=1004 tris=1497 mats=0 textures=0 missing=0 bindings=1497 conflicts=0"
+    },
+    {
+      "file": "data/ik.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1497,
+      "uv_corners": 4491,
+      "normals": 4491,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=1004 tris=1497 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kadibutka.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 22,
+      "uv_corners": 66,
+      "normals": 66,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=20 tris=22 mats=2 textures=0 missing=2 bindings=22 conflicts=0"
+    },
+    {
+      "file": "data/kadibutka.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 22,
+      "uv_corners": 66,
+      "normals": 66,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=20 tris=22 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/arm_left.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 215,
+      "uv_corners": 645,
+      "normals": 645,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=116 tris=215 mats=1 textures=0 missing=1 bindings=215 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/arm_left.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 215,
+      "uv_corners": 645,
+      "normals": 645,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=116 tris=215 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/arm_right.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 241,
+      "uv_corners": 723,
+      "normals": 723,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=128 tris=241 mats=1 textures=0 missing=1 bindings=241 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/arm_right.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 241,
+      "uv_corners": 723,
+      "normals": 723,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=128 tris=241 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/body.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 210,
+      "uv_corners": 630,
+      "normals": 630,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=127 tris=210 mats=1 textures=0 missing=1 bindings=210 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/body.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 210,
+      "uv_corners": 630,
+      "normals": 630,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=127 tris=210 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/head.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 349,
+      "uv_corners": 1047,
+      "normals": 1047,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=182 tris=349 mats=1 textures=0 missing=1 bindings=349 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/head.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 349,
+      "uv_corners": 1047,
+      "normals": 1047,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=182 tris=349 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/leg_left.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 165,
+      "uv_corners": 495,
+      "normals": 495,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=89 tris=165 mats=1 textures=0 missing=1 bindings=165 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/leg_left.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 165,
+      "uv_corners": 495,
+      "normals": 495,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=89 tris=165 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/leg_right.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 168,
+      "uv_corners": 504,
+      "normals": 504,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=92 tris=168 mats=1 textures=0 missing=1 bindings=168 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze/leg_right.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 168,
+      "uv_corners": 504,
+      "normals": 504,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=92 tris=168 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1505,
+      "uv_corners": 4515,
+      "normals": 4515,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=765 tris=1505 mats=1 textures=0 missing=1 bindings=1505 conflicts=0"
+    },
+    {
+      "file": "data/kamikaze.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1505,
+      "uv_corners": 4515,
+      "normals": 4515,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=765 tris=1505 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/korytko_water.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 50,
+      "uv_corners": 150,
+      "normals": 150,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=36 tris=50 mats=0 textures=0 missing=0 bindings=50 conflicts=0"
+    },
+    {
+      "file": "data/korytko_water.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 50,
+      "uv_corners": 150,
+      "normals": 150,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=36 tris=50 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kukurice.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 20,
+      "uv_corners": 60,
+      "normals": 60,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=40 tris=20 mats=1 textures=0 missing=1 bindings=20 conflicts=0"
+    },
+    {
+      "file": "data/kukurice.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 20,
+      "uv_corners": 60,
+      "normals": 60,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=40 tris=20 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kukurice_line.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=8 tris=6 mats=1 textures=0 missing=1 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/kukurice_line.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=8 tris=6 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/kukurice_mega.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 248,
+      "uv_corners": 744,
+      "normals": 744,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=496 tris=248 mats=1 textures=0 missing=1 bindings=248 conflicts=0"
+    },
+    {
+      "file": "data/kukurice_mega.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 248,
+      "uv_corners": 744,
+      "normals": 744,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=496 tris=248 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/ma.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 716,
+      "uv_corners": 2148,
+      "normals": 2148,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=581 tris=716 mats=0 textures=0 missing=0 bindings=716 conflicts=0"
+    },
+    {
+      "file": "data/ma.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 716,
+      "uv_corners": 2148,
+      "normals": 2148,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=581 tris=716 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/mlyn.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 847,
+      "uv_corners": 2541,
+      "normals": 2541,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=604 tris=847 mats=1 textures=0 missing=1 bindings=847 conflicts=0"
+    },
+    {
+      "file": "data/mlyn.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 847,
+      "uv_corners": 2541,
+      "normals": 2541,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=604 tris=847 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/mlyn_anim2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 847,
+      "uv_corners": 2541,
+      "normals": 2541,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=604 tris=847 mats=1 textures=0 missing=1 bindings=847 conflicts=0"
+    },
+    {
+      "file": "data/mlyn_anim2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 847,
+      "uv_corners": 2541,
+      "normals": 2541,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=604 tris=847 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/my litlle farmhouse finished.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 textures=0 missing=11 bindings=2712 conflicts=0"
+    },
+    {
+      "file": "data/my litlle farmhouse finished.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2712,
+      "uv_corners": 8136,
+      "normals": 8136,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_10",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8",
+        "ms3d_mat_9",
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=2418 tris=2712 mats=11 tex_copied=0 missing=11 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/na postu.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=49 tris=70 mats=1 textures=0 missing=1 bindings=70 conflicts=0"
+    },
+    {
+      "file": "data/na postu.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 70,
+      "uv_corners": 210,
+      "normals": 210,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=49 tris=70 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/palm.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 336,
+      "uv_corners": 1008,
+      "normals": 1008,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=228 tris=336 mats=1 textures=0 missing=1 bindings=336 conflicts=0"
+    },
+    {
+      "file": "data/palm.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 336,
+      "uv_corners": 1008,
+      "normals": 1008,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=228 tris=336 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/pinet.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 394,
+      "uv_corners": 1182,
+      "normals": 1182,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=190 tris=394 mats=1 textures=0 missing=1 bindings=394 conflicts=0"
+    },
+    {
+      "file": "data/pinet.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 394,
+      "uv_corners": 1182,
+      "normals": 1182,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=190 tris=394 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/pinet_mesh.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 45,
+      "uv_corners": 135,
+      "normals": 135,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=41 tris=45 mats=2 textures=0 missing=2 bindings=45 conflicts=0"
+    },
+    {
+      "file": "data/pinet_mesh.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 45,
+      "uv_corners": 135,
+      "normals": 135,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=41 tris=45 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/pinet_p.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 40,
+      "uv_corners": 120,
+      "normals": 120,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=40 tris=40 mats=0 textures=0 missing=0 bindings=40 conflicts=0"
+    },
+    {
+      "file": "data/pinet_p.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 40,
+      "uv_corners": 120,
+      "normals": 120,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=40 tris=40 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/plan.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=6 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/plan.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=6 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/plotek maly.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=48 tris=72 mats=2 textures=0 missing=2 bindings=72 conflicts=0"
+    },
+    {
+      "file": "data/plotek maly.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=48 tris=72 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/plotek nerozbit.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 84,
+      "uv_corners": 252,
+      "normals": 252,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=56 tris=84 mats=2 textures=0 missing=2 bindings=84 conflicts=0"
+    },
+    {
+      "file": "data/plotek nerozbit.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 84,
+      "uv_corners": 252,
+      "normals": 252,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=56 tris=84 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/plotek rozbit vers1.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=48 tris=72 mats=2 textures=0 missing=2 bindings=72 conflicts=0"
+    },
+    {
+      "file": "data/plotek rozbit vers1.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 72,
+      "uv_corners": 216,
+      "normals": 216,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=48 tris=72 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/plotek rozbit vers2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 84,
+      "uv_corners": 252,
+      "normals": 252,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=56 tris=84 mats=2 textures=0 missing=2 bindings=84 conflicts=0"
+    },
+    {
+      "file": "data/plotek rozbit vers2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 84,
+      "uv_corners": 252,
+      "normals": 252,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=56 tris=84 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/bordel.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 873,
+      "uv_corners": 2619,
+      "normals": 2619,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=2619 tris=873 mats=3 textures=0 missing=3 bindings=873 conflicts=0"
+    },
+    {
+      "file": "data/resi/bordel.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 873,
+      "uv_corners": 2619,
+      "normals": 2619,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=2619 tris=873 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/door_a.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 392,
+      "uv_corners": 1176,
+      "normals": 1176,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8"
+      ],
+      "message": "PASS verts=1176 tris=392 mats=9 textures=0 missing=9 bindings=392 conflicts=0"
+    },
+    {
+      "file": "data/resi/door_a.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 392,
+      "uv_corners": 1176,
+      "normals": 1176,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8"
+      ],
+      "message": "PASS verts=1176 tris=392 mats=9 tex_copied=0 missing=9 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/door_b.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 870,
+      "uv_corners": 2610,
+      "normals": 2610,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8"
+      ],
+      "message": "PASS verts=2610 tris=870 mats=9 textures=0 missing=9 bindings=870 conflicts=0"
+    },
+    {
+      "file": "data/resi/door_b.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 870,
+      "uv_corners": 2610,
+      "normals": 2610,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6",
+        "ms3d_mat_7",
+        "ms3d_mat_8"
+      ],
+      "message": "PASS verts=2610 tris=870 mats=9 tex_copied=0 missing=9 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_barikada.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 252,
+      "uv_corners": 756,
+      "normals": 756,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=756 tris=252 mats=1 textures=0 missing=1 bindings=252 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_barikada.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 252,
+      "uv_corners": 756,
+      "normals": 756,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=756 tris=252 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_barikada_rozbita.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 114,
+      "uv_corners": 342,
+      "normals": 342,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=342 tris=114 mats=1 textures=0 missing=1 bindings=114 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_barikada_rozbita.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 114,
+      "uv_corners": 342,
+      "normals": 342,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=342 tris=114 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_krabice.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=36 tris=12 mats=1 textures=0 missing=1 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_krabice.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=36 tris=12 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_velka_krabice.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 272,
+      "uv_corners": 816,
+      "normals": 816,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=816 tris=272 mats=1 textures=0 missing=1 bindings=272 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevena_velka_krabice.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 272,
+      "uv_corners": 816,
+      "normals": 816,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=816 tris=272 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevene_dvere.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 550,
+      "uv_corners": 1650,
+      "normals": 1650,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1650 tris=550 mats=1 textures=0 missing=1 bindings=550 conflicts=0"
+    },
+    {
+      "file": "data/resi/drevene_dvere.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 550,
+      "uv_corners": 1650,
+      "normals": 1650,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1650 tris=550 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/dreveny_barel.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 260,
+      "uv_corners": 780,
+      "normals": 780,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=780 tris=260 mats=1 textures=0 missing=1 bindings=260 conflicts=0"
+    },
+    {
+      "file": "data/resi/dreveny_barel.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 260,
+      "uv_corners": 780,
+      "normals": 780,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=780 tris=260 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/dreveny_sud.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 68,
+      "uv_corners": 204,
+      "normals": 204,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=204 tris=68 mats=1 textures=0 missing=1 bindings=68 conflicts=0"
+    },
+    {
+      "file": "data/resi/dreveny_sud.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 68,
+      "uv_corners": 204,
+      "normals": 204,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=204 tris=68 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/komoda.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 452,
+      "uv_corners": 1356,
+      "normals": 1356,
+      "materials": [
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=1356 tris=452 mats=5 textures=0 missing=5 bindings=452 conflicts=0"
+    },
+    {
+      "file": "data/resi/komoda.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 452,
+      "uv_corners": 1356,
+      "normals": 1356,
+      "materials": [
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=1356 tris=452 mats=5 tex_copied=0 missing=5 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/lampa.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 414,
+      "uv_corners": 1242,
+      "normals": 1242,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1242 tris=414 mats=1 textures=0 missing=1 bindings=414 conflicts=0"
+    },
+    {
+      "file": "data/resi/lampa.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 414,
+      "uv_corners": 1242,
+      "normals": 1242,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1242 tris=414 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/policka.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 26,
+      "uv_corners": 78,
+      "normals": 78,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=24 tris=26 mats=1 textures=0 missing=1 bindings=26 conflicts=0"
+    },
+    {
+      "file": "data/resi/policka.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 26,
+      "uv_corners": 78,
+      "normals": 78,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=24 tris=26 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/skrin.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 564,
+      "uv_corners": 1692,
+      "normals": 1692,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1692 tris=564 mats=2 textures=0 missing=2 bindings=564 conflicts=0"
+    },
+    {
+      "file": "data/resi/skrin.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 564,
+      "uv_corners": 1692,
+      "normals": 1692,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1692 tris=564 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/vozik se sudy.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2328,
+      "uv_corners": 6984,
+      "normals": 6984,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6"
+      ],
+      "message": "PASS verts=6984 tris=2328 mats=7 textures=0 missing=7 bindings=2328 conflicts=0"
+    },
+    {
+      "file": "data/resi/vozik se sudy.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2328,
+      "uv_corners": 6984,
+      "normals": 6984,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5",
+        "ms3d_mat_6"
+      ],
+      "message": "PASS verts=6984 tris=2328 mats=7 tex_copied=0 missing=7 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/zebrik.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 144,
+      "uv_corners": 432,
+      "normals": 432,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=432 tris=144 mats=1 textures=0 missing=1 bindings=144 conflicts=0"
+    },
+    {
+      "file": "data/resi/zebrik.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 144,
+      "uv_corners": 432,
+      "normals": 432,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=432 tris=144 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/zelezne_dvere.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 468,
+      "uv_corners": 1404,
+      "normals": 1404,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1404 tris=468 mats=2 textures=0 missing=2 bindings=468 conflicts=0"
+    },
+    {
+      "file": "data/resi/zelezne_dvere.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 468,
+      "uv_corners": 1404,
+      "normals": 1404,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1404 tris=468 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/resi/zelezny_sud.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 60,
+      "uv_corners": 180,
+      "normals": 180,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=180 tris=60 mats=1 textures=0 missing=1 bindings=60 conflicts=0"
+    },
+    {
+      "file": "data/resi/zelezny_sud.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 60,
+      "uv_corners": 180,
+      "normals": 180,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=180 tris=60 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/shell.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 92,
+      "uv_corners": 276,
+      "normals": 276,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=72 tris=92 mats=1 textures=0 missing=1 bindings=92 conflicts=0"
+    },
+    {
+      "file": "data/shell.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 92,
+      "uv_corners": 276,
+      "normals": 276,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=72 tris=92 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/staj.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 461,
+      "uv_corners": 1383,
+      "normals": 1383,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=389 tris=461 mats=3 textures=0 missing=3 bindings=461 conflicts=0"
+    },
+    {
+      "file": "data/staj.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 461,
+      "uv_corners": 1383,
+      "normals": 1383,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=389 tris=461 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/staj2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 461,
+      "uv_corners": 1383,
+      "normals": 1383,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=457 tris=461 mats=4 textures=0 missing=4 bindings=461 conflicts=0"
+    },
+    {
+      "file": "data/staj2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 461,
+      "uv_corners": 1383,
+      "normals": 1383,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=457 tris=461 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/stodola v3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 204,
+      "uv_corners": 612,
+      "normals": 612,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=202 tris=204 mats=4 textures=0 missing=4 bindings=204 conflicts=0"
+    },
+    {
+      "file": "data/stodola v3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 204,
+      "uv_corners": 612,
+      "normals": 612,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=202 tris=204 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/strecha.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 16,
+      "uv_corners": 48,
+      "normals": 48,
+      "materials": [
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=19 tris=16 mats=10 textures=0 missing=10 bindings=16 conflicts=0"
+    },
+    {
+      "file": "data/strecha.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 16,
+      "uv_corners": 48,
+      "normals": 48,
+      "materials": [
+        "ms3d_mat_9"
+      ],
+      "message": "PASS verts=19 tris=16 mats=10 tex_copied=0 missing=10 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/studna.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 447,
+      "uv_corners": 1341,
+      "normals": 1341,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=328 tris=447 mats=4 textures=0 missing=4 bindings=447 conflicts=0"
+    },
+    {
+      "file": "data/studna.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 447,
+      "uv_corners": 1341,
+      "normals": 1341,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=328 tris=447 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tractor.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 840,
+      "uv_corners": 2520,
+      "normals": 2520,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=532 tris=840 mats=3 textures=0 missing=3 bindings=840 conflicts=0"
+    },
+    {
+      "file": "data/tractor.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 840,
+      "uv_corners": 2520,
+      "normals": 2520,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=532 tris=840 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree2.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 200,
+      "uv_corners": 600,
+      "normals": 600,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=199 tris=200 mats=1 textures=0 missing=1 bindings=200 conflicts=0"
+    },
+    {
+      "file": "data/tree2.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 200,
+      "uv_corners": 600,
+      "normals": 600,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=199 tris=200 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree2_mesh.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 161,
+      "uv_corners": 483,
+      "normals": 483,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=156 tris=161 mats=2 textures=0 missing=2 bindings=161 conflicts=0"
+    },
+    {
+      "file": "data/tree2_mesh.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 161,
+      "uv_corners": 483,
+      "normals": 483,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=156 tris=161 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree3.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 225,
+      "uv_corners": 675,
+      "normals": 675,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=220 tris=225 mats=2 textures=0 missing=2 bindings=225 conflicts=0"
+    },
+    {
+      "file": "data/tree3.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 225,
+      "uv_corners": 675,
+      "normals": 675,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=220 tris=225 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree3_mesh.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 166,
+      "uv_corners": 498,
+      "normals": 498,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=157 tris=166 mats=2 textures=0 missing=2 bindings=166 conflicts=0"
+    },
+    {
+      "file": "data/tree3_mesh.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 166,
+      "uv_corners": 498,
+      "normals": 498,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=157 tris=166 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree4.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 257,
+      "uv_corners": 771,
+      "normals": 771,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=252 tris=257 mats=2 textures=0 missing=2 bindings=257 conflicts=0"
+    },
+    {
+      "file": "data/tree4.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 257,
+      "uv_corners": 771,
+      "normals": 771,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=252 tris=257 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree4_mesh.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 161,
+      "uv_corners": 483,
+      "normals": 483,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=156 tris=161 mats=2 textures=0 missing=2 bindings=161 conflicts=0"
+    },
+    {
+      "file": "data/tree4_mesh.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 161,
+      "uv_corners": 483,
+      "normals": 483,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=156 tris=161 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree5.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 200,
+      "uv_corners": 600,
+      "normals": 600,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=199 tris=200 mats=1 textures=0 missing=1 bindings=200 conflicts=0"
+    },
+    {
+      "file": "data/tree5.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 200,
+      "uv_corners": 600,
+      "normals": 600,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=199 tris=200 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tree_fallen.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 384,
+      "uv_corners": 1152,
+      "normals": 1152,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=308 tris=384 mats=1 textures=0 missing=1 bindings=384 conflicts=0"
+    },
+    {
+      "file": "data/tree_fallen.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 384,
+      "uv_corners": 1152,
+      "normals": 1152,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=308 tris=384 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_0x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 textures=0 missing=2 bindings=4 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_0x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_1x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_1x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_2x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 textures=0 missing=3 bindings=8 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_2x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_2x_b.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 textures=0 missing=3 bindings=8 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline1_2x_b.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_0x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 textures=0 missing=2 bindings=4 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_0x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_1x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_1x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_2x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline2_2x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline4_single.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline4_single.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline4_single_b.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 textures=0 missing=1 bindings=32 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline4_single_b.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 32,
+      "uv_corners": 96,
+      "normals": 96,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=25 tris=32 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_0x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 textures=0 missing=2 bindings=4 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_0x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_1x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_1x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_2x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline6_2x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_0x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 textures=0 missing=2 bindings=4 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_0x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 4,
+      "uv_corners": 12,
+      "normals": 12,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=6 tris=4 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_1x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 textures=0 missing=3 bindings=6 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_1x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6,
+      "uv_corners": 18,
+      "normals": 18,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=8 tris=6 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_2x.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 textures=0 missing=3 bindings=8 conflicts=0"
+    },
+    {
+      "file": "data/treelines/treeline7_2x.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 8,
+      "uv_corners": 24,
+      "normals": 24,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=10 tris=8 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/tvarnice.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 139,
+      "uv_corners": 417,
+      "normals": 417,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=143 tris=139 mats=1 textures=0 missing=1 bindings=139 conflicts=0"
+    },
+    {
+      "file": "data/tvarnice.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 139,
+      "uv_corners": 417,
+      "normals": 417,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=143 tris=139 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/upgrade.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/upgrade.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/vratka.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 202,
+      "uv_corners": 606,
+      "normals": 606,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=307 tris=202 mats=1 textures=0 missing=1 bindings=202 conflicts=0"
+    },
+    {
+      "file": "data/vratka.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 202,
+      "uv_corners": 606,
+      "normals": 606,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=307 tris=202 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/vratka0.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 textures=0 missing=0 bindings=12 conflicts=0"
+    },
+    {
+      "file": "data/vratka0.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 12,
+      "uv_corners": 36,
+      "normals": 36,
+      "materials": [
+        "ms3d_untextured"
+      ],
+      "message": "PASS verts=8 tris=12 mats=0 tex_copied=0 missing=0 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/0/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 954,
+      "uv_corners": 2862,
+      "normals": 2862,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=738 tris=954 mats=1 textures=0 missing=1 bindings=954 conflicts=0"
+    },
+    {
+      "file": "data/weapons/0/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 954,
+      "uv_corners": 2862,
+      "normals": 2862,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=738 tris=954 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/1/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1270,
+      "uv_corners": 3810,
+      "normals": 3810,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=681 tris=1270 mats=1 textures=0 missing=1 bindings=1270 conflicts=0"
+    },
+    {
+      "file": "data/weapons/1/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1270,
+      "uv_corners": 3810,
+      "normals": 3810,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=681 tris=1270 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/10/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 8977,
+      "uv_corners": 26931,
+      "normals": 26931,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=10784 tris=8977 mats=2 textures=0 missing=2 bindings=8977 conflicts=0"
+    },
+    {
+      "file": "data/weapons/10/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 8977,
+      "uv_corners": 26931,
+      "normals": 26931,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=10784 tris=8977 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/11/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 6430,
+      "uv_corners": 19290,
+      "normals": 19290,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=2282 tris=6430 mats=1 textures=0 missing=1 bindings=6430 conflicts=0"
+    },
+    {
+      "file": "data/weapons/11/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 6430,
+      "uv_corners": 19290,
+      "normals": 19290,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=2282 tris=6430 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/2/buy.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/weapons/2/buy.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/2/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2647,
+      "uv_corners": 7941,
+      "normals": 7941,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1424 tris=2647 mats=2 textures=0 missing=2 bindings=2647 conflicts=0"
+    },
+    {
+      "file": "data/weapons/2/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2647,
+      "uv_corners": 7941,
+      "normals": 7941,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1424 tris=2647 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/3/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2125,
+      "uv_corners": 6375,
+      "normals": 6375,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1304 tris=2125 mats=1 textures=0 missing=1 bindings=2125 conflicts=0"
+    },
+    {
+      "file": "data/weapons/3/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2125,
+      "uv_corners": 6375,
+      "normals": 6375,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=1304 tris=2125 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/4/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 7125,
+      "uv_corners": 21375,
+      "normals": 21375,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=5983 tris=7125 mats=1 textures=0 missing=1 bindings=7125 conflicts=0"
+    },
+    {
+      "file": "data/weapons/4/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 7125,
+      "uv_corners": 21375,
+      "normals": 21375,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=5983 tris=7125 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/5/buy.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 textures=0 missing=1 bindings=2 conflicts=0"
+    },
+    {
+      "file": "data/weapons/5/buy.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 2,
+      "uv_corners": 6,
+      "normals": 6,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=4 tris=2 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/5/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 3816,
+      "uv_corners": 11448,
+      "normals": 11448,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=2090 tris=3816 mats=3 textures=0 missing=3 bindings=3816 conflicts=0"
+    },
+    {
+      "file": "data/weapons/5/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 3816,
+      "uv_corners": 11448,
+      "normals": 11448,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2"
+      ],
+      "message": "PASS verts=2090 tris=3816 mats=3 tex_copied=0 missing=3 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/6/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 11418,
+      "uv_corners": 34254,
+      "normals": 34254,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=9496 tris=11418 mats=4 textures=0 missing=4 bindings=11418 conflicts=0"
+    },
+    {
+      "file": "data/weapons/6/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 11418,
+      "uv_corners": 34254,
+      "normals": 34254,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3"
+      ],
+      "message": "PASS verts=9496 tris=11418 mats=4 tex_copied=0 missing=4 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/7/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 5730,
+      "uv_corners": 17190,
+      "normals": 17190,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5"
+      ],
+      "message": "PASS verts=3114 tris=5730 mats=6 textures=0 missing=6 bindings=5730 conflicts=0"
+    },
+    {
+      "file": "data/weapons/7/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 5730,
+      "uv_corners": 17190,
+      "normals": 17190,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_3",
+        "ms3d_mat_4",
+        "ms3d_mat_5"
+      ],
+      "message": "PASS verts=3114 tris=5730 mats=6 tex_copied=0 missing=6 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/8/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 3144,
+      "uv_corners": 9432,
+      "normals": 9432,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=2690 tris=3144 mats=5 textures=0 missing=5 bindings=3144 conflicts=0"
+    },
+    {
+      "file": "data/weapons/8/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 3144,
+      "uv_corners": 9432,
+      "normals": 9432,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1",
+        "ms3d_mat_2",
+        "ms3d_mat_4"
+      ],
+      "message": "PASS verts=2690 tris=3144 mats=5 tex_copied=0 missing=5 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/weapons/9/model.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1463,
+      "uv_corners": 4389,
+      "normals": 4389,
+      "materials": [
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1816 tris=1463 mats=2 textures=0 missing=2 bindings=1463 conflicts=0"
+    },
+    {
+      "file": "data/weapons/9/model.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1463,
+      "uv_corners": 4389,
+      "normals": 4389,
+      "materials": [
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=1816 tris=1463 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/zmb.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 735,
+      "uv_corners": 2205,
+      "normals": 2205,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=657 tris=735 mats=1 textures=0 missing=1 bindings=735 conflicts=0"
+    },
+    {
+      "file": "data/zmb.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 735,
+      "uv_corners": 2205,
+      "normals": 2205,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=657 tris=735 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/zmb_hs.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 685,
+      "uv_corners": 2055,
+      "normals": 2055,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=630 tris=685 mats=2 textures=0 missing=2 bindings=685 conflicts=0"
+    },
+    {
+      "file": "data/zmb_hs.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 685,
+      "uv_corners": 2055,
+      "normals": 2055,
+      "materials": [
+        "ms3d_mat_0",
+        "ms3d_mat_1"
+      ],
+      "message": "PASS verts=630 tris=685 mats=2 tex_copied=0 missing=2 ms=500 conflicts=0"
+    },
+    {
+      "file": "data/zomb.ms3d",
+      "state": "static",
+      "pass": true,
+      "faces": 1505,
+      "uv_corners": 4515,
+      "normals": 4515,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=765 tris=1505 mats=1 textures=0 missing=1 bindings=1505 conflicts=0"
+    },
+    {
+      "file": "data/zomb.ms3d",
+      "state": "animated",
+      "pass": true,
+      "faces": 1505,
+      "uv_corners": 4515,
+      "normals": 4515,
+      "materials": [
+        "ms3d_mat_0"
+      ],
+      "message": "PASS verts=765 tris=1505 mats=1 tex_copied=0 missing=1 ms=500 conflicts=0"
+    }
+  ]
+}

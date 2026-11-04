@@ -1,0 +1,7 @@
+selftest ok
+pose37 selftest ok
+uv38 selftest ok
+shaderer39 selftest ok
+texture39 selftest ok
+lighting40 selftest ok (tangent, light, normal, specular, alpha, degenerate UV)
+lod41 selftest ok

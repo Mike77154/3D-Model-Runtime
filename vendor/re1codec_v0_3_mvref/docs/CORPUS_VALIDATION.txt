@@ -1,0 +1,28 @@
+RE1codec v0.2 supplied-corpus validation
+========================================
+
+Enemy EMD corpus:
+  67 / 67 open + validate
+  directory variants observed:
+    34 full 20-byte A+B EMD
+    32 B-only 20-byte EMD
+     1 B-only compact 16-byte EMD (em1032.emd)
+
+Player/weapon corpus from RE1PLAYERS.rar:
+  32 / 32 EMW open + validate
+   7 /  7 standalone TMD open + validate
+
+Combined:
+  106 / 106 model files open + validate
+  0 unsupported primitive packets in this supplied corpus
+
+Golden regression:
+  EM1111 canonical bytes: 283734
+  EM1111 FNV-1a32:        C2104AE0
+  unchanged from RE1codec v0.1
+
+Strict build/audit:
+  -std=c89 -pedantic-errors -Wall -Wextra -Werror
+  no malloc/realloc/free
+  no float/double
+  static/caller-owned buffers only

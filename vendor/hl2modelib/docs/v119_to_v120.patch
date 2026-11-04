@@ -1,0 +1,269 @@
+--- v119/vendors/source/animator/hl2m_sequence_layers89.c
++++ v120/vendors/source/animator/hl2m_sequence_layers89.c
+@@ -118,13 +118,22 @@
+     r=l89_read32(data,size,(unsigned int)base+160u,&rel);if(r)return r;
+     if(rel>0){
+         const hl2m_mdl_seqdesc *sq=&mdl->sequences[sequence];
+-        int count=sq->groupsize[0];
+-        if(count>0 && count<=64){
++        int stride=sq->groupsize[0], count1=sq->groupsize[1];
++        if(stride>0 && stride<=64 && count1>0 && count1<=64){
++            /* studio.h: poseKey(axis, cell) = float[axis*groupsize[0]+cell].
++               The second axis has its own count, but shares the first stride. */
+             start=(unsigned int)base+(unsigned int)rel;
+-            if(start<(unsigned int)base || !l89_has(start,(unsigned int)count*8u,size))return HL2M_ERR_RANGE;
++            if(start<(unsigned int)base ||
++               !l89_has(start,(unsigned int)(stride+count1)*4u,size))
++                return HL2M_ERR_RANGE;
+             out->has_posekeys=1;
+-            for(i=0;i<2;i++)for(j=0;j<count;j++){
+-                r=l89_fixed(data,size,start+(unsigned int)(i*count+j)*4u,&out->posekeys[i][j]);if(r)return r;
++            for(i=0;i<2;i++){
++                int nkeys=i?count1:stride;
++                for(j=0;j<nkeys;j++){
++                    r=l89_fixed(data,size,start+(unsigned int)(i*stride+j)*4u,
++                        &out->posekeys[i][j]);
++                    if(r)return r;
++                }
+             }
+         }
+     }
+@@ -187,6 +196,31 @@
+         *layer_weight=s;
+     else *layer_weight=l89_mul(base_weight,s);
+     *layer_cycle=l89_clamp(c);return HL2M_OK;
++}
++
++/* v1.0.20: Source AddSequenceLayers() uses the physical pose parameter
++   instead of the parent's animation cycle for STUDIO_AL_POSE envelopes.
++   A pose-driven layer still inherits its parent's cycle for animation time. */
++int hl2m_sequence_layer_envelope_control120(const hl2m_seq_layer89 *layer,
++    hl2m_fixed base_cycle,hl2m_fixed base_weight,hl2m_fixed pose_physical,
++    hl2m_fixed *layer_cycle,hl2m_fixed *layer_weight)
++{
++    hl2m_seq_layer89 temporary;
++    hl2m_fixed index,ignored_cycle;
++    int r;
++    if(!layer || !layer_cycle || !layer_weight)return HL2M_ERR_NULL;
++    if(!(layer->flags&HL2M_SEQ_LAYER_POSE89))
++        return hl2m_sequence_layer_envelope89(layer,base_cycle,base_weight,
++            layer_cycle,layer_weight);
++    /* Evaluate the envelope at the physical parameter, but retain cycle. */
++    temporary=*layer;
++    temporary.flags&=~HL2M_SEQ_LAYER_POSE89;
++    index=pose_physical;
++    r=hl2m_sequence_layer_envelope89(&temporary,index,base_weight,
++        &ignored_cycle,layer_weight);
++    if(r)return r;
++    *layer_cycle=base_cycle;
++    return HL2M_OK;
+ }
+ 
+ /* Matrix operations are strictly limited to rigid local transforms. Delta
+--- v119/vendors/source/master/hl2m_master89.c
++++ v120/vendors/source/master/hl2m_master89.c
+@@ -223,3 +223,103 @@
+     }
+     return HL2M_OK;
+ }
++
++/* v1.0.20: Source AddSequenceLayers recurses through AccumulatePose.
++   Accumulate child onto the final pose BEFORE visiting its descendants.
++   Unlike baking a child+grandchild pose at full strength, this carries the
++   inherited weight and the child's own cycle into every nested layer. */
++#define HL2M_LAYERS120_MAX_DEPTH 8
++static int hl2m120_visit(const hl2m_u8 *data,unsigned int size,
++    const hl2m_u8 *ani,unsigned int ani_size,const hl2m_mdl *mdl,
++    int sequence,hl2m_fixed cycle,hl2m_fixed inherited_weight,
++    hl2m_fixed physical_x,hl2m_fixed physical_y,
++    const hl2m_fixed *pose_values,unsigned int pose_count,
++    hl2m_pose_matrices *out,hl2m_sequence_layers_report120 *report,
++    int ancestors[HL2M_LAYERS120_MAX_DEPTH],int depth)
++{
++    hl2m_seq_metadata89 meta,child_meta;
++    hl2m_pose_matrices child,composed;
++    int i,r,child_seq,a,used[4],j;
++    hl2m_fixed child_cycle,weight,value;
++    if(depth>=HL2M_LAYERS120_MAX_DEPTH)return HL2M_ERR_LIMIT;
++    for(j=0;j<depth;j++)if(ancestors[j]==sequence){
++        report->cycle_detected=1;report->failing_sequence=sequence;
++        return HL2M_ERR_UNSUPPORTED;
++    }
++    ancestors[depth]=sequence;
++    if(depth>report->max_depth)report->max_depth=depth;
++    r=hl2m_sequence_metadata89(data,size,mdl,sequence,&meta);
++    if(r)return r;
++    if(meta.flags&0x4000)return HL2M_ERR_UNSUPPORTED; /* STUDIO_WORLD */
++    report->declared+=meta.layer_count;
++    for(i=0;i<meta.layer_count;i++){
++        const hl2m_seq_layer89 *layer=&meta.layers[i];
++        child_seq=layer->sequence;
++        report->failing_sequence=sequence;
++        report->failing_layer=i;
++        if(child_seq<0 || child_seq>=mdl->sequence_count ||
++           (layer->flags&HL2M_SEQ_LAYER_LOCAL89))return HL2M_ERR_UNSUPPORTED;
++        value=0;
++        if(layer->flags&HL2M_SEQ_LAYER_POSE89){
++            if(!pose_values || layer->pose_index<0 ||
++               (unsigned int)layer->pose_index>=pose_count)return HL2M_ERR_UNSUPPORTED;
++            value=pose_values[layer->pose_index];
++        }
++        r=hl2m_sequence_layer_envelope_control120(layer,cycle,
++            inherited_weight,value,&child_cycle,&weight);
++        if(r)return r;
++        if(weight==0){report->skipped_zero_weight++;continue;}
++        r=hl2m_sequence_metadata89(data,size,mdl,child_seq,&child_meta);
++        if(r)return r;
++        if(child_meta.flags&0x4000)return HL2M_ERR_UNSUPPORTED;
++        if(child_meta.flags&HL2M_SEQ_DELTA89){
++            r=hl2m_native_sequence_animation89(data,size,mdl,child_seq,0,0,&a);
++            if(r)return r;
++            if(!(mdl->anims[a].flags&HL2M_SEQ_DELTA89))
++                return HL2M_ERR_UNSUPPORTED;
++        }
++        r=hl2m_master_sequence_pose89(data,size,ani,ani_size,mdl,
++            child_seq,child_cycle,physical_x,physical_y,&child,used);
++        if(r)return r;
++        r=hl2m_sequence_blend_mask89(out,&child,child_meta.bone_weights,weight,
++            child_meta.flags&(HL2M_SEQ_DELTA89|HL2M_SEQ_POST89),&composed);
++        if(r)return r;
++        *out=composed;
++        report->applied++;
++        if(depth>0)report->nested_applied++;
++        if(layer->flags&HL2M_SEQ_LAYER_POSE89)report->pose_driven++;
++        if(child_meta.flags&HL2M_SEQ_DELTA89)report->child_delta++;
++        r=hl2m120_visit(data,size,ani,ani_size,mdl,child_seq,child_cycle,
++            weight,physical_x,physical_y,pose_values,pose_count,
++            out,report,ancestors,depth+1);
++        if(r)return r;
++    }
++    return HL2M_OK;
++}
++int hl2m_master_sequence_layers120(const hl2m_u8 *data,unsigned int size,
++    const hl2m_u8 *ani,unsigned int ani_size,const hl2m_mdl *mdl,
++    int sequence,hl2m_fixed cycle,hl2m_fixed physical_x,
++    hl2m_fixed physical_y,const hl2m_fixed *pose_values,
++    unsigned int pose_count,hl2m_pose_matrices *out,
++    hl2m_sequence_layers_report120 *report)
++{
++    int r,ancestors[HL2M_LAYERS120_MAX_DEPTH];
++    hl2m_pose_matrices staging;
++    if(!data || !mdl || !out || !report)return HL2M_ERR_NULL;
++    if(sequence<0 || sequence>=mdl->sequence_count)return HL2M_ERR_RANGE;
++    memset(report,0,sizeof(*report));
++    report->failing_sequence=-1;report->failing_layer=-1;
++    /* Transactional output: an invalid layer must not replace a healthy
++       pose with a half-composited skeleton. */
++    r=hl2m_master_sequence_pose89(data,size,ani,ani_size,mdl,
++        sequence,cycle,physical_x,physical_y,&staging,NULL);
++    if(r)return r;
++    r=hl2m120_visit(data,size,ani,ani_size,mdl,sequence,cycle,
++        HL2M_FIXED_ONE,physical_x,physical_y,pose_values,pose_count,
++        &staging,report,ancestors,0);
++    if(r==HL2M_OK){
++        report->failing_sequence=-1;report->failing_layer=-1;
++        *out=staging;
++    }
++    return r;
++}
+--- v119/include/hl2modelib.h
++++ v120/include/hl2modelib.h
+@@ -1516,6 +1516,11 @@
+ int hl2m_sequence_layer_envelope89(const hl2m_seq_layer89 *layer,
+     hl2m_fixed base_cycle,hl2m_fixed base_weight,
+     hl2m_fixed *layer_cycle,hl2m_fixed *layer_weight);
++/* SDK parity extension: use an explicit physical pose value for
++   STUDIO_AL_POSE. For those layers the child animation keeps base_cycle. */
++int hl2m_sequence_layer_envelope_control120(const hl2m_seq_layer89 *layer,
++    hl2m_fixed base_cycle,hl2m_fixed base_weight,hl2m_fixed pose_physical,
++    hl2m_fixed *layer_cycle,hl2m_fixed *layer_weight);
+ /* Bone masks and STUDIO_DELTA/STUDIO_POST semantics; caller must supply
+    identity-relative matrices for delta sequences, NOT bind-space matrices. */
+ int hl2m_sequence_blend_mask89(const hl2m_pose_matrices *base,
+--- v119/include/hl2m_master89.h
++++ v120/include/hl2m_master89.h
+@@ -55,6 +55,22 @@
+     const hl2m_u8 *ani,unsigned int ani_size,const hl2m_mdl *mdl,
+     int sequence,hl2m_fixed cycle,hl2m_fixed physical_x,hl2m_fixed physical_y,
+     hl2m_pose_matrices *out,hl2m_sequence_layers_report89 *report);
++/* Opt-in Source 2013 sequence evaluator: normal and pose-driven auto-
++   layers, including nested sequences. Inputs are physical Source pose
++   parameter values, indexed by MDL-local pose parameter ID. For MDL with
++   virtual-model/shared mappings, the caller must supply remapped values.
++   Rejects world/local special layers and cyclic sequence dependencies. */
++typedef struct hl2m_sequence_layers_report120_s {
++    int declared, applied, skipped_zero_weight, child_delta;
++    int pose_driven, nested_applied, max_depth;
++    int failing_sequence, failing_layer, cycle_detected;
++} hl2m_sequence_layers_report120;
++int hl2m_master_sequence_layers120(const hl2m_u8 *data,unsigned int size,
++    const hl2m_u8 *ani,unsigned int ani_size,const hl2m_mdl *mdl,
++    int sequence,hl2m_fixed cycle,hl2m_fixed physical_x,
++    hl2m_fixed physical_y,const hl2m_fixed *pose_values,
++    unsigned int pose_count,hl2m_pose_matrices *out,
++    hl2m_sequence_layers_report120 *report);
+ int hl2m_master_layer_mask89(const hl2m_pose_matrices *base,
+     const hl2m_pose_matrices *overlay,const hl2m_fixed *weights,
+     hl2m_fixed strength,int flags,hl2m_pose_matrices *out);
+--- v119/Makefile
++++ v120/Makefile
+@@ -73,7 +73,8 @@
+ test_minimal: examples/test_minimal.c libhl2modelib.a
+ 	$(CC) $(CFLAGS) examples/test_minimal.c libhl2modelib.a -o test_minimal
+ 
+-check: test_delta_identity119 test_sequence_layers119 test_quaternion118 test_vvd_unsigned_bones117 test_sequence_eval116 test_anim_guard115 test_anim_sections114 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 test_uv111 test_smooth110 test_material_pipeline109 test_facial_precision108 test_source_rot107 test_sdk_ik106 test_vendors105 test_sdk_delta89 test_master89 test_vtf89 test_shader89 test_minimal hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe
++check: test_sequence_layers120 test_delta_identity119 test_sequence_layers119 test_quaternion118 test_vvd_unsigned_bones117 test_sequence_eval116 test_anim_guard115 test_anim_sections114 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 test_uv111 test_smooth110 test_material_pipeline109 test_facial_precision108 test_source_rot107 test_sdk_ik106 test_vendors105 test_sdk_delta89 test_master89 test_vtf89 test_shader89 test_minimal hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe
++	./test_sequence_layers120
+ 	./test_delta_identity119
+ 	./test_sequence_layers119
+ 	./test_quaternion118
+@@ -112,6 +113,7 @@
+ 	./test_vvd_fixup112
+ 
+ clean:
++	rm -f test_sequence_layers120 hl2m_layer_tree_probe120
+ 	rm -f test_quaternion118
+ 	rm -f hl2m_sequence_probe116 hl2m_sequence_obj116 test_sequence_eval116
+ 	rm -f hl2m_resident_motion_sweep114 hl2m_external_bank_probe114 hl2m_vtf_decode_audit114 test_anim_sections114 hl2m_anim_guard_probe115 test_anim_guard115 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 hl2m_vtf_info_probe112 test_uv111 test_smooth110 test_source_rot107 test_facial_precision108 hl2m_t103_model_shader_probe109 hl2m_t103_material_preview109 test_material_pipeline109 src/*.o vendors/source/*/*.o libhl2modelib.a hl2m_master_probe89 test_master89 test_sdk_delta89 hl2m_anim_sdk_audit89 hl2m_motion_probe89 hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe hl2m_export_obj89 hl2m_export_animated_obj89 hl2m_vtf_to_tga89 hl2m_vmt_fx_probe89 hl2m_shader_demo89 test_vtf89 test_shader89 test_minimal test_vendors105 hl2m_master_probe89 test_master89 test_sdk_delta89 hl2m_anim_sdk_audit89 test_sdk_ik106 test_t103_ik_real106 hl2m_export_animated_obj_ik106 hl2m_t103_ik_audit106
+@@ -311,3 +313,11 @@
+ 
+ test_delta_identity119: tests/test_delta_identity119.c libhl2modelib.a
+ 	$(CC) $(CFLAGS) $< libhl2modelib.a -o $@
++
++# Source 2013 v1.0.20 pose-driven autolayers and unequal grids
++test_sequence_layers120: tests/test_sequence_layers120.c libhl2modelib.a
++	$(CC) $(CFLAGS) tests/test_sequence_layers120.c libhl2modelib.a -o $@
++
++# Real MDL opt-in integration and negative test for recursive sequence layers
++hl2m_layer_tree_probe120: examples/hl2m_layer_tree_probe120.c libhl2modelib.a
++	$(CC) $(CFLAGS) examples/hl2m_layer_tree_probe120.c libhl2modelib.a -o $@
+--- v119/CHANGELOG.md
++++ v120/CHANGELOG.md
+@@ -1,3 +1,9 @@
++## v1.0.20 — SDK pose-driven autolayers and bounded recursive accumulation
++
++- Opt-in recursive sequence evaluator; physical `STUDIO_AL_POSE` control, cycle inheritance, per-bone weights; cycle protection and explicit unsupported statuses.
++- Fixed Source `poseKey` stride/count mismatch and exact bounds validation.
++- All v1.0.19 interfaces preserved, strict C89.
++
+ ## v1.0.19 — Source SDK sequence bone weights and additive layer repair
+ 
+ - Fix native DELTA fallback quaternion bug. Unanimated bones now remain identity/zero, not bind quaternion, as described by Source's `CalcAnimation`.
+--- v119/README.md
++++ v120/README.md
+@@ -1,3 +1,15 @@
++## v1.0.20 — Source automatic sequence layers
++
++Opt-in API: `hl2m_master_sequence_layers120` in `include/hl2m_master89.h`.
++Adds bounded recursive Source autolayer accumulation (weights inherited),
++physical `STUDIO_AL_POSE` envelopes, parent-cycle inheritance, circular-layer
++protection and transactional output. Fixed `posekeyindex` axis-1 stride.
++Does not change the v1.0.19 API. See `docs/SOURCE_SDK_AUTOLAYERS_V120.md`.
++
++Build/tests: `make check CFLAGS="-std=c89 -O2 -Wall -Wextra -Werror -pedantic -Iinclude"`.
++Real corpus comparison (supply the MDL yourself):
++`make hl2m_layer_tree_probe120 && ./hl2m_layer_tree_probe120 birkin_g1.mdl fast_walk`.
++
+ # hl2modelib v1.0.19 — C89 Source Studio vendor
+ 
+ **New:** Source 2013-informed additive/POST animations, sequence-local physical pose parameters, per-bone weights and metadata-driven autolayers. The independent vendor `vendors/source/animator/hl2m_sequence_layers89.c` can be called from the `hl2m_master89` API. See `docs/SOURCE_SDK_SEQUENCE_LAYERS_V119.md` for verified corpus tests, limits and the DELTA quaternion repair.

@@ -1,0 +1,11 @@
+Runtime75 R22 / BLEND Phase18 integration
+BLEND provider 109: direct BC_RT triangle callback, SDNA Mesh (MFace/MPoly/modern), C89.
+Frag R22: UGH nested-header API + full linked-record standalone tools; no UGH geometry claim.
+Frag R16 ARG native bridge deliberately preserved due R22 ABI breaking arg_decode_native.
+No duplicate runtime provider IDs; prior providers unchanged.
+C89 strict (-std=c89 -pedantic-errors -Wall -Wextra -Werror): provider_blend, stream core and frag provider PASS.
+Linux GCC runtime complete static-library build PASS.
+BLEND provider: 2 synthetic Phase13/16 .blend fixtures, 2 meshes each PASS.
+R22 UGH tool: synthetic linked object walker PASS. R22 header API PASS.
+ARG, DirectX X, DBO, GameStudio F15, RE4 skeletal FCV, IQM interpolation tests PASS.
+Limitations: no compressed BLEND in runtime, no Blender scene transform/material/animation bridge, no genuine UGH corpus, no MinGW32 proof.

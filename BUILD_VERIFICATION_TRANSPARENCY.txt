@@ -1,0 +1,25 @@
+model_runtime89 GoldSrc transparency verification
+
+Build flags:
+  -std=c89 -pedantic-errors -Wall -Wextra -O2
+
+Regression results:
+  FBX rig/texture regression: PASS
+  FBX bones-only regression: PASS
+  FBX external animation attachment: PASS
+  Genesis3D MOT attachment: PASS
+  GoldSrc quaternion/root-motion regression: PASS
+  GoldSrc Z-up -> Y-up regression: PASS
+  GoldSrc masked texture regression: PASS
+    material flags = 0x00000040 (MODELRT_MAT_ALPHA_MASK)
+    decoded alpha = 255,0,255,0 for palette indices 1,255,2,255
+  runtime glue policy scan: PASS
+
+Viewer source update:
+  consumes MODELRT_MAT_ALPHA_MASK / ALPHA_BLEND / ADDITIVE
+  masked mode uses GL_ALPHA_TEST with threshold > 0
+  masked texture upload uses GL_NEAREST to keep cutout alpha discrete
+  viewer source contains no float/double/malloc/calloc/realloc/free tokens
+
+Note: this environment has no MinGW Win32 cross-toolchain, so the Win32 viewer
+source was not linked here. The vendored runtime was fully rebuilt and tested.

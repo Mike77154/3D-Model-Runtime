@@ -1,0 +1,19 @@
+HOD2 PHASE12 / MODEL RUNTIME75 — GCC C89 INTEGRATION
+======================================================
+- Native source: HOD2 Phase12 provided by user.
+- Standalone original executable no longer needed for native CLI table commands.
+- Runtime .h2tb load, FNV validation and profile 1999/2000: PASS.
+- Runtime select type/visit skeleton 86 * 2 = 172 cases: PASS.
+- Runtime extra-part count/inspection for type15: PASS.
+- Runtime POL raw, PRS and H2MC synthetic tests: PASS.
+- Native Phase12 `make check`: PASS (two tests).
+- Native CLI `tablescheck` 1999 and 2000: PASS.
+- Wrong profile and 1-byte-corrupted H2TB rejected: PASS.
+- GCC strict C89 -pedantic -Wall -Wextra -Werror bridge: PASS.
+- Runtime full libmodel_runtime89.a build: PASS.
+- Gun Survivor v19 synthetics: PASS.
+- RE3 V028 regression: PASS.
+- IQM native interpolation smoke: PASS.
+- 86 real models visual render: NOT TESTED.
+- All-in-one H2TB + POL + MOT + TEX native animation visitor: NOT IMPLEMENTED.
+- MinGW32 32-bit Windows build: NOT VERIFIED.

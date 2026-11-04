@@ -1,0 +1,49 @@
+#ifndef DBO_LIMITS_H
+#define DBO_LIMITS_H
+
+#ifndef DBO_MAX_FRAMES
+#define DBO_MAX_FRAMES 256
+#endif
+
+#ifndef DBO_MAX_MESHES
+#define DBO_MAX_MESHES 128
+#endif
+
+#ifndef DBO_MAX_TEXTURES
+#define DBO_MAX_TEXTURES 256
+#endif
+
+#ifndef DBO_MAX_BONES
+#define DBO_MAX_BONES 256
+#endif
+
+#ifndef DBO_MAX_MULTIMATERIALS
+#define DBO_MAX_MULTIMATERIALS 256
+#endif
+
+#ifndef DBO_MAX_ANIMATIONS
+#define DBO_MAX_ANIMATIONS 256
+#endif
+
+#ifndef DBO_MAX_ANIMATION_SETS
+#define DBO_MAX_ANIMATION_SETS 8
+#endif
+
+#ifndef DBO_BLOB_CAPACITY
+#define DBO_BLOB_CAPACITY (4UL * 1024UL * 1024UL)
+#endif
+
+#ifndef DBO_MAX_UNKNOWN_CHUNKS
+#define DBO_MAX_UNKNOWN_CHUNKS 1024
+#endif
+
+
+#ifndef DBO_MAX_CHUNK_EVENTS
+#define DBO_MAX_CHUNK_EVENTS 8192
+#endif
+
+#ifndef DBO_MAX_ERROR_TEXT
+#define DBO_MAX_ERROR_TEXT 128
+#endif
+
+#endif

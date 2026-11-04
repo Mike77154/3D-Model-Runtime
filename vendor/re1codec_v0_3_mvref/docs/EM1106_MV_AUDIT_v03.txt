@@ -1,0 +1,1 @@
+PASS /mnt/data/re1enemy_corpus/ENEMY/EM1106.EMD checks=116144 raw_bytes=213632 banks=2 parts=31 children=29 clips=29 frame_refs=881 poses=818 angles=12983 objects=16 vertices=457 normals=893 primitives=792 mv_stride_quirks=0 alpha=0

@@ -1,0 +1,15 @@
+Version profile:
+  raw:       7400
+  profile:   fbx_74
+  path:      modern
+  flags:     0x00000004
+  embedded_model_mesh=0 modern_geometry=0 numeric_models=2 no_numeric_models=0 aux_roots=0 legacy_takes=0 string_connections=0
+
+FBX: tests/generated/camera_light_7400_ascii.fbx
+  is_binary: 0
+  version:   7400
+  models:    2
+  meshes:    0
+  skeleton:  no
+
+Meshes:

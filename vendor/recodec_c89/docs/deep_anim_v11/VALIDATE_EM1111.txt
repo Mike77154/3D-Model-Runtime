@@ -1,0 +1,3 @@
+verts=352 normals=900 uvs=1944 faces=648 pieces=15
+tris=648 quads=0 textured=648 invalid=0 degenerate=0 unused_vertices=0
+status=ok

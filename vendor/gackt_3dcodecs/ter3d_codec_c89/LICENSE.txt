@@ -1,0 +1,4 @@
+CC0 1.0 Universal style dedication
+
+This generated source package is intended to be used as public-domain-equivalent sample code.
+No warranty is provided. Review and test before using in production.

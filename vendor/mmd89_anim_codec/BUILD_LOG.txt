@@ -1,0 +1,11 @@
+cc -std=c89 -O2 -Wall -Wextra -pedantic -Iinclude -c src/mmd89_anim.c -o src/mmd89_anim.o
+ar -rv libmmd89_anim.a src/mmd89_anim.o
+ar: creating libmmd89_anim.a
+a - src/mmd89_anim.o
+cc -std=c89 -O2 -Wall -Wextra -pedantic -Iinclude tools/mmd89_dump.c libmmd89_anim.a -o mmd89_dump
+cc -std=c89 -O2 -Wall -Wextra -pedantic -Iinclude tests/selftest.c libmmd89_anim.a -o selftest
+cc -std=c89 -O2 -Wall -Wextra -pedantic -Iinclude examples/example_memory.c libmmd89_anim.a -o example_memory
+./selftest
+OK: selftest passed, vpd=212 bytes, vmd=296 bytes
+./example_memory
+created frame-0 VMD in memory: 185 bytes, bones=1

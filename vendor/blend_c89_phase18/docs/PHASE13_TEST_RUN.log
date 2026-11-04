@@ -1,0 +1,76 @@
+Phase 13 build: 2026-11-02
+rm -f blendc89
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -Ivendor/headers src/main.c src/bc_binary.c src/bc_wrapper.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_uv_tface.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c src/bc_rig_q16.c src/bc_euler_q16.c src/bc_object_links.c src/bc_anim_bindings.c src/bc_skin_tsv.c src/bc_playback_tsv.c src/bc_rest_matrices.c -o blendc89 vendor/linux-x86_64/libz.a vendor/linux-x86_64/libzstd.a -lm -pthread
+=== tests/test_phase04_animation.py
+PASS: legacy Bezier and handle metadata
+PASS: legacy FPoint sample
+PASS: legacy cyclic next rejected
+PASS: layered Action Channelbag slot
+PASS: out of bounds strip index rejected
+PASS: layered extended 17-byte 64-bit file
+PASS: legacy 64-bit small block headers
+PASS: legacy big endian 64-bit pointers
+PASS: modern serialized pointers with nonzero upper 32 bits
+PASS: legacy big endian 32-bit
+PASS: bPoseChannel serialized local LRS
+PASS: 11 Phase04 synthetic animation cases
+PASS: historical IPO BezTriple values
+PASS: historical IPO BPoint samples
+PASS: historical IPO cycle rejected
+PASS: historical IPO 64-bit pointers
+PASS: 4 historical IPO synthetic cases
+=== tests/test_phase05_eval.py
+PASS: step at 5
+PASS: step endpoint at 10
+PASS: linear midpoint
+PASS: linear fractional quarter
+PASS: Bezier midpoint
+PASS: Bezier non-midpoint
+PASS: FPoint linear
+PASS: outside endpoint holds
+PASS: negative frame
+PASS: unsupported interpolation rejected
+PASS: invalid frame rejected
+PASS: high unsigned frame rejected
+PASS: layered 4.4+ curve at stored keyframe
+PASS: layered extended 64bit pointer
+PASS: BE 64-bit legacy
+PASS: FCurve.extend=linear outside bounds rejected
+PASS: FCurve.extend=linear inside still supported
+PASS: 17 Phase05 synthetic interpolation cases
+=== tests/test_phase06_pipeline.py
+PASS: rest-matrix DNA 32-bit / 64-bit pointer samples, unsupported format rejection
+PASS: 32/64-bit synthetic .blend rest -> pose -> deform matrix -> LBS; invalid pose rejection
+=== tests/test_phase07_source_layouts.py
+PASS source-informed MFace 16-bit indexes (2.28a)
+PASS source-informed poly_offset_indices (3.6.3)
+PASS historical TFace.uv corner coordinates (2.28a)
+=== tests/test_phase08.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.284s
+
+OK
+=== tests/test_phase09_euler.py
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+=== tests/test_phase10_objects.py
+PASS: armature target linkage, local affine correction, cyclic/broken pointer rejection
+PASS: source-archive authentic startup files, saved Object/ID graph & local TRS
+=== tests/test_phase11_auto_play.py
+PASS: auto-selected second Action, 4 pointer/endian variants, NLA/missing Action refusal
+=== tests/test_phase11_bindings.py
+PASS: 4 serialized pointer/endianness combinations, NLA link, cycles, unresolved Action, 3 authentic scenes
+=== tests/test_phase12_timing.py
+PASS: NLA timeline retiming/repeat/flags, four serializations, conservative refusals
+=== tests/test_phase13_multirig.py
+PASS: two independent rigs, cross-bound meshes, identical bone names, mixed NLA/direct, four binary layouts, fail-closed graphs
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484

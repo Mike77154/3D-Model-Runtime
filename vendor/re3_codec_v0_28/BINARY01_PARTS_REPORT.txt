@@ -1,0 +1,23 @@
+RE3_codec v0.13 recovered Binary01 report
+==========================================
+Retail corpus used in the original v0.13 session: 100 EMD (69 primary + 31 EMD08).
+Non-dummy Binary01 sections: 12; 8 unique primary EMDs.
+
+Validated grammar:
+  u32 part_mask
+  u32 records_end
+  u32 rest_pos_size
+  for set bits in ascending part index:
+    u32 vertex_data_offset
+    u32 frame_stride
+    u32 extra_frame_count
+    u32 reserved[extra_frame_count]
+  rest positions, then morph vertex frames
+
+Observed invariants:
+- part-mask bit matches MD2 object index
+- frame_stride == align4(part.vertex_count * 6)
+- frame_count == extra_frame_count + 1
+- record chain ends exactly at records_end
+- rest pose matches Normal EMR local positions
+- recovered corpus reserved words were zero

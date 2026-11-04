@@ -1,0 +1,7 @@
+# Runtime 75 + FragFormats R16  |  SOURCE ONLY
+
+Base: RTCWv19 + GameStudio Fase15 + RE4 v5.2 (and all preexisting codecs)
+New code: source-only FragFormats C89 R16; ARG native visitor #107, UGH probe #108
+Preserved: X #8, DBO #69, 3DGS #106, RTCW #105, RE4 #104
+No commercial models or executable binaries.
+See docs/FRAGFORMATS_R16_INTEGRATION.md for exact supported behavior and tests.

@@ -1,0 +1,14 @@
+Build command:
+make clean all test_output.txt studiohalflife_preview.ppm
+
+Compiler flags:
+gcc -std=c89 -Wall -Wextra -pedantic -O2
+
+Result:
+OK - build completed with no warnings.
+
+Smoke tests included:
+- test_hlfp
+- test_hlfp_goldsrc
+- test_studiohalflife
+- demo_render_studiohalflife generated studiohalflife_preview.ppm

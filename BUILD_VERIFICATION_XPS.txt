@@ -1,0 +1,31 @@
+model_runtime89 XPS geometry fix verification
+
+Root cause:
+- xps_mesh_info at on_mesh_begin does not yet contain vertex_count/face_count.
+- provider_xps89 cached that incomplete structure and never refreshed it at on_mesh_end.
+- skeleton callbacks remained valid, so rig-only display was possible while triangle_count stayed zero.
+
+Fix:
+- keep first_texture/first_vertex/first_face offsets from on_mesh_begin.
+- overwrite cached xps_mesh_info from the final structure received by on_mesh_end.
+
+Verified with:
+- tests/xps_regression_v3.xps
+- tests/xps_regression_legacy.mesh
+- tests/xps_regression_ascii.mesh.ascii
+- tests/xps_regression_boned.mesh.ascii
+
+Observed after fix:
+- headered XPS: meshes=1 verts=3 tris=1
+- legacy binary MESH: meshes=1 verts=3 tris=1
+- ASCII MESH: meshes=1 verts=3 tris=1
+- boned ASCII MESH: meshes=1 verts=3 tris=1 bones=1
+
+Existing regressions re-run:
+- FBX rig/textures: PASS
+- FBX bones-only: PASS
+- external animation attachments: PASS
+- GoldSrc root-motion: PASS
+- GoldSrc axis conversion: PASS
+- GoldSrc transparency: PASS
+- policy_scan: PASS

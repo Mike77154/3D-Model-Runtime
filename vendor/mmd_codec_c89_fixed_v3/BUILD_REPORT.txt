@@ -1,0 +1,20 @@
+mmd_codec_c89_fixed_v3 build report
+====================================
+
+Command used:
+make check CFLAGS='-std=c89 -O2 -Wall -Wextra -Werror -pedantic -Iinclude'
+
+Result:
+PASS
+
+Executed tests:
+- test_minimal      : PMD smoke test
+- test_minimal_pmx  : PMX smoke test
+- test_minimal_vmd  : VMD smoke test
+- test_minimal_vpd  : split-block VPD pose test
+- test_features     : PMX UTF-16LE -> UTF-8, PMX soft body structs/anchors/pins, inline Bone0{name VPD parser
+
+Restricted symbols scan:
+- No malloc/free/realloc usage in src/.
+- No C float/double type usage in src/.
+- Header mentions these forbidden APIs/types only in documentation comments.

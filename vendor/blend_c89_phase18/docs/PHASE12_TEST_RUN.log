@@ -1,0 +1,17 @@
+# Phase 12 verification
+Mon Nov  2 23:38:51 UTC 2026
+$ make clean all
+rm -f blendc89
+cc -std=c89 -pedantic -Wall -Wextra -Werror -O2 -Iinclude -Ivendor/headers src/main.c src/bc_binary.c src/bc_wrapper.c src/bc_dna.c src/bc_fixed.c src/bc_refs.c src/bc_uv.c src/bc_uv_tface.c src/bc_mesh_legacy.c src/bc_mesh_modern.c src/bc_skin.c src/bc_armature.c src/bc_anim_common.c src/bc_anim_fcurve.c src/bc_anim_eval.c src/bc_anim_legacy.c src/bc_anim_layered.c src/bc_anim_export.c src/bc_anim_ipo.c src/bc_pose.c src/bc_rig_q16.c src/bc_euler_q16.c src/bc_object_links.c src/bc_anim_bindings.c src/bc_skin_tsv.c src/bc_playback_tsv.c src/bc_rest_matrices.c -o blendc89 vendor/linux-x86_64/libz.a vendor/linux-x86_64/libzstd.a -lm -pthread
+$ python3 tests/test_phase12_timing.py
+PASS: NLA timeline retiming/repeat/flags, four serializations, conservative refusals
+$ python3 tests/test_phase11_auto_play.py
+PASS: auto-selected second Action, 4 pointer/endian variants, NLA/missing Action refusal
+$ python3 tests/test_phase07_real_corpus.py /mnt/data/_blend_real_corpus
+PASS real source asset blender-2.58 release__datafiles__preview.blend vertices/faces/uv 2446 2310 0
+PASS real source asset blender-2.58 source__gameengine__GamePlayer__common__load.blend vertices/faces/uv 4 1 4
+PASS real source asset blender-2.79a release__datafiles__startup.blend vertices/faces/uv 8 6 0
+PASS real source asset blender-2.79a release__datafiles__preview.blend vertices/faces/uv 1345 1914 6344
+PASS real source asset blender-2.90.1 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-3.6.3 release__datafiles__startup.blend vertices/faces/uv 8 6 24
+PASS real source asset blender-4.5.14 release__datafiles__preview_grease_pencil.blend vertices/faces/uv 211 121 484

@@ -1,0 +1,3 @@
+CC0 1.0 Universal dedication for original code authored in this package.
+Reference: https://creativecommons.org/publicdomain/zero/1.0/
+No ownership or copyright license is claimed over third-party game assets.

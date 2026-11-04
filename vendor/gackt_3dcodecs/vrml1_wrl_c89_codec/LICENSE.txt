@@ -1,0 +1,7 @@
+CC0-1.0-style dedication
+
+This generated codec is provided as public-domain-style sample code. You may copy,
+modify, embed, port, sell, publish, and relicense it without asking permission.
+
+No warranty is provided. Validate untrusted 3D files before using them in a final
+runtime or editor pipeline.

@@ -1,0 +1,57 @@
+3dfbxplus engine pass validation
+=================================
+
+Tooling strict build:
+  cmake -DCMAKE_C_FLAGS='-Wall -Wextra -Werror -pedantic' ..
+  cmake --build .
+  result: OK
+
+No-stdio importer build:
+  cmake -DDFBX_BUILD_TOOLS=OFF -DCMAKE_C_FLAGS='-Wall -Wextra -Werror -pedantic -DFBX_NO_STDIO=1' ..
+  result: OK
+
+No-zlib build:
+  cmake -DDFBX_BUILD_TOOLS=OFF -DDFBX_ENABLE_ZLIB=OFF -DCMAKE_C_FLAGS='-Wall -Wextra -Werror -pedantic' ..
+  result: OK
+
+No-stdio + no-zlib build:
+  cmake -DDFBX_BUILD_TOOLS=OFF -DDFBX_ENABLE_ZLIB=OFF -DCMAKE_C_FLAGS='-Wall -Wextra -Werror -pedantic -DFBX_NO_STDIO=1' ..
+  result: OK
+
+Source scans:
+  direct malloc/calloc/realloc/free calls in 3dfbx/examples: 0
+  float/double tokens in 3dfbx/examples: 0
+  float-suffix literals in 3dfbx/examples: 0
+  direct math.h / sin/cos/sqrt/fabs/tan calls in 3dfbx/examples: 0
+  stdio includes in runtime files fbx_fixed/fbx_gackt_runtime: 0
+
+Regression:
+  test_quad.fbx fbx_dump output versus pre-refactor baseline: identical
+  generated ASCII fixtures: 18 files
+  generated ASCII version headers: 6000,6100,7000,7100,7200,7300,7400,7500,7600,7700
+  result: regression OK
+
+GACKT export:
+  input: test_quad.fbx
+  output: test_quad_final_package.gackt
+  result: GACKT meshes=1 vertices=6 indices=6 bytes=516
+  input: tests/generated/simple_7400_ascii.fbx
+  result: GACKT meshes=1 vertices=12 indices=12 bytes=1068
+
+Memory-open smoke:
+  fbx_open_memory + raw tree + scene build on test_quad.fbx: version=7400 meshes=1
+
+Material/texture smoke:
+  tests/generated/simple_7400_ascii.fbx
+  result: materials=1 textures=1 mesh_material_slots=1 submeshes=1
+
+Camera/light smoke:
+  tests/generated/camera_light_7400_ascii.fbx
+  result: cameras=1 valid_cameras=1 lights=1 valid_lights=1
+
+Fuzz smoke:
+  generated corpus mutation cases: 128
+  result: fuzz smoke OK; no crash or timeout observed
+
+Important limitation:
+  The version fixtures are synthetic ASCII probes with different FBXVersion headers, not a complete Autodesk/Maya/Blender/Mixamo corpus. They prove the refactor did not break the importer smoke path, not that every FBX dialect is fully supported.

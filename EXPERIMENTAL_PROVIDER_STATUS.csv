@@ -1,0 +1,66 @@
+vendor,extensions_declared_GACKT,status,native_provider_id,note
+3d89_codec,.m3d,REGISTERED_NATIVE_CORPUS_GEOMETRY,92,"M3D zlib-packed corpus: 12 triangles cube, 3732 WusonBlitz0; shares format with m3d89_codec; fixed geometry/UV; animation not sampled"
+CSM_chiquisumother3d,.csm .mnm,REGISTERED_NATIVE_MOTION,93,"ThomasFechten.csm opened as optical marker capture, no mesh; invalid DropoutBufferOverflow.csm rejected"
+ac3d_decoder3d_c89_fixed,.ac .ac3d,REGISTERED_NATIVE_STATIC_GEOMETRY,46,"AC3D meshes, UV/normal triangles; limited fidelity; see WAVE2_WAVE3_STATUS.md"
+acc3d_codec_c89,.acc,REGISTERED_NATIVE_CORPUS_REJECT,61,The Assimp Wuson.acc extended-vertex variant is rejected; decoder improvements required
+amf_chiquita3d,.amf,REGISTERED_NATIVE_CORPUS_POSITIVE,65,"test1/2/3.amf: 4 triangles each; XML subset, ZIP/Deflate unsupported"
+amj3d_decoder_c89,.amj,REGISTERED_NATIVE_UNTESTED,70,Native callback vertex/face parser; binary AMJ remains unsupported
+anima_biovisionbvh,.bvh,REGISTERED_NATIVE_CORPUS_SKELETON,79,"BVH: 2752, 4511, 3069 source frames; bones visited, no geometry by design."
+ase_decoder3d_c89_fixed,.ase,REGISTERED_NATIVE_PARTIAL,55,ASE native: static triangle meshes; 7 tested; UTF-16 ASE rejected; animation not yet visited
+b3d_c89_codec,.b3d,REGISTERED_NATIVE_STATIC_GEOMETRY,52,B3D static mesh; animated pose not yet bridged; limited fidelity; see WAVE2_WAVE3_STATUS.md
+bravure_bvh,.bvh,REGISTERED_NATIVE_DIRECT_TEST,80,BVH: direct adapter test 31 bones; shares .bvh and used as fallback.
+c3dae_collada_codec_v9_deep_modules,.dae .zae,NATIVE_PARTIAL_CORPUS_PASS,81,DAE: box_nested_animation.dae 12 triangles; duck.dae rejected; ZAE not integrated
+codec3d_poser_c89_v03,.pz3 .pp2 .cr2 .pz2 .pzz,REGISTERED_NATIVE_SYNTHETIC,95,"Poser embedded mesh synthetic PP2: 1 triangle, untested real Poser samples; external file refs are preserved, not automatically loaded"
+dbo_fixed_c89_toolkit,.dbo,REGISTERED_NATIVE_UNTESTED,69,"Native FVF and index visitor; untested on .dbo corpus, only list-based topology"
+dff3d_c89_fixed,.dff .txd,REGISTERED_NATIVE_NEGATIVE_ONLY,96,"DFF caller-owned decoded model; invalid sample rejected; no external positive DFF sample, not certified"
+g3ds_fixed_codec_c89_v4,.3ds,REGISTERED_NATIVE_STATIC_GEOMETRY,47,3DS static mesh triangles / materials metadata; limited fidelity; see WAVE2_WAVE3_STATUS.md
+gfdxf_c89_fixed_codec_v13,.dxf .dxfbin,REGISTERED_NATIVE_CORPUS_GEOMETRY,76,DXF: 576/3732 triangulated faces; line-only files without triangles may report unsupported.
+gif_ply_codec_c89,.ply,REGISTERED_NATIVE,42,PLY ASCII / binary
+giffany_cob_codec_c89_omega,.cob,REGISTERED_NATIVE_CORPUS_POSITIVE,63,molecule_ascii.cob / molecule.cob: 896 triangles each; dwarf_ascii.cob rejected
+giffany_ogex_decoder3d_c89_v4,.ogex,REGISTERED_NATIVE_STATIC_GEOMETRY,49,"OpenGEX scene parse, mesh triangle visitor; limited fidelity; see WAVE2_WAVE3_STATUS.md"
+giffany_scn3d_decoder_c89,.scn,REGISTERED_NATIVE_SMOKE,99,C89 native visitor; SCN grayscale volume fixture yields 12 triangles; trueSpace binary needs external corpus
+giffy_ask3d_codec,.ask,REGISTERED_NATIVE_UNTESTED,68,Native fixed-point scene parser and triangle visitor; no external .ask sample
+giffy_obj_codec_c89_fixed_v2,.obj .mtl,REGISTERED_NATIVE,41,OBJ / MTL references
+gltf3d_c89_fixed,.gltf .glb,REGISTERED_NATIVE_PARTIAL,60,glTF2 native: GLB and external BIN JSON geometry; glTF1 and data-URI buffers rejected; node transforms/animation not visited
+gxsi_decoder3d_c89,.xsi,REGISTERED_NATIVE_NO_CORPUS,77,XSI adapter linked; no external corpus sample; not certified.
+hmb3d_codec_c89,.hmb .hmp,REGISTERED_NATIVE_STATIC_GEOMETRY,54,HMP/HMB polygons and UV; limited fidelity; see WAVE2_WAVE3_STATUS.md
+ifc3d_c89,.ifc,REGISTERED_NATIVE_CORPUS_REJECTS,78,IFC large sample rejected; limited triangulated IFC4 entities only; not certified.
+iqm_c89_fixed_codec,.iqm,REGISTERED_NATIVE_IQM2_FRAMES_PARTIAL,101,"75 bones, 101 local-position animation frames and 2988 bind-pose triangles in mrfixit.iqm; quaternion/world transforms, deformation and interpolation pending"
+irrfxlib_v3,.irr .irrmesh,REGISTERED_NATIVE,43,Irrlicht IRRMESH / IRR scene
+lwo3d_c89_push,.lwo,REGISTERED_NATIVE_STATIC_GEOMETRY,48,"LWO polygons, UV and face normals; limited fidelity; see WAVE2_WAVE3_STATUS.md"
+lws3d_c89,.lws .lwo,REGISTERED_NATIVE_SCENE,94,3 real LightWave scenes read; native hierarchy and timeline exposed; external LWO mesh not automatically resolved
+lxo3d_c89,.lxo,REGISTERED_NATIVE_CORPUS_REJECTS,74,LXO: valid Assimp examples rejected by upstream parser (TRUNCATED after partial geometry); not certified.
+m3d89_codec,.m3d,COVERED_BY_NATIVE_92,92,Duplicate M3D decoder family: one canonical native M3D adapter; not a second provider
+md2fx_c89,.md2,REGISTERED_NATIVE,45,Quake 2 MD2 frames
+md3_fixed_codec_q3heur,.md3,REGISTERED_NATIVE_PARTIAL,56,Quake III MD3: triangles/UV and vertex animation frames; corpus samples watercan and european font
+md4_codec_c89,.md4,NATIVE_COMPILED_UNVERIFIED,83,Decoder and skin visitor directly linked; no suitable positive external MD4 corpus
+md5fx_c89,.md5mesh .md5anim,REGISTERED_NATIVE_CORPUS_POSITIVE,64,SimpleCube.md5mesh: 12 triangles; oversized tri ID rejected; animation still unconnected
+md7_codec_c89,.mdl .md7,NATIVE_STATIC_ONLY_UNVERIFIED,84,Decoder and bind-pose triangle visitor linked; MD7 animation frames NOT exposed
+mdc3d_codec_c89_v04,.mdc .skin,REGISTERED_NATIVE_CORPUS_GEOMETRY,72,MDC: spider.mdc triangle mesh and 250 frames; invalid header rejected.
+mf3d_decoder_c89,.3mf,NATIVE_3MF_PARTIAL_CORPUS_PASS,91,Assimp box.3mf: 12 triangles; malformed_property_index_oob.3mf incorrectly accepted; production_components rejected
+mf3d_decoder_c89_3d format,.3mf,COVERED_BY_NATIVE_91,91,Duplicate 3MF parser family already served by native 3MF provider 91; one source of truth
+mot89_chiquis_fixed,.mot .env,REGISTERED_NATIVE_MOTION,97,LWMO fixture parsed and 2 keys sampled; no geometry or target animation binding
+motion_bvh_poses,.bvh,OPTIONAL_SOURCE_ONLY_NO_DUPLICATE,,Original retarget code needs C89 long-long removal; two BVH importers already registered
+mp_kf_decoder_c89,.skd .kf2 .kfs,NATIVE_COMPILED_UNVERIFIED,90,Native MPK reader and triangle visitor linked; no SKD/KF2/KFS corpus sample
+ndo3d_c89,.ndo,REGISTERED_NATIVE_NEGATIVE_ONLY,67,malformed_edge_index.ndo rejected; no positive corpus sample
+nff89_enff_lib,.nff .enff,REGISTERED_NATIVE_STATIC_GEOMETRY,51,NFF polygons; analytic spheres/cones remain native objects; limited fidelity; see WAVE2_WAVE3_STATUS.md
+off3d_c89,.off .coff .cnoff,REGISTERED_NATIVE,40,OFF / COFF / NOFF / CNOFF
+ogre_mesh_codec_c89_v12,.mesh .mesh.xml .skeleton .material,REGISTERED_NATIVE_PARTIAL,59,Ogre XML mesh native: fish/ninja/razor/TheThing mesh.xml; binary .mesh still rejected
+p3codec_c89,.egg .bam .p3m,NATIVE_EGG_SYNTH_PASS,85,Panda EGG synthetic triangle. BAM and P3M not integrated
+prj_c89_lib,.prj,LINKED_UTILITY_NOT_MESH_PROVIDER,,WGS84 WKT successfully parsed by modelrt_prj89_summary using caller workspace
+psx_tmd_codec3d_c89,.tmd .hmd .tod,NATIVE_TMD_NEGATIVE_ONLY,86,TMD parser+face visitor directly linked; empty geometry-only sample rejected; no positive .tmd sample; HMD/TOD not integrated
+q3d_codec_c89,.q3o .q3s,REGISTERED_NATIVE_STATIC_GEOMETRY,53,Q3O/Q3S mesh polygons and UV; limited fidelity; see WAVE2_WAVE3_STATUS.md
+quake_mdl_c89_fixed_v9_loader_hardened,.mdl .pak .wad .pcx,REGISTERED_NATIVE_CORPUS_GEOMETRY,71,Quake MDL: 3 valid models; frames accessible; IDPO signature prevents GoldSrc collision.
+rawtri89,.raw,REGISTERED_NATIVE_STATIC_GEOMETRY,50,RAW triangles and face normals; limited fidelity; see WAVE2_WAVE3_STATUS.md
+sib3d_c89,.sib,REGISTERED_NATIVE_CORPUS_POSITIVE,62,heffalump.sib: 676 triangles
+step89,.step .stp .exp,REGISTERED_NATIVE_BREP_METADATA,98,STEP native entity/B-rep model recovered; no triangle tessellator
+stl3d_decoder_c89,.stl,REGISTERED_NATIVE,44,STL ASCII / binary
+ter3d_codec_c89,.ter,REGISTERED_NATIVE_CORPUS_POSITIVE,66,RealisticTerrain.ter: 131072 triangles; Terragen branch only
+uc3d_decoder,.uc .3d,NATIVE_UC_METADATA_PASS,87,"Assimp box.uc parsed; references and sequence metadata native, zero triangles by design"
+ue1_3d_codec_c89,.uc .3d,NATIVE_CORPUS_GEOMETRY_PASS,88,"Assimp box_d.3d + box_a.3d: 12 triangles, 30 frames"
+usd3d_decoder_c89,.usd .usda .usdc .usdz,REGISTERED_NATIVE_USDA_PARTIAL,100,USDA test triangle through visitor; complex USD formats unverified
+vrml1_wrl_c89_codec,.wrl .iv,REGISTERED_NATIVE_PARTIAL,57,VRML1 native: synthetic one-triangle fixture; more external VRML1 corpus needed
+vrml97_wrl_fixed_codec_v4,.wrl,REGISTERED_NATIVE_PARTIAL,58,VRML97 native: HelloWorld.wrl 246 triangles; Wuson.wrl 3732 triangles
+vta_decoder3d_c89,.vta,NATIVE_VTA_SYNTH_PASS,89,"Synthetic VTA: 1 bone, 2 morph frames, no geometry; morph application to target not implemented"
+x3d_giffany_c89_v8,.x3d .x3dv .x3db,REGISTERED_NATIVE_PARTIAL,73,X3D: ChevyTahoe.x3d 1106 triangles; primitive-only scenes not supported.
+xgl_zgl_c89,.xgl .zgl,REGISTERED_NATIVE_CORPUS_GEOMETRY,75,"XGL and ZGL: native XML & zlib-compressed samples pass; 24, 1312, 3732 triangles."

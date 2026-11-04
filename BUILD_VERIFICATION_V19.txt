@@ -1,0 +1,10 @@
+Compilation: GNU C89 (-std=c89 -pedantic-errors -Wall -Wextra -O2) - success
+Provider count: 14 (IDs 1..14). Original 11 remain linked.
+Native MS3D Makefile check: PASS (including SLERP, pose blending, UV/materials, player)
+Native DTS selftests: PASS selftest, LOD41, shaderer, pose37, UV38, texture39, lighting40
+Native C4D v0.14 modules test script: PASS (five modules, core, image test fixtures)
+Runtime MS3D fixture: PASS open + 1 triangle via callback.
+Runtime DTS 317-byte synthetic fixture: PASS open and native static visitor; it contains no triangles.
+Legacy runtime regressions: PASS GoldSrc, XPS UV, RE1, RE3, DirectX .x
+Viewer: source integration and filter updated; NO Win32 toolchain runtime validation.
+Known limitations: C4D native scene material bindings and full skin unresolved; DTS animations/native transformations not bridged in common visitor. No real C4D/DTS animated polygon corpus provided for render-based validation.

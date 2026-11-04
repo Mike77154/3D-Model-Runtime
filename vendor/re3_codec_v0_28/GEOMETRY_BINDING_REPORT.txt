@@ -1,0 +1,16 @@
+RE3_codec v0.13 recovered geometry binding report
+=================================================
+Binary00 header: pBindPose at +4, limb_count at +6.
+Limb index entries: 8 bytes.
+A/B offsets are limb-entry-relative.
+
+Owner stream:
+  joint_id, triplet_count, triplet_count*3 vertex IDs, 0xFF terminator.
+
+Seam stream:
+  fixed records: j0,j1,v0,w0,v1,w1,v2,w2; single 0xFF terminator.
+Recovered seam validation in the original session covered 10 enemy files,
+276 records and 714 unique seam vertices. Combined enemy+PLD research covered
+79 streams, 380 records and 1140 entries.
+
+Blend is Q0.7: w1=blend<<5 in Q12, w0=4096-w1.

@@ -1,0 +1,8 @@
+2026-10-10 | gcc -std=c89 -pedantic-errors -Wall -Wextra -Werror -O2
+Runtime library: PASS
+All 20 Makefile regression targets: PASS (exit 0)
+Source MDL/VVD/VTX synthetic: PASS
+Source SMD synthetic: PASS
+Source VMT to VTF BC1 (4x4) native RGBA: PASS
+Viewer Win32 execution: NOT TESTED (no MinGW32 toolchain here)
+Source complex animation corpus: NOT TESTED

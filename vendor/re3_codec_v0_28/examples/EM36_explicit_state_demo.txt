@@ -1,0 +1,12 @@
+# Diagnostic events for EM36 Bank A clip 1 (52 keys). NOT original game events.
+# Format: <key index> <part index> show|hide|morph <frame|rest>
+0 16 hide
+0 17 hide
+10 1 morph 1
+15 16 show
+15 16 morph 2
+20 17 show
+20 17 morph 4
+30 1 morph rest
+36 16 hide
+40 17 hide

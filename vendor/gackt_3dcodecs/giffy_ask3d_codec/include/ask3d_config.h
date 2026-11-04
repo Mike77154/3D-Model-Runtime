@@ -1,0 +1,130 @@
+#ifndef ASK3D_CONFIG_H
+#define ASK3D_CONFIG_H
+
+/*
+   giffy_ask3d - C89 fixed-point ASCII Scene Export / ASK alias codec.
+   All storage is caller supplied and bounded by these constants.
+*/
+
+#ifndef ASK3D_MAX_OBJECTS
+#define ASK3D_MAX_OBJECTS 64
+#endif
+
+#ifndef ASK3D_MAX_SOURCE_MATERIALS
+#define ASK3D_MAX_SOURCE_MATERIALS 128
+#endif
+
+#ifndef ASK3D_MAX_MATERIALS
+#define ASK3D_MAX_MATERIALS 256
+#endif
+
+#ifndef ASK3D_MAX_SUBMATERIALS
+#define ASK3D_MAX_SUBMATERIALS 32
+#endif
+
+#ifndef ASK3D_MAX_VERTICES
+#define ASK3D_MAX_VERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_FACES
+#define ASK3D_MAX_FACES 65536
+#endif
+
+#ifndef ASK3D_MAX_TVERTICES
+#define ASK3D_MAX_TVERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_CVERTICES
+#define ASK3D_MAX_CVERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_LOCAL_VERTICES
+#define ASK3D_MAX_LOCAL_VERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_LOCAL_TVERTICES
+#define ASK3D_MAX_LOCAL_TVERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_LOCAL_CVERTICES
+#define ASK3D_MAX_LOCAL_CVERTICES 32768
+#endif
+
+#ifndef ASK3D_MAX_LOCAL_FACES
+#define ASK3D_MAX_LOCAL_FACES 65536
+#endif
+
+#ifndef ASK3D_MAX_CAMERAS
+#define ASK3D_MAX_CAMERAS 16
+#endif
+
+#ifndef ASK3D_MAX_LIGHTS
+#define ASK3D_MAX_LIGHTS 32
+#endif
+
+#ifndef ASK3D_MAX_ANIM_SAMPLES
+#define ASK3D_MAX_ANIM_SAMPLES 512
+#endif
+
+#ifndef ASK3D_MAX_MESH_SNAPSHOTS
+#define ASK3D_MAX_MESH_SNAPSHOTS 128
+#endif
+
+
+#ifndef ASK3D_MAX_TEXTURE_MAPS
+#define ASK3D_MAX_TEXTURE_MAPS 10
+#endif
+
+#ifndef ASK3D_MAX_UV_CHANNELS
+#define ASK3D_MAX_UV_CHANNELS 256
+#endif
+
+#ifndef ASK3D_MAX_UV_FACES
+#define ASK3D_MAX_UV_FACES 65536
+#endif
+
+#ifndef ASK3D_MAX_HELPERS
+#define ASK3D_MAX_HELPERS 64
+#endif
+
+#ifndef ASK3D_MAX_SHAPES
+#define ASK3D_MAX_SHAPES 64
+#endif
+
+#ifndef ASK3D_MAX_SHAPE_POINTS
+#define ASK3D_MAX_SHAPE_POINTS 4096
+#endif
+
+#ifndef ASK3D_MAX_SETTING_SAMPLES
+#define ASK3D_MAX_SETTING_SAMPLES 512
+#endif
+
+#ifndef ASK3D_MAX_TOKEN
+#define ASK3D_MAX_TOKEN 192
+#endif
+
+#ifndef ASK3D_MAX_NAME
+#define ASK3D_MAX_NAME 96
+#endif
+
+#ifndef ASK3D_MAX_PATH
+#define ASK3D_MAX_PATH 192
+#endif
+
+#ifndef ASK3D_MAX_WARNINGS
+#define ASK3D_MAX_WARNINGS 96
+#endif
+
+#ifndef ASK3D_MAX_NODE_DEPTH
+#define ASK3D_MAX_NODE_DEPTH 32
+#endif
+
+#ifndef ASK3D_MAX_BAKED_VERTICES
+#define ASK3D_MAX_BAKED_VERTICES (ASK3D_MAX_FACES * 3U)
+#endif
+
+#ifndef ASK3D_FILE_MAX_BYTES
+#define ASK3D_FILE_MAX_BYTES 4194304UL
+#endif
+
+#endif

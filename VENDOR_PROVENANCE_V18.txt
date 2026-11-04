@@ -1,0 +1,5 @@
+hl1modelib: supplied hl1modelib.zip / hl1modelib_SubpixelTopLeft_v7 (full source)
+hl2modelib: supplied hl2modelib.zip / hl2modelib_v1_0_24 (full source)
+GoldSrc/HL1 v17 provider and vendor directory: replaced in place, not co-shipped.
+Other 9 providers: carried forward from v17.
+Source adapter/new tests/bridging utilities: v18.

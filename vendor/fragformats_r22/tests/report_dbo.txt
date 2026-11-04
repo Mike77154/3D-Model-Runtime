@@ -1,0 +1,16 @@
+@24 ROOT_FRAME              (1) bytes=345
+  @32 FRAME_NAME              (101) bytes=13
+    frame name=testplane
+  @53 FRAME_MATRIX            (102) bytes=64
+  @125 FRAME_MESH              (103) bytes=236
+    @133 MESH_FVF                (111) bytes=4
+    @145 MESH_FVFSIZE            (112) bytes=4
+    @157 MESH_VERTEXCOUNT        (113) bytes=4
+    @169 MESH_INDEXCOUNT         (114) bytes=4
+    @181 MESH_VERTEXDATA         (115) bytes=128
+    @317 MESH_INDEXDATA          (116) bytes=12
+    @337 MESH_PRIMITIVE_TYPE     (117) bytes=4
+    @349 MESH_TEXTURECOUNT       (127) bytes=4
+    @361 END(0)
+  @369 END(0)
+DBO OK | version=1062 blocks=12 frames=1 meshes=1 verts=4 indices=6 textures=0 animations=0 named_frames=1 matrices=1 tracks=0 pos_keys=0 error_at=0

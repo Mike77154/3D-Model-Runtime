@@ -1,0 +1,21 @@
+PASS: 282 Euler rotation cases, all 6 Blender orders. Max component err: 0.0001846935987058762
+PASS: Euler Z 90 degrees -> skinned OBJ-space point, quaternion/euler collision rejected
+PASS: bone names containing spaces and escaped quotes
+PASS: embedded bPoseChannel rotmode=ZYX and Euler FCurve drive skinning from a binary SDNA fixture
+test_auto_obj_animation (__main__.Phase08.test_auto_obj_animation) ... ok
+test_direct_blend_frame (__main__.Phase08.test_direct_blend_frame) ... ok
+test_gzip_and_zstd (__main__.Phase08.test_gzip_and_zstd) ... ok
+test_rig_playback (__main__.Phase08.test_rig_playback) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.375s
+
+OK
+Additional phase 01-08 regression suites executed successfully on 2026-11-02:
+tests/test_synthetic.py, test_rig_synthetic.py, test_rig_mutations.py,
+test_phase04_animation.py, test_phase04_mutations.py, test_phase05_eval.py,
+test_phase05_mutations.py, test_phase06_cli.py, test_phase06_pipeline.py,
+test_phase06_rest.py, test_phase06_mutations.py,
+test_phase07_source_layouts.py, test_phase07_real_corpus.py,
+test_phase08_mutations.py.
+Native Win32 build and actual Blender animated character playback NOT validated.

@@ -1,0 +1,6 @@
+ModelRuntime89 v19 vendor provenance
+- vendor/giffany_ms3d_codec_c89: Giffany_MS3D_Codec_C89_v1_7_SLERP_CROSSFADE_FULL_SOURCE.zip
+- vendor/Cinema4DCodec89_v0_14: Cinema4DCodec89_v0_14_FIVE_MODULES_FULL_SOURCE.zip
+- vendor/dts89: dts89_torque_modular_v41_polygon_lod_fix_FULL_SOURCE.zip
+- Prior 11 codec vendors unchanged from ModelRuntime89_v18_HL1v7_SourceHL2_ENGINE_FULL_SOURCE.zip
+- Added native providers in src/providers; original vendor sources retained.

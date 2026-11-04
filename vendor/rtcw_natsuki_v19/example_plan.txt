@@ -1,0 +1,6 @@
+# EDITAR: las rutas y tags deben existir en tu corpus RTCW extraído.
+# tag_en_la_escena ruta_hijo frame skin|-
+tag_head head.md3 0 -
+tag_weapon weapon.md3 0 -
+# Si la cabeza exporta tag_hat, se llama child_tag_hat en esta escena
+# child_tag_hat helmet.md3 0 -

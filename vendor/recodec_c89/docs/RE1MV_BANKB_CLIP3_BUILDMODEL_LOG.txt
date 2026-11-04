@@ -1,0 +1,14 @@
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=0/42 pose=72 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=5/42 pose=77 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=10/42 pose=82 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=15/42 pose=87 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=20/42 pose=92 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=25/42 pose=97 step=1
+v09 RE1MV-verified tex+anim path: faces=648 texrefs=648 tim=256px x 256px type=1 clut=256x2
+anim applied: bank=B clip=3 frame=30/42 pose=102 step=1

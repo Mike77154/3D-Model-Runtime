@@ -1,0 +1,63 @@
+file_size: 189132
+sections:
+  0 EMR_A off=0x00000000 size=22540
+  1 EDD_A off=0x0000580C size=1040
+  2 EMR_B off=0x00005C1C size=67260
+  3 EDD_B off=0x000162D8 size=3088
+  4 TMD   off=0x00016EE8 size=28592
+  5 TIM   off=0x0001DE98 size=66592
+bank A
+  emr_header: part_list=0x0064 animation=0x00B0 objects=15 frame_size=0x0068
+  emd_type: 0x3C0006
+  poses: 215
+  clips: 12
+  clip_table:
+    00 frames=19 stream=0x0030 track=0 pose_range=0..18 status=ok
+    01 frames=21 stream=0x007C track=19 pose_range=19..29 status=ok
+    02 frames=20 stream=0x00D0 track=40 pose_range=30..49 status=ok
+    03 frames=19 stream=0x0120 track=60 pose_range=50..68 status=ok
+    04 frames=21 stream=0x016C track=79 pose_range=69..79 status=ok
+    05 frames=15 stream=0x01C0 track=100 pose_range=80..94 status=ok
+    06 frames=27 stream=0x01FC track=115 pose_range=95..121 status=ok
+    07 frames=14 stream=0x0268 track=142 pose_range=122..129 status=ok
+    08 frames=25 stream=0x02A0 track=156 pose_range=130..154 status=ok
+    09 frames=27 stream=0x0304 track=181 pose_range=155..181 status=ok
+    10 frames=14 stream=0x0370 track=208 pose_range=182..189 status=ok
+    11 frames=25 stream=0x03A8 track=222 pose_range=190..214 status=ok
+bank B
+  emr_header: part_list=0x0064 animation=0x00B0 objects=15 frame_size=0x0068
+  emd_type: 0x410000
+  poses: 645
+  clips: 31
+  clip_table:
+    00 frames=31 stream=0x007C track=0 pose_range=0..30 status=ok
+    01 frames=31 stream=0x00F8 track=31 pose_range=31..61 status=ok
+    02 frames=10 stream=0x0174 track=62 pose_range=62..71 status=ok
+    03 frames=42 stream=0x019C track=72 pose_range=72..113 status=ok
+    04 frames=20 stream=0x0244 track=114 pose_range=114..133 status=ok
+    05 frames=20 stream=0x0294 track=134 pose_range=134..153 status=ok
+    06 frames=36 stream=0x02E4 track=154 pose_range=154..189 status=ok
+    07 frames=36 stream=0x0374 track=190 pose_range=190..225 status=ok
+    08 frames=30 stream=0x0404 track=226 pose_range=226..255 status=ok
+    09 frames=1 stream=0x047C track=256 pose_range=255..255 status=ok
+    10 frames=26 stream=0x0480 track=257 pose_range=256..279 status=ok
+    11 frames=20 stream=0x04E8 track=283 pose_range=280..299 status=ok
+    12 frames=16 stream=0x0538 track=303 pose_range=299..304 status=ok
+    13 frames=30 stream=0x0578 track=319 pose_range=305..334 status=ok
+    14 frames=33 stream=0x05F0 track=349 pose_range=335..367 status=ok
+    15 frames=10 stream=0x0674 track=382 pose_range=368..377 status=ok
+    16 frames=17 stream=0x069C track=392 pose_range=378..394 status=ok
+    17 frames=19 stream=0x06E0 track=409 pose_range=395..413 status=ok
+    18 frames=21 stream=0x072C track=428 pose_range=414..424 status=ok
+    19 frames=20 stream=0x0780 track=449 pose_range=425..444 status=ok
+    20 frames=19 stream=0x07D0 track=469 pose_range=445..463 status=ok
+    21 frames=21 stream=0x081C track=488 pose_range=464..474 status=ok
+    22 frames=15 stream=0x0870 track=509 pose_range=475..489 status=ok
+    23 frames=27 stream=0x08AC track=524 pose_range=490..516 status=ok
+    24 frames=14 stream=0x0918 track=551 pose_range=517..524 status=ok
+    25 frames=25 stream=0x0950 track=565 pose_range=525..549 status=ok
+    26 frames=27 stream=0x09B4 track=590 pose_range=550..576 status=ok
+    27 frames=14 stream=0x0A20 track=617 pose_range=577..584 status=ok
+    28 frames=25 stream=0x0A58 track=631 pose_range=585..609 status=ok
+    29 frames=35 stream=0x0ABC track=656 pose_range=610..644 status=ok
+    30 frames=49 stream=0x0B48 track=691 pose_range=610..635 status=ok

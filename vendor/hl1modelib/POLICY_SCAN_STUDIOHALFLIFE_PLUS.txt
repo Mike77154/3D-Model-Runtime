@@ -1,0 +1,4 @@
+Policy scan:
+- grep for malloc/calloc/realloc/free calls in *.c/*.h: none.
+- grep for runtime float/double tokens in new plus modules: none.
+- Existing base header has a comment mentioning GoldSrc on-disk float fields; the new plus runtime code does not introduce C float/double types.

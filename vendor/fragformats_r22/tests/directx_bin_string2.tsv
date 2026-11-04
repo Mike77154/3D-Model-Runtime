@@ -1,0 +1,5 @@
+# DirectX X metadata. Values reconstructed as signed 16.16 fixed; transforms and animation NOT evaluated.
+MESH	1	SkinMesh	3
+SKIN_CLUSTER	1	Root	1
+SKIN	1	Root	0	1.0000
+SKIN_OFFSET	1	Root	1.0000	0.0000	0.0000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	0.0000	1.0000	0.0000	0.0000	0.0000	0.0000	1.0000

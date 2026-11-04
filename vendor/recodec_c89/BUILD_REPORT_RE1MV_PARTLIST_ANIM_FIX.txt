@@ -1,0 +1,30 @@
+RE1MV PartList Animation Fix
+============================
+
+Main issue fixed:
+  EDD/EMR pose data was correct, but the standalone viewer assembled EM1111 with
+  the old hardcoded RE1MV Build_Model stack.  That could split torso/legs/arms.
+
+New behavior:
+  The viewer now reads the EMR PartListOffset child table and uses it as the
+  skeleton hierarchy by default.  The legacy stack remains available only via
+  --legacy-buildmodel / --legacy-stack.
+
+Validation against supplied RE1MV ANI exports:
+  EM1111_00_idle.ANI -> tree_match=True, frames 31/31, max_abs_delta=0.000495, OK
+  EM1111.ANI         -> tree_match=True, frames 645/645, max_abs_delta=0.000495, OK
+
+EM1111 Bank B clip counts:
+  clips: 31 entries, indexed 0..30
+  clip00: 31 frames, poses 0..30
+  clip01: 31 frames, poses 31..61
+  clip02: 10 frames, poses 62..71
+  clip03: 42 frames, poses 72..113
+  clip04: 20 frames, poses 114..133
+  clip05: 20 frames, poses 134..153
+
+Build:
+  make clean && make -> OK
+  tests/smoke.sh -> OK
+
+See docs/deep_anim_v11/RE1MV_PARTLIST_ANIM_FIX.md for details.

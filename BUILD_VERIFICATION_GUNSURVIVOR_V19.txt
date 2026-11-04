@@ -1,0 +1,17 @@
+GUN SURVIVOR V19 NATIVE RUNTIME INTEGRATION
+-------------------------------------------
+- C89 provider object (-pedantic -Wall -Wextra -Werror): PASS
+- Complete runtime built with make -j8, GCC -std=c89 -pedantic-errors: PASS
+- 31/31 NAB + paired NAC runtime corpus regressions: PASS
+- 31/31 standalone NAC runtime corpus regressions: PASS
+- 703/703 reported source clips cataloged as UNBOUND: PASS
+- 50 NAB texture planes decoded and reported: PASS
+- TAIRANT.HMD and TAIRANTB.HMD (same directory lowercase tairant.tim): PASS, 300 triangles each
+- Synthetic single-triangle NAB + minimal single-clip NAC: PASS, no shipped model data
+- Prior RE3 v0.28 regression suite: PASS
+- Native IQM interpolation/normal regression: PASS
+- Windows i686 binary build: NOT VERIFIED (cross compiler unavailable)
+- Native NAC animated pose playback: NOT IMPLEMENTED (under investigation)
+- Native HMD-to-NAB waist join: NOT VERIFIED
+
+See docs/GUNSURVIVOR_CODEC_V19_RUNTIME.md and the CSV for 31 individual counts.

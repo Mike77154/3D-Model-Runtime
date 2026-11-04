@@ -1,0 +1,154 @@
+"""Diagnostic textured preview for recovered C4D89 OBJ output.
+Uses embedded JPEG atlases already recovered from FemaleHobo.
+This is preview tooling only; not runtime code.
+"""
+from pathlib import Path
+import math
+import numpy as np
+from PIL import Image, ImageDraw
+
+ROOT=Path(__file__).resolve().parents[1]
+PREV=ROOT/'previews'
+
+class OBJ:
+    def __init__(self, path):
+        self.v=[]; self.vt=[]; self.faces=[]
+        for line in path.read_text(encoding='utf-8', errors='ignore').splitlines():
+            if line.startswith('v '):
+                _,x,y,z=line.split()[:4]
+                self.v.append([float(x),float(y),float(z)])
+            elif line.startswith('vt '):
+                _,u,v=line.split()[:3]
+                self.vt.append([float(u),float(v)])
+            elif line.startswith('f '):
+                vs=[]; vts=[]
+                for tok in line.split()[1:]:
+                    parts=tok.split('/')
+                    vs.append(int(parts[0])-1)
+                    vts.append(int(parts[1])-1 if len(parts)>1 and parts[1] else -1)
+                if len(vs)==3:
+                    self.faces.append((tuple(vs),tuple(vts)))
+                elif len(vs)>3:
+                    for i in range(1,len(vs)-1):
+                        self.faces.append(((vs[0],vs[i],vs[i+1]),(vts[0],vts[i],vts[i+1])))
+        self.v=np.asarray(self.v,dtype=np.float32)
+        self.vt=np.asarray(self.vt,dtype=np.float32)
+
+def normalize(v):
+    mn=v.min(axis=0); mx=v.max(axis=0)
+    center=(mn+mx)/2.0
+    scale=float((mx-mn).max())
+    return (v-center)/scale*2.0
+
+def rotation(yaw,pitch=12.0):
+    y=math.radians(yaw); p=math.radians(pitch)
+    cy,sy=math.cos(y),math.sin(y)
+    cp,sp=math.cos(p),math.sin(p)
+    ry=np.array([[cy,0,sy],[0,1,0],[-sy,0,cy]],dtype=np.float32)
+    rx=np.array([[1,0,0],[0,cp,-sp],[0,sp,cp]],dtype=np.float32)
+    return rx@ry
+
+def project(pts,w,h,fov=45.0,dist=4.7):
+    z=np.maximum(pts[:,2]+dist,1e-3)
+    f=1.0/math.tan(math.radians(fov)/2.0)
+    x=(pts[:,0]*f/z)*(w/2.0)+w/2.0
+    y=(-pts[:,1]*f/z)*(h/2.0)+h/2.0
+    return np.stack([x,y,z],axis=1)
+
+def sample(tex,uv):
+    u=float(uv[0])%1.0
+    v=float(uv[1])%1.0
+    x=int(u*(tex.shape[1]-1))
+    y=int((1.0-v)*(tex.shape[0]-1))
+    return tex[y,x,:3]
+
+def render(obj, textures, tex_selector, yaw=35.0, pitch=12.0, w=900, h=900):
+    verts=normalize(obj.v)
+    face_centers=[verts[list(face)].mean(axis=0) for face,_ in obj.faces]
+    pts=verts@rotation(yaw,pitch).T
+    proj=project(pts,w,h)
+    img=np.zeros((h,w,3),dtype=np.uint8)
+    img[:]=(245,245,248)
+    zbuf=np.full((h,w),np.inf,dtype=np.float32)
+    light=np.array([0.5,0.8,1.0],dtype=np.float32)
+    light/=np.linalg.norm(light)
+    for fi,(face,ft) in enumerate(obj.faces):
+        p=pts[list(face)]
+        n=np.cross(p[1]-p[0],p[2]-p[0])
+        norm=float(np.linalg.norm(n))
+        if norm<1e-8:
+            continue
+        n/=norm
+        if n[2]>0.0:
+            continue
+        shade=0.25+0.75*max(0.0,-float(np.dot(n,light)))
+        tri=proj[list(face),:2]
+        depth=proj[list(face),2]
+        area=(tri[1,0]-tri[0,0])*(tri[2,1]-tri[0,1])-(tri[2,0]-tri[0,0])*(tri[1,1]-tri[0,1])
+        if abs(area)<1e-6:
+            continue
+        uv=np.asarray([obj.vt[i] for i in ft],dtype=np.float32)
+        tex=textures[tex_selector(face_centers[fi],uv)]
+        xmin=max(int(np.floor(tri[:,0].min())),0); xmax=min(int(np.ceil(tri[:,0].max())),w-1)
+        ymin=max(int(np.floor(tri[:,1].min())),0); ymax=min(int(np.ceil(tri[:,1].max())),h-1)
+        for yy in range(ymin,ymax+1):
+            py=yy+0.5
+            for xx in range(xmin,xmax+1):
+                px=xx+0.5
+                w0=((tri[1,0]-px)*(tri[2,1]-py)-(tri[2,0]-px)*(tri[1,1]-py))/area
+                w1=((tri[2,0]-px)*(tri[0,1]-py)-(tri[0,0]-px)*(tri[2,1]-py))/area
+                w2=1.0-w0-w1
+                if w0>=-1e-6 and w1>=-1e-6 and w2>=-1e-6:
+                    z=w0*depth[0]+w1*depth[1]+w2*depth[2]
+                    if z<zbuf[yy,xx]:
+                        zbuf[yy,xx]=z
+                        tuv=w0*uv[0]+w1*uv[1]+w2*uv[2]
+                        c=sample(tex,tuv).astype(np.float32)*shade
+                        img[yy,xx]=np.clip(c,0,255).astype(np.uint8)
+    return Image.fromarray(img)
+
+def title(im, text):
+    out=Image.new('RGB',(im.width,im.height+50),(255,255,255))
+    out.paste(im,(0,50))
+    ImageDraw.Draw(out).text((14,16),text,fill=(18,18,18))
+    return out
+
+def main():
+    female=OBJ(PREV/'FemaleHobo.obj')
+    head=np.array(Image.open(PREV/'recovered'/'FemaleHobo_001.jpg').convert('RGB'))
+    body=np.array(Image.open(PREV/'recovered'/'FemaleHobo_004.jpg').convert('RGB'))
+    textures={'head':head,'body':body}
+
+    # Preview heuristic: choose the head atlas for upper-central faces or tiny upper islands.
+    def selector(center,uv):
+        uvmin=uv.min(axis=0); uvmax=uv.max(axis=0); uvc=(uvmin+uvmax)/2.0
+        if (center[1]>0.22 and abs(center[0])<0.34):
+            return 'head'
+        if (uvc[1]<0.20 and uvc[0]<0.22):
+            return 'head'
+        if (uvc[1]<0.18 and 0.34<uvc[0]<0.66):
+            return 'head'
+        if (uvc[0]>0.80 and uvc[1]>0.74):
+            return 'head'
+        return 'body'
+
+    still=title(render(female,textures,selector,yaw=35.0,pitch=12.0),'Female Hobo — textura corregida (V flip + asignación heurística)')
+    still.save(PREV/'FemaleHobo_textura_corregida.png')
+
+    angles=[0,45,90,135]
+    ims=[render(female,textures,selector,yaw=a,pitch=12.0,w=320,h=320) for a in angles]
+    labels=[f'yaw {a}°' for a in angles]
+    W=sum(im.width for im in ims)+12*(len(ims)-1)
+    H=380
+    sheet=Image.new('RGB',(W,H),(255,255,255))
+    d=ImageDraw.Draw(sheet)
+    d.text((12,12),'Female Hobo — turntable textura corregida',fill=(20,20,20))
+    x=0
+    for im,lab in zip(ims,labels):
+        sheet.paste(im,(x,42))
+        d.text((x+10,42+im.height+6),lab,fill=(30,30,30))
+        x+=im.width+12
+    sheet.save(PREV/'FemaleHobo_turntable_textura_corregida.png')
+
+if __name__=='__main__':
+    main()

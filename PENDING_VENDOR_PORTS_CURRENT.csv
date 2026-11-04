@@ -1,0 +1,3 @@
+vendor,status,reason
+motion_bvh_poses,OPTIONAL_SOURCE_ONLY,C89 int64 port; two BVH importers already active
+iqm_c89_fixed_codec,PARTIAL_REPLACEMENT,"Native static bridge usable, original animation math remains unported"

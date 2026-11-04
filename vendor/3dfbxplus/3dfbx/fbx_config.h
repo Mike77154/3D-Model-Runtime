@@ -1,0 +1,46 @@
+#ifndef FBX_CONFIG_H
+#define FBX_CONFIG_H
+
+/* Parser safety defaults. These are intentionally conservative enough for
+   runtime importers, but can be overridden at compile time or per context. */
+#ifndef FBX_DEFAULT_MAX_DEPTH
+#define FBX_DEFAULT_MAX_DEPTH 128
+#endif
+
+#ifndef FBX_DEFAULT_MAX_NODE_COUNT
+#define FBX_DEFAULT_MAX_NODE_COUNT 262144
+#endif
+
+#ifndef FBX_DEFAULT_MAX_PROPERTIES_PER_NODE
+#define FBX_DEFAULT_MAX_PROPERTIES_PER_NODE 65536
+#endif
+
+#ifndef FBX_DEFAULT_MAX_CHILDREN_PER_NODE
+#define FBX_DEFAULT_MAX_CHILDREN_PER_NODE 65536
+#endif
+
+#ifndef FBX_DEFAULT_MAX_ARRAY_ELEMENTS
+#define FBX_DEFAULT_MAX_ARRAY_ELEMENTS 16777216u
+#endif
+
+#ifndef FBX_DEFAULT_MAX_ARRAY_BYTES
+#define FBX_DEFAULT_MAX_ARRAY_BYTES 134217728u
+#endif
+
+#ifndef FBX_DEFAULT_MAX_VERTICES
+#define FBX_DEFAULT_MAX_VERTICES 16777216u
+#endif
+
+#ifndef FBX_DEFAULT_MAX_INDICES
+#define FBX_DEFAULT_MAX_INDICES 50331648u
+#endif
+
+#ifndef FBX_DEFAULT_MAX_BONES
+#define FBX_DEFAULT_MAX_BONES 4096
+#endif
+
+#ifndef FBX_DEFAULT_MAX_WEIGHTS_PER_VERTEX
+#define FBX_DEFAULT_MAX_WEIGHTS_PER_VERTEX 8
+#endif
+
+#endif /* FBX_CONFIG_H */

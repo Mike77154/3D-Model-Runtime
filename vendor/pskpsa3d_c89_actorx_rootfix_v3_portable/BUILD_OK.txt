@@ -1,0 +1,26 @@
+V3 PORTABLE ABI & ActorX Root Fix - LOCAL VERIFICATION (2026-10-08)
+
+Source-only release. Build tests run in Linux x86-64, NOT native MSYS2/MinGW32.
+
+GCC: -std=c89 -Wall -Wextra -Werror -pedantic-errors -O2
+  - all library/utilities/tests compiled successfully
+  - test_exact_integer_abi: ok (int 32-bit on LP64)
+  - test_actorx_root_vs_child: ok
+  - test_minimal: ok
+  - test_numeric_limits: ok
+
+Clang: same strict C89 options with -fsanitize=undefined and
+         -fsanitize=address,undefined
+  - same test suite: PASS, no sanitizer reports after test helper fix
+
+GNU Make EXEEXT=.exe simulation using host GCC: tests PASS.
+  NOTE: these are native Linux binaries with .exe names, not Windows PE files.
+  Actual MSYS2 MinGW32 build still requires external verification.
+
+Other checks:
+  - two bundled example source files compile in strict C89
+  - make clean removes .exe/extensionless executable outputs
+  - core has no malloc/free/realloc or declared float/double/64-bit types
+  - 8/16/32-bit public primitive ABI is enforced at compile time
+
+Real PSK/PSA motion/UV/materials validation not performed: source archives contain no test assets.

@@ -1,0 +1,156 @@
+--- a/Makefile
++++ b/Makefile
+@@ -4,8 +4,8 @@
+ 
+ all: test_uv111 test_smooth110 hl2m_t103_model_shader_probe109 hl2m_t103_material_preview109 test_material_pipeline109 test_vendors105 libhl2modelib.a hl2m_master_probe89 test_master89 test_sdk_delta89 hl2m_anim_sdk_audit89 hl2m_motion_probe89 hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe hl2m_export_obj89 hl2m_export_animated_obj89 hl2m_vtf_to_tga89 hl2m_vmt_fx_probe89 hl2m_shader_demo89 test_vtf89 test_shader89 test_minimal
+ 
+-libhl2modelib.a: src/hl2modelib.o vendors/source/texture/hl2m_vtf89.o vendors/source/animator/hl2m_native_anim89.o vendors/source/animator/hl2m_sequence_eval89.o vendors/source/texturizer/hl2m_shader89.o vendors/source/texturizer/hl2m_material_sampler89.o vendors/source/texturizer/hl2m_uv_filter89.o vendors/source/master/hl2m_master89.o vendors/source/mesher/hl2m_mesher89.o vendors/source/shaderer/hl2m_shaderer89.o vendors/source/shaderer/hl2m_smooth89.o vendors/source/physics/hl2m_physics89.o vendors/source/physics/hl2m_character89.o vendors/source/ik/hl2m_ik89.o vendors/source/ik/hl2m_ik_2bone89.o vendors/source/formats/smd_vendor89.o vendors/source/formats/qc_vendor89.o vendors/source/formats/vta_vendor89.o vendors/source/formats/ani_vendor89.o
+-	$(AR) rcs libhl2modelib.a src/hl2modelib.o vendors/source/texture/hl2m_vtf89.o vendors/source/animator/hl2m_native_anim89.o vendors/source/animator/hl2m_sequence_eval89.o vendors/source/texturizer/hl2m_shader89.o vendors/source/texturizer/hl2m_material_sampler89.o vendors/source/texturizer/hl2m_uv_filter89.o vendors/source/master/hl2m_master89.o vendors/source/mesher/hl2m_mesher89.o vendors/source/shaderer/hl2m_shaderer89.o vendors/source/shaderer/hl2m_smooth89.o vendors/source/physics/hl2m_physics89.o vendors/source/physics/hl2m_character89.o vendors/source/ik/hl2m_ik89.o vendors/source/ik/hl2m_ik_2bone89.o vendors/source/formats/smd_vendor89.o vendors/source/formats/qc_vendor89.o vendors/source/formats/vta_vendor89.o vendors/source/formats/ani_vendor89.o
++libhl2modelib.a: src/hl2modelib.o vendors/source/texture/hl2m_vtf89.o vendors/source/animator/hl2m_native_anim89.o vendors/source/animator/hl2m_sequence_eval89.o vendors/source/animator/hl2m_quaternion89.o vendors/source/texturizer/hl2m_shader89.o vendors/source/texturizer/hl2m_material_sampler89.o vendors/source/texturizer/hl2m_uv_filter89.o vendors/source/master/hl2m_master89.o vendors/source/mesher/hl2m_mesher89.o vendors/source/shaderer/hl2m_shaderer89.o vendors/source/shaderer/hl2m_smooth89.o vendors/source/physics/hl2m_physics89.o vendors/source/physics/hl2m_character89.o vendors/source/ik/hl2m_ik89.o vendors/source/ik/hl2m_ik_2bone89.o vendors/source/formats/smd_vendor89.o vendors/source/formats/qc_vendor89.o vendors/source/formats/vta_vendor89.o vendors/source/formats/ani_vendor89.o
++	$(AR) rcs libhl2modelib.a src/hl2modelib.o vendors/source/texture/hl2m_vtf89.o vendors/source/animator/hl2m_native_anim89.o vendors/source/animator/hl2m_sequence_eval89.o vendors/source/animator/hl2m_quaternion89.o vendors/source/texturizer/hl2m_shader89.o vendors/source/texturizer/hl2m_material_sampler89.o vendors/source/texturizer/hl2m_uv_filter89.o vendors/source/master/hl2m_master89.o vendors/source/mesher/hl2m_mesher89.o vendors/source/shaderer/hl2m_shaderer89.o vendors/source/shaderer/hl2m_smooth89.o vendors/source/physics/hl2m_physics89.o vendors/source/physics/hl2m_character89.o vendors/source/ik/hl2m_ik89.o vendors/source/ik/hl2m_ik_2bone89.o vendors/source/formats/smd_vendor89.o vendors/source/formats/qc_vendor89.o vendors/source/formats/vta_vendor89.o vendors/source/formats/ani_vendor89.o
+ 
+ src/hl2modelib.o: src/hl2modelib.c include/hl2modelib.h $(wildcard vendors/source/formats/*.inc) $(wildcard vendors/source/mesher/*.inc) vendors/source/animator/hl2m_skinner_impl89.inc
+ 	$(CC) $(CFLAGS) -c src/hl2modelib.c -o src/hl2modelib.o
+@@ -73,7 +73,8 @@
+ test_minimal: examples/test_minimal.c libhl2modelib.a
+ 	$(CC) $(CFLAGS) examples/test_minimal.c libhl2modelib.a -o test_minimal
+ 
+-check: test_vvd_unsigned_bones117 test_sequence_eval116 test_anim_guard115 test_anim_sections114 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 test_uv111 test_smooth110 test_material_pipeline109 test_facial_precision108 test_source_rot107 test_sdk_ik106 test_vendors105 test_sdk_delta89 test_master89 test_vtf89 test_shader89 test_minimal hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe
++check: test_quaternion118 test_vvd_unsigned_bones117 test_sequence_eval116 test_anim_guard115 test_anim_sections114 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 test_uv111 test_smooth110 test_material_pipeline109 test_facial_precision108 test_source_rot107 test_sdk_ik106 test_vendors105 test_sdk_delta89 test_master89 test_vtf89 test_shader89 test_minimal hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe
++	./test_quaternion118
+ 	./test_vvd_unsigned_bones117
+ 	./test_sequence_eval116
+ 	./test_uv111
+@@ -109,6 +110,7 @@
+ 	./test_vvd_fixup112
+ 
+ clean:
++	rm -f test_quaternion118
+ 	rm -f hl2m_sequence_probe116 hl2m_sequence_obj116 test_sequence_eval116
+ 	rm -f hl2m_resident_motion_sweep114 hl2m_external_bank_probe114 hl2m_vtf_decode_audit114 test_anim_sections114 hl2m_anim_guard_probe115 test_anim_guard115 test_corpus112 test_vtf_uncompressed112 test_vvd_fixup112 hl2m_vtf_info_probe112 test_uv111 test_smooth110 test_source_rot107 test_facial_precision108 hl2m_t103_model_shader_probe109 hl2m_t103_material_preview109 test_material_pipeline109 src/*.o vendors/source/*/*.o libhl2modelib.a hl2m_master_probe89 test_master89 test_sdk_delta89 hl2m_anim_sdk_audit89 hl2m_motion_probe89 hl2m_probe hl2m_bundle_probe hl2m_smd_engine_probe hl2m_compile_probe hl2m_parity_probe hl2m_runtime_probe hl2m_animskin_probe hl2m_sequence_runtime_probe hl2m_export_obj89 hl2m_export_animated_obj89 hl2m_vtf_to_tga89 hl2m_vmt_fx_probe89 hl2m_shader_demo89 test_vtf89 test_shader89 test_minimal test_vendors105 hl2m_master_probe89 test_master89 test_sdk_delta89 hl2m_anim_sdk_audit89 test_sdk_ik106 test_t103_ik_real106 hl2m_export_animated_obj_ik106 hl2m_t103_ik_audit106
+ 
+@@ -265,6 +267,9 @@
+ vendors/source/animator/hl2m_sequence_eval89.o: vendors/source/animator/hl2m_sequence_eval89.c include/hl2modelib.h
+ 	$(CC) $(CFLAGS) -c $< -o $@
+ 
++vendors/source/animator/hl2m_quaternion89.o: vendors/source/animator/hl2m_quaternion89.c include/hl2modelib.h
++	$(CC) $(CFLAGS) -c $< -o $@
++
+ examples/hl2m_sequence_probe116.o: examples/hl2m_sequence_probe116.c
+ 	$(CC) $(CFLAGS) -c $< -o $@
+ hl2m_sequence_probe116: examples/hl2m_sequence_probe116.c libhl2modelib.a
+@@ -278,3 +283,10 @@
+ # v1.0.17: Source VVD unsigned bone IDs and large model stress caps.
+ test_vvd_unsigned_bones117: tests/test_vvd_unsigned_bones117.c libhl2modelib.a
+ 	$(CC) $(CFLAGS) $< libhl2modelib.a -o $@
++
++# v1.0.18 quaternion shortest-path interpolation.
++test_quaternion118: tests/test_quaternion118.c libhl2modelib.a
++	$(CC) $(CFLAGS) -Werror tests/test_quaternion118.c libhl2modelib.a -o test_quaternion118
++check-quaternion118: test_quaternion118
++	./test_quaternion118
++.PHONY: check-quaternion118
+--- a/include/hl2modelib.h
++++ b/include/hl2modelib.h
+@@ -7,7 +7,7 @@
+ 
+ #define HL2M_VERSION_MAJOR 1
+ #define HL2M_VERSION_MINOR 0
+-#define HL2M_VERSION_PATCH 17
++#define HL2M_VERSION_PATCH 18
+ 
+ #define HL2M_OK 0
+ #define HL2M_ERR_NULL -1
+@@ -1272,6 +1272,12 @@
+ int hl2m_vmt_find_param(const hl2m_vmt *vmt, const char *key, char *out_value, unsigned int out_size);
+ int hl2m_vmt_to_material_desc(const hl2m_vmt *vmt, hl2m_material_desc *out_desc);
+ 
++/* v1.0.18: independent fixed-point shortest-arc quaternion blending.
++   Matrix input must represent a rigid local Source bone transform.
++   Interpolates translations linearly; no heap or floating point. */
++int hl2m_quaternion_blend_matrix89(const hl2m_mat3x4 *a,
++    const hl2m_mat3x4 *b,hl2m_fixed t,hl2m_mat3x4 *out);
++
+ /* v1.0.16: Source-inspired sequence runtime (normalized Q16.16 cycle/axes).
+    Linear matrix interpolation is orthogonalized, not exact Source slerp;
+    pose-parameter normalization/posekeys and virtualmodel overrides are
+--- a/include/hl2m_master89.h
++++ b/include/hl2m_master89.h
+@@ -5,7 +5,7 @@
+ extern "C" {
+ #endif
+ /* Stable C89 vendor routing ABI. Caller allocates result, no heap, no globals. */
+-#define HL2M_MASTER_ABI89 0x0117
++#define HL2M_MASTER_ABI89 0x0118
+ /* format: HL2M_FORMAT_*. out_result must point to matching hl2m_* type.
+    MDL for ANI decoding; lod for VVD; VTF outputs hl2m_vtf_info only. */
+ int hl2m_master_decode89(int format,const hl2m_u8 *bytes,unsigned int bytes_count,
+--- a/vendors/source/animator/hl2m_sequence_eval89.c
++++ b/vendors/source/animator/hl2m_sequence_eval89.c
+@@ -26,61 +26,12 @@
+     if(b<0 && a<INT_MIN-b)return INT_MIN;
+     return a+b;
+ }
+-static hl2m_fixed se89_lerp(hl2m_fixed a,hl2m_fixed b,hl2m_fixed t)
++/* Quaternion interpolation lives in its own vendor, following Source's
++   BlendBones rotation path. This wrapper preserves the legacy API. */
++static void se89_rotate_interp(const hl2m_mat3x4 *a,const hl2m_mat3x4 *b,
++    hl2m_fixed t,hl2m_mat3x4 *o)
+ {
+-    return se89_add_sat(se89_mul(a,SE89_UNIT-t),se89_mul(b,t));
+-}
+-/* Fixed sqrt via bisection: x in Q16.16, result bounded by 2.0. */
+-static hl2m_fixed se89_sqrt(hl2m_fixed x)
+-{
+-    hl2m_fixed lo=0,hi=2*SE89_UNIT,mid;
+-    if(x<=0)return 0;
+-    while(hi-lo>1){mid=lo+(hi-lo)/2;if(se89_mul(mid,mid)<=x)lo=mid;else hi=mid;}
+-    return lo;
+-}
+-/* Bounded unsigned long division by repeated remainder bits: Q16.16. */
+-static hl2m_fixed se89_div(hl2m_fixed a,hl2m_fixed b)
+-{
+-    unsigned int ua,ub,part,rem,frac=0;int i,neg=0;
+-    if(b==0)return 0;
+-    if(a<0){ua=(unsigned int)(-(a+1))+1u;neg=!neg;}else ua=(unsigned int)a;
+-    if(b<0){ub=(unsigned int)(-(b+1))+1u;neg=!neg;}else ub=(unsigned int)b;
+-    if(ub==0u)return 0;
+-    part=ua/ub;rem=ua%ub;
+-    if(part>32767u)return neg?INT_MIN:INT_MAX;
+-    for(i=0;i<16;i++){
+-        /* normalization denominators are <= 2.0 in all callers */
+-        rem*=2u;frac*=2u;
+-        if(rem>=ub){rem-=ub;frac|=1u;}
+-    }
+-    return neg?-(hl2m_fixed)((part<<16)|frac):(hl2m_fixed)((part<<16)|frac);
+-}
+-static void se89_normalize(hl2m_fixed v[3])
+-{
+-    hl2m_fixed n=se89_mul(v[0],v[0])+se89_mul(v[1],v[1])+se89_mul(v[2],v[2]);
+-    hl2m_fixed len=se89_sqrt(n);int i;
+-    if(len<64){v[0]=SE89_UNIT;v[1]=v[2]=0;return;}
+-    for(i=0;i<3;i++)v[i]=se89_div(v[i],len);
+-}
+-static hl2m_fixed se89_dot(const hl2m_fixed a[3],const hl2m_fixed b[3])
+-{ return se89_mul(a[0],b[0])+se89_mul(a[1],b[1])+se89_mul(a[2],b[2]); }
+-static void se89_rotate_interp(const hl2m_mat3x4 *a,const hl2m_mat3x4 *b,hl2m_fixed t,hl2m_mat3x4 *o)
+-{
+-    hl2m_fixed x[3],y[3],z[3],proj;int r;
+-    for(r=0;r<3;r++){
+-        x[r]=se89_lerp(a->m[r][0],b->m[r][0],t);
+-        y[r]=se89_lerp(a->m[r][1],b->m[r][1],t);
+-        o->m[r][3]=se89_lerp(a->m[r][3],b->m[r][3],t);
+-    }
+-    se89_normalize(x);
+-    proj=se89_dot(x,y);
+-    for(r=0;r<3;r++)y[r]-=se89_mul(x[r],proj);
+-    se89_normalize(y);
+-    z[0]=se89_mul(x[1],y[2])-se89_mul(x[2],y[1]);
+-    z[1]=se89_mul(x[2],y[0])-se89_mul(x[0],y[2]);
+-    z[2]=se89_mul(x[0],y[1])-se89_mul(x[1],y[0]);
+-    se89_normalize(z);
+-    for(r=0;r<3;r++){o->m[r][0]=x[r];o->m[r][1]=y[r];o->m[r][2]=z[r];}
++    (void)hl2m_quaternion_blend_matrix89(a,b,t,o);
+ }
+ static void se89_matmul(const hl2m_mat3x4 *a,const hl2m_mat3x4 *b,hl2m_mat3x4 *out)
+ {

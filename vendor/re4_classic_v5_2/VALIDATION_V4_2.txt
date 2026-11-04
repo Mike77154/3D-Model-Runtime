@@ -1,0 +1,11 @@
+RE4 v4.2 VALIDATION
+- Native C89: gcc -std=c89 -Wall -Wextra -pedantic
+- make all + make check: 25 suites passed
+- ASan/UBSan build/check: 25 suites passed (see execution logs)
+- Real archive audit from /mnt/data/xfile.dat and /mnt/data/em.dat:
+  16 families, 2314 FCV parsed, 2048 SEQ indexed, 2283 FCV with IK roles,
+  2174 FCV with root roles.
+- Bella FCV bytes: em42 == em46 (156/156); em45 == em16 (156/156)
+  em42/em46 differ from em45/em16 at 15 FCV DAT indices.
+- Head plaga A/B/C: unresolved; no false source attribution.
+- Win32 and native game IK: not verified.

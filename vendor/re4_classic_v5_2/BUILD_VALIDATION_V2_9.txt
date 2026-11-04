@@ -1,0 +1,13 @@
+RE4 Classic Codec v2.9 reproducible checks
+=========================================
+Linux build: make -j4 all, make check (11 test executables; all pass)
+Compiler flags: -std=c89 -Wall -Wextra -pedantic -Iinclude
+Sanitized build: -O1 -g -fno-omit-frame-pointer -fsanitize=address,undefined
+11 suites passed under sanitizer. Real Leon 2-frame blend export under sanitizer passed.
+Real models: user-provided pl0000, hair, hands; em1000, head, hands.
+Leon: 14751 vertices on frames 0,3,6; two clips 0037/0041 blended at 50 percent.
+Ganado: 3729 vertices on frames 0,3,6; two clips 0176/0001 blended at 50 percent.
+Leon 0-percent output: byte-for-byte equal to unblended OBJ at frame 6.
+Rendered preview: VTK 9.6.2 from OBJ/MTL and extracted TGA.
+Limitations: native RE4 IK and original engine blend/space convention unverified;
+Windows builds not tested. No proprietary models/textures shipped.

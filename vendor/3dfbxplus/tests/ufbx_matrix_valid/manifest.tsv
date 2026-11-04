@@ -1,0 +1,694 @@
+path	dfbx_status	ufbx_status	mismatches
+blender340_tangent_sign_7400_binary.fbx	ok	ok	
+blender440_shape_weight_anim_7400_binary.fbx	ok	ok	
+blender_272_cube_7400_binary.fbx	ok	ok	
+blender_279_ball_6100_ascii.fbx	ok	ok	
+blender_279_ball_7400_binary.fbx	ok	ok	
+blender_279_bone_radius_6100_ascii.fbx	ok	ok	
+blender_279_bone_radius_7400_binary.fbx	ok	ok	
+blender_279_color_sets_6100_ascii.fbx	ok	ok	
+blender_279_color_sets_7400_binary.fbx	ok	ok	
+blender_279_default_6100_ascii.fbx	ok	ok	
+blender_279_default_7400_binary.fbx	ok	ok	
+blender_279_edge_circle_6100_ascii.fbx	ok	ok	
+blender_279_edge_circle_7400_binary.fbx	ok	ok	
+blender_279_edge_vertex_6100_ascii.fbx	ok	ok	
+blender_279_edge_vertex_7400_binary.fbx	ok	ok	
+blender_279_empty_cube_6100_ascii.fbx	ok	ok	
+blender_279_empty_cube_7400_binary.fbx	ok	ok	
+blender_279_internal_textures_7400_binary.fbx	ok	ok	
+blender_279_nested_meshes_7400_binary.fbx	ok	ok	
+blender_279_sausage_6100_ascii.fbx	ok	ok	
+blender_279_sausage_7400_binary.fbx	ok	ok	
+blender_279_shape_weights_6100_ascii.fbx	ok	ok	morph_targets:0!=1
+blender_279_shape_weights_7400_binary.fbx	ok	ok	
+blender_279_unicode_6100_ascii.fbx	ok	ok	
+blender_279_unicode_7400_binary.fbx	ok	ok	
+blender_279_uv_set_tangents_7400_binary.fbx	ok	ok	
+blender_279_uv_sets_6100_ascii.fbx	ok	ok	
+blender_279_uv_sets_7400_binary.fbx	ok	ok	
+blender_282_suzanne_7400_binary.fbx	ok	ok	
+blender_282_suzanne_and_transform_7400_binary.fbx	ok	ok	
+blender_292_circle_7300_ascii.fbx	ok	ok	
+blender_292_circle_7400_binary.fbx	ok	ok	
+blender_293_barbarian_7400_binary.fbx	ok	ok	meshes:38!=34
+blender_293_embedded_textures_7400_binary.fbx	ok	ok	
+blender_293_half_skinned_7400_binary.fbx	ok	ok	
+blender_293_half_smooth_cube_7400_binary.fbx	ok	ok	
+blender_293_instancing_7400_binary.fbx	ok	ok	meshes:8!=1
+blender_293_material_mapping_7400_binary.fbx	ok	ok	
+blender_293_ngon_subsurf_7400_binary.fbx	ok	ok	
+blender_293_suzanne_subsurf_7400_binary.fbx	ok	ok	
+blender_293_suzanne_subsurf_uv_7400_binary.fbx	ok	ok	
+blender_293_textures_7400_binary.fbx	ok	ok	
+blender_293x_nonmanifold_subsurf_7400_binary.fbx	ok	ok	
+blender_293x_subsurf_boundary_7400_binary.fbx	ok	ok	
+blender_293x_subsurf_max_crease_7400_binary.fbx	ok	ok	
+blender_300_ngon_abstract_7400_binary.fbx	ok	ok	
+blender_300_ngon_big_7400_binary.fbx	ok	ok	
+blender_300_ngon_e_7400_binary.fbx	ok	ok	
+blender_300_ngon_intersection_7400_binary.fbx	ok	ok	
+blender_300_ngon_irregular_7400_binary.fbx	ok	ok	
+blender_312x_vertex_crease_7400_binary.fbx	ok	ok	
+blender_331_static_blend_shape_7400_binary.fbx	ok	ok	
+blender_340_default_unscaled_7400_binary.fbx	ok	ok	
+blender_340_mirrored_normals_7400_binary.fbx	ok	ok	
+blender_340_y_up_7400_binary.fbx	ok	ok	
+blender_340_z_up_7400_binary.fbx	ok	ok	
+blender_402_material_chart_7400_binary.fbx	ok	ok	embedded_textures:3!=2;embedded_bytes:13954!=9303
+blender_402_ortho_scale_local_7400_binary.fbx	ok	ok	
+blender_402_ortho_scale_unit_7400_binary.fbx	ok	ok	
+blender_axes/axes_nxny_7400_binary.fbx	ok	ok	
+blender_axes/axes_nxnz_7400_binary.fbx	ok	ok	
+blender_axes/axes_nxpy_7400_binary.fbx	ok	ok	
+blender_axes/axes_nxpz_7400_binary.fbx	ok	ok	
+blender_axes/axes_nynx_7400_binary.fbx	ok	ok	
+blender_axes/axes_nynz_7400_binary.fbx	ok	ok	
+blender_axes/axes_nypx_7400_binary.fbx	ok	ok	
+blender_axes/axes_nypz_7400_binary.fbx	ok	ok	
+blender_axes/axes_nznx_7400_binary.fbx	ok	ok	
+blender_axes/axes_nzny_7400_binary.fbx	ok	ok	
+blender_axes/axes_nzpx_7400_binary.fbx	ok	ok	
+blender_axes/axes_nzpy_7400_binary.fbx	ok	ok	
+blender_axes/axes_pxny_7400_binary.fbx	ok	ok	
+blender_axes/axes_pxnz_7400_binary.fbx	ok	ok	
+blender_axes/axes_pxpy_7400_binary.fbx	ok	ok	
+blender_axes/axes_pxpz_7400_binary.fbx	ok	ok	
+blender_axes/axes_pynx_7400_binary.fbx	ok	ok	
+blender_axes/axes_pynz_7400_binary.fbx	ok	ok	
+blender_axes/axes_pypx_7400_binary.fbx	ok	ok	
+blender_axes/axes_pypz_7400_binary.fbx	ok	ok	
+blender_axes/axes_pznx_7400_binary.fbx	ok	ok	
+blender_axes/axes_pzny_7400_binary.fbx	ok	ok	
+blender_axes/axes_pzpx_7400_binary.fbx	ok	ok	
+blender_axes/axes_pzpy_7400_binary.fbx	ok	ok	
+blender_suzanne_multimaterial_7400_binary.fbx	ok	ok	
+blender_suzanne_multimaterial_reorder_7400_binary.fbx	ok	ok	
+marvelous_quad_7200_ascii.fbx	ok	ok	
+marvelous_quad_7200_binary.fbx	ok	ok	
+marvelous_quad_7300_ascii.fbx	ok	ok	
+marvelous_quad_7300_binary.fbx	ok	ok	
+marvelous_quad_7700_ascii.fbx	ok	ok	
+marvelous_quad_7700_binary.fbx	ok	ok	
+max2009_blob_5800_ascii.fbx	ok	ok	materials:0!=7;cameras:0!=1;lights:0!=3
+max2009_blob_5800_binary.fbx	ok	ok	version:3000!=5800;materials:0!=7;cameras:0!=1;lights:0!=3
+max2009_blob_6100_ascii.fbx	ok	ok	
+max2009_blob_6100_binary.fbx	ok	ok	
+max2009_cube_anim_5800_ascii.fbx	ok	ok	
+max2009_cube_anim_5800_binary.fbx	ok	ok	version:3000!=5800
+max2009_cube_anim_6100_ascii.fbx	ok	ok	
+max2009_cube_anim_6100_binary.fbx	ok	ok	
+max2009_cube_texture_5800_ascii.fbx	ok	ok	materials:0!=1
+max2009_cube_texture_5800_binary.fbx	ok	ok	version:3000!=5800;materials:0!=1;embedded_textures:0!=1;embedded_bytes:0!=2487
+max2009_cube_texture_6100_ascii.fbx	ok	ok	
+max2009_cube_texture_6100_binary.fbx	ok	ok	textures:0!=1;embedded_textures:0!=1;embedded_bytes:0!=2487
+max6_teapot_3000_binary.fbx	ok	ok	anim_clips:0!=1;anim_layers:0!=1
+max7_blend_cube_5000_binary.fbx	ok	ok	version:3000!=5000;anim_clips:1!=2;anim_layers:1!=2;morph_targets:0!=2
+max7_cube_5000_binary.fbx	ok	ok	version:3000!=5000;anim_clips:0!=1;anim_layers:0!=1
+max7_cube_normals_5000_binary.fbx	ok	ok	version:3000!=5000;anim_clips:0!=1;anim_layers:0!=1
+max7_skin_5000_binary.fbx	ok	ok	version:3000!=5000;anim_clips:1!=2;anim_layers:1!=2
+max_cache_box_7500_binary.fbx	ok	ok	
+max_colon_name_6100_ascii.fbx	ok	ok	
+max_colon_name_6100_binary.fbx	ok	ok	
+max_colon_name_7500_ascii.fbx	ok	ok	
+max_colon_name_7500_binary.fbx	ok	ok	
+max_curve_line_7500_ascii.fbx	ok	ok	
+max_curve_line_7500_binary.fbx	ok	ok	
+max_edge_visibility_6100_ascii.fbx	ok	ok	
+max_edge_visibility_6100_binary.fbx	ok	ok	
+max_edge_visibility_7500_ascii.fbx	ok	ok	
+max_edge_visibility_7500_binary.fbx	ok	ok	
+max_geometry_transform_6100_ascii.fbx	ok	ok	
+max_geometry_transform_6100_binary.fbx	ok	ok	
+max_geometry_transform_7700_ascii.fbx	ok	ok	
+max_geometry_transform_7700_binary.fbx	ok	ok	
+max_geometry_transform_instances_6100_ascii.fbx	ok	ok	
+max_geometry_transform_instances_6100_binary.fbx	ok	ok	
+max_geometry_transform_instances_7700_ascii.fbx	ok	ok	meshes:4!=1
+max_geometry_transform_instances_7700_binary.fbx	ok	ok	meshes:4!=1
+max_geometry_transform_order_7700_ascii.fbx	ok	ok	meshes:2!=1
+max_geometry_transform_types_6100_ascii.fbx	ok	ok	
+max_geometry_transform_types_6100_binary.fbx	ok	ok	
+max_geometry_transform_types_7700_ascii.fbx	ok	ok	
+max_geometry_transform_types_7700_binary.fbx	ok	ok	
+max_gltf_material_6100_ascii.fbx	ok	ok	
+max_gltf_material_6100_binary.fbx	ok	ok	
+max_gltf_material_7700_ascii.fbx	ok	ok	
+max_gltf_material_7700_binary.fbx	ok	ok	
+max_instanced_material_6100_ascii.fbx	ok	ok	
+max_instanced_material_6100_binary.fbx	ok	ok	
+max_instanced_material_7700_ascii.fbx	ok	ok	meshes:3!=1
+max_instanced_material_7700_binary.fbx	ok	ok	meshes:3!=1
+max_name_quote_7500_ascii.fbx	ok	ok	
+max_nurbs_curve_rational_6100_ascii.fbx	ok	ok	
+max_nurbs_curve_rational_6100_binary.fbx	ok	ok	
+max_nurbs_curve_rational_7500_ascii.fbx	ok	ok	
+max_nurbs_curve_rational_7500_binary.fbx	ok	ok	
+max_nurbs_to_line_7500_ascii.fbx	ok	ok	
+max_nurbs_to_line_7500_binary.fbx	ok	ok	
+max_openpbr_material_7700_ascii.fbx	ok	ok	textures:0!=26
+max_pbr_metal_gloss_material_7700_ascii.fbx	ok	ok	
+max_pbr_metal_rough_material_7700_ascii.fbx	ok	ok	
+max_pbr_spec_gloss_material_7700_ascii.fbx	ok	ok	
+max_pbr_spec_rough_material_7700_ascii.fbx	ok	ok	
+max_physical_material_inverted_6100_binary.fbx	ok	ok	
+max_physical_material_inverted_7500_ascii.fbx	ok	ok	
+max_physical_material_properties_6100_ascii.fbx	ok	ok	
+max_physical_material_properties_6100_binary.fbx	ok	ok	
+max_physical_material_properties_7500_ascii.fbx	ok	ok	
+max_physical_material_properties_7500_binary.fbx	ok	ok	
+max_physical_material_textures_6100_ascii.fbx	ok	ok	textures:46!=10
+max_physical_material_textures_6100_binary.fbx	ok	ok	textures:46!=10;embedded_textures:46!=10;embedded_bytes:100014!=22005
+max_physical_material_textures_7500_ascii.fbx	ok	ok	textures:46!=10;embedded_textures:46!=10;embedded_bytes:100014!=22005
+max_physical_material_textures_7500_binary.fbx	ok	ok	textures:46!=10;embedded_textures:46!=10;embedded_bytes:100014!=22005
+max_quote_6100_ascii.fbx	ok	ok	
+max_quote_6100_binary.fbx	ok	ok	
+max_quote_7500_ascii.fbx	ok	ok	
+max_quote_7500_binary.fbx	ok	ok	
+max_selection_sets_6100_ascii.fbx	ok	ok	
+max_selection_sets_6100_binary.fbx	ok	ok	
+max_selection_sets_7500_ascii.fbx	ok	ok	
+max_selection_sets_7500_binary.fbx	ok	ok	
+max_shadergraph_7700_ascii.fbx	ok	ok	textures:0!=28
+max_tangent_sign_6100_ascii.fbx	ok	ok	
+max_tangent_sign_6100_binary.fbx	ok	ok	
+max_tangent_sign_7700_ascii.fbx	ok	ok	
+max_tangent_sign_7700_binary.fbx	ok	ok	
+max_texture_mapping_6100_ascii.fbx	ok	ok	textures:1!=12
+max_texture_mapping_6100_binary.fbx	ok	ok	textures:1!=12;embedded_textures:1!=3;embedded_bytes:1729!=5955
+max_texture_mapping_7700_ascii.fbx	ok	ok	textures:1!=12;embedded_textures:1!=3;embedded_bytes:1729!=5955
+max_texture_mapping_7700_binary.fbx	ok	ok	textures:1!=12;embedded_textures:1!=3;embedded_bytes:1729!=5955
+max_transformed_skin_6100_ascii.fbx	ok	ok	
+max_transformed_skin_6100_binary.fbx	ok	ok	
+max_transformed_skin_7500_ascii.fbx	ok	ok	
+max_transformed_skin_7500_binary.fbx	ok	ok	
+max_unicode_6100_ascii.fbx	ok	ok	
+max_unicode_6100_binary.fbx	ok	ok	
+max_unicode_7500_ascii.fbx	ok	ok	
+max_unicode_7500_binary.fbx	ok	ok	
+maya_absolute_texture_6100_ascii.fbx	ok	ok	textures:0!=1
+maya_absolute_texture_6100_binary.fbx	ok	ok	textures:0!=1
+maya_absolute_texture_7700_ascii.fbx	ok	ok	
+maya_absolute_texture_7700_binary.fbx	ok	ok	
+maya_advanced_skinned_pivot_6100_ascii.fbx	ok	ok	
+maya_advanced_skinned_pivot_6100_binary.fbx	ok	ok	
+maya_advanced_skinned_pivot_7700_ascii.fbx	ok	ok	
+maya_advanced_skinned_pivot_7700_binary.fbx	ok	ok	
+maya_anim_diffuse_curve_7700_ascii.fbx	ok	ok	
+maya_anim_extrapolation_6100_ascii.fbx	ok	ok	
+maya_anim_extrapolation_6100_binary.fbx	ok	ok	
+maya_anim_extrapolation_7100_ascii.fbx	ok	ok	
+maya_anim_extrapolation_7100_binary.fbx	ok	ok	
+maya_anim_extrapolation_7200_ascii.fbx	ok	ok	
+maya_anim_extrapolation_7200_binary.fbx	ok	ok	
+maya_anim_extrapolation_7700_ascii.fbx	ok	ok	
+maya_anim_extrapolation_7700_binary.fbx	ok	ok	
+maya_anim_interpolation_6100_ascii.fbx	ok	ok	
+maya_anim_interpolation_6100_binary.fbx	ok	ok	
+maya_anim_interpolation_7700_ascii.fbx	ok	ok	
+maya_anim_interpolation_7700_binary.fbx	ok	ok	
+maya_anim_layer_anim_7700_ascii.fbx	ok	ok	
+maya_anim_layer_quat_to_euler_7700_ascii.fbx	ok	ok	
+maya_anim_layers_7500_ascii.fbx	ok	ok	
+maya_anim_layers_7500_binary.fbx	ok	ok	
+maya_anim_layers_acc_7500_ascii.fbx	ok	ok	
+maya_anim_layers_acc_7500_binary.fbx	ok	ok	
+maya_anim_layers_over_7500_ascii.fbx	ok	ok	
+maya_anim_layers_over_7500_binary.fbx	ok	ok	
+maya_anim_layers_over_acc_7500_ascii.fbx	ok	ok	
+maya_anim_layers_over_acc_7500_binary.fbx	ok	ok	
+maya_anim_layers_over_acc_orders_7500_ascii.fbx	ok	ok	
+maya_anim_layers_over_acc_orders_7500_binary.fbx	ok	ok	
+maya_anim_light_6100_ascii.fbx	ok	ok	
+maya_anim_light_6100_binary.fbx	ok	ok	
+maya_anim_light_7500_ascii.fbx	ok	ok	
+maya_anim_light_7500_binary.fbx	ok	ok	
+maya_anim_linear_7700_ascii.fbx	ok	ok	
+maya_anim_no_inherit_scale_7700_ascii.fbx	ok	ok	
+maya_anim_pivot_rotate_7700_ascii.fbx	ok	ok	
+maya_arnold_properties_7500_ascii.fbx	ok	ok	
+maya_arnold_textures_6100_ascii.fbx	ok	ok	textures:5!=6
+maya_arnold_textures_6100_binary.fbx	ok	ok	textures:5!=6;embedded_textures:5!=6;embedded_bytes:11381!=13898
+maya_arnold_textures_7500_ascii.fbx	ok	ok	textures:5!=6;embedded_textures:5!=6;embedded_bytes:11381!=13898
+maya_arnold_textures_7500_binary.fbx	ok	ok	textures:5!=6;embedded_textures:5!=6;embedded_bytes:11381!=13898
+maya_audio_7500_ascii.fbx	ok	ok	
+maya_audio_7500_binary.fbx	ok	ok	
+maya_audio_7700_ascii.fbx	ok	ok	
+maya_audio_7700_binary.fbx	ok	ok	
+maya_audio_clips_7500_asciifbx.fbx	ok	ok	
+maya_audio_clips_7500_binary.fbx	ok	ok	
+maya_audio_clips_7700_ascii.fbx	ok	ok	
+maya_audio_clips_7700_binary.fbx	ok	ok	
+maya_auto_clamp_6100_ascii.fbx	ok	ok	
+maya_auto_clamp_6100_binary.fbx	ok	ok	
+maya_auto_clamp_7100_ascii.fbx	ok	ok	
+maya_auto_clamp_7100_binary.fbx	ok	ok	
+maya_auto_clamp_7700_ascii.fbx	ok	ok	
+maya_auto_clamp_7700_binary.fbx	ok	ok	
+maya_axes_7700_ascii.fbx	ok	ok	
+maya_axes_anim_7700_ascii.fbx	ok	ok	
+maya_bad_face_6100_ascii.fbx	ok	ok	
+maya_blend_inbetween_7500_ascii.fbx	ok	ok	
+maya_blend_inbetween_7500_binary.fbx	ok	ok	
+maya_blend_shape_cube_6100_ascii.fbx	ok	ok	morph_targets:0!=2
+maya_blend_shape_cube_6100_binary.fbx	ok	ok	morph_targets:0!=2
+maya_blend_shape_cube_7100_ascii.fbx	ok	ok	morph_targets:0!=2
+maya_blend_shape_cube_7100_binary.fbx	ok	ok	morph_targets:0!=2
+maya_blend_shape_cube_7700_ascii.fbx	ok	ok	
+maya_blend_shape_cube_7700_binary.fbx	ok	ok	
+maya_bone_radius_6100_ascii.fbx	ok	ok	
+maya_bone_radius_7500_ascii.fbx	ok	ok	
+maya_cache_sine_6100_ascii.fbx	ok	ok	
+maya_cache_sine_6100_binary.fbx	ok	ok	
+maya_cache_sine_7500_ascii.fbx	ok	ok	
+maya_cache_sine_7500_binary.fbx	ok	ok	
+maya_camera_light_axes_y_up_6100_ascii.fbx	ok	ok	
+maya_camera_light_axes_y_up_6100_binary.fbx	ok	ok	
+maya_camera_light_axes_y_up_7700_ascii.fbx	ok	ok	
+maya_camera_light_axes_y_up_7700_binary.fbx	ok	ok	
+maya_character_6100_ascii.fbx	ok	ok	
+maya_character_6100_binary.fbx	ok	ok	
+maya_character_7500_ascii.fbx	ok	ok	
+maya_character_7500_binary.fbx	ok	ok	
+maya_child_pivots_6100_ascii.fbx	ok	ok	
+maya_child_pivots_7700_ascii.fbx	ok	ok	
+maya_color_sets_6100_ascii.fbx	ok	ok	
+maya_color_sets_6100_binary.fbx	ok	ok	
+maya_color_sets_7500_ascii.fbx	ok	ok	
+maya_color_sets_7500_binary.fbx	ok	ok	
+maya_cone_6100_ascii.fbx	ok	ok	
+maya_cone_6100_binary.fbx	ok	ok	
+maya_cone_7500_ascii.fbx	ok	ok	
+maya_cone_7500_binary.fbx	ok	ok	
+maya_constraint_multi_7500_ascii.fbx	ok	ok	
+maya_constraint_zoo_6100_ascii.fbx	ok	ok	
+maya_constraint_zoo_6100_binary.fbx	ok	ok	
+maya_constraint_zoo_7500_ascii.fbx	ok	ok	
+maya_constraint_zoo_7500_binary.fbx	ok	ok	
+maya_cube_6100_ascii.fbx	ok	ok	
+maya_cube_6100_binary.fbx	ok	ok	
+maya_cube_7100_ascii.fbx	ok	ok	
+maya_cube_7100_binary.fbx	ok	ok	
+maya_cube_7400_ascii.fbx	ok	ok	
+maya_cube_7400_binary.fbx	ok	ok	
+maya_cube_7500_ascii.fbx	ok	ok	
+maya_cube_7500_binary.fbx	ok	ok	
+maya_cube_big_endian_6100_binary.fbx	ok	ok	
+maya_cube_big_endian_7100_binary.fbx	ok	ok	
+maya_cube_big_endian_7400_binary.fbx	ok	ok	
+maya_cube_big_endian_7500_binary.fbx	ok	ok	
+maya_cube_blinky_6100_ascii.fbx	ok	ok	
+maya_cube_blinky_7500_ascii.fbx	ok	ok	
+maya_cube_hidden_6100_ascii.fbx	ok	ok	
+maya_cube_hidden_6100_binary.fbx	ok	ok	
+maya_cube_hidden_7500_ascii.fbx	ok	ok	
+maya_cube_hidden_7500_binary.fbx	ok	ok	
+maya_different_shaders_6100_ascii.fbx	ok	ok	
+maya_different_shaders_7500_ascii.fbx	ok	ok	
+maya_display_layers_6100_ascii.fbx	ok	ok	
+maya_display_layers_6100_binary.fbx	ok	ok	
+maya_display_layers_7500_ascii.fbx	ok	ok	
+maya_display_layers_7500_binary.fbx	ok	ok	
+maya_double_parent_7500_ascii.fbx	ok	ok	
+maya_dq_weights_7500_ascii.fbx	ok	ok	
+maya_dq_weights_7500_binary.fbx	ok	ok	
+maya_dual_quaternion_7500_ascii.fbx	ok	ok	
+maya_dual_quaternion_scale_7500_ascii.fbx	ok	ok	
+maya_duplicated_texture_7700_ascii.fbx	ok	ok	
+maya_edge_smoothing_7500_ascii.fbx	ok	ok	
+maya_equal_pivot_7700_ascii.fbx	ok	ok	
+maya_equal_pivot_scale_7700_ascii.fbx	ok	ok	
+maya_extrapolate_cube_7700_ascii.fbx	ok	ok	
+maya_extrapolate_cube_7700_binary.fbx	ok	ok	
+maya_game_sausage_6100_ascii.fbx	ok	ok	
+maya_game_sausage_6100_ascii_combined.fbx	ok	ok	
+maya_game_sausage_6100_ascii_deform.fbx	ok	ok	
+maya_game_sausage_6100_ascii_spin.fbx	ok	ok	
+maya_game_sausage_6100_ascii_wiggle.fbx	ok	ok	
+maya_game_sausage_6100_binary.fbx	ok	ok	
+maya_game_sausage_6100_binary_combined.fbx	ok	ok	
+maya_game_sausage_6100_binary_deform.fbx	ok	ok	
+maya_game_sausage_6100_binary_spin.fbx	ok	ok	
+maya_game_sausage_6100_binary_wiggle.fbx	ok	ok	
+maya_game_sausage_7500_ascii.fbx	ok	ok	
+maya_game_sausage_7500_ascii_combined.fbx	ok	ok	
+maya_game_sausage_7500_ascii_deform.fbx	ok	ok	
+maya_game_sausage_7500_ascii_spin.fbx	ok	ok	
+maya_game_sausage_7500_ascii_wiggle.fbx	ok	ok	
+maya_game_sausage_7500_binary.fbx	ok	ok	
+maya_game_sausage_7500_binary_combined.fbx	ok	ok	
+maya_game_sausage_7500_binary_deform.fbx	ok	ok	
+maya_game_sausage_7500_binary_spin.fbx	ok	ok	
+maya_game_sausage_7500_binary_wiggle.fbx	ok	ok	
+maya_hidden_cube_7500_ascii.fbx	ok	ok	
+maya_huge_stepped_tangents_7700_ascii.fbx	ok	ok	
+maya_human_ik_6100_ascii.fbx	ok	ok	
+maya_human_ik_6100_binary.fbx	ok	ok	
+maya_human_ik_7400_ascii.fbx	ok	ok	
+maya_human_ik_7400_binary.fbx	ok	ok	
+maya_instanced_pivots_7700_ascii.fbx	ok	ok	meshes:2!=1
+maya_instanced_skin_6100_ascii.fbx	ok	ok	
+maya_instanced_skin_6100_binary.fbx	ok	ok	
+maya_instanced_skin_7700_ascii.fbx	ok	ok	meshes:2!=1
+maya_instanced_skin_7700_binary.fbx	ok	ok	meshes:2!=1
+maya_interpolation_modes_6100_ascii.fbx	ok	ok	
+maya_interpolation_modes_6100_binary.fbx	ok	ok	
+maya_interpolation_modes_7500_ascii.fbx	ok	ok	
+maya_interpolation_modes_7500_binary.fbx	ok	ok	
+maya_kenney_character_7700_binary.fbx	ok	ok	
+maya_keyframe_offset_7700_ascii.fbx	ok	ok	
+maya_keyframe_offset_step_7700_ascii.fbx	ok	ok	
+maya_keyframe_spacing_7700_ascii.fbx	ok	ok	
+maya_late_stepped_tangents_7700_ascii.fbx	ok	ok	
+maya_leading_comma_7500_ascii.fbx	ok	ok	
+maya_linear_spline_7700_ascii.fbx	ok	ok	
+maya_lock_mute_7700_ascii.fbx	ok	ok	
+maya_lock_mute_7700_binary.fbx	ok	ok	
+maya_lod_group_6100_ascii.fbx	ok	ok	
+maya_lod_group_6100_binary.fbx	ok	ok	
+maya_lod_group_7500_ascii.fbx	ok	ok	
+maya_lod_group_7500_binary.fbx	ok	ok	
+maya_long_keyframes_6100_ascii.fbx	ok	ok	
+maya_long_keyframes_6100_binary.fbx	ok	ok	
+maya_long_keyframes_7700_ascii.fbx	ok	ok	
+maya_long_keyframes_7700_binary.fbx	ok	ok	
+maya_material_anim_7700_ascii.fbx	ok	ok	
+maya_material_chart_6100_binary.fbx	ok	ok	textures:3!=6;embedded_textures:3!=6;embedded_bytes:294!=588
+maya_material_chart_7700_ascii.fbx	ok	ok	
+maya_material_chart_7700_binary.fbx	ok	ok	
+maya_mixed_inherit_mode_7700_ascii.fbx	ok	ok	
+maya_ngon_gs_7700_ascii.fbx	ok	ok	
+maya_ngon_l_7700_ascii.fbx	ok	ok	
+maya_ngon_maze_7700_binary.fbx	ok	ok	
+maya_ngon_maze_segment_7700_ascii.fbx	ok	ok	
+maya_no_smoothing_7500_ascii.fbx	ok	ok	
+maya_node_attribute_zoo_6100_ascii.fbx	ok	ok	cameras:1!=3;curves:2!=9;surfaces:1!=2;curve_geometries:2<9
+maya_node_attribute_zoo_6100_binary.fbx	ok	ok	cameras:1!=3;curves:2!=9;surfaces:1!=2;curve_geometries:2<9
+maya_node_attribute_zoo_7500_ascii.fbx	ok	ok	cameras:1!=3;curves:2!=9;surfaces:1!=2;curve_geometries:2<9
+maya_node_attribute_zoo_7500_binary.fbx	ok	ok	cameras:1!=3;curves:2!=9;surfaces:1!=2;curve_geometries:2<9
+maya_notes_6100_ascii.fbx	ok	ok	
+maya_notes_6100_binary.fbx	ok	ok	
+maya_notes_7700_ascii.fbx	ok	ok	
+maya_notes_7700_binary.fbx	ok	ok	
+maya_null_pivots_6100_ascii.fbx	ok	ok	
+maya_null_pivots_6100_binary.fbx	ok	ok	
+maya_null_pivots_7700_ascii.fbx	ok	ok	
+maya_null_pivots_7700_binary.fbx	ok	ok	
+maya_nurbs_curve_form_6100_ascii.fbx	ok	ok	
+maya_nurbs_curve_form_6100_binary.fbx	ok	ok	
+maya_nurbs_curve_form_7700_ascii.fbx	ok	ok	
+maya_nurbs_curve_form_7700_binary.fbx	ok	ok	
+maya_nurbs_curve_linear_6100_ascii.fbx	ok	ok	
+maya_nurbs_curve_multiplicity_6100_ascii.fbx	ok	ok	
+maya_nurbs_curve_multiplicity_6100_binary.fbx	ok	ok	
+maya_nurbs_curve_multiplicity_7500_ascii.fbx	ok	ok	
+maya_nurbs_curve_multiplicity_7500_binary.fbx	ok	ok	
+maya_nurbs_low_sphere_7500_ascii.fbx	ok	ok	
+maya_nurbs_surface_plane_6100_ascii.fbx	ok	ok	
+maya_nurbs_surface_plane_6100_binary.fbx	ok	ok	
+maya_nurbs_surface_plane_7500_ascii.fbx	ok	ok	
+maya_nurbs_surface_plane_7500_binary.fbx	ok	ok	
+maya_nurbs_surface_sphere_6100_binary.fbx	ok	ok	
+maya_nurbs_surface_sphere_7500_ascii.fbx	ok	ok	
+maya_ortho_camera_200x300_6100_ascii.fbx	ok	ok	
+maya_ortho_camera_200x300_7700_ascii.fbx	ok	ok	
+maya_ortho_camera_400x200_6100_ascii.fbx	ok	ok	
+maya_ortho_camera_400x200_7700_ascii.fbx	ok	ok	
+maya_ortho_camera_size_6100_ascii.fbx	ok	ok	
+maya_ortho_camera_size_7700_ascii.fbx	ok	ok	
+maya_osl_properties_6100_ascii.fbx	ok	ok	
+maya_osl_properties_6100_binary.fbx	ok	ok	
+maya_osl_properties_7500_ascii.fbx	ok	ok	
+maya_osl_properties_7500_binary.fbx	ok	ok	
+maya_parented_cubes_7500_ascii.fbx	ok	ok	
+maya_phong_properties_7700_ascii.fbx	ok	ok	
+maya_pivot_offset_6100_ascii.fbx	ok	ok	
+maya_pivot_offset_6100_binary.fbx	ok	ok	
+maya_pivot_offset_7700_ascii.fbx	ok	ok	
+maya_pivot_offset_7700_binary.fbx	ok	ok	
+maya_pivots_6100_ascii.fbx	ok	ok	
+maya_pivots_6100_binary.fbx	ok	ok	
+maya_pivots_7500_ascii.fbx	ok	ok	
+maya_pivots_7500_binary.fbx	ok	ok	
+maya_planar_ngon_7500_ascii.fbx	ok	ok	
+maya_polygon_hole_6100_ascii.fbx	ok	ok	
+maya_polygon_hole_6100_binary.fbx	ok	ok	
+maya_polygon_hole_7700_ascii.fbx	ok	ok	
+maya_polygon_hole_7700_binary.fbx	ok	ok	
+maya_poses_7700_ascii.fbx	ok	ok	
+maya_post_rotate_order_6100_ascii.fbx	ok	ok	
+maya_post_rotate_order_6100_binary.fbx	ok	ok	
+maya_post_rotate_order_7500_ascii.fbx	ok	ok	
+maya_post_rotate_order_7500_binary.fbx	ok	ok	
+maya_resampled_6100_ascii.fbx	ok	ok	
+maya_resampled_6100_binary.fbx	ok	ok	
+maya_resampled_7500_ascii.fbx	ok	ok	
+maya_resampled_7500_binary.fbx	ok	ok	
+maya_rotation_order_6100_ascii.fbx	ok	ok	
+maya_rotation_order_6100_binary.fbx	ok	ok	
+maya_rotation_order_7500_ascii.fbx	ok	ok	
+maya_rotation_order_7500_binary.fbx	ok	ok	
+maya_scale_no_inherit_6100_ascii.fbx	ok	ok	
+maya_scale_no_inherit_7700_ascii.fbx	ok	ok	
+maya_scale_no_inherit_step_7700_ascii.fbx	ok	ok	
+maya_shaderfx_pbs_material_6100_ascii.fbx	ok	ok	
+maya_shaderfx_pbs_material_6100_binary.fbx	ok	ok	
+maya_shaderfx_pbs_material_7700_ascii.fbx	ok	ok	
+maya_shaderfx_pbs_material_7700_binary.fbx	ok	ok	
+maya_shared_textures_6100_ascii.fbx	ok	ok	textures:0!=7
+maya_shared_textures_6100_binary.fbx	ok	ok	textures:0!=7;embedded_textures:0!=7;embedded_bytes:0!=14745
+maya_shared_textures_7500_ascii.fbx	ok	ok	
+maya_shared_textures_7500_binary.fbx	ok	ok	
+maya_skinned_pivot_7700_ascii.fbx	ok	ok	
+maya_slime_7500_ascii.fbx	ok	ok	
+maya_slime_7500_binary.fbx	ok	ok	
+maya_split_pivot_6100_ascii.fbx	ok	ok	
+maya_split_pivot_6100_binary.fbx	ok	ok	
+maya_split_pivot_7700_ascii.fbx	ok	ok	
+maya_split_pivot_7700_binary.fbx	ok	ok	
+maya_static_no_inherit_scale_7700_ascii.fbx	ok	ok	
+maya_stepped_tangent_sign_7700_ascii.fbx	ok	ok	
+maya_subsurf_3x_cube_7500_ascii.fbx	ok	ok	
+maya_subsurf_3x_cube_crease_7500_ascii.fbx	ok	ok	
+maya_subsurf_cube_7500_ascii.fbx	ok	ok	
+maya_subsurf_cube_crease_7500_ascii.fbx	ok	ok	
+maya_subsurf_max_crease_7500_ascii.fbx	ok	ok	
+maya_subsurf_plane_7700_ascii.fbx	ok	ok	
+maya_subsurf_plane_7700_binary.fbx	ok	ok	
+maya_tangent_clamped_7100_ascii.fbx	ok	ok	
+maya_tangent_clamped_7700_ascii.fbx	ok	ok	
+maya_tangent_clamped_7700_binary.fbx	ok	ok	
+maya_tangent_sign_6100_ascii.fbx	ok	ok	
+maya_tangent_sign_6100_binary.fbx	ok	ok	
+maya_tangent_sign_7700_ascii.fbx	ok	ok	
+maya_tangent_sign_7700_binary.fbx	ok	ok	
+maya_tangent_sign_mixed_7700_ascii.fbx	ok	ok	
+maya_tangent_sign_mixed_7700_binary.fbx	ok	ok	
+maya_tangent_sign_mixed_split_7700_ascii.fbx	ok	ok	
+maya_tangent_sign_mixed_split_7700_binary.fbx	ok	ok	
+maya_tangent_sign_skew_7700_ascii.fbx	ok	ok	
+maya_tangent_spline_7100_ascii.fbx	ok	ok	
+maya_tangent_spline_7700_ascii.fbx	ok	ok	
+maya_tangent_spline_7700_binary.fbx	ok	ok	
+maya_texture_blend_modes_6100_ascii.fbx	ok	ok	textures:0!=2
+maya_texture_blend_modes_7500_ascii.fbx	ok	ok	textures:0!=2
+maya_texture_layers_6100_ascii.fbx	ok	ok	textures:0!=6
+maya_texture_layers_6100_binary.fbx	ok	ok	textures:0!=6
+maya_texture_layers_7500_ascii.fbx	ok	ok	textures:2!=6
+maya_texture_layers_7500_binary.fbx	ok	ok	textures:2!=6
+maya_textured_cube_6100_ascii.fbx	ok	ok	textures:0!=6
+maya_textured_cube_6100_binary.fbx	ok	ok	textures:0!=6;embedded_textures:0!=6;embedded_bytes:0!=13644
+maya_textured_cube_7500_ascii.fbx	ok	ok	
+maya_textured_cube_7500_binary.fbx	ok	ok	
+maya_transform_animation_6100_ascii.fbx	ok	ok	
+maya_transform_animation_6100_binary.fbx	ok	ok	
+maya_transform_animation_7500_ascii.fbx	ok	ok	
+maya_transform_animation_7500_binary.fbx	ok	ok	
+maya_transformed_skin_6100_ascii.fbx	ok	ok	
+maya_transformed_skin_6100_binary.fbx	ok	ok	
+maya_transformed_skin_7700_ascii.fbx	ok	ok	
+maya_transformed_skin_7700_binary.fbx	ok	ok	
+maya_tri_cone_7500_binary.fbx	ok	ok	
+maya_triangulate_7500_binary.fbx	ok	ok	
+maya_triangulate_down_7500_binary.fbx	ok	ok	
+maya_triangulate_down_triangulated_7500_binary.fbx	ok	ok	
+maya_triangulate_triangulated_7500_binary.fbx	ok	ok	
+maya_unicode_6100_ascii.fbx	ok	ok	
+maya_unicode_6100_binary.fbx	ok	ok	
+maya_unicode_7400_ascii.fbx	ok	ok	
+maya_unicode_7400_binary.fbx	ok	ok	
+maya_user_props_6100_ascii.fbx	ok	ok	
+maya_user_props_6100_binary.fbx	ok	ok	
+maya_user_props_7700_ascii.fbx	ok	ok	
+maya_user_props_7700_binary.fbx	ok	ok	
+maya_uv_and_color_sets_6100_ascii.fbx	ok	ok	
+maya_uv_and_color_sets_6100_binary.fbx	ok	ok	
+maya_uv_and_color_sets_7500_ascii.fbx	ok	ok	
+maya_uv_and_color_sets_7500_binary.fbx	ok	ok	
+maya_uv_set_tangent_w_6100_ascii.fbx	ok	ok	
+maya_uv_set_tangent_w_6100_binary.fbx	ok	ok	
+maya_uv_set_tangent_w_7700_ascii.fbx	ok	ok	
+maya_uv_set_tangent_w_7700_binary.fbx	ok	ok	
+maya_uv_set_tangents_6100_ascii.fbx	ok	ok	
+maya_uv_set_tangents_6100_binary.fbx	ok	ok	
+maya_uv_set_tangents_7500_ascii.fbx	ok	ok	
+maya_uv_set_tangents_7500_binary.fbx	ok	ok	
+maya_uv_sets_6100_ascii.fbx	ok	ok	
+maya_uv_sets_6100_binary.fbx	ok	ok	
+maya_uv_sets_7500_ascii.fbx	ok	ok	
+maya_uv_sets_7500_binary.fbx	ok	ok	
+maya_vertex_crease_6100_ascii.fbx	ok	ok	
+maya_vertex_crease_6100_binary.fbx	ok	ok	
+maya_vertex_crease_7700_ascii.fbx	ok	ok	
+maya_vertex_crease_7700_binary.fbx	ok	ok	
+maya_vertex_crease_single_7700_ascii.fbx	ok	ok	
+maya_zero_end_7400_binary.fbx	ok	ok	
+maya_zero_end_7500_binary.fbx	ok	ok	
+maya_zero_scale_pivot_6100_ascii.fbx	ok	ok	
+maya_zero_scale_pivot_6100_binary.fbx	ok	ok	
+maya_zero_scale_pivot_7700_ascii.fbx	ok	ok	
+maya_zero_scale_pivot_7700_binary.fbx	ok	ok	
+motionbuilder_actor_7700_ascii.fbx	ok	ok	
+motionbuilder_actor_7700_binary.fbx	ok	ok	
+motionbuilder_cube_7700_ascii.fbx	ok	ok	
+motionbuilder_cube_7700_binary.fbx	ok	ok	
+motionbuilder_extrapolation_mirror_7700_ascii.fbx	ok	ok	
+motionbuilder_extrapolation_mirror_7700_binary.fbx	ok	ok	
+motionbuilder_extrapolation_mirror_count_7700_ascii.fbx	ok	ok	
+motionbuilder_extrapolation_mirror_count_7700_binary.fbx	ok	ok	
+motionbuilder_extrapolation_relative_count_7700_ascii.fbx	ok	ok	
+motionbuilder_extrapolation_relative_count_7700_binary.fbx	ok	ok	
+motionbuilder_extrapolation_repeat_count_7700_ascii.fbx	ok	ok	
+motionbuilder_extrapolation_repeat_count_7700_binary.fbx	ok	ok	
+motionbuilder_extrapolation_slope_7700_ascii.fbx	ok	ok	
+motionbuilder_extrapolation_slope_7700_binary.fbx	ok	ok	
+motionbuilder_lights_7700_ascii.fbx	ok	ok	
+motionbuilder_pivot_7700_ascii.fbx	ok	ok	
+motionbuilder_sausage_rrss_7700_ascii.fbx	ok	ok	
+motionbuilder_sausage_rrss_7700_binary.fbx	ok	ok	
+motionbuilder_smoothing_7700_ascii.fbx	ok	ok	
+motionbuilder_smoothing_7700_binary.fbx	ok	ok	
+motionbuilder_tangent_auto_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_clamp_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_negative_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_sign_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_simple_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_absolute_split_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_clamp_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_auto_bias_split_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_linear_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_smooth_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_smooth_clamp_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_spline_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_spline_clamp_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_tcb_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_velocity_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_velocity_split_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_velocity_split_7700_binary.fbx	ok	ok	
+motionbuilder_tangent_weight_7700_ascii.fbx	ok	ok	
+motionbuilder_tangent_weight_split_7700_ascii.fbx	ok	ok	
+motionbuilder_thumbnail_7700_ascii.fbx	ok	ok	
+motionbuilder_thumbnail_7700_binary.fbx	ok	ok	
+revit_empty_7400_binary.fbx	ok	ok	meshes:2!=1
+revit_empty_7700_binary.fbx	ok	ok	meshes:2!=1
+revit_wall_square_7700_binary.fbx	ok	ok	meshes:6!=5
+synthetic_a#U03b2#U30ab#L01f602_7500_ascii.fbx	ok	ok	
+synthetic_anim_stack_no_props_7100_ascii.fbx	ok	ok	
+synthetic_bad_inf_nan_7700_ascii.fbx	ok	ok	
+synthetic_base64_parse_7700_ascii.fbx	ok	ok	embedded_textures:0!=6;embedded_bytes:0!=66
+synthetic_binary_props_7500_ascii.fbx	ok	ok	
+synthetic_bind_to_root_7700_ascii.fbx	ok	ok	
+synthetic_blend_order_7500_ascii.fbx	ok	ok	
+synthetic_blend_shape_order_7500_ascii.fbx	ok	ok	
+synthetic_blender_old_exporter_6100_ascii.fbx	ok	ok	
+synthetic_broken_cluster_7500_ascii.fbx	ok	ok	
+synthetic_broken_filename_7500_ascii.fbx	ok	ok	
+synthetic_broken_material_6100_ascii.fbx	ok	ok	
+synthetic_by_vertex_bad_index_7500_ascii.fbx	ok	ok	
+synthetic_by_vertex_overflow_7500_ascii.fbx	ok	ok	
+synthetic_color_suzanne_7500_binary.fbx	ok	ok	
+synthetic_comment_cube_7500_ascii.fbx	ok	ok	
+synthetic_cube_nan_6100_ascii.fbx	ok	ok	materials:0!=1;anim_clips:0!=1;anim_layers:0!=1
+synthetic_cube_nan_7400_ascii.fbx	ok	ok	meshes:0!=1;materials:0!=1;anim_clips:0!=1;anim_layers:0!=1
+synthetic_cursed_geometry_7700_ascii.fbx	ok	ok	
+synthetic_direct_by_polygon_7700_ascii.fbx	ok	ok	
+synthetic_duplicate_id_6100_ascii.fbx	ok	ok	
+synthetic_duplicate_id_7700_ascii.fbx	ok	ok	
+synthetic_duplicate_prop_6100_ascii.fbx	ok	ok	
+synthetic_duplicate_prop_7500_ascii.fbx	ok	ok	
+synthetic_embedded_base64_7700_ascii.fbx	ok	ok	embedded_bytes:1!=2487
+synthetic_empty_elements_7500_ascii.fbx	ok	ok	anim_layers:1!=2
+synthetic_face_group_id_6100_ascii.fbx	ok	ok	textures:0!=1;morph_targets:0!=4
+synthetic_geometric_squish_7500_ascii.fbx	ok	ok	
+synthetic_geometric_transform_7500_ascii.fbx	ok	ok	
+synthetic_geometry_transform_camera_7500_ascii.fbx	ok	ok	
+synthetic_geometry_transform_inherit_mode_7700_ascii.fbx	ok	ok	meshes:3!=1
+synthetic_id_collision_7500_ascii.fbx	ok	ok	
+synthetic_indexed_by_vertex_7500_ascii.fbx	ok	ok	
+synthetic_inf_nan_6100_ascii.fbx	ok	ok	meshes:1!=2;materials:0!=1;anim_clips:0!=1;anim_layers:0!=1
+synthetic_inf_nan_7700_ascii.fbx	ok	ok	meshes:0!=2;materials:0!=1;anim_clips:0!=1;anim_layers:0!=1
+synthetic_integer_holes_7700_binary.fbx	ok	ok	
+synthetic_legacy_nonzero_material_5800_ascii.fbx	ok	ok	materials:0!=2;cameras:0!=1;lights:0!=3
+synthetic_missing_exporter_6100_ascii.fbx	ok	ok	
+synthetic_missing_mapping_7500_ascii.fbx	ok	ok	
+synthetic_missing_material_factor_6100_ascii.fbx	ok	ok	
+synthetic_missing_normals_7400_ascii.fbx	ok	ok	
+synthetic_missing_version_6100_ascii.fbx	ok	ok	
+synthetic_negative_fbx_id_7700_ascii.fbx	ok	ok	
+synthetic_negative_fbx_id_7700_binary.fbx	ok	ok	
+synthetic_node_dag_7700_ascii.fbx	ok	ok	
+synthetic_nurbs_invalid_7700_ascii.fbx	ok	ok	
+synthetic_nurbs_surface_no_material_7500_ascii.fbx	ok	ok	
+synthetic_nurbs_truncated_7700_ascii.fbx	ok	ok	
+synthetic_parent_directory_7700_ascii.fbx	ok	ok	
+synthetic_pre_post_rotate_7500_ascii.fbx	ok	ok	
+synthetic_recursive_connections_7700_ascii.fbx	ok	ok	
+synthetic_recursive_transform_6100_ascii.fbx	ok	ok	
+synthetic_rotation_order_layers_7700_ascii.fbx	ok	ok	
+synthetic_sausage_wiggle_no_bind_6100_ascii.fbx	ok	ok	
+synthetic_sausage_wiggle_no_bind_7500_ascii.fbx	ok	ok	
+synthetic_sausage_wiggle_no_link_6100_ascii.fbx	ok	ok	
+synthetic_sausage_wiggle_no_link_7500_ascii.fbx	ok	ok	
+synthetic_sets_reorder_6100_ascii.fbx	ok	ok	
+synthetic_string_collision_7500_ascii.fbx	ok	ok	
+synthetic_tangents_reorder_7500_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_6100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_7100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_7700_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_old_header_6100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_old_header_7100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_0_old_header_7700_ascii.fbx	ok	ok	
+synthetic_tcdefinition_127_6100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_127_7100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_127_7700_ascii.fbx	ok	ok	
+synthetic_tcdefinition_64_6100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_64_7100_ascii.fbx	ok	ok	
+synthetic_tcdefinition_64_7700_ascii.fbx	ok	ok	
+synthetic_texture_split_7500_ascii.fbx	ok	ok	embedded_bytes:2734!=8163
+synthetic_texture_split_7500_binary.fbx	ok	ok	embedded_bytes:2322!=13644
+synthetic_truncated_crease_full_7700_ascii.fbx	ok	ok	
+synthetic_truncated_crease_partial_7700_ascii.fbx	ok	ok	
+synthetic_unicode_7500_binary.fbx	ok	ok	meshes:3!=0
+synthetic_unicode_error_identity_6100_ascii.fbx	ok	ok	
+synthetic_unicode_error_identity_6100_binary.fbx	ok	ok	
+synthetic_unicode_error_identity_7700_ascii.fbx	ok	ok	
+synthetic_unicode_error_identity_7700_binary.fbx	ok	ok	
+synthetic_unknown_extrapolation_7700_ascii.fbx	ok	ok	
+synthetic_unnormalized_7700_ascii.fbx	ok	ok	
+synthetic_unsafe_cube_7500_binary.fbx	ok	ok	
+synthetic_unsupported_cube_2000_binary.fbx	ok	ok	anim_clips:0!=1;anim_layers:0!=1
+synthetic_unsupported_cube_8000_ascii.fbx	ok	ok	version:7500!=8000
+synthetic_vertex_gaps_7700_ascii.fbx	ok	ok	
+zbrush_cut_sphere_7500_ascii.fbx	ok	ok	
+zbrush_d20_6100_ascii.fbx	ok	ok	textures:0!=1;morph_targets:0!=4
+zbrush_d20_6100_binary.fbx	ok	ok	textures:0!=1;embedded_textures:0!=1;embedded_bytes:0!=3090;morph_targets:0!=4
+zbrush_d20_7500_ascii.fbx	ok	ok	
+zbrush_d20_7500_binary.fbx	ok	ok	
+zbrush_d20_selection_set_6100_ascii.fbx	ok	ok	textures:0!=1;morph_targets:0!=4
+zbrush_d20_selection_set_6100_binary.fbx	ok	ok	textures:0!=1;embedded_textures:0!=1;embedded_bytes:0!=3090;morph_targets:0!=4
+zbrush_d20_selection_set_7500_ascii.fbx	ok	ok	
+zbrush_d20_selection_set_7500_binary.fbx	ok	ok	
+zbrush_polygroup_mess_7500_binary.fbx	ok	ok	
+zbrush_vertex_color_7500_ascii.fbx	ok	ok	

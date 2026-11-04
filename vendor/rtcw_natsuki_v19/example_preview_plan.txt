@@ -1,0 +1,10 @@
+# Synthetic demonstration only; names must occur in your wolfanim.script.
+STATE COMBAT
+PLAY animations WALK default
+SHOT
+ADVANCE 50
+ADVANCE 150
+CHANGE ALERT default
+SHOT
+EVENT DEATH default
+ADVANCE 50

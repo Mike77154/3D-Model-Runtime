@@ -1,0 +1,20 @@
+RE3_codec v0.13 recovery verification
+======================================
+ORIGINAL v0.13 session (historical result preserved from the chat):
+  GCC strict C89: PASS
+  Clang strict C89: PASS
+  synthetic RE3 EMD: PASS
+  synthetic PSX TIM: PASS
+  EMD corpus pass=100 fail=0
+  TIM corpus pass=100 fail=0
+  paired texture pass=100 fail=0 skip=0
+
+RECOVERED buildable tree, 2026-09-19:
+  GCC strict C89 full build: PASS
+  Clang strict C89 full build: PASS
+  synthetic core primitives: PASS
+  synthetic PSX TIM: PASS
+
+The retail corpus itself was not recoverable into the current runtime, so the
+historical 100-file figures above are evidence from the original session and
+are not falsely represented as a fresh rerun.

@@ -1,0 +1,1087 @@
+Only in hl1fix/hl1modelib: GOLDSRC_POSE_FIX_NOTES.md
+diff -ru '--exclude=artifacts' '--exclude=*.o' '--exclude=libhlfp.a' '--exclude=test_output.txt' baseorig/hl1modelib/Makefile hl1fix/hl1modelib/Makefile
+--- baseorig/hl1modelib/Makefile	2026-06-19 23:09:06.000000000 +0000
++++ hl1fix/hl1modelib/Makefile	2026-06-24 04:13:23.645142721 +0000
+@@ -6,7 +6,7 @@
+ LIBSRC = hlfp_common.c hlfp_smd.c hlfp_mdl.c hlfp_math.c hlfp_blend.c hlfp_compile.c hlfp_detach.c hlfp_ctrlquat.c hlfp_reemit.c hlfp_goldsrc.c hlfp_studiohalflife.c hlfp_softmdl.c hlfp_studiohalflife_plus.c hlfp_softmdl_plus.c hlfp_studiohalflife_ultra.c hlfp_softmdl_ultra.c
+ LIBOBJ = $(LIBSRC:.c=.o)
+ 
+-all: libhlfp.a test_hlfp test_hlfp_goldsrc test_studiohalflife test_studiohalflife_plus test_studiohalflife_ultra demo_render_studiohalflife demo_render_studiohalflife_plus demo_render_studiohalflife_ultra
++all: libhlfp.a test_hlfp test_hlfp_goldsrc test_studiohalflife test_studiohalflife_plus test_studiohalflife_ultra demo_render_studiohalflife demo_render_studiohalflife_plus demo_render_studiohalflife_ultra demo_render_goldsrc_pose
+ 
+ libhlfp.a: $(LIBOBJ)
+ 	$(AR) $(ARFLAGS) $@ $(LIBOBJ)
+@@ -35,6 +35,10 @@
+ demo_render_studiohalflife_ultra: demo_render_studiohalflife_ultra.c libhlfp.a
+ 	$(CC) $(CFLAGS) -o $@ demo_render_studiohalflife_ultra.c libhlfp.a
+ 
++
++demo_render_goldsrc_pose: demo_render_goldsrc_pose.c libhlfp.a
++	$(CC) $(CFLAGS) -o $@ demo_render_goldsrc_pose.c libhlfp.a
++
+ studiohalflife_preview.ppm: demo_render_studiohalflife
+ 	./demo_render_studiohalflife
+ 
+@@ -52,4 +56,4 @@
+ 	./test_studiohalflife_ultra >> test_output.txt
+ 
+ clean:
+-	rm -f $(LIBOBJ) libhlfp.a test_hlfp test_hlfp_goldsrc test_studiohalflife test_studiohalflife_plus test_studiohalflife_ultra demo_render_studiohalflife demo_render_studiohalflife_plus demo_render_studiohalflife_ultra test_output.txt studiohalflife_preview.ppm studiohalflife_plus_preview.tga studiohalflife_ultra_preview.tga
++	rm -f $(LIBOBJ) libhlfp.a test_hlfp test_hlfp_goldsrc test_studiohalflife test_studiohalflife_plus test_studiohalflife_ultra demo_render_studiohalflife demo_render_studiohalflife_plus demo_render_studiohalflife_ultra demo_render_goldsrc_pose test_output.txt studiohalflife_preview.ppm studiohalflife_plus_preview.tga studiohalflife_ultra_preview.tga
+Only in hl1fix/hl1modelib: demo_render_goldsrc_pose.c
+diff -ru '--exclude=artifacts' '--exclude=*.o' '--exclude=libhlfp.a' '--exclude=test_output.txt' baseorig/hl1modelib/hlfp.h hl1fix/hl1modelib/hlfp.h
+--- baseorig/hl1modelib/hlfp.h	2026-06-19 00:04:40.000000000 +0000
++++ hl1fix/hl1modelib/hlfp.h	2026-06-24 04:06:17.696944683 +0000
+@@ -525,6 +525,14 @@
+ 
+ void hlfp_mat3x4_identity(hlfp_mat3x4 *out);
+ int hlfp_angles_to_mat3x4(const hlfp_vec3 *rot, const hlfp_vec3 *pos, hlfp_mat3x4 *out, hlfp_error *err);
++
++/* GoldSrc studio bone path. These match Valve's AngleQuaternion,
++ * QuaternionSlerp and QuaternionMatrix conventions for MDL bones. */
++int hlfp_goldsrc_angles_to_quat(const hlfp_vec3 *rot, hlfp_quat *out, hlfp_error *err);
++int hlfp_quat_slerp(const hlfp_quat *a, const hlfp_quat *b, hlfp_fixed t, hlfp_quat *out, hlfp_error *err);
++int hlfp_quat_to_mat3x4(const hlfp_quat *q, const hlfp_vec3 *pos, hlfp_mat3x4 *out, hlfp_error *err);
++int hlfp_goldsrc_angles_to_bone_mat3x4(const hlfp_vec3 *rot, const hlfp_vec3 *pos, hlfp_mat3x4 *out, hlfp_error *err);
++
+ int hlfp_mat3x4_concat(const hlfp_mat3x4 *parent, const hlfp_mat3x4 *child, hlfp_mat3x4 *out, hlfp_error *err);
+ int hlfp_mdl_pose_to_local_matrices(const hlfp_mdl_pose_set *poses, hlfp_mat3x4 *out, int out_cap, hlfp_error *err);
+ int hlfp_mdl_pose_to_world_matrices(const hlfp_mdl *mdl, const hlfp_mdl_pose_set *poses, hlfp_mat3x4 *out, int out_cap, hlfp_error *err);
+@@ -726,6 +734,19 @@
+                                   int count,
+                                   hlfp_mdl_quat_pose_set *out,
+                                   hlfp_error *err);
++int hlfp_mdl_decode_sequence_frame_fixed_quat(const hlfp_mdl *mdl,
++                                                int sequence_index,
++                                                int blend_index,
++                                                hlfp_fixed frame_position,
++                                                hlfp_mdl_quat_pose_set *out,
++                                                hlfp_error *err);
++int hlfp_mdl_decode_sequence_world_matrices_fixed_quat(const hlfp_mdl *mdl,
++                                                       int sequence_index,
++                                                       int blend_index,
++                                                       hlfp_fixed frame_position,
++                                                       hlfp_mat3x4 *out,
++                                                       int out_cap,
++                                                       hlfp_error *err);
+ int hlfp_mdl_decode_sequence_frame_fixed_quat_ctrl(const hlfp_mdl *mdl,
+                                                    int sequence_index,
+                                                    hlfp_fixed frame_position,
+diff -ru '--exclude=artifacts' '--exclude=*.o' '--exclude=libhlfp.a' '--exclude=test_output.txt' baseorig/hl1modelib/hlfp_ctrlquat.c hl1fix/hl1modelib/hlfp_ctrlquat.c
+--- baseorig/hl1modelib/hlfp_ctrlquat.c	2026-06-19 00:04:40.000000000 +0000
++++ hl1fix/hl1modelib/hlfp_ctrlquat.c	2026-06-24 04:09:08.416818378 +0000
+@@ -2,6 +2,11 @@
+ 
+ #include <limits.h>
+ 
++#define HLFP_CTRLQUAT_PI_FIXED ((hlfp_fixed)205887)
++#define HLFP_CTRLQUAT_HALF_PI_FIXED ((hlfp_fixed)102944)
++#define HLFP_CTRLQUAT_EPSILON ((hlfp_fixed)1)
++#define HLFP_CTRLQUAT_ANIMOFF_SIZE 12
++
+ static int hlfp__fixed_add_local(hlfp_fixed a, hlfp_fixed b, hlfp_fixed *out) {
+     if (out == 0) {
+         return HLFP_ERR_BAD_ARGUMENT;
+@@ -179,100 +184,190 @@
+     return HLFP_OK;
+ }
+ 
+-static int hlfp__quat_from_mat3x4(const hlfp_mat3x4 *m, hlfp_quat *out, hlfp_error *err) {
+-    hlfp_fixed trace;
+-    hlfp_fixed tmp;
+-    hlfp_fixed s;
+-    int rc;
+-
+-    if (m == 0 || out == 0) {
+-        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion matrix input");
+-    }
+-    rc = hlfp__fixed_add_local(m->m[0][0], m->m[1][1], &trace);
+-    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-    rc = hlfp__fixed_add_local(trace, m->m[2][2], &trace);
+-    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-
+-    if (trace > 0) {
+-        rc = hlfp__fixed_add_local(trace, HLFP_FIXED_ONE, &tmp);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-        rc = hlfp__fixed_sqrt(tmp, &s);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sqrt failed");
+-        s <<= 1;
+-        if (s == 0) {
+-            hlfp__quat_identity(out);
+-            return HLFP_OK;
++
++static int hlfp__quat_from_euler(const hlfp_vec3 *rot, hlfp_quat *out, hlfp_error *err) {
++    hlfp_fixed sx, cx, sy, cy, sz, cz;
++    hlfp_fixed a, b, t;
++    int rc;
++    if (rot == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion euler input");
++    }
++    rc = hlfp_fixed_sin_cos(rot->z / 2, &sz, &cz);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion ZR sin/cos failed");
++    rc = hlfp_fixed_sin_cos(rot->y / 2, &sy, &cy);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion YR sin/cos failed");
++    rc = hlfp_fixed_sin_cos(rot->x / 2, &sx, &cx);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion XR sin/cos failed");
++
++    rc = hlfp_fixed_mul(sx, cy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, cz, &a); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(cx, sy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, sz, &b); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add_local(a, -b, &out->x); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp_fixed_mul(cx, sy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, cz, &a); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(sx, cy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, sz, &b); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add_local(a, b, &out->y); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp_fixed_mul(cx, cy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, sz, &a); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(sx, sy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, cz, &b); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add_local(a, -b, &out->z); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp_fixed_mul(cx, cy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, cz, &a); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(sx, sy, &t); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp_fixed_mul(t, sz, &b); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add_local(a, b, &out->w); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    return hlfp__quat_normalize(out, err);
++}
++
++static int hlfp__quat_dot(const hlfp_quat *a, const hlfp_quat *b, hlfp_fixed *out, hlfp_error *err) {
++    hlfp_fixed t0, t1, t2, t3;
++    int rc;
++    if (a == 0 || b == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion dot input");
++    }
++    rc = hlfp_fixed_mul(a->x, b->x, &t0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp_fixed_mul(a->y, b->y, &t1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp_fixed_mul(a->z, b->z, &t2); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp_fixed_mul(a->w, b->w, &t3); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp__fixed_add_local(t0, t1, out); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp__fixed_add_local(*out, t2, out); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    rc = hlfp__fixed_add_local(*out, t3, out); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion dot overflow");
++    return HLFP_OK;
++}
++
++static int hlfp__fixed_acos(hlfp_fixed c, hlfp_fixed *out, hlfp_error *err) {
++    hlfp_fixed lo;
++    hlfp_fixed hi;
++    int i;
++    if (out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null fixed acos output");
++    }
++    if (c > HLFP_FIXED_ONE) c = HLFP_FIXED_ONE;
++    if (c < -HLFP_FIXED_ONE) c = -HLFP_FIXED_ONE;
++    lo = 0;
++    hi = HLFP_CTRLQUAT_PI_FIXED;
++    for (i = 0; i < 18; ++i) {
++        hlfp_fixed mid;
++        hlfp_fixed s;
++        hlfp_fixed cm;
++        int rc;
++        mid = lo + ((hi - lo) >> 1);
++        rc = hlfp_fixed_sin_cos(mid, &s, &cm);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "fixed acos cos failed");
++        if (cm > c) {
++            lo = mid;
++        } else {
++            hi = mid;
+         }
+-        out->w = s >> 2;
+-        rc = hlfp_fixed_div(m->m[2][1] - m->m[1][2], s, &out->x);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[0][2] - m->m[2][0], s, &out->y);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[1][0] - m->m[0][1], s, &out->z);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-    } else if (m->m[0][0] > m->m[1][1] && m->m[0][0] > m->m[2][2]) {
+-        rc = hlfp__fixed_add_local(HLFP_FIXED_ONE + m->m[0][0], -m->m[1][1] - m->m[2][2], &tmp);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-        rc = hlfp__fixed_sqrt(tmp, &s);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sqrt failed");
+-        s <<= 1;
+-        if (s == 0) { hlfp__quat_identity(out); return HLFP_OK; }
+-        out->x = s >> 2;
+-        rc = hlfp_fixed_div(m->m[0][1] + m->m[1][0], s, &out->y);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[0][2] + m->m[2][0], s, &out->z);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[2][1] - m->m[1][2], s, &out->w);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-    } else if (m->m[1][1] > m->m[2][2]) {
+-        rc = hlfp__fixed_add_local(HLFP_FIXED_ONE + m->m[1][1], -m->m[0][0] - m->m[2][2], &tmp);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-        rc = hlfp__fixed_sqrt(tmp, &s);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sqrt failed");
+-        s <<= 1;
+-        if (s == 0) { hlfp__quat_identity(out); return HLFP_OK; }
+-        rc = hlfp_fixed_div(m->m[0][1] + m->m[1][0], s, &out->x);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        out->y = s >> 2;
+-        rc = hlfp_fixed_div(m->m[1][2] + m->m[2][1], s, &out->z);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[0][2] - m->m[2][0], s, &out->w);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-    } else {
+-        rc = hlfp__fixed_add_local(HLFP_FIXED_ONE + m->m[2][2], -m->m[0][0] - m->m[1][1], &tmp);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion trace overflow");
+-        rc = hlfp__fixed_sqrt(tmp, &s);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sqrt failed");
+-        s <<= 1;
+-        if (s == 0) { hlfp__quat_identity(out); return HLFP_OK; }
+-        rc = hlfp_fixed_div(m->m[0][2] + m->m[2][0], s, &out->x);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        rc = hlfp_fixed_div(m->m[1][2] + m->m[2][1], s, &out->y);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+-        out->z = s >> 2;
+-        rc = hlfp_fixed_div(m->m[1][0] - m->m[0][1], s, &out->w);
+-        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion divide failed");
+     }
++    *out = lo + ((hi - lo) >> 1);
++    return HLFP_OK;
++}
++
++static int hlfp__quat_scale_add(const hlfp_quat *a, hlfp_fixed sa, const hlfp_quat *b, hlfp_fixed sb, hlfp_quat *out, hlfp_error *err) {
++    hlfp_fixed ax, ay, az, aw, bx, by, bz, bw;
++    int rc;
++    rc = hlfp_fixed_mul(a->x, sa, &ax); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(a->y, sa, &ay); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(a->z, sa, &az); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(a->w, sa, &aw); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(b->x, sb, &bx); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(b->y, sb, &by); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(b->z, sb, &bz); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp_fixed_mul(b->w, sb, &bw); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion scale overflow");
++    rc = hlfp__fixed_add_local(ax, bx, &out->x); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion add overflow");
++    rc = hlfp__fixed_add_local(ay, by, &out->y); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion add overflow");
++    rc = hlfp__fixed_add_local(az, bz, &out->z); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion add overflow");
++    rc = hlfp__fixed_add_local(aw, bw, &out->w); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion add overflow");
+     return hlfp__quat_normalize(out, err);
+ }
+ 
+-static int hlfp__quat_from_euler(const hlfp_vec3 *rot, hlfp_quat *out, hlfp_error *err) {
+-    hlfp_mat3x4 m;
+-    hlfp_vec3 zero;
++static int hlfp__quat_slerp(const hlfp_quat *p, const hlfp_quat *q_in, hlfp_fixed t, hlfp_quat *out, hlfp_error *err) {
++    hlfp_quat q;
++    hlfp_fixed cosom = 0;
++    hlfp_fixed one_minus;
++    hlfp_fixed one_plus;
+     int rc;
+-    if (rot == 0 || out == 0) {
+-        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion euler input");
++    if (p == 0 || q_in == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion slerp input");
+     }
+-    zero.x = 0;
+-    zero.y = 0;
+-    zero.z = 0;
+-    rc = hlfp_angles_to_mat3x4(rot, &zero, &m, err);
+-    if (rc != HLFP_OK) {
+-        return rc;
++    if (t < 0) t = 0;
++    if (t > HLFP_FIXED_ONE) t = HLFP_FIXED_ONE;
++    q = *q_in;
++    rc = hlfp__quat_dot(p, &q, &cosom, err);
++    if (rc != HLFP_OK) return rc;
++    if (cosom < 0) {
++        q.x = -q.x; q.y = -q.y; q.z = -q.z; q.w = -q.w;
++        cosom = -cosom;
++    }
++    one_plus = HLFP_FIXED_ONE + cosom;
++    one_minus = HLFP_FIXED_ONE - cosom;
++    if (one_plus > HLFP_CTRLQUAT_EPSILON) {
++        hlfp_fixed sclp;
++        hlfp_fixed sclq;
++        if (one_minus > HLFP_CTRLQUAT_EPSILON) {
++            hlfp_fixed omega = 0;
++            hlfp_fixed sinom;
++            hlfp_fixed angle;
++            hlfp_fixed ss;
++            hlfp_fixed cc;
++            rc = hlfp__fixed_acos(cosom, &omega, err);
++            if (rc != HLFP_OK) return rc;
++            rc = hlfp_fixed_sin_cos(omega, &sinom, &cc);
++            if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sinom failed");
++            if (sinom == 0) {
++                sclp = HLFP_FIXED_ONE - t;
++                sclq = t;
++            } else {
++                rc = hlfp_fixed_mul(HLFP_FIXED_ONE - t, omega, &angle);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp angle overflow");
++                rc = hlfp_fixed_sin_cos(angle, &ss, &cc);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sine failed");
++                rc = hlfp_fixed_div(ss, sinom, &sclp);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp divide failed");
++                rc = hlfp_fixed_mul(t, omega, &angle);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp angle overflow");
++                rc = hlfp_fixed_sin_cos(angle, &ss, &cc);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sine failed");
++                rc = hlfp_fixed_div(ss, sinom, &sclq);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp divide failed");
++            }
++        } else {
++            sclp = HLFP_FIXED_ONE - t;
++            sclq = t;
++        }
++        return hlfp__quat_scale_add(p, sclp, &q, sclq, out, err);
++    } else {
++        hlfp_quat ortho;
++        hlfp_fixed angle;
++        hlfp_fixed sclp;
++        hlfp_fixed sclq;
++        hlfp_fixed ss;
++        hlfp_fixed cc;
++        ortho.x = -q.y;
++        ortho.y = q.x;
++        ortho.z = -q.w;
++        ortho.w = q.z;
++        rc = hlfp_fixed_mul(HLFP_FIXED_ONE - t, HLFP_CTRLQUAT_HALF_PI_FIXED, &angle);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp 180 angle overflow");
++        rc = hlfp_fixed_sin_cos(angle, &sclp, &cc);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp 180 sine failed");
++        rc = hlfp_fixed_mul(t, HLFP_CTRLQUAT_HALF_PI_FIXED, &angle);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp 180 angle overflow");
++        rc = hlfp_fixed_sin_cos(angle, &sclq, &ss);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp 180 sine failed");
++        return hlfp__quat_scale_add(p, sclp, &ortho, sclq, out, err);
+     }
+-    return hlfp__quat_from_mat3x4(&m, out, err);
+ }
+ 
++
++
+ static int hlfp__quat_mul(const hlfp_quat *a, const hlfp_quat *b, hlfp_quat *out, hlfp_error *err) {
+     hlfp_fixed t0, t1, t2, t3;
+     hlfp_quat q;
+@@ -640,6 +735,298 @@
+     return HLFP_OK;
+ }
+ 
++
++static int hlfp__quat_lerp_fixed(hlfp_fixed a, hlfp_fixed b, hlfp_fixed t, hlfp_fixed *out, hlfp_error *err);
++
++static int hlfp__quat_pose_slerp_pair(const hlfp_mdl_quat_pose_set *a,
++                                      const hlfp_mdl_quat_pose_set *b,
++                                      hlfp_fixed t,
++                                      hlfp_mdl_quat_pose_set *out,
++                                      hlfp_error *err) {
++    int bone;
++    int rc;
++    if (a == 0 || b == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion pose slerp input");
++    }
++    if (a->num_bones != b->num_bones || a->num_bones < 0 || a->num_bones > HLFP_MDL_MAX_BONES) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "quaternion pose slerp requires matching bone counts");
++    }
++    hlfp__zero(out, sizeof(*out));
++    out->num_bones = a->num_bones;
++    for (bone = 0; bone < a->num_bones; ++bone) {
++        if (a->poses[bone].bone != b->poses[bone].bone) {
++            return hlfp__set_error(err, HLFP_ERR_BAD_FORMAT, 0, 0, "quaternion pose slerp bone mismatch");
++        }
++        out->poses[bone].bone = a->poses[bone].bone;
++        rc = hlfp__quat_lerp_fixed(a->poses[bone].pos.x, b->poses[bone].pos.x, t, &out->poses[bone].pos.x, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_lerp_fixed(a->poses[bone].pos.y, b->poses[bone].pos.y, t, &out->poses[bone].pos.y, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_lerp_fixed(a->poses[bone].pos.z, b->poses[bone].pos.z, t, &out->poses[bone].pos.z, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_slerp(&a->poses[bone].rot, &b->poses[bone].rot, t, &out->poses[bone].rot, err);
++        if (rc != HLFP_OK) return rc;
++    }
++    return HLFP_OK;
++}
++
++
++static int hlfp__quat_normalize_frame_position(const hlfp_mdl_seqdesc *seq,
++                                               hlfp_fixed frame_position,
++                                               int *frame,
++                                               hlfp_fixed *frac,
++                                               hlfp_error *err) {
++    hlfp_fixed pos;
++    hlfp_fixed range;
++    hlfp_fixed max_pos;
++    if (seq == 0 || frame == 0 || frac == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion frame normalize input");
++    }
++    if (seq->numframes <= 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_FORMAT, 0, 0, "sequence has no frames");
++    }
++    if (seq->numframes == 1) {
++        *frame = 0;
++        *frac = 0;
++        return HLFP_OK;
++    }
++    pos = frame_position;
++    if ((seq->flags & HLFP_STUDIO_LOOPING) != 0) {
++        range = (hlfp_fixed)((seq->numframes - 1) << HLFP_FIXED_FRAC_BITS);
++        if (range <= 0) {
++            *frame = 0;
++            *frac = 0;
++            return HLFP_OK;
++        }
++        while (pos < 0) pos += range;
++        while (pos >= range) pos -= range;
++        *frame = (int)(pos >> HLFP_FIXED_FRAC_BITS);
++        *frac = pos & 0xFFFF;
++        return HLFP_OK;
++    }
++    if (pos <= 0) {
++        *frame = 0;
++        *frac = 0;
++        return HLFP_OK;
++    }
++    max_pos = (hlfp_fixed)((seq->numframes - 1) << HLFP_FIXED_FRAC_BITS);
++    if (pos >= max_pos) {
++        *frame = seq->numframes - 1;
++        *frac = 0;
++        return HLFP_OK;
++    }
++    *frame = (int)(pos >> HLFP_FIXED_FRAC_BITS);
++    *frac = pos & 0xFFFF;
++    return HLFP_OK;
++}
++
++static int hlfp__quat_sequence_buffer(const hlfp_mdl *mdl,
++                                      const hlfp_mdl_seqdesc *seq,
++                                      hlfp_buffer *buf,
++                                      size_t *base_off,
++                                      hlfp_error *err) {
++    const hlfp_mdl_seqgroup *group;
++    if (mdl == 0 || seq == 0 || buf == 0 || base_off == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion sequence buffer input");
++    }
++    if (seq->seqgroup < 0 || seq->seqgroup >= mdl->num_seqgroups) {
++        return hlfp__set_error(err, HLFP_ERR_OUT_OF_RANGE, 0, 0, "sequence group index out of range");
++    }
++    group = &mdl->seqgroups[seq->seqgroup];
++    if (seq->seqgroup == 0) {
++        *buf = mdl->main_buffer;
++        *base_off = (size_t)group->data + (size_t)seq->animindex;
++    } else {
++        *buf = mdl->seqgroup_buffers[seq->seqgroup];
++        if (buf->data == 0 || buf->size == 0) {
++            return hlfp__set_error(err, HLFP_ERR_MISSING_DATA, 0, 0, "external sequence group buffer not attached");
++        }
++        *base_off = (size_t)seq->animindex;
++    }
++    return HLFP_OK;
++}
++
++static int hlfp__quat_anim_sample_pair(const hlfp_buffer *buf,
++                                       const hlfp_u8 *anim_entry,
++                                       hlfp_u16 offset,
++                                       int frame,
++                                       hlfp_i16 *sample1,
++                                       hlfp_i16 *sample2,
++                                       hlfp_error *err) {
++    const hlfp_u8 *p;
++    int k;
++    int valid;
++    int total;
++    int idx1;
++    int idx2;
++    if (buf == 0 || anim_entry == 0 || sample1 == 0 || sample2 == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion anim sample input");
++    }
++    *sample1 = 0;
++    *sample2 = 0;
++    if (offset == 0) {
++        return HLFP_OK;
++    }
++    p = hlfp__checked_range(buf, (size_t)(anim_entry - buf->data) + (size_t)offset, 2U, err, "quaternion animation value span");
++    if (p == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++    k = frame;
++    for (;;) {
++        p = hlfp__checked_range(buf, (size_t)(p - buf->data), 2U, err, "quaternion animation value span");
++        if (p == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++        valid = (int)p[0];
++        total = (int)p[1];
++        if (total <= 0) {
++            return hlfp__set_error(err, HLFP_ERR_BAD_FORMAT, 0, 0, "animation span has non-positive total");
++        }
++        if (total < valid) {
++            k = 0;
++        }
++        if (total > k) {
++            if (valid > k) {
++                idx1 = k + 1;
++                if (valid > k + 1) {
++                    idx2 = k + 2;
++                } else {
++                    if (total > k + 1) idx2 = idx1;
++                    else idx2 = valid + 2;
++                }
++            } else {
++                idx1 = valid;
++                if (total > k + 1) idx2 = idx1;
++                else idx2 = valid + 2;
++            }
++            {
++                const hlfp_u8 *v1;
++                const hlfp_u8 *v2;
++                v1 = hlfp__checked_range(buf, (size_t)(p - buf->data) + (size_t)idx1 * 2U, 2U, err, "quaternion animation sample");
++                if (v1 == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++                v2 = hlfp__checked_range(buf, (size_t)(p - buf->data) + (size_t)idx2 * 2U, 2U, err, "quaternion animation sample");
++                if (v2 == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++                *sample1 = hlfp__read_i16le(v1);
++                *sample2 = hlfp__read_i16le(v2);
++                return HLFP_OK;
++            }
++        }
++        k -= total;
++        p = hlfp__checked_range(buf, (size_t)(p - buf->data) + (size_t)(valid + 1) * 2U, 2U, err, "next quaternion animation span");
++        if (p == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++    }
++}
++
++static int hlfp__quat_lerp_fixed(hlfp_fixed a, hlfp_fixed b, hlfp_fixed t, hlfp_fixed *out, hlfp_error *err) {
++    hlfp_fixed delta;
++    hlfp_fixed scaled;
++    int rc;
++    rc = hlfp__fixed_add_local(b, -a, &delta);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "fixed lerp delta overflow");
++    rc = hlfp_fixed_mul(delta, t, &scaled);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "fixed lerp scale overflow");
++    rc = hlfp__fixed_add_local(a, scaled, out);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "fixed lerp add overflow");
++    return HLFP_OK;
++}
++
++static int hlfp__quat_component_values(const hlfp_buffer *buf,
++                                       const hlfp_u8 *entry,
++                                       hlfp_u16 offset,
++                                       int frame,
++                                       hlfp_fixed base,
++                                       hlfp_fixed scale,
++                                       hlfp_fixed *v1,
++                                       hlfp_fixed *v2,
++                                       hlfp_error *err) {
++    hlfp_i16 s1;
++    hlfp_i16 s2;
++    hlfp_fixed d1;
++    hlfp_fixed d2;
++    int rc;
++    if (v1 == 0 || v2 == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion component output");
++    }
++    rc = hlfp__quat_anim_sample_pair(buf, entry, offset, frame, &s1, &s2, err);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp__fixed_mul_i16(scale, s1, &d1);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sample scale overflow");
++    rc = hlfp__fixed_mul_i16(scale, s2, &d2);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion sample scale overflow");
++    rc = hlfp__fixed_add_local(base, d1, v1);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion component add overflow");
++    rc = hlfp__fixed_add_local(base, d2, v2);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion component add overflow");
++    return HLFP_OK;
++}
++
++static int hlfp__quat_decode_sequence_slot(const hlfp_mdl *mdl,
++                                           int sequence_index,
++                                           int blend_index,
++                                           hlfp_fixed frame_position,
++                                           hlfp_mdl_quat_pose_set *out,
++                                           hlfp_error *err) {
++    const hlfp_mdl_seqdesc *seq;
++    hlfp_buffer buf;
++    size_t base_off = 0;
++    int frame = 0;
++    hlfp_fixed frac = 0;
++    int bone;
++    int rc;
++    if (mdl == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion sequence slot input");
++    }
++    if (sequence_index < 0 || sequence_index >= mdl->num_seqdesc) {
++        return hlfp__set_error(err, HLFP_ERR_OUT_OF_RANGE, 0, 0, "sequence index out of range");
++    }
++    seq = &mdl->seqdesc[sequence_index];
++    if (blend_index < 0 || blend_index >= seq->numblends) {
++        return hlfp__set_error(err, HLFP_ERR_OUT_OF_RANGE, 0, 0, "blend index out of range");
++    }
++    rc = hlfp__quat_normalize_frame_position(seq, frame_position, &frame, &frac, err);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp__quat_sequence_buffer(mdl, seq, &buf, &base_off, err);
++    if (rc != HLFP_OK) return rc;
++    hlfp__zero(out, sizeof(*out));
++    out->num_bones = mdl->num_bones;
++    for (bone = 0; bone < mdl->num_bones; ++bone) {
++        const hlfp_u8 *entry;
++        size_t entry_off;
++        hlfp_fixed px1, py1, pz1, px2, py2, pz2;
++        hlfp_vec3 a1;
++        hlfp_vec3 a2;
++        hlfp_quat q1;
++        hlfp_quat q2;
++        entry_off = base_off + ((size_t)blend_index * (size_t)mdl->num_bones + (size_t)bone) * (size_t)HLFP_CTRLQUAT_ANIMOFF_SIZE;
++        entry = hlfp__checked_range(&buf, entry_off, (size_t)HLFP_CTRLQUAT_ANIMOFF_SIZE, err, "quaternion animation offset entry");
++        if (entry == 0) return err != 0 ? err->code : HLFP_ERR_OUT_OF_RANGE;
++        out->poses[bone].bone = bone;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 0), frame, mdl->bones[bone].value[0], mdl->bones[bone].scale[0], &px1, &px2, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 2), frame, mdl->bones[bone].value[1], mdl->bones[bone].scale[1], &py1, &py2, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 4), frame, mdl->bones[bone].value[2], mdl->bones[bone].scale[2], &pz1, &pz2, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_lerp_fixed(px1, px2, frac, &out->poses[bone].pos.x, err); if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_lerp_fixed(py1, py2, frac, &out->poses[bone].pos.y, err); if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_lerp_fixed(pz1, pz2, frac, &out->poses[bone].pos.z, err); if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 6), frame, mdl->bones[bone].value[3], mdl->bones[bone].scale[3], &a1.x, &a2.x, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 8), frame, mdl->bones[bone].value[4], mdl->bones[bone].scale[4], &a1.y, &a2.y, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_component_values(&buf, entry, hlfp__read_u16le(entry + 10), frame, mdl->bones[bone].value[5], mdl->bones[bone].scale[5], &a1.z, &a2.z, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_from_euler(&a1, &q1, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_from_euler(&a2, &q2, err);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__quat_slerp(&q1, &q2, frac, &out->poses[bone].rot, err);
++        if (rc != HLFP_OK) return rc;
++    }
++    if (seq->motionbone >= 0 && seq->motionbone < out->num_bones) {
++        if ((seq->motiontype & HLFP_STUDIO_X) != 0) out->poses[seq->motionbone].pos.x = 0;
++        if ((seq->motiontype & HLFP_STUDIO_Y) != 0) out->poses[seq->motionbone].pos.y = 0;
++        if ((seq->motiontype & HLFP_STUDIO_Z) != 0) out->poses[seq->motionbone].pos.z = 0;
++    }
++    return HLFP_OK;
++}
++
+ int hlfp_mdl_decode_sequence_frame_fixed_quat_ctrl(const hlfp_mdl *mdl,
+                                                    int sequence_index,
+                                                    hlfp_fixed frame_position,
+@@ -647,7 +1034,6 @@
+                                                    hlfp_mdl_quat_pose_set *out,
+                                                    hlfp_error *err) {
+     const hlfp_mdl_seqdesc *seq;
+-    hlfp_mdl_pose_set euler_sets[4];
+     hlfp_mdl_quat_pose_set quat_sets[4];
+     hlfp_fixed blend_u;
+     hlfp_fixed blend_v;
+@@ -698,26 +1084,67 @@
+     }
+ 
+     for (i = 0; i < slot_count; ++i) {
+-        rc = hlfp_mdl_decode_sequence_frame_fixed(mdl, sequence_index, slots[i], frame_position, &euler_sets[i], err);
+-        if (rc != HLFP_OK) {
+-            return rc;
+-        }
+-        rc = hlfp_mdl_pose_to_quat_pose_set(&euler_sets[i], &quat_sets[i], err);
++        rc = hlfp__quat_decode_sequence_slot(mdl, sequence_index, slots[i], frame_position, &quat_sets[i], err);
+         if (rc != HLFP_OK) {
+             return rc;
+         }
+     }
+     if (slot_count == 1) {
+         *out = quat_sets[0];
++    } else if (slot_count == 2) {
++        rc = hlfp__quat_pose_slerp_pair(&quat_sets[0], &quat_sets[1], blend_u, out, err);
++        if (rc != HLFP_OK) {
++            return rc;
++        }
+     } else {
+-        rc = hlfp_mdl_blend_quat_pose_sets(quat_sets, weights, slot_count, out, err);
++        hlfp_mdl_quat_pose_set tmp01;
++        hlfp_mdl_quat_pose_set tmp23;
++        rc = hlfp__quat_pose_slerp_pair(&quat_sets[0], &quat_sets[1], blend_u, &tmp01, err);
++        if (rc != HLFP_OK) {
++            return rc;
++        }
++        rc = hlfp__quat_pose_slerp_pair(&quat_sets[2], &quat_sets[3], blend_u, &tmp23, err);
++        if (rc != HLFP_OK) {
++            return rc;
++        }
++        rc = hlfp__quat_pose_slerp_pair(&tmp01, &tmp23, blend_v, out, err);
+         if (rc != HLFP_OK) {
+             return rc;
+         }
+     }
++    HLFP_UNUSED(weights);
+     return hlfp__apply_bone_controllers_quat(mdl, controllers, out, err);
+ }
+ 
++
++int hlfp_mdl_decode_sequence_frame_fixed_quat(const hlfp_mdl *mdl,
++                                             int sequence_index,
++                                             int blend_index,
++                                             hlfp_fixed frame_position,
++                                             hlfp_mdl_quat_pose_set *out,
++                                             hlfp_error *err) {
++    if (blend_index != 0) {
++        return hlfp__quat_decode_sequence_slot(mdl, sequence_index, blend_index, frame_position, out, err);
++    }
++    return hlfp_mdl_decode_sequence_frame_fixed_quat_ctrl(mdl, sequence_index, frame_position, 0, out, err);
++}
++
++int hlfp_mdl_decode_sequence_world_matrices_fixed_quat(const hlfp_mdl *mdl,
++                                                       int sequence_index,
++                                                       int blend_index,
++                                                       hlfp_fixed frame_position,
++                                                       hlfp_mat3x4 *out,
++                                                       int out_cap,
++                                                       hlfp_error *err) {
++    hlfp_mdl_quat_pose_set poses;
++    int rc;
++    rc = hlfp_mdl_decode_sequence_frame_fixed_quat(mdl, sequence_index, blend_index, frame_position, &poses, err);
++    if (rc != HLFP_OK) {
++        return rc;
++    }
++    return hlfp_mdl_quat_pose_to_world_matrices(mdl, &poses, out, out_cap, err);
++}
++
+ int hlfp_mdl_decode_sequence_time_quat_ctrl(const hlfp_mdl *mdl,
+                                             int sequence_index,
+                                             hlfp_fixed seconds,
+diff -ru '--exclude=artifacts' '--exclude=*.o' '--exclude=libhlfp.a' '--exclude=test_output.txt' baseorig/hl1modelib/hlfp_math.c hl1fix/hl1modelib/hlfp_math.c
+--- baseorig/hl1modelib/hlfp_math.c	2026-06-19 00:04:40.000000000 +0000
++++ hl1fix/hl1modelib/hlfp_math.c	2026-06-24 04:06:20.942370950 +0000
+@@ -401,6 +401,333 @@
+     return HLFP_OK;
+ }
+ 
++
++static int hlfp__mul3(hlfp_fixed a, hlfp_fixed b, hlfp_fixed c, hlfp_fixed *out) {
++    hlfp_fixed ab;
++    int rc;
++    rc = hlfp_fixed_mul(a, b, &ab);
++    if (rc != HLFP_OK) return rc;
++    return hlfp_fixed_mul(ab, c, out);
++}
++
++int hlfp_goldsrc_angles_to_quat(const hlfp_vec3 *rot, hlfp_quat *out, hlfp_error *err) {
++    hlfp_fixed sx;
++    hlfp_fixed cx;
++    hlfp_fixed sy;
++    hlfp_fixed cy;
++    hlfp_fixed sz;
++    hlfp_fixed cz;
++    hlfp_fixed a;
++    hlfp_fixed b;
++    int rc;
++
++    if (rot == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null GoldSrc quaternion input");
++    }
++    rc = hlfp_fixed_sin_cos(rot->z >> 1, &sz, &cz);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc Z half-angle failed");
++    rc = hlfp_fixed_sin_cos(rot->y >> 1, &sy, &cy);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc Y half-angle failed");
++    rc = hlfp_fixed_sin_cos(rot->x >> 1, &sx, &cx);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc X half-angle failed");
++
++    rc = hlfp__mul3(sx, cy, cz, &a);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__mul3(cx, sy, sz, &b);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add(a, -b, &out->x);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp__mul3(cx, sy, cz, &a);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__mul3(sx, cy, sz, &b);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add(a, b, &out->y);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp__mul3(cx, cy, sz, &a);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__mul3(sx, sy, cz, &b);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add(a, -b, &out->z);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++
++    rc = hlfp__mul3(cx, cy, cz, &a);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__mul3(sx, sy, sz, &b);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    rc = hlfp__fixed_add(a, b, &out->w);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "GoldSrc quaternion overflow");
++    return HLFP_OK;
++}
++
++static int hlfp__quat_dot_math(const hlfp_quat *a, const hlfp_quat *b, hlfp_fixed *out) {
++    hlfp_fixed t;
++    hlfp_fixed sum;
++    int rc;
++    rc = hlfp_fixed_mul(a->x, b->x, &sum);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp_fixed_mul(a->y, b->y, &t);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp__fixed_add(sum, t, &sum);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp_fixed_mul(a->z, b->z, &t);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp__fixed_add(sum, t, &sum);
++    if (rc != HLFP_OK) return rc;
++    rc = hlfp_fixed_mul(a->w, b->w, &t);
++    if (rc != HLFP_OK) return rc;
++    return hlfp__fixed_add(sum, t, out);
++}
++
++static hlfp_fixed hlfp__clamp_unit_math(hlfp_fixed v) {
++    if (v < -HLFP_FIXED_ONE) return -HLFP_FIXED_ONE;
++    if (v > HLFP_FIXED_ONE) return HLFP_FIXED_ONE;
++    return v;
++}
++
++static int hlfp__fixed_sqrt_math(hlfp_fixed x, hlfp_fixed *out) {
++    hlfp_fixed guess;
++    hlfp_fixed divv;
++    hlfp_fixed sum;
++    int i;
++    int rc;
++    if (out == 0) return HLFP_ERR_BAD_ARGUMENT;
++    if (x < 0) return HLFP_ERR_BAD_ARGUMENT;
++    if (x == 0) { *out = 0; return HLFP_OK; }
++    guess = (x > HLFP_FIXED_ONE) ? x : HLFP_FIXED_ONE;
++    for (i = 0; i < 12; ++i) {
++        rc = hlfp_fixed_div(x, guess, &divv);
++        if (rc != HLFP_OK) return rc;
++        rc = hlfp__fixed_add(guess, divv, &sum);
++        if (rc != HLFP_OK) return rc;
++        guess = sum >> 1;
++        if (guess == 0) guess = 1;
++    }
++    *out = guess;
++    return HLFP_OK;
++}
++
++static int hlfp__quat_normalize_math(hlfp_quat *q, hlfp_error *err) {
++    hlfp_fixed len2;
++    hlfp_fixed len;
++    int rc;
++    rc = hlfp__quat_dot_math(q, q, &len2);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion normalize overflow");
++    if (len2 <= 0) {
++        q->x = 0;
++        q->y = 0;
++        q->z = 0;
++        q->w = HLFP_FIXED_ONE;
++        return HLFP_OK;
++    }
++    rc = hlfp__fixed_sqrt_math(len2, &len);
++    if (rc != HLFP_OK || len == 0) return hlfp__set_error(err, rc != HLFP_OK ? rc : HLFP_ERR_DIV_BY_ZERO, 0, 0, "quaternion normalize sqrt failed");
++    rc = hlfp_fixed_div(q->x, len, &q->x); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion normalize divide failed");
++    rc = hlfp_fixed_div(q->y, len, &q->y); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion normalize divide failed");
++    rc = hlfp_fixed_div(q->z, len, &q->z); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion normalize divide failed");
++    rc = hlfp_fixed_div(q->w, len, &q->w); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion normalize divide failed");
++    return HLFP_OK;
++}
++
++static int hlfp__fixed_acos_math(hlfp_fixed x, hlfp_fixed *out) {
++    hlfp_fixed lo;
++    hlfp_fixed hi;
++    hlfp_fixed mid;
++    hlfp_fixed sn;
++    hlfp_fixed cs;
++    int i;
++    int rc;
++    if (out == 0) return HLFP_ERR_BAD_ARGUMENT;
++    x = hlfp__clamp_unit_math(x);
++    lo = 0;
++    hi = HLFP_PI_FIXED;
++    for (i = 0; i < 24; ++i) {
++        mid = lo + ((hi - lo) >> 1);
++        rc = hlfp_fixed_sin_cos(mid, &sn, &cs);
++        if (rc != HLFP_OK) return rc;
++        if (cs > x) lo = mid;
++        else hi = mid;
++    }
++    *out = lo + ((hi - lo) >> 1);
++    return HLFP_OK;
++}
++
++int hlfp_quat_slerp(const hlfp_quat *a, const hlfp_quat *b, hlfp_fixed t, hlfp_quat *out, hlfp_error *err) {
++    hlfp_quat qb;
++    hlfp_quat alt;
++    hlfp_fixed d;
++    hlfp_fixed sum_minus;
++    hlfp_fixed sum_plus;
++    hlfp_fixed cosom;
++    hlfp_fixed omega;
++    hlfp_fixed sinom;
++    hlfp_fixed sinv;
++    hlfp_fixed cosv;
++    hlfp_fixed sclp;
++    hlfp_fixed sclq;
++    hlfp_fixed tmp0;
++    hlfp_fixed tmp1;
++    int rc;
++
++    if (a == 0 || b == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion slerp input");
++    }
++    if (t < 0) t = 0;
++    if (t > HLFP_FIXED_ONE) t = HLFP_FIXED_ONE;
++    qb = *b;
++    sum_minus = 0;
++    sum_plus = 0;
++#define HLFP_QDIST(comp) \
++    rc = hlfp__fixed_add(a->comp, -qb.comp, &d); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow"); \
++    rc = hlfp_fixed_mul(d, d, &d); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow"); \
++    rc = hlfp__fixed_add(sum_minus, d, &sum_minus); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow"); \
++    rc = hlfp__fixed_add(a->comp, qb.comp, &d); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow"); \
++    rc = hlfp_fixed_mul(d, d, &d); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow"); \
++    rc = hlfp__fixed_add(sum_plus, d, &sum_plus); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow")
++    HLFP_QDIST(x);
++    HLFP_QDIST(y);
++    HLFP_QDIST(z);
++    HLFP_QDIST(w);
++#undef HLFP_QDIST
++    if (sum_minus > sum_plus) {
++        qb.x = -qb.x;
++        qb.y = -qb.y;
++        qb.z = -qb.z;
++        qb.w = -qb.w;
++    }
++    rc = hlfp__quat_dot_math(a, &qb, &cosom);
++    if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp dot overflow");
++    cosom = hlfp__clamp_unit_math(cosom);
++    if (HLFP_FIXED_ONE + cosom > 1) {
++        if (HLFP_FIXED_ONE - cosom > 1) {
++            rc = hlfp__fixed_acos_math(cosom, &omega);
++            if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp acos failed");
++            rc = hlfp_fixed_sin_cos(omega, &sinom, &cosv);
++            if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sin failed");
++            if (sinom == 0) {
++                sclp = HLFP_FIXED_ONE - t;
++                sclq = t;
++            } else {
++                rc = hlfp_fixed_mul(HLFP_FIXED_ONE - t, omega, &tmp0);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++                rc = hlfp_fixed_sin_cos(tmp0, &sinv, &cosv);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sin failed");
++                rc = hlfp_fixed_div(sinv, sinom, &sclp);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp divide failed");
++                rc = hlfp_fixed_mul(t, omega, &tmp0);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++                rc = hlfp_fixed_sin_cos(tmp0, &sinv, &cosv);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sin failed");
++                rc = hlfp_fixed_div(sinv, sinom, &sclq);
++                if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp divide failed");
++            }
++        } else {
++            sclp = HLFP_FIXED_ONE - t;
++            sclq = t;
++        }
++        rc = hlfp_fixed_mul(a->x, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(qb.x, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->x); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(a->y, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(qb.y, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->y); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(a->z, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(qb.z, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->z); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(a->w, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(qb.w, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->w); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++    } else {
++        alt.x = -qb.y;
++        alt.y = qb.x;
++        alt.z = -qb.w;
++        alt.w = qb.z;
++        rc = hlfp_fixed_mul(HLFP_FIXED_ONE - t, HLFP_HALF_PI_FIXED, &tmp0);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_sin_cos(tmp0, &sclp, &cosv);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sin failed");
++        rc = hlfp_fixed_mul(t, HLFP_HALF_PI_FIXED, &tmp0);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_sin_cos(tmp0, &sclq, &cosv);
++        if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp sin failed");
++        rc = hlfp_fixed_mul(a->x, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(alt.x, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->x); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(a->y, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(alt.y, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->y); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(a->z, sclp, &tmp0); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp_fixed_mul(alt.z, sclq, &tmp1); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        rc = hlfp__fixed_add(tmp0, tmp1, &out->z); if (rc != HLFP_OK) return hlfp__set_error(err, rc, 0, 0, "quaternion slerp overflow");
++        out->w = a->w;
++    }
++    return hlfp__quat_normalize_math(out, err);
++}
++
++int hlfp_quat_to_mat3x4(const hlfp_quat *q, const hlfp_vec3 *pos, hlfp_mat3x4 *out, hlfp_error *err) {
++    hlfp_fixed xx;
++    hlfp_fixed yy;
++    hlfp_fixed zz;
++    hlfp_fixed xy;
++    hlfp_fixed xz;
++    hlfp_fixed yz;
++    hlfp_fixed wx;
++    hlfp_fixed wy;
++    hlfp_fixed wz;
++    hlfp_fixed two_xx;
++    hlfp_fixed two_yy;
++    hlfp_fixed two_zz;
++    hlfp_fixed two_xy;
++    hlfp_fixed two_xz;
++    hlfp_fixed two_yz;
++    hlfp_fixed two_wx;
++    hlfp_fixed two_wy;
++    hlfp_fixed two_wz;
++    if (q == 0 || out == 0) {
++        return hlfp__set_error(err, HLFP_ERR_BAD_ARGUMENT, 0, 0, "null quaternion matrix output");
++    }
++    if (hlfp_fixed_mul(q->x, q->x, &xx) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->y, q->y, &yy) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->z, q->z, &zz) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->x, q->y, &xy) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->x, q->z, &xz) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->y, q->z, &yz) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->w, q->x, &wx) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->w, q->y, &wy) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    if (hlfp_fixed_mul(q->w, q->z, &wz) != HLFP_OK) return hlfp__set_error(err, HLFP_ERR_OVERFLOW, 0, 0, "quaternion matrix overflow");
++    two_xx = xx << 1;
++    two_yy = yy << 1;
++    two_zz = zz << 1;
++    two_xy = xy << 1;
++    two_xz = xz << 1;
++    two_yz = yz << 1;
++    two_wx = wx << 1;
++    two_wy = wy << 1;
++    two_wz = wz << 1;
++    out->m[0][0] = HLFP_FIXED_ONE - two_yy - two_zz;
++    out->m[1][0] = two_xy + two_wz;
++    out->m[2][0] = two_xz - two_wy;
++    out->m[0][1] = two_xy - two_wz;
++    out->m[1][1] = HLFP_FIXED_ONE - two_xx - two_zz;
++    out->m[2][1] = two_yz + two_wx;
++    out->m[0][2] = two_xz + two_wy;
++    out->m[1][2] = two_yz - two_wx;
++    out->m[2][2] = HLFP_FIXED_ONE - two_xx - two_yy;
++    out->m[0][3] = pos != 0 ? pos->x : 0;
++    out->m[1][3] = pos != 0 ? pos->y : 0;
++    out->m[2][3] = pos != 0 ? pos->z : 0;
++    return HLFP_OK;
++}
++
++int hlfp_goldsrc_angles_to_bone_mat3x4(const hlfp_vec3 *rot, const hlfp_vec3 *pos, hlfp_mat3x4 *out, hlfp_error *err) {
++    hlfp_quat q;
++    int rc;
++    rc = hlfp_goldsrc_angles_to_quat(rot, &q, err);
++    if (rc != HLFP_OK) return rc;
++    return hlfp_quat_to_mat3x4(&q, pos, out, err);
++}
++
+ int hlfp_mat3x4_concat(const hlfp_mat3x4 *parent, const hlfp_mat3x4 *child, hlfp_mat3x4 *out, hlfp_error *err) {
+     hlfp_mat3x4 tmp;
+     int i;
+@@ -466,7 +793,7 @@
+         if (poses->poses[i].bone < 0 || poses->poses[i].bone >= poses->num_bones) {
+             return hlfp__set_error(err, HLFP_ERR_OUT_OF_RANGE, 0, 0, "pose bone index out of range");
+         }
+-        rc = hlfp_angles_to_mat3x4(&poses->poses[i].rot, &poses->poses[i].pos, &out[poses->poses[i].bone], err);
++        rc = hlfp_goldsrc_angles_to_bone_mat3x4(&poses->poses[i].rot, &poses->poses[i].pos, &out[poses->poses[i].bone], err);
+         if (rc != HLFP_OK) {
+             return rc;
+         }
+Only in baseorig/hl1modelib: studiohalflife_ultra_preview.tga

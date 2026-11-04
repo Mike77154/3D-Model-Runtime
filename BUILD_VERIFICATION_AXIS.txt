@@ -1,0 +1,16 @@
+model_runtime89 GoldSrc axis verification
+==========================================
+C89 strict build: PASS
+GoldSrc motion/root regression: PASS
+GoldSrc Z-up -> Y-up axis regression: PASS
+FBX rig/texture regressions: PASS
+FBX external animation attachment: PASS
+Genesis3D MOT attachment: PASS
+
+Axis mapping used by GoldSrc provider views:
+  X -> X
+  Z -> Y
+  Y -> -Z
+
+Native codec animation and skinning stay in native GoldSrc space.  Conversion
+is applied only when emitting runtime vertex/normal/bone views.

@@ -1,0 +1,16 @@
+Build command:
+  make clean all test_output.txt studiohalflife_ultra_preview.tga
+
+Compiler profile:
+  gcc -std=c89 -Wall -Wextra -pedantic -O2
+
+Result:
+  OK. No warnings from the StudioHalfLife Ultra modules.
+
+Test summary:
+  studiohalflife_ultra_ok=1
+  studiohalflife_ultra_checks=body_skin_maps layer_stack autolayer_pose_driver root_motion ikrule_chain attachment_worlds deep_audit qc_ultra companion_manifest debug_sheet_hitboxes_attachments
+
+Generated preview:
+  studiohalflife_ultra_preview.tga
+  studiohalflife_ultra_preview.png

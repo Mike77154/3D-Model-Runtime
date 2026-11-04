@@ -1,0 +1,49 @@
+model_runtime89 build verification
+==================================
+
+Environment used for this bundle:
+- GCC host toolchain available in the build container
+- strict language check: -std=c89 -pedantic-errors -Wall -Wextra -O2
+
+Verified after the final provider pass:
+1. Full static library builds successfully with all linked providers/vendor sources.
+2. Own runtime/provider sources pass tools/policy_scan.sh: no malloc/calloc/realloc/free/float/double tokens.
+3. Provider dispatch regression: XPS probing is extension-gated before its native probe, so unrelated binary formats such as Genesis3D .act are no longer claimed as XPS.
+4. Runtime smoke fixtures opened through modelrt_open_file/modelrt_visit:
+
+   FBX test_quad.fbx
+     provider=3dfbx meshes=1 bones=0 anims=0 caps=00004017
+     visit=0 triangles=2
+
+   FBX 7700 ASCII / 7700 binary-zlib / FBX5 5000 ASCII version-matrix fixtures
+     provider=3dfbx meshes=1 bones=0 anims=0 caps=0000403f
+     visit=0 triangles=4
+
+   Genesis3D sample.act
+     provider=Genesis3D meshes=1 bones=1 anims=2 caps=0000b1f7
+     visit=0 triangles=1
+
+   Genesis3D sample_body.bdy
+     provider=Genesis3D meshes=1 bones=1 anims=0 caps=000090f7
+     visit=0 triangles=1
+
+   Genesis3D sample_walk.mot
+     provider=Genesis3D meshes=0 bones=0 anims=1 caps=00002100
+     visit=0 triangles=0
+
+   MMD minimal PMD fixture
+     provider=MMD meshes=0 bones=0 anims=0 caps=00000017
+     visit=0 triangles=0
+
+   XPS sample_v3.xps / sample_legacy.mesh
+     provider=XPS meshes=1 bones=0 anims=0 caps=0000000f
+     visit=0 triangles=0
+
+   XPS sample_ascii_bones.mesh.ascii
+     provider=XPS meshes=1 bones=1 anims=0 caps=000000cf
+     visit=0 triangles=0
+
+The XPS/MMD fixtures above are parser/dispatch fixtures and intentionally contain no triangles.
+No non-empty GoldSrc or Resident Evil fixture was available in this build environment, so those providers were source-integrated and strict-C89 compiled but are not claimed as fixture-validated here.
+
+The Win32/OpenGL application is packaged separately in model_viewer_w32gl89.

@@ -1,0 +1,6 @@
+RE3 Codec v0.16 Source Release
+Code: src/re3_codec.c, include/re3_codec.h, tools/re3emd_anim_preview.c, tools/re3emd_motion_audit.c, tests/test_animation.c
+Build: Makefile, build_mingw.bat (Win32 not verified in Linux environment)
+Docs: README.md, AUDITORIA_RE3_V016_ANIMATION.md
+Compatibility: C89 strict, fixed-point/integer runtime, static arrays, no third-party runtime
+Assets: game resources NOT included. Bring your own legally obtained EMD/TIM files.

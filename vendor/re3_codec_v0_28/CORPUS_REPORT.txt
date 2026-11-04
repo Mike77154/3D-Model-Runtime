@@ -1,0 +1,6 @@
+Historical v0.13 retail corpus result preserved from the original session:
+EMD parse + key sweep: 100/100 pass
+TIM parse: 100/100 pass
+EMD/TIM UV sampling pairs: 100/100 pass, 0 fail, 0 skip
+
+The corpus bytes are not included in this reconstructed source-only package.

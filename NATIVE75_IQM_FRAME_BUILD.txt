@@ -1,0 +1,7 @@
+Configuration: cc / gcc -std=c89 -pedantic-errors -Wall -Wextra -O2
+Native IQM source and full runtime built successfully.
+External sample: IQM/mrfixit.iqm (75 bones; 101 frames; 24 fps; 2988 triangles)
+Frame 0 root_y(Q16)=1922, Frame 100 root_y(Q16)=1811, delta=-111
+Out-of-bounds frame rejected; malformed IQM mesh offset and mask rejected.
+Untouched-provider regression: duck.dae=4212, box.3mf=12, box.fbx=12, faerie.md2=654, Wuson.off=3732 triangles.
+All tests use only native runtime APIs and C89.

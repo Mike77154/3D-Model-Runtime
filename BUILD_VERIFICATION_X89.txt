@@ -1,0 +1,28 @@
+DirectX .x runtime integration verification
+========================================
+Vendor: xparsermodget98 v0.5 multiclip-frame-pose-recovery
+Provider: DirectX .x / xparsermodget98 v0.5
+
+Build policy:
+  -std=c89 -pedantic-errors -Wall -Wextra -Werror -O2 : PASS
+
+Vendor tests:
+  v0.4 parser tests : PASS
+  v0.4 rig/uv semantics : PASS
+  v0.5 multi-clip dense pose recovery : PASS
+
+Runtime tests:
+  legacy DirectX .x regression : PASS
+  all packaged txt/bin/tzip/bzip fixtures : PASS
+  v0.4 rig/UV/skin fixture : PASS
+  v0.5 multi-clip frame/tick metadata : PASS
+  v0.5 modelrt_animation_frame_info_get : PASS
+  v0.5 timed skin pose at 0.5 s : PASS
+
+Cross-provider regressions:
+  FBX : PASS
+  Genesis3D attachment : PASS
+  GoldSrc pose/axis/transparency : PASS
+  XPS geometry/UV : PASS
+  RE1 EMD/EMW/TMD : PASS
+  RE3 v0.3 DAT : PASS

@@ -1,0 +1,28 @@
+family,assimp_corpus_file,native_codec_id,triangles,observed_result
+ASE,ThreeCubesGreen.ASE,55,36,VISIT_OK
+ASE,RotatingCube.ASE,55,12,VISIT_OK
+MD3,watercan.md3,56,78,VISIT_OK_LAST_FRAME_OK
+MD3,watercan_dmg.md3,56,86,VISIT_OK_LAST_FRAME_OK
+VRML1,minimal_vrml1.wrl,57,1,VISIT_OK_SYNTHETIC
+VRML97,HelloWorld.wrl,58,246,VISIT_OK
+VRML97,Wuson.wrl,58,3732,VISIT_OK
+Ogre,fish.mesh.xml,59,815,VISIT_OK
+Ogre,ninja.mesh.xml,59,1008,VISIT_OK
+Ogre,razor.mesh.xml,59,468,VISIT_OK
+Ogre,TheThing/Mesh.mesh.xml,59,2656,VISIT_OK
+Ogre,fish.mesh,59,0,REJECT_FORMAT_VALIDATOR
+Ogre,ninja.mesh,59,0,REJECT_FORMAT_VALIDATOR
+Ogre,razor.mesh,59,0,REJECT_FORMAT_VALIDATOR
+glTF2,BoxTextured.glb,60,12,VISIT_OK
+glTF2,BoxTextured.gltf + BoxTextured0.bin,60,12,VISIT_OK
+glTF2,boxTexcoords.gltf + sidecar,60,12,VISIT_OK
+glTF2,AnimatedMorphCube.gltf + BIN,60,12,VISIT_OK_GEOMETRY_ONLY
+glTF2,BoxTextured embedded dataURI.gltf,60,0,REJECT_UNSUPPORTED_URI
+glTF1,BoxTextured.glb,60,0,REJECT_UNSUPPORTED_VERSION
+Original FBX,box.fbx,1,12,REGRESSION_OK
+Original FBX,animation_with_skeleton.fbx,1,2112,REGRESSION_OK
+Original DirectX,anim_test.x,8,840,REGRESSION_OK
+Original MilkShape,twospheres.ms3d,12,240,REGRESSION_OK
+Original MilkShape,jeep1.ms3d,12,2032,REGRESSION_OK
+Original MilkShape,InvalidMaterialIndex.ms3d,12,0,REJECT_INVALID_EXPECTED
+Original DirectX,Testwuson.X,8,0,REJECT_XP_EFORMAT

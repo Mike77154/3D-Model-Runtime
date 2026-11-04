@@ -1,0 +1,951 @@
+{
+  "tested": 157,
+  "passed": 157,
+  "seconds": 0.7,
+  "samples": 3,
+  "manual_blend": true,
+  "records": [
+    {
+      "name": "2x.ms3d",
+      "pass": true,
+      "output": "OK tris=176 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "auto.ms3d",
+      "pass": true,
+      "output": "OK tris=672 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "auto_fix.ms3d",
+      "pass": true,
+      "output": "OK tris=684 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "auto_svetla.ms3d",
+      "pass": true,
+      "output": "OK tris=8 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "auto_update.ms3d",
+      "pass": true,
+      "output": "OK tris=692 joints=0 materials=6 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barel.ms3d",
+      "pass": true,
+      "output": "OK tris=432 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barel_.ms3d",
+      "pass": true,
+      "output": "OK tris=120 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/0.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/1.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/2.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/3.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/4.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/__0.ms3d",
+      "pass": true,
+      "output": "OK tris=60 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "barricade/kmplet.ms3d",
+      "pass": true,
+      "output": "OK tris=78 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "bomb.ms3d",
+      "pass": true,
+      "output": "OK tris=616 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "bomb3.ms3d",
+      "pass": true,
+      "output": "OK tris=616 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "box.ms3d",
+      "pass": true,
+      "output": "OK tris=444 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "box_top.ms3d",
+      "pass": true,
+      "output": "OK tris=106 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "box_upgrade.ms3d",
+      "pass": true,
+      "output": "OK tris=444 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "box_water.ms3d",
+      "pass": true,
+      "output": "OK tris=32 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "branaf.ms3d",
+      "pass": true,
+      "output": "OK tris=404 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "cedule.ms3d",
+      "pass": true,
+      "output": "OK tris=24 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "door.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "drevoo.ms3d",
+      "pass": true,
+      "output": "OK tris=464 joints=0 materials=5 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farm.ms3d",
+      "pass": true,
+      "output": "OK tris=2712 joints=0 materials=11 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farm_copy_recovered.ms3d",
+      "pass": true,
+      "output": "OK tris=2712 joints=0 materials=11 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola 15.ms3d",
+      "pass": true,
+      "output": "OK tris=119 joints=0 materials=22 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola10.ms3d",
+      "pass": true,
+      "output": "OK tris=127 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola11.ms3d",
+      "pass": true,
+      "output": "OK tris=123 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola12.ms3d",
+      "pass": true,
+      "output": "OK tris=123 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola13.ms3d",
+      "pass": true,
+      "output": "OK tris=123 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola14.ms3d",
+      "pass": true,
+      "output": "OK tris=119 joints=0 materials=20 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola16.ms3d",
+      "pass": true,
+      "output": "OK tris=119 joints=0 materials=22 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola17.ms3d",
+      "pass": true,
+      "output": "OK tris=155 joints=0 materials=22 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola18.ms3d",
+      "pass": true,
+      "output": "OK tris=155 joints=0 materials=22 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola2.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola3.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola4.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola5.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola6.ms3d",
+      "pass": true,
+      "output": "OK tris=150 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola7.ms3d",
+      "pass": true,
+      "output": "OK tris=127 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola8.ms3d",
+      "pass": true,
+      "output": "OK tris=127 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma hola9.ms3d",
+      "pass": true,
+      "output": "OK tris=127 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma v2.ms3d",
+      "pass": true,
+      "output": "OK tris=2712 joints=0 materials=12 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "farma2.ms3d",
+      "pass": true,
+      "output": "OK tris=1524 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "glow.ms3d",
+      "pass": true,
+      "output": "OK tris=32 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "glow2.ms3d",
+      "pass": true,
+      "output": "OK tris=32 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "gold.ms3d",
+      "pass": true,
+      "output": "OK tris=72 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "gren_purch.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "grenade.ms3d",
+      "pass": true,
+      "output": "OK tris=954 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "grenade_hud.ms3d",
+      "pass": true,
+      "output": "OK tris=6582 joints=46 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "grenade_pin_pulled.ms3d",
+      "pass": true,
+      "output": "OK tris=645 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head.ms3d",
+      "pass": true,
+      "output": "OK tris=640 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head1.ms3d",
+      "pass": true,
+      "output": "OK tris=120 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head2.ms3d",
+      "pass": true,
+      "output": "OK tris=120 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head3.ms3d",
+      "pass": true,
+      "output": "OK tris=70 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head4.ms3d",
+      "pass": true,
+      "output": "OK tris=70 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head5.ms3d",
+      "pass": true,
+      "output": "OK tris=70 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head6.ms3d",
+      "pass": true,
+      "output": "OK tris=70 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "head7.ms3d",
+      "pass": true,
+      "output": "OK tris=120 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "ik.ms3d",
+      "pass": true,
+      "output": "OK tris=1497 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kadibutka.ms3d",
+      "pass": true,
+      "output": "OK tris=22 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/arm_left.ms3d",
+      "pass": true,
+      "output": "OK tris=215 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/arm_right.ms3d",
+      "pass": true,
+      "output": "OK tris=241 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/body.ms3d",
+      "pass": true,
+      "output": "OK tris=210 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/head.ms3d",
+      "pass": true,
+      "output": "OK tris=349 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/leg_left.ms3d",
+      "pass": true,
+      "output": "OK tris=165 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze/leg_right.ms3d",
+      "pass": true,
+      "output": "OK tris=168 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kamikaze.ms3d",
+      "pass": true,
+      "output": "OK tris=1505 joints=32 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "korytko_water.ms3d",
+      "pass": true,
+      "output": "OK tris=50 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kukurice.ms3d",
+      "pass": true,
+      "output": "OK tris=20 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kukurice_line.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "kukurice_mega.ms3d",
+      "pass": true,
+      "output": "OK tris=248 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "ma.ms3d",
+      "pass": true,
+      "output": "OK tris=716 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "mlyn.ms3d",
+      "pass": true,
+      "output": "OK tris=847 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "mlyn_anim2.ms3d",
+      "pass": true,
+      "output": "OK tris=847 joints=3 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "my litlle farmhouse finished.ms3d",
+      "pass": true,
+      "output": "OK tris=2712 joints=0 materials=11 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "na postu.ms3d",
+      "pass": true,
+      "output": "OK tris=70 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "palm.ms3d",
+      "pass": true,
+      "output": "OK tris=336 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "pinet.ms3d",
+      "pass": true,
+      "output": "OK tris=394 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "pinet_mesh.ms3d",
+      "pass": true,
+      "output": "OK tris=45 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "pinet_p.ms3d",
+      "pass": true,
+      "output": "OK tris=40 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "plan.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "plotek maly.ms3d",
+      "pass": true,
+      "output": "OK tris=72 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "plotek nerozbit.ms3d",
+      "pass": true,
+      "output": "OK tris=84 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "plotek rozbit vers1.ms3d",
+      "pass": true,
+      "output": "OK tris=72 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "plotek rozbit vers2.ms3d",
+      "pass": true,
+      "output": "OK tris=84 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/bordel.ms3d",
+      "pass": true,
+      "output": "OK tris=873 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/door_a.ms3d",
+      "pass": true,
+      "output": "OK tris=392 joints=0 materials=9 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/door_b.ms3d",
+      "pass": true,
+      "output": "OK tris=870 joints=0 materials=9 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/drevena_barikada.ms3d",
+      "pass": true,
+      "output": "OK tris=252 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/drevena_barikada_rozbita.ms3d",
+      "pass": true,
+      "output": "OK tris=114 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/drevena_krabice.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/drevena_velka_krabice.ms3d",
+      "pass": true,
+      "output": "OK tris=272 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/drevene_dvere.ms3d",
+      "pass": true,
+      "output": "OK tris=550 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/dreveny_barel.ms3d",
+      "pass": true,
+      "output": "OK tris=260 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/dreveny_sud.ms3d",
+      "pass": true,
+      "output": "OK tris=68 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/komoda.ms3d",
+      "pass": true,
+      "output": "OK tris=452 joints=0 materials=5 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/lampa.ms3d",
+      "pass": true,
+      "output": "OK tris=414 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/policka.ms3d",
+      "pass": true,
+      "output": "OK tris=26 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/skrin.ms3d",
+      "pass": true,
+      "output": "OK tris=564 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/vozik se sudy.ms3d",
+      "pass": true,
+      "output": "OK tris=2328 joints=0 materials=7 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/zebrik.ms3d",
+      "pass": true,
+      "output": "OK tris=144 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/zelezne_dvere.ms3d",
+      "pass": true,
+      "output": "OK tris=468 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "resi/zelezny_sud.ms3d",
+      "pass": true,
+      "output": "OK tris=60 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "shell.ms3d",
+      "pass": true,
+      "output": "OK tris=92 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "staj.ms3d",
+      "pass": true,
+      "output": "OK tris=461 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "staj2.ms3d",
+      "pass": true,
+      "output": "OK tris=461 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "stodola v3.ms3d",
+      "pass": true,
+      "output": "OK tris=204 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "strecha.ms3d",
+      "pass": true,
+      "output": "OK tris=16 joints=0 materials=10 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "studna.ms3d",
+      "pass": true,
+      "output": "OK tris=447 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tractor.ms3d",
+      "pass": true,
+      "output": "OK tris=840 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree2.ms3d",
+      "pass": true,
+      "output": "OK tris=200 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree2_mesh.ms3d",
+      "pass": true,
+      "output": "OK tris=161 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree3.ms3d",
+      "pass": true,
+      "output": "OK tris=225 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree3_mesh.ms3d",
+      "pass": true,
+      "output": "OK tris=166 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree4.ms3d",
+      "pass": true,
+      "output": "OK tris=257 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree4_mesh.ms3d",
+      "pass": true,
+      "output": "OK tris=161 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree5.ms3d",
+      "pass": true,
+      "output": "OK tris=200 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tree_fallen.ms3d",
+      "pass": true,
+      "output": "OK tris=384 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline1_0x.ms3d",
+      "pass": true,
+      "output": "OK tris=4 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline1_1x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline1_2x.ms3d",
+      "pass": true,
+      "output": "OK tris=8 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline1_2x_b.ms3d",
+      "pass": true,
+      "output": "OK tris=8 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline2_0x.ms3d",
+      "pass": true,
+      "output": "OK tris=4 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline2_1x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline2_2x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline4_single.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline4_single_b.ms3d",
+      "pass": true,
+      "output": "OK tris=32 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline6_0x.ms3d",
+      "pass": true,
+      "output": "OK tris=4 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline6_1x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline6_2x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline7_0x.ms3d",
+      "pass": true,
+      "output": "OK tris=4 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline7_1x.ms3d",
+      "pass": true,
+      "output": "OK tris=6 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "treelines/treeline7_2x.ms3d",
+      "pass": true,
+      "output": "OK tris=8 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "tvarnice.ms3d",
+      "pass": true,
+      "output": "OK tris=139 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "upgrade.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "vratka.ms3d",
+      "pass": true,
+      "output": "OK tris=202 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "vratka0.ms3d",
+      "pass": true,
+      "output": "OK tris=12 joints=0 materials=0 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/0/model.ms3d",
+      "pass": true,
+      "output": "OK tris=954 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/1/model.ms3d",
+      "pass": true,
+      "output": "OK tris=1270 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/10/model.ms3d",
+      "pass": true,
+      "output": "OK tris=8977 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/11/model.ms3d",
+      "pass": true,
+      "output": "OK tris=6430 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/2/buy.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/2/model.ms3d",
+      "pass": true,
+      "output": "OK tris=2647 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/3/model.ms3d",
+      "pass": true,
+      "output": "OK tris=2125 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/4/model.ms3d",
+      "pass": true,
+      "output": "OK tris=7125 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/5/buy.ms3d",
+      "pass": true,
+      "output": "OK tris=2 joints=0 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/5/model.ms3d",
+      "pass": true,
+      "output": "OK tris=3816 joints=0 materials=3 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/6/model.ms3d",
+      "pass": true,
+      "output": "OK tris=11418 joints=0 materials=4 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/7/model.ms3d",
+      "pass": true,
+      "output": "OK tris=5730 joints=0 materials=6 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/8/model.ms3d",
+      "pass": true,
+      "output": "OK tris=3144 joints=0 materials=5 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "weapons/9/model.ms3d",
+      "pass": true,
+      "output": "OK tris=1463 joints=0 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "zmb.ms3d",
+      "pass": true,
+      "output": "OK tris=735 joints=19 materials=1 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "zmb_hs.ms3d",
+      "pass": true,
+      "output": "OK tris=685 joints=19 materials=2 frames=3 blend=1",
+      "return_code": 0
+    },
+    {
+      "name": "zomb.ms3d",
+      "pass": true,
+      "output": "OK tris=1505 joints=32 materials=1 frames=3 blend=1",
+      "return_code": 0
+    }
+  ]
+}

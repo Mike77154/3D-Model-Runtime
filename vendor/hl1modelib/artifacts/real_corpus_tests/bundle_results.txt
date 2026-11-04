@@ -1,0 +1,834 @@
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/shotgun/w_shotgunammo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/generic_ammo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m4_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/handgun_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/STI_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/w_tonysarms.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/w_type68clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/glock23_ammo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/handgun_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m4_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/logo_sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/m24_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/STI_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/mp5_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/spiderman.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ammo/clips/deserteagle_clip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ink_ribbon.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/deagle_parts.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut_Box.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=13 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/npc_wounded.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Security Guard/Doughnut_eaten.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Crank/crank.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=14 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/support.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Random/severed_hand.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Dustbin/rubbishbin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Telepole.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/key_rusty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/Cafe_Key.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/BoltCutters.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/key_generic.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Keys/church_key.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/RPD/statue_RPD_brown.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/RPD/statue_RPD_grey.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_clean.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Map Objects/Warehouse/flashlight_on.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/headexplode_gib.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=43 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_soldier.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/babyspider.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/chest.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_legs.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=19 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/giantspider.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/side_pack.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/m202a1_rocket.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/FirstAidSpray/firstaid_spray.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_radio.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=3 animations=16 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Neptune.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/RedHerb/red_herb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/Bandage/w_bandage.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/GreenHerb/green_herb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/MixedHerb/mixedherb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/HerbsandHealing/BlueHerb/blue_herb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=34 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=6 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/ant_boss.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/baricade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/woundedlol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=6 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/proto_tyrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/m79_grenade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/couch_leather-black.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/DoNotEnter_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_torso.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/desk_office-mahg.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/couch_fabric-wreck.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/flyclaw.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/chair_office.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/NoParking_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Speed_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/coat_rack.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/cbofficedesk15.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/OneWay_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/coffee_maker.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/bboardrct.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/fan_ceiling-hang.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Stop_Sign_4way.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/fan_ceiling-attach.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Floppy_Disk_Pile.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/ReservedParking_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/birch.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/arc_xer_tree2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/coldblood/Stop_Sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tree01.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/lightbulb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/van.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/palmpot.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/oldstreetlamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/ceillamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/washbowl.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/car1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/plate.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/wheelie_bin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/palmpot_small.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/kanister.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tree_defoliated01.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/forklift.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/dishwasher.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/toilet.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/trash2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/grass01.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/gib_mir_benzin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/fridge.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/jeep.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/spruces.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/grass02.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/rubbishbin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=4 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/hospital_poster.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/typewriter.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/washbowl.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder_open.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=26 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/computer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bboard.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/folder.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bucket.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/refreshment_trolley.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/bboard_smaller.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/sofa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/desperation/tanker.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/paper_cup.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/office_chair.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/pot_plant2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/lab_coat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/wooden_chair.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/Bodybag.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/outdoor_sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/wall_clock.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Xen_trunk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/palette.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/hospital/alcohol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/uh60.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/light_spherical.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/fence_ladder.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_mosk412.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/alcoholic_drinks.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/fork.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/couch3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/urinal.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/washbowl.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/carwreck.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/visitor_center_sign.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Xen_treebark.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_moskvich2141.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=22 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/pinball.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/equipment_rail.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bush.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_ladasp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/office_chair2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/switch_vent.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/boat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/watertower.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/ceillamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_merc.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/piano.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushc.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/lodor1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=5 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/injured_man.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/wheelie_bin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bench3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=6 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/pursuer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_toyo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/vendetta_streetlamp_shade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/couch1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/Clock.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/rocks2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=5 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/vendetta_streetlamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/kanister.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bench_green.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/light_bulbs_short.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bushd.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_gaz.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/trashbag.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/toilet.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/lodor2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/office_chair.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/gib_mir_benzin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/trash2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/park_statue.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/rocks.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/equipment_rail2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/bush1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/prosecco.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/tanker.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/e4g1e_lada5.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/cscene_helicopter.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/tree4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/metall_hylla3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/wires.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/m4_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/lightbulb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=26 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/disection_tools.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/washbowl.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/STI_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=21 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/hunter_mutant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/rubbish_bag.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/foresttrail/swatvan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/researcher_arm.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=26 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computerchair.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/valve.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/generator.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/lab_cutoff_legs.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/cctv_broken.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/light_industrial_red.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/handgun_clip_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/leon_cameo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/CCTV.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/paper_bloody.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/w_mp5_empty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/paper.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/researcher_corpse.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/oil_barrel.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=18 animations=44 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/zombie_researcher.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/oilcan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=14 animations=16 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/zombie_crimsonhead_researcher.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/parcel.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/avlong.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/farmor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/mormor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=26 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/Lab/computer2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/trokig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/planta_lol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/plantor/long.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_long_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/tablelamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_long_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/fortaklampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/bulb_kort_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/kontorlampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/myslampa_on.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/lampor/vagg_lampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/fork.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/vitbil_trasig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/mazda_last.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/gronvan_trasig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/gulbil_trasig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/blavan_trasig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/lastbil.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/blabil_trasig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/skraepbil_rost.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/skraepbil_rost_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/kontejner.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/fordon/polisbil.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soppase.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/hydrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/staket.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/baenk2greon.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soptunnor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/fulstadsdodlampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/soptunna.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/trash2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/tak_antenn.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/phonebooth1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/utomhus_detaljer/baenk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/stol-mma.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/trastol2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/ljustrastol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/stol-mamma.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/officestol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/dinner_stol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/datastol1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/stolar/trastol3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/skraepgrus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toapapper.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toalettmedpapper.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/tjej_lik_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/stadar_vagn.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/toalett_stol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/kille_lik_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/blandat/tjej_lik_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/kassa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/corpse2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/survivor1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/blomma.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/dator.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/corpse1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/pris/boat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/byra.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/ikeabyro.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/tvattmaskin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/modenbyro.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/piano.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/frys_long.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/fotalj.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/ren_fridge.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/frys_liten.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/grasoffa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/oldbryno.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mobler/brunsoffa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/palette.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/spade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_kurva.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/klds_plagg.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_rakt2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/faerg2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/diskopryl.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mugn.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/dataskaerm.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mappar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/ljusstake.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/vas.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=33 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/datr_d.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/oel_3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=14 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/crete.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/mat_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/hallhangare.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mapp_oppen.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/burk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/BoltCutters.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/lodor1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/am/box_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mikrovogsugn.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/ventil.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/dunkenogot.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tekanna.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/diskhorn_stall.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tallrik.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mapp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/matpase.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/flaska1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/lodor2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/element.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/tunnor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mugg.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/handdukar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/takflakt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/mtl_hyll.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/hinkmeskrap.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/pipe_rakt3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/cable4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/gardiner.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/shelf2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/backalley_mycke_gras.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/inomhus_detaljer/bensindunk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/for_rich_buske.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/pi_tree1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naket_xen_trad.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/aengbush.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/traedfluffljus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/traedfluffkompakt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/BUSKEmGroen.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/backalley_lite_gras.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/liggande_stamm.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/ormbunke.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naketmorkttrad.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/stamm.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/naketljussttrad.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/advanedDark.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/mtl_hyl2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/bio_vaxter/appel1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/kladd.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ang.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/uggla.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/overgiven_hus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/vas_gul.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ang_gran.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/matbord.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/ryttare.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/natt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/arm_holler_trad.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/vas_blo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/gladiatorer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/pirat_fest.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/spchongle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/typ_palmer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/natt_italy.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/gamlastandlampa_utan_ljus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/vattenkran.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/paras_med_brushes/diskhorn.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/tavlor/anglar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/deadzombie1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickbedsne.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/tomtrasigruttensang.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickbedrak.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/sickmadrass.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/signtree.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/sangar/dubbelsang2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/trcastack.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treestack1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treevlig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/intro_prison/forstuff/treewall.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=13 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend_coffee.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend5.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/manhole_opener.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/dead_kid.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/gas_pipe.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/urinal.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=13 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend_water.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/light_industrial.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/platform_bench.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/switch_vent.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/stair_handrail.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/folder_open.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/go_gen.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/electric_thing.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/ventil.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/fuse_prop.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/bolt_cutters.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/sink.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=13 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/sub_cutoff_legs.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/subway/vend6.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/sewers2/oil_container.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/sewers2/giantspider_smaller.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/van.mdl
+ok=1 texture_external=0 seqgroup_external=1 meshes=1 animations=6 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/scumlines/scientist.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/streetlight.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/boat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/car1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/arc_xer_tree2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/phone_pole1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/jeep.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/downtown/Chest.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/ouitz_hill1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/village/Horse_statue.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/RPD_statue.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/vase.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/statue_RPD_brown.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/RPD/statue_RPD_grey.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/mattress_wreck.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/hessi_tonne.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/monitor1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van5_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/by_furniture_group-wreck.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_mosk412.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van1_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/fork.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldstreetlamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Smashed_PoliceCar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car2_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustcar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/wreckcar5.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/keymouse.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grass.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/tree3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_trailer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Delorean_Ikraan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_moskvich2141.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_ladasp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bed_empty-wood.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/tablelamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bush.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/hydrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grass1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_merc.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/ceillamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldpickup.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/car1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grassb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushc.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Flipped_Smashed_Police_Car.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bench3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_grass2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_toyo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/sgrass.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/CrashedChopper.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/dirt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/sink.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/corner1_destroyed.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car3_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_corolla.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustycar2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Chest.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/pc1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_gaz.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/oldorangeford.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/wreckcar6.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/trash2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/rustcar3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/bushd.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car2_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/swat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/soda_fountain.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/car2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Floppy_Disk_Pile.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/gskvan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/e4g1e_lada5.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_van1_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/furniture.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/grassc.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/smashed_swatvan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/cheavy.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/Xen_car4_2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/pot_plant1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/swatvan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/bordem/truck_old.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/vendetta_streetlamp_shade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/flashlight.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/tree_1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/streetsredux/vendetta_streetlamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/cone_clean.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/lightbulb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/buzzer_podstavka2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_forklift.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_barocamera.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_bak.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/buzzer_podstavka1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/vts_pipes1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_skafrust.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_motor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_telezka2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_boiler1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_barrel.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/city_fertiliser.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/paranoia/geo_tire.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/bigbluetruck.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/Police_Car_e4g1e.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/doener_spade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/baricade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/r_rope.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/shed_padlock.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/cone_bloody.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/dg_chandelier_lamps.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/grandfather_clock.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/baricade_clean.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/flo_churchlight.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/table.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=33 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/zombie_priest.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/pillow.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/mapspecific/city/church/dg_chandelier_body.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/national_guard.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/blood.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/light-short.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/spider_spit.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/SecurityKey.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=19 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/black_tiger.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/James/James.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Jake/Jake.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Crimsonhead/crimsonhead.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=24 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Christopher/Christopher.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=34 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Hunk/hunk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Simon/simon.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Douglas/Douglas.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Chef/Chef.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/zombie/zombie_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=21 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cerberus.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/douglas/douglas_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=132 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player/Softwareguy/softwareguy.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/james/james_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/otto/otto_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/tim/tim_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/simon/simon_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/arrow.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/hunk/hunk_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/heads/chris/chris_head.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=12 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/licker.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=6 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/snake.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_bloody.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_m79_ammo.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/baricade_clean.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/roomlight.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=19 animations=17 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_crimsonhead.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player_ss/chef/chef_ss.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/player_ss/softwareguy/nerd_ss.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NeptuneT.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=1 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_arms.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/tablelamp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/gamlastanlampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/re2bulb.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/lampor/kontorlampa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/stol-mamma.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/datastol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/officestol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/fotalj.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/brunsoffa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/stolSoffor/grasoffa.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/xen_trashcan.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/hydrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/baenk2greon.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/soptunnor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/phonebooth1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/soptunna.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/utomhusExterna/baenk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/toilette.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickbedsne.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickbedrak.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/sickmadrass.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/kartonger.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/ventilation.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/handdukar.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/hallhangare.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=3 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/takflaekt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/props/shelf2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/soppase.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/burk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/flaekt.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/tallrik.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/tvattmaskin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/matsalsstol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/frys_liten.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/frys_long.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/element.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/handfat_lol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/bensindunk.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/newest/planta_lol.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/farmor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/mormor.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/avlong.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/trokig.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/faerg2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/plants/long.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/vas.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/NEWmodels/bordstoendesaker/flaska1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=17 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_baseballbat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=2 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m202a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_cleaver.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=4 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m202a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=4 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_crimsonhead.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m4a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=18 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_Desert_Eagle_mod.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_mk22.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_maglite.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=15 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m4a1_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=4 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_sparkshot.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=14 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_browning.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_remington870.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_glock18.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=18 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_Desert_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_MP5-N.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m24.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=18 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_desert_eagle_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=10 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_raging_bull.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_STI_Eagle_scope.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=18 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_desert_eagle_mod_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_glock23.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_beretta.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_mk22.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_combatknife.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_browning.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_beretta.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_maglite_beam.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=9 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_STI_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m79.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m4a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_baseballbat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_STI_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m24.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=13 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_MP5-N.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_combatknife.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_mk22.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_type68.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_Desert_Eagle_mod.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_m79.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=10 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_remington870.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_MP5-N.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=14 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_beretta.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_cleaver.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_glock23.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_remington870.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_Desert_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_type68.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=13 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_MP5-N_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_raging_bull.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_glock23.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_pipe.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_spade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=8 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m24_scope.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m24.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_m202a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_cleaver.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_pipe.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_hammer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_spas12.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=14 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_beretta_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_hammer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=10 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_spas12.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_maglite.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_type68.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_baseballbat.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_Desert_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_type68_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_combatknife.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=11 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_pipe.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=4 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m79.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_spade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_sparkshot.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=14 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_browning_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_glock18.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_glock18.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_Desert_Eagle_mod.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_raging_bull.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_browning.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_STI_Eagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_maglite.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_spade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_maglite_beam.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/p_sparkshot.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/cone_dirty.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_hammer.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=7 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/crow.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=10 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_raging_bull_ironsights.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/key_generic.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/null.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=17 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/tyrant_103.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_speed_loader.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=16 animations=43 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_female.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/w_spas12.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/lightlong.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/shell.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=5 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/crawler.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/w_sparkshot_batteries.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie_armsT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_slug.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=20 animations=26 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/hunter.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_9mm.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_45acp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=19 animations=43 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/zombie.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=1 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/Shells/shell_50ae.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2heavyzombie/cso2heavyzombie/v_knife_cso2heavyzombie.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2heavyzombie/cso2heavyzombie/cso2heavyzombie.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=15 path=/mnt/data/work_hl1/corpus/ColdBlood/resident Evil Cold Blood/models/guns/v_m4a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_mac10.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_knife.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=13 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_glock18.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=21 animations=5 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_scout.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_p90.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_mp5.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_famas.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=11 animations=4 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_smokegrenade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_knife_r.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_deagle.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=14 animations=16 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_elite.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/militia/militiaT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=5 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/vip/vip.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=4 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_c4.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/terror/terrorT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=8 animations=7 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_xm1014.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/militia/militia.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/guerilla/guerillaT.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=3 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/terror/terror.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/arctic/arcticT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/urban/urban.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/guerilla/guerilla.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gign/gignT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/leet/leetT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_ak47.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gsg9/gsg9T.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=9 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/arctic/arctic.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=12 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/spetsnaz/spetsnaz.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_sg552.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/leet/leet.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/sas/sasT.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=7 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gign/gign.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=7 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/gsg9/gsg9.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=4 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_flashbang.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=7 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/player/sas/sas.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=17 animations=5 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_g3sg1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=15 animations=5 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_sg550.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=5 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m249.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=20 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_awp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=7 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_p228.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=13 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_galil.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=11 animations=7 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m3.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=4 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_hegrenade.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=9 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_ump45.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_fiveseven.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=16 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_tmp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-001.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=11 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-103.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=20 animations=6 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_aug.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-002.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=11 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_t-extra.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=11 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_mr.x.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Nemesis_Tyrant/Nemesis_TyrantT.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=11 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/zombie_plague/v_n-tyrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=11 animations=16 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_usp.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-Extra/T-Extra.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=0 animations=0 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Mr.X/Mr.XT.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Nemesis_Tyrant/Nemesis_Tyrant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-002/T-002.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=7 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-001/T-001.mdl
+ok=1 texture_external=1 seqgroup_external=0 meshes=3 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/Mr.X/Mr.X.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normal_f/cso2_normal_f/v_knife_zombie1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/2783-tirant/Tirant.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=8 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2_lighthost/cso2_lighthost/v_knife_zombie_cso2_lighthost.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/1788_licker2/licker2.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=124 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normal_f/cso2_normal_f/z_cso2_normal_f.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=19 animations=14 path=/mnt/data/work_hl1/corpus/HL1/HL1/csgo_skins_for_cs_16_-_update_2/CSGO Skins for CS 1.6 - Update #2/models/v_m4a1.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=3 animations=124 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2_lighthost/cso2_lighthost/z_cso2_lighthost.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/tyrant cs/remake tyrant cs.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=151 path=/mnt/data/work_hl1/corpus/HL1/HL1/Lusty_Rose/fast.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/761_165_Tyrant_REMA/Tyrant_REMAKE_Frk_14.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/Hunter_frk_14/Hunter_frk_14.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/1840_Yri_zombie/Yri zombie.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=4 animations=124 path=/mnt/data/work_hl1/corpus/HL1/HL1/cso2_normalhost_f/cso2_normalhost_f/z_cso2_normalhost_f.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/HunterB_frk_14/HunterB_frk_14.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=10 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/tyrant_remake_frk_14/Tyrant_REMAKE_Frk_14/Tyrant_REMAKE_Frk_14.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=1 animations=171 path=/mnt/data/work_hl1/corpus/HL1/HL1/Sting Finger (Nurse)/Sting Finger (Nurse)/nurseskinresi_origin/nurseskinresi_origin.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=27 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/UCRE 3 - Nemesishl1/terror.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=2 animations=171 path=/mnt/data/work_hl1/corpus/HL1/HL1/Sting Finger (Nurse)/Sting Finger (Nurse)/nurseskinresi_host/nurseskinresi_host.mdl
+ok=1 texture_external=0 seqgroup_external=0 meshes=6 animations=111 path=/mnt/data/work_hl1/corpus/HL1/HL1/counter strike ver tyrant models/cstrike/models/player/T-103/T-103.mdl

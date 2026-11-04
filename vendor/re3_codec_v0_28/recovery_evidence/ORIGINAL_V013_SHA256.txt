@@ -1,0 +1,11 @@
+Lost original source ZIP filename:
+RE3_codec_v0.13.0_tim_section_passthrough_c89.zip
+
+Original SHA-256 recorded before its attachment backing disappeared:
+10df9056697f0f45625b4c21dfaeee912a73ee1c0229b8f9f505b8e50400e8f8
+
+Original preservation package SHA-256 recorded in the same session:
+6c326f2dd99d3952f9403ac28e65204bad177bd35744ce301ca481f2b243903b
+
+This recovered ZIP WILL have a different hash and does not impersonate the
+lost byte-identical archive.

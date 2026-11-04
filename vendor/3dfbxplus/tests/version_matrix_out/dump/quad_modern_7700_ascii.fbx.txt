@@ -1,0 +1,17 @@
+Version profile:
+  raw:       7700
+  profile:   fbx_77
+  path:      modern
+  flags:     0x00000000
+  embedded_model_mesh=0 modern_geometry=1 numeric_models=1 no_numeric_models=0 aux_roots=0 legacy_takes=0 string_connections=0
+
+FBX: tests/version_matrix/quad_modern_7700_ascii.fbx
+  is_binary: 0
+  version:   7700
+  models:    1
+  meshes:    1
+  skeleton:  no
+
+Meshes:
+- model_id=987654321 name=Model::Quad_modern vtx=12 idx=12 uv_sets=1 uv0=yes nrm=yes tan=yes bitan=yes skin=no
+    uv[0] name=UVMap

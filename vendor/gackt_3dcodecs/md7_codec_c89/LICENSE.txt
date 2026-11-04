@@ -1,0 +1,4 @@
+CC0-1.0 / Public Domain style dedication for the generated code in this package.
+
+This package was written as a clean, minimal C89 implementation for reading MDL7 files.
+It does not copy Assimp source code; it uses public format facts and independently written parsing code.

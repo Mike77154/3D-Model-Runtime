@@ -1,0 +1,46 @@
+LICENSE
+MANIFEST.txt
+Makefile
+README.md
+build/cube.gfm
+build/cube.md1
+build/cube.md2
+build/cube.obj
+build/cube.pld
+build/cube.tmd
+build/cube_clean.obj
+build/cube_preview.ppm
+build/cube_preview_xz.ppm
+build/cube_re1.emd
+build/cube_re2.emd
+build/cube_re3.emd
+build/emd_textured_viewer
+build/giffy_re_view
+build/giffy_recodec.o
+build/grc
+build/libgiffy_recodec.a
+build/two_piece.gfm
+build/two_piece.mtl
+build/two_piece.obj
+docs/API_REFERENCE.md
+docs/BIOMODELS_RE2_SUPPORT.md
+docs/EMD_TEXTURED_VIEWER_NOTES.md
+docs/FORMAT_GFM.md
+docs/INTEGRATION.md
+docs/MODEL_UPGRADE_NOTES.md
+docs/RE1MV_TEXTURE_PIPELINE_V07.md
+docs/RE_NATIVE_NOTES.md
+include/giffy_recodec.h
+samples/cube.obj
+samples/cube_preview.ppm
+samples/two_piece.mtl
+samples/two_piece.obj
+src/giffy_recodec.c
+tests/smoke.sh
+tools/emd_textured_viewer.c
+tools/grc.c
+viewer/giffy_re_view.c
+
+- docs/RE1MV_BUILD_MODEL_IMPLEMENTATION.md
+- PATCH_NOTES_RE1MV_BUILDMODEL_FULL.md
+- INDUSTRIAL_PROTOCOL_AUDIT_RE1MV.txt

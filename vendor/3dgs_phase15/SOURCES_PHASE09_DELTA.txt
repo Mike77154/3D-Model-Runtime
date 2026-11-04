@@ -1,0 +1,11 @@
+src/blend/gs3d_crossfade_validate.c
+src/blend/gs3d_crossfade_player.c
+src/blend/gs3d_crossfade_apply.c
+src/blend/gs3d_blend_morph.c
+src/blend/gs3d_blend_skeletal.c
+src/vendors/gs3d_vendor_blend_router.c
+src/vendors/a4/gs3d_a4_blend.c
+src/vendors/a5/gs3d_a5_blend.c
+src/vendors/a6/gs3d_a6_blend.c
+src/vendors/a7/gs3d_a7_blend.c
+src/vendors/a8/gs3d_a8_blend.c

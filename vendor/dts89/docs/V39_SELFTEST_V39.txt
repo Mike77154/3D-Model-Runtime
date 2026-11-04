@@ -1,0 +1,5 @@
+selftest ok
+pose37 selftest ok
+uv38 selftest ok
+shaderer39 selftest ok
+texture39 selftest ok

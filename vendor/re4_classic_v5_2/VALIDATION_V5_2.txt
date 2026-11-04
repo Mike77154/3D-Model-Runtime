@@ -1,0 +1,9 @@
+RE4 Classic Codec v5.2 — tests and scope
+C89 build and check: 33/33 suites PASS; no -Wall/-Wextra/-pedantic warnings.
+ASan + UBSan clean rebuild and check: 33/33 suites PASS.
+em.dat unique exact-timing candidates: 3,403/3,403 two-loop raw SEQ
+event-count agreement against independent parser; 148 resource families.
+Real chosen examples: em23, em25, em35, em3c.
+evd.dat: 156/159 EVD sections parsed; no actor assembly events in that subset.
+Native event meanings, original FCV/SEQ ownership, Plaga A/B/C identities,
+and canonical attachment transforms remain UNVERIFIED. No original assets.

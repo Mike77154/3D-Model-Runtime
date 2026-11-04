@@ -1,0 +1,14 @@
+make: Entering directory '/mnt/data/re4_dat_ready_v2_1'
+cc -std=c89 -Wall -Wextra -pedantic -Iinclude   -c -o archive/re4_dat_indexed.o archive/re4_dat_indexed.c
+cc -std=c89 -Wall -Wextra -pedantic -Iinclude   -c -o tests/re4_dat_indexed_test.o tests/re4_dat_indexed_test.c
+ar rcs libre4c3d.a src/core/re4_base.o src/core/re4_arena.o archive/re4_lfs_reader.o archive/re4_archive_util.o archive/re4_afs_reader.o archive/re4_dat_reader.o archive/re4_dat_indexed.o archive/re4_udas_reader.o archive/re4_gca_reader.o texture/re4_tpl_reader.o texture/re4_ps2_tpl_codec.o texture/re4_idxuhdtpl_text.o texture/re4_eff_tex_reader.o model/re4_model_util.o model/re4_pmd_reader.o model/re4_bin_model_reader.o model/re4_gc_bin_fifo.o model/re4_ps2_bin_segments.o model/re4_bin_material_core.o model/re4_idx_text_tools.o model/re4_smd_room_reader.o model/re4_smd_text_tools.o model/re4_smx_reader.o animation/re4_fcv_reader.o animation/re4_seq_reader.o animation/re4_mot_bridge.o event/re4_evd_reader.o event/re4_lit_reader.o event/re4_eff_reader.o event/re4_esl_reader.o
+cc -std=c89 -Wall -Wextra -pedantic -Iinclude -o re4_selftest tests/re4_selftest.o libre4c3d.a
+cc -std=c89 -Wall -Wextra -pedantic -Iinclude -o re4_gcps2_test tests/re4_gcps2_test.o libre4c3d.a
+cc -std=c89 -Wall -Wextra -pedantic -Iinclude -o re4_dat_indexed_test tests/re4_dat_indexed_test.o libre4c3d.a
+./re4_selftest
+selftest ok
+./re4_gcps2_test
+gcps2 synthetic tests ok
+./re4_dat_indexed_test
+DAT/UDAS indexed LE/BE/E3 tests OK
+make: Leaving directory '/mnt/data/re4_dat_ready_v2_1'

@@ -1,0 +1,3 @@
+#include "re3_codec.h"
+#include <stdio.h>
+int main(int argc,char **argv){re3c_model m;re3c_u32 i;int r;if(argc!=2){fprintf(stderr,"usage: %s file.EMD\n",argv[0]);return 2;}re3c_model_init(&m);r=re3c_open_file(&m,argv[1]);if(r!=RE3C_OK){fprintf(stderr,"open: %s\n",re3c_result_string(r));return 1;}printf("part class flags verts faces driver bind morph frames\n");for(i=0;i<m.body.part_count;i++){const re3c_mesh_part*p=&m.body.parts[i];printf("%3u %-14s %02X %5u %5u %6d %4d %5d %5u\n",(unsigned)i,re3c_part_class_name(p->part_class),(unsigned)p->part_flags,(unsigned)p->vertex_count,(unsigned)p->face_count,(int)p->driver_joint,(int)p->bind_limb,(int)p->morph_track,(unsigned)p->morph_frame_count);}re3c_model_close(&m);return 0;}
